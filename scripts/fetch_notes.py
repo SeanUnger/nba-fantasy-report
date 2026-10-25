@@ -5,7 +5,7 @@ Usage: python3 scripts/fetch_notes.py [--hours 24] [--out notes.json]
 
 Yahoo shows 9 notes per page, newest first, paged with ?count=<offset>.
 Timestamps are rendered in US/Eastern ("12 minutes ago", "Today, 8:35 pm",
-"Yesterday, 11:02 am", "Oct 23, 5:12 pm").
+"Yesterday, 11:02 am", "Tuesday, 8:08 pm", "Oct 23, 5:12 pm").
 """
 import argparse
 import html
@@ -17,7 +17,11 @@ import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-URL = "https://basketball.fantasysports.yahoo.com/nba/playernotes?pos=ALL&status=POS&count={}"
+URL = "https://basketball.fantasysports.yahoo.com/nba/playernotes?pos={}&status=POS&count={}"
+# Each feed holds only its newest ~100 notes, so ALL covers well under 24h on a busy
+# night; the per-position feeds reach back days. Fetch them all and dedupe.
+POSITIONS = ["ALL", "PG", "SG", "SF", "PF", "C"]
+WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 ET = ZoneInfo("America/New_York")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 MONTHS = {m: i for i, m in enumerate(
@@ -35,7 +39,7 @@ def parse_time(stamp, now):
     m = re.match(r"(\d+) (second|minute|hour)s? ago", stamp)
     if m:
         return now - timedelta(**{m.group(2) + "s": int(m.group(1))})
-    m = re.match(r"(Today|Yesterday|([A-Z][a-z]{2}) (\d+)), (\d+):(\d+) ([ap]m)", stamp)
+    m = re.match(r"(Today|Yesterday|[A-Z][a-z]+day|([A-Z][a-z]{2}) (\d+)), (\d+):(\d+) ([ap]m)", stamp)
     if not m:
         return None
     hour = int(m.group(4)) % 12 + (12 if m.group(6) == "pm" else 0)
@@ -43,6 +47,8 @@ def parse_time(stamp, now):
         day = now.date()
     elif m.group(1) == "Yesterday":
         day = now.date() - timedelta(days=1)
+    elif m.group(1) in WEEKDAYS:
+        day = now.date() - timedelta(days=(now.weekday() - WEEKDAYS.index(m.group(1))) % 7 or 7)
     else:
         day = now.date().replace(month=MONTHS[m.group(2)], day=int(m.group(3)))
         if day > now.date():
@@ -90,34 +96,47 @@ def main():
 
     now = datetime.now(ET)
     cutoff = now - timedelta(hours=args.hours)
-    notes, errors = [], []
-    for page_no in range(args.max_pages):
-        url = URL.format(page_no * 9)
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
-        except Exception as exc:  # throttled or blocked: report and stop
-            errors.append(f"{url}: {exc}")
-            break
-        batch = parse_page(page, now)
-        if not batch:
-            errors.append(f"{url}: no notes parsed (page layout changed or blocked?)")
-            break
-        notes.extend(n for n in batch if not n["time_et"] or datetime.fromisoformat(n["time_et"]) >= cutoff)
-        oldest = [datetime.fromisoformat(n["time_et"]) for n in batch if n["time_et"]]
-        if oldest and min(oldest) < cutoff:
-            break
-        time.sleep(1.5)
+    notes, errors, seen, pages = [], [], set(), 0
+    for pos in POSITIONS:
+        for page_no in range(args.max_pages):
+            url = URL.format(pos, page_no * 9)
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": UA})
+                page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
+            except Exception as exc:  # throttled or blocked: report and move on
+                errors.append(f"{url}: {exc}")
+                break
+            pages += 1
+            batch = parse_page(page, now)
+            if not batch:
+                if page_no == 0:
+                    errors.append(f"{url}: no notes parsed (page layout changed or blocked?)")
+                break  # past the end of this feed
+            for n in batch:
+                key = (n["yahoo_player_id"], n["headline"])
+                if key in seen:
+                    continue
+                if n["time_et"] is None:
+                    errors.append(f"unparsed timestamp {n['time_raw']!r} for {n['player']}")
+                    continue
+                if datetime.fromisoformat(n["time_et"]) >= cutoff:
+                    seen.add(key)
+                    notes.append(n)
+            oldest = [datetime.fromisoformat(n["time_et"]) for n in batch if n["time_et"]]
+            if oldest and min(oldest) < cutoff:
+                break
+            time.sleep(1.5)
 
+    notes.sort(key=lambda n: n["time_et"], reverse=True)
     result = {"fetched_at_et": now.isoformat(), "hours": args.hours, "count": len(notes),
-              "pages": page_no + 1, "errors": errors, "notes": notes}
+              "pages": pages, "errors": errors, "notes": notes}
     out = json.dumps(result, indent=1, ensure_ascii=False)
     if args.out == "-":
         print(out)
     else:
         with open(args.out, "w") as f:
             f.write(out)
-        print(f"{len(notes)} notes from {page_no + 1} pages -> {args.out}; errors: {errors}", file=sys.stderr)
+        print(f"{len(notes)} notes from {pages} pages -> {args.out}; errors: {errors}", file=sys.stderr)
 
 
 if __name__ == "__main__":
