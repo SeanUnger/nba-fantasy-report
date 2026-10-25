@@ -43,16 +43,19 @@ with no clear beneficiary in the short "Injury watch" section.
 3. Use web search to fill gaps and confirm: today's NBA injury report, starting-lineup news,
    beat-reporter updates, and recent minutes trends for candidates. Prefer news from the
    last 24 hours; mark anything older as background.
-4. Read `state.json`. For each pickup candidate decide:
+4. Read `state.json`. For each pickup candidate decide what changed **in this run**
+   (used for notifications and the "since last run" marker):
    - **NEW**: not in state.
    - **UPDATED**: in state, but something material changed (injury status or timeline,
      starter vs. bench, a big new game, a new beneficiary). A repeat of the same news is not
      an update.
    - **ONGOING**: in state and still relevant, nothing material new.
    - Drop items with no new news in 4 days, or whose trigger player has returned.
-5. Write the report (format below) to `index.html`, and copy it to
-   `reports/YYYY-MM-DD.html` (Pacific date). Later runs the same evening overwrite that
-   day's file.
+   Separately, decide where it goes **on the page**, which is based on the Pacific date, not
+   on this run (see "The page is a daily digest" below).
+5. Rewrite the whole report (format below) to `index.html`, and copy it to
+   `reports/YYYY-MM-DD.html` (Pacific date). Later runs the same day overwrite that day's
+   file, carrying forward everything already on it.
 6. Update `state.json` (schema below), including `last_run_pt` and `run_label`.
 7. `git add -A && git commit -m "Report YYYY-MM-DD <run label>" && git push origin main`.
    If pushing to main is rejected, push to a branch instead and say so in your final
@@ -92,15 +95,42 @@ One self-contained HTML file: inline CSS, no external scripts, readable on a pho
 about 640px, 16px side padding, system font, base text 16px or larger). Support dark mode with
 `prefers-color-scheme`. Content in this order:
 
+### The page is a daily digest
+
+The owner may open the page once, at any hour, and must be able to read **everything that
+came up today** in one pass, top to bottom. Each hourly run *revises* today's page; it does
+not start a fresh page that only covers its own hour.
+
+- "Today" means the current Pacific date. An item belongs in **Add tonight** if its
+  `first_seen_pt` or `last_updated_pt` falls on today's Pacific date. It **stays there for the
+  rest of the day**, even if later runs find nothing new about it. Never demote an item
+  from Add tonight to Still relevant on the same day it was added or updated.
+- **Still relevant** is only for items carried over from **earlier days** that are still in
+  play but had no material update today.
+- When a later run updates an item that is already on today's page, rewrite that card in
+  place so it reads as the current, complete story (for example, "Out 2+ weeks (MRI
+  Saturday afternoon); first reported as day-to-day"). Don't append a second card or an
+  update log.
+- Mark what changed since the previous run with a small "since 3pm" style tag on those
+  cards (e.g. `NEW 3pm`, `UPDATED 5pm: now out 2 wks`), so a reader who checked an hour ago
+  can spot what's new. Cards keep their position by strength, not by time.
+- The first run of a new Pacific date starts a new page: yesterday's Add tonight items with
+  no new news today move to Still relevant (or drop off per step 4).
+
+### Layout
+
 - Header: "NBA Pickup Report", the Pacific date, the run label, and "updated h:mm pm PT".
-- **Add tonight**: NEW and UPDATED candidates, strongest first. Each card shows:
-  - player, team, position, and a NEW or UPDATED badge (UPDATED says what changed)
+- **Add tonight**: every candidate first seen or updated today, strongest first (by
+  verdict, then size of the opportunity). Each card shows:
+  - player, team, position, and a NEW or UPDATED badge (UPDATED says what changed), plus
+    the "since last run" tag if it changed in this run
   - **why**: the trigger, e.g. "Durant (ankle) out 2+ weeks", in one or two sentences
   - **expected role**: minutes or usage estimate and which categories he helps
   - **likely availability**: e.g. "~20% rostered, likely available" with your confidence
   - **verdict**: Add now / Speculative add / Watch
   - source links
-- **Still relevant**: ONGOING candidates, compact one-line rows.
+- **Still relevant**: candidates from earlier days with no material news today, compact
+  one-line rows.
 - **Drop watch**: fill-ins losing value because a starter is returning.
 - **Injury watch**: notable stars out or questionable with no clear pickup. One line each.
 - Footer: links to the last 14 reports in `reports/` (newest first), data sources used, and
