@@ -59,8 +59,10 @@ with no clear beneficiary in the short "Injury watch" section.
 8. **Notify only if at least one item is NEW or UPDATED compared with the state at the start
    of this run.** Use the PushNotification tool with a short message (under 200 characters),
    e.g. `3 new: Ryan Dunn (Durant out 2 wks), ... — https://seanunger.github.io/nba-fantasy-report/`.
-   If nothing changed, do not notify. Your final message should say whether you notified
-   and why.
+   If nothing changed, do not notify.
+9. Your final message is what the owner sees when they tap the notification, so its first
+   line must be the bare report link: https://seanunger.github.io/nba-fantasy-report/
+   Then list the NEW/UPDATED candidates (one line each), whether you notified, and any errors.
 
 ## Report format (`index.html`)
 
