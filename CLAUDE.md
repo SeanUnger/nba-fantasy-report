@@ -11,7 +11,7 @@ You do NOT have access to their leagues, so judge availability by reputation: as
 outside roughly the top ~130 in preseason fantasy ranks, or rostered in fewer than ~50% of
 Yahoo leagues, is likely available. Say how confident you are.
 
-Live report URL: https://sean-unger.github.io/nba-fantasy-report/
+Live report URL: https://seanunger.github.io/nba-fantasy-report/
 
 ## What counts as a pickup signal (most to least common)
 
@@ -58,7 +58,7 @@ with no clear beneficiary in the short "Injury watch" section.
    message.
 8. **Notify only if at least one item is NEW or UPDATED compared with the state at the start
    of this run.** Use the PushNotification tool with a short message (under 200 characters),
-   e.g. `3 new: Ryan Dunn (Durant out 2 wks), ... — https://sean-unger.github.io/nba-fantasy-report/`.
+   e.g. `3 new: Ryan Dunn (Durant out 2 wks), ... — https://seanunger.github.io/nba-fantasy-report/`.
    If nothing changed, do not notify. Your final message should say whether you notified
    and why.
 
