@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-10-24T22:10:00-07:00",
-  "run_label": "10pm",
+  "last_run_pt": "2026-10-24T23:40:00-07:00",
+  "run_label": "11:30pm",
   "items": {
     "tristan-da-silva": {
       "player": "Tristan da Silva",
@@ -101,6 +101,16 @@
       "summary": "Backup C, 16 min in debut; one-night bump",
       "first_seen_pt": "2026-10-24T22:10:00-07:00",
       "last_updated_pt": "2026-10-24T22:10:00-07:00"
+    },
+    "precious-achiuwa": {
+      "player": "Precious Achiuwa",
+      "team": "SAC",
+      "trigger": "Keegan Murray (ankle) questionable Sun",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Likely starter if Murray sits; rebounds, blocks, FG%",
+      "first_seen_pt": "2026-10-24T23:40:00-07:00",
+      "last_updated_pt": "2026-10-24T23:40:00-07:00"
     }
   },
   "drop_watch": [
@@ -115,6 +125,9 @@
     "LeBron James",
     "Coby White",
     "AJ Dybantsa",
-    "Yves Missi"
+    "Yves Missi",
+    "Mikel Brown Jr.",
+    "Jabari Walker",
+    "Cedric Coward"
   ]
 }
