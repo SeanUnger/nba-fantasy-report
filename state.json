@@ -1,16 +1,16 @@
 {
- "last_run_pt": "2026-10-25T15:15:00-07:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-10-25T16:15:00-07:00",
+ "run_label": "4pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
    "team": "ORL",
    "trigger": "Banchero out 4-6 wks (high-ankle sprain)",
    "trigger_status": "out",
-   "verdict": "Add now",
-   "summary": "Starting-lineup minutes (~28-32) with more usage next to Wagner and Bane; helps 3s, points, rebounds. Also watch <a clas",
+   "verdict": "Speculative add",
+   "summary": "Not in Sun starting five; bench rotation forward while Banchero out 4-6 wks",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-25T16:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Banchero out 4-6 wks (high-ankle sprain); verdict Add now"
   },
@@ -125,12 +125,12 @@
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
-   "trigger": "Keegan Murray (ankle) doubtful Sun",
+   "trigger": "Keegan Murray (ankle) ruled out Sun",
    "trigger_status": "questionable",
    "verdict": "Speculative add",
    "summary": "Likely starter if Murray sits; rebounds, blocks, FG%",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-10-25T12:15:00-07:00",
+   "last_updated_pt": "2026-10-25T16:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Keegan Murray (ankle) questionable Sun; verdict Watch"
   },
@@ -148,11 +148,21 @@
    "player": "Jase Richardson",
    "team": "ORL",
    "trigger": "Magic leaning toward starting him; Banchero out 4-6 wks",
+   "trigger_status": "starting",
+   "verdict": "Speculative add",
+   "summary": "Confirmed Sun starter; Black returning caps upside",
+   "first_seen_pt": "2026-10-25T15:15:00-07:00",
+   "last_updated_pt": "2026-10-25T16:15:00-07:00"
+  },
+  "kentavious-caldwell-pope": {
+   "player": "Kentavious Caldwell-Pope",
+   "team": "PHI",
+   "trigger": "Edgecombe (abdomen) out Sun; KCP starting",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Possible starter but Anthony Black returns",
-   "first_seen_pt": "2026-10-25T15:15:00-07:00",
-   "last_updated_pt": "2026-10-25T15:15:00-07:00"
+   "summary": "Starter ~26 min; 3s, steals",
+   "first_seen_pt": "2026-10-25T16:15:00-07:00",
+   "last_updated_pt": "2026-10-25T16:15:00-07:00"
   }
  },
  "drop_watch": [
