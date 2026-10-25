@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T13:15:00-07:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-10-25T14:15:00-07:00",
+ "run_label": "2pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -29,12 +29,12 @@
   "marcus-sasser": {
    "player": "Marcus Sasser",
    "team": "DAL",
-   "trigger": "Flagg (shoulder) out; Irving out",
+   "trigger": "Marshall (illness) out Mon, Flagg (shoulder) questionable Mon",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Came off bench Sat (12 pts), not a start; De Larrea scored more",
+   "summary": "Possible Mon start with Flagg Q; Irving back caps upside",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-25T14:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
   },
