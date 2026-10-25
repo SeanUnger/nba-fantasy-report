@@ -86,6 +86,26 @@ about 640px, 16px side padding, system font, base text 16px or larger). Support 
 
 Keep it skimmable: the owner reads it on a phone in a few minutes before midnight.
 
+### Player names are links to the player modal
+
+Every time you write an NBA player's name anywhere in the report (card titles, triggers like
+"Banchero out", beneficiaries, one-line rows, drop watch, injury watch), wrap it like this:
+
+```html
+<a class="player" href="#" data-name="Tristan da Silva" data-team="ORL">Tristan da Silva</a>
+```
+
+- `data-name` is the player's full name as Yahoo/ESPN spell it (keep suffixes like "Jr.").
+  The visible text may be shorter (e.g. "Banchero"), but `data-name` must be the full name.
+- `data-team` is the NBA tricode of the player's current team (GSW, NOP, NYK, SAS, PHX, ...).
+- Include `<script src="assets/player-modal.js" defer></script>` before `</body>` in
+  `index.html`, and `<script src="../assets/player-modal.js" defer></script>` in the copy under
+  `reports/`. Do not edit `assets/player-modal.js` itself.
+
+Tapping a name opens a bottom sheet that loads, live in the browser, the player's FantasyPros
+rest-of-season 9-cat value chart with projected per-game stats (from the owner's backend) and
+their latest ESPN news. You don't need to fetch or embed any of that data yourself.
+
 ## `state.json` schema
 
 ```json
