@@ -1,155 +1,156 @@
 {
-  "last_run_pt": "2026-10-24T23:40:00-07:00",
-  "run_label": "11:30pm",
-  "items": {
-    "tristan-da-silva": {
-      "player": "Tristan da Silva",
-      "team": "ORL",
-      "trigger": "Banchero out 4-6 wks (high-ankle sprain)",
-      "trigger_status": "out",
-      "verdict": "Add now",
-      "summary": "Starting-lineup minutes (~28-32) with more usage next to Wagner and Bane; helps 3s, points, rebounds. Also watch <a clas",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Banchero out 4-6 wks (high-ankle sprain); verdict Add now"
-    },
-    "derik-queen": {
-      "player": "Derik Queen",
-      "team": "NOP",
-      "trigger": "Missi (knee bone bruise) out, no timetable",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Starter minutes (~25-30), rebounds, FG%, some assists/blocks.",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Missi (knee bone bruise) out, no timetable; verdict Speculative add"
-    },
-    "marcus-sasser": {
-      "player": "Marcus Sasser",
-      "team": "DAL",
-      "trigger": "Flagg (shoulder) out; Irving out",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Came off bench Sat (12 pts), not a start; De Larrea scored more",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
-    },
-    "paul-reed": {
-      "player": "Paul Reed",
-      "team": "DET",
-      "trigger": "Duren (hamstring) out Sunday",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Reed had 19 pts/11 reb in 26 min vs. MIA. Rebounds, blocks, FG%. Short-term until Duren's return; the duration isn't kno",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Duren (hamstring) out Sunday; verdict Speculative add"
-    },
-    "will-richard": {
-      "player": "Will Richard",
-      "team": "GSW",
-      "trigger": "Curry rest, Green/Podziemski back out",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Likely a one-night bump; Curry aims to return Monday vs. DEN. Richard averaged 8.3 pts/1.3 3s/1.3 stl in 21 starts last ",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Curry rest, Green/Podziemski back out; verdict Watch"
-    },
-    "bryce-hopkins": {
-      "player": "Bryce Hopkins",
-      "team": "DEN",
-      "trigger": "C. Johnson, Diallo out",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Started but only 19 min; Brazile played 28",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "C. Johnson, Diallo out; verdict Watch"
-    },
-    "trevon-brazile": {
-      "player": "Trevon Brazile",
-      "team": "DEN",
-      "trigger": "C. Johnson, Diallo out",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "28 min off bench, 17/9/2 blk/3 3s; more minutes than starter Hopkins",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
-    },
-    "sergio-de-larrea": {
-      "player": "Sergio De Larrea",
-      "team": "DAL",
-      "trigger": "Flagg (shoulder), Irving (knee) out",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Rookie bench guard, 21 pts, 3 3s, 4 ast vs. SAS",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Flagg (shoulder), Irving (knee) out; verdict Speculative add"
-    },
-    "graham-ike": {
-      "player": "Graham Ike",
-      "team": "GSW",
-      "trigger": "Horford, Green rest; Santos hurt",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "2nd straight start at C; points and 3s",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Horford, Green rest; Santos hurt; verdict Speculative add"
-    },
-    "isaiah-stewart": {
-      "player": "Isaiah Stewart",
-      "team": "MEM",
-      "trigger": "Edey out Sunday (ankle management)",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Backup C, 16 min in debut; one-night bump",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-24T22:10:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Edey out Sunday (ankle management); verdict Watch"
-    },
-    "precious-achiuwa": {
-      "player": "Precious Achiuwa",
-      "team": "SAC",
-      "trigger": "Keegan Murray (ankle) questionable Sun",
-      "trigger_status": "questionable",
-      "verdict": "Watch",
-      "summary": "Likely starter if Murray sits; rebounds, blocks, FG%",
-      "first_seen_pt": "2026-10-24T23:40:00-07:00",
-      "last_updated_pt": "2026-10-24T23:40:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Keegan Murray (ankle) questionable Sun; verdict Watch"
-    }
+ "last_run_pt": "2026-10-25T12:15:00-07:00",
+ "run_label": "12pm",
+ "items": {
+  "tristan-da-silva": {
+   "player": "Tristan da Silva",
+   "team": "ORL",
+   "trigger": "Banchero out 4-6 wks (high-ankle sprain)",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "Starting-lineup minutes (~28-32) with more usage next to Wagner and Bane; helps 3s, points, rebounds. Also watch <a clas",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-24T20:25:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Banchero out 4-6 wks (high-ankle sprain); verdict Add now"
   },
-  "drop_watch": [
-    "Reed Sheppard",
-    "Dean Wade",
-    "Naji Marshall"
-  ],
-  "injury_watch": [
-    "Paolo Banchero",
-    "Cooper Flagg",
-    "Kon Knueppel",
-    "LeBron James",
-    "Coby White",
-    "AJ Dybantsa",
-    "Yves Missi",
-    "Mikel Brown Jr.",
-    "Jabari Walker",
-    "Cedric Coward"
-  ]
+  "derik-queen": {
+   "player": "Derik Queen",
+   "team": "NOP",
+   "trigger": "Missi (knee bone bruise) out, no timetable",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Starter minutes (~25-30), rebounds, FG%, some assists/blocks.",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-24T20:25:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Missi (knee bone bruise) out, no timetable; verdict Speculative add"
+  },
+  "marcus-sasser": {
+   "player": "Marcus Sasser",
+   "team": "DAL",
+   "trigger": "Flagg (shoulder) out; Irving out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Came off bench Sat (12 pts), not a start; De Larrea scored more",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
+  },
+  "paul-reed": {
+   "player": "Paul Reed",
+   "team": "DET",
+   "trigger": "Duren (hamstring) out ~2 wks, re-evaluated in two weeks",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "Starting C, ~26 min, 19 pts/11 reb vs MIA; rebounds, blocks, FG%.",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-25T12:15:00-07:00",
+   "last_notified_pt": "2026-10-25T12:15:00-07:00",
+   "notified_for": "Duren out ~2 wks; verdict Add now"
+  },
+  "will-richard": {
+   "player": "Will Richard",
+   "team": "GSW",
+   "trigger": "Curry rest, Green/Podziemski back out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Likely a one-night bump; Curry aims to return Monday vs. DEN. Richard averaged 8.3 pts/1.3 3s/1.3 stl in 21 starts last ",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-24T20:25:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Curry rest, Green/Podziemski back out; verdict Watch"
+  },
+  "bryce-hopkins": {
+   "player": "Bryce Hopkins",
+   "team": "DEN",
+   "trigger": "C. Johnson, Diallo out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Started but only 19 min; Brazile played 28",
+   "first_seen_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "C. Johnson, Diallo out; verdict Watch"
+  },
+  "trevon-brazile": {
+   "player": "Trevon Brazile",
+   "team": "DEN",
+   "trigger": "C. Johnson, Diallo out",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "28 min off bench, 17/9/2 blk/3 3s; more minutes than starter Hopkins",
+   "first_seen_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
+  },
+  "sergio-de-larrea": {
+   "player": "Sergio De Larrea",
+   "team": "DAL",
+   "trigger": "Flagg (shoulder), Irving (knee) out",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Rookie bench guard, 21 pts, 3 3s, 4 ast vs. SAS",
+   "first_seen_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Flagg (shoulder), Irving (knee) out; verdict Speculative add"
+  },
+  "graham-ike": {
+   "player": "Graham Ike",
+   "team": "GSW",
+   "trigger": "Horford, Green rest; Santos hurt",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "2nd straight start at C; points and 3s",
+   "first_seen_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Horford, Green rest; Santos hurt; verdict Speculative add"
+  },
+  "isaiah-stewart": {
+   "player": "Isaiah Stewart",
+   "team": "MEM",
+   "trigger": "Edey out Sunday (ankle management)",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Backup C, 16 min in debut; one-night bump",
+   "first_seen_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Edey out Sunday (ankle management); verdict Watch"
+  },
+  "precious-achiuwa": {
+   "player": "Precious Achiuwa",
+   "team": "SAC",
+   "trigger": "Keegan Murray (ankle) doubtful Sun",
+   "trigger_status": "questionable",
+   "verdict": "Speculative add",
+   "summary": "Likely starter if Murray sits; rebounds, blocks, FG%",
+   "first_seen_pt": "2026-10-24T23:40:00-07:00",
+   "last_updated_pt": "2026-10-25T12:15:00-07:00",
+   "last_notified_pt": "2026-10-24T23:40:00-07:00",
+   "notified_for": "Keegan Murray (ankle) questionable Sun; verdict Watch"
+  }
+ },
+ "drop_watch": [
+  "Reed Sheppard",
+  "Dean Wade",
+  "Naji Marshall"
+ ],
+ "injury_watch": [
+  "Paolo Banchero",
+  "Cooper Flagg",
+  "Kon Knueppel",
+  "Coby White",
+  "AJ Dybantsa",
+  "Yves Missi",
+  "Mikel Brown Jr.",
+  "Jabari Walker",
+  "Cedric Coward",
+  "Joel Embiid",
+  "Ausar Thompson"
+ ]
 }
