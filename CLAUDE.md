@@ -103,8 +103,8 @@ Every time you write an NBA player's name anywhere in the report (card titles, t
   `reports/`. Do not edit `assets/player-modal.js` itself.
 
 Tapping a name opens a bottom sheet that loads, live in the browser, the player's FantasyPros
-rest-of-season 9-cat value chart with projected per-game stats (from the owner's backend) and
-their latest ESPN news. You don't need to fetch or embed any of that data yourself.
+rest-of-season 9-cat value chart, their stats table, latest ESPN news and their team's depth
+chart (all from the owner's backend and ESPN). You don't need to fetch or embed any of that data yourself.
 
 ## `state.json` schema
 
