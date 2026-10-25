@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T14:15:00-07:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-10-25T15:15:00-07:00",
+ "run_label": "3pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -133,12 +133,33 @@
    "last_updated_pt": "2026-10-25T12:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Keegan Murray (ankle) questionable Sun; verdict Watch"
+  },
+  "allen-graves": {
+   "player": "Allen Graves",
+   "team": "TOR",
+   "trigger": "Kawhi Leonard (knee swelling) late scratch Sun",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting tonight; no timeline for Kawhi",
+   "first_seen_pt": "2026-10-25T15:15:00-07:00",
+   "last_updated_pt": "2026-10-25T15:15:00-07:00"
+  },
+  "jase-richardson": {
+   "player": "Jase Richardson",
+   "team": "ORL",
+   "trigger": "Magic leaning toward starting him; Banchero out 4-6 wks",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Possible starter but Anthony Black returns",
+   "first_seen_pt": "2026-10-25T15:15:00-07:00",
+   "last_updated_pt": "2026-10-25T15:15:00-07:00"
   }
  },
  "drop_watch": [
   "Reed Sheppard",
   "Dean Wade",
-  "Naji Marshall"
+  "Naji Marshall",
+  "Jarace Walker"
  ],
  "injury_watch": [
   "Paolo Banchero",
@@ -151,6 +172,7 @@
   "Jabari Walker",
   "Cedric Coward",
   "Joel Embiid",
-  "Ausar Thompson"
+  "Ausar Thompson",
+  "Kawhi Leonard"
  ]
 }
