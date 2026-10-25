@@ -1,7 +1,78 @@
 {
-  "last_run_pt": null,
-  "run_label": null,
-  "items": {},
-  "drop_watch": [],
-  "injury_watch": []
+  "last_run_pt": "2026-10-24T20:25:00-07:00",
+  "run_label": "7pm",
+  "items": {
+    "tristan-da-silva": {
+      "player": "Tristan da Silva",
+      "team": "ORL",
+      "trigger": "Banchero out 4-6 wks (high-ankle sprain)",
+      "trigger_status": "out",
+      "verdict": "Add now",
+      "summary": "Starting-lineup minutes (~28-32) with more usage next to Wagner and Bane; helps 3s, points, rebounds. Also watch <a clas",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    },
+    "derik-queen": {
+      "player": "Derik Queen",
+      "team": "NOP",
+      "trigger": "Missi (knee bone bruise) out, no timetable",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starter minutes (~25-30), rebounds, FG%, some assists/blocks.",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    },
+    "marcus-sasser": {
+      "player": "Marcus Sasser",
+      "team": "DAL",
+      "trigger": "Flagg (shoulder) out; Irving out",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Sasser started at PG Sat, 27 min, 12 pts/5 ast. <a class=\"player\" href=\"#\" data-name=\"Zaccharie Risacher\" data-team=\"DAL",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    },
+    "paul-reed": {
+      "player": "Paul Reed",
+      "team": "DET",
+      "trigger": "Duren (hamstring) out Sunday",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Reed had 19 pts/11 reb in 26 min vs. MIA. Rebounds, blocks, FG%. Short-term until Duren's return; the duration isn't kno",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    },
+    "will-richard": {
+      "player": "Will Richard",
+      "team": "GSW",
+      "trigger": "Curry rest, Green/Podziemski back out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Likely a one-night bump; Curry aims to return Monday vs. DEN. Richard averaged 8.3 pts/1.3 3s/1.3 stl in 21 starts last ",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    },
+    "bryce-hopkins": {
+      "player": "Bryce Hopkins",
+      "team": "DEN",
+      "trigger": "C. Johnson, Diallo out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starter minutes only while the wings are out; Johnson is questionable for Monday.",
+      "first_seen_pt": "2026-10-24T20:25:00-07:00",
+      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+    }
+  },
+  "drop_watch": [
+    "Reed Sheppard",
+    "Dean Wade",
+    "Naji Marshall"
+  ],
+  "injury_watch": [
+    "Paolo Banchero",
+    "Cooper Flagg",
+    "Kon Knueppel",
+    "LeBron James",
+    "Coby White"
+  ]
 }
