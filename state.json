@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-10-24T20:25:00-07:00",
-  "run_label": "7pm",
+  "last_run_pt": "2026-10-24T22:10:00-07:00",
+  "run_label": "10pm",
   "items": {
     "tristan-da-silva": {
       "player": "Tristan da Silva",
@@ -27,10 +27,10 @@
       "team": "DAL",
       "trigger": "Flagg (shoulder) out; Irving out",
       "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Sasser started at PG Sat, 27 min, 12 pts/5 ast. <a class=\"player\" href=\"#\" data-name=\"Zaccharie Risacher\" data-team=\"DAL",
+      "verdict": "Watch",
+      "summary": "Came off bench Sat (12 pts), not a start; De Larrea scored more",
       "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
     },
     "paul-reed": {
       "player": "Paul Reed",
@@ -58,9 +58,49 @@
       "trigger": "C. Johnson, Diallo out",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starter minutes only while the wings are out; Johnson is questionable for Monday.",
+      "summary": "Started but only 19 min; Brazile played 28",
       "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-24T20:25:00-07:00"
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
+    },
+    "trevon-brazile": {
+      "player": "Trevon Brazile",
+      "team": "DEN",
+      "trigger": "C. Johnson, Diallo out",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "28 min off bench, 17/9/2 blk/3 3s; more minutes than starter Hopkins",
+      "first_seen_pt": "2026-10-24T22:10:00-07:00",
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
+    },
+    "sergio-de-larrea": {
+      "player": "Sergio De Larrea",
+      "team": "DAL",
+      "trigger": "Flagg (shoulder), Irving (knee) out",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Rookie bench guard, 21 pts, 3 3s, 4 ast vs. SAS",
+      "first_seen_pt": "2026-10-24T22:10:00-07:00",
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
+    },
+    "graham-ike": {
+      "player": "Graham Ike",
+      "team": "GSW",
+      "trigger": "Horford, Green rest; Santos hurt",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "2nd straight start at C; points and 3s",
+      "first_seen_pt": "2026-10-24T22:10:00-07:00",
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
+    },
+    "isaiah-stewart": {
+      "player": "Isaiah Stewart",
+      "team": "MEM",
+      "trigger": "Edey out Sunday (ankle management)",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Backup C, 16 min in debut; one-night bump",
+      "first_seen_pt": "2026-10-24T22:10:00-07:00",
+      "last_updated_pt": "2026-10-24T22:10:00-07:00"
     }
   },
   "drop_watch": [
@@ -73,6 +113,8 @@
     "Cooper Flagg",
     "Kon Knueppel",
     "LeBron James",
-    "Coby White"
+    "Coby White",
+    "AJ Dybantsa",
+    "Yves Missi"
   ]
 }
