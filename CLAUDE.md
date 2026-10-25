@@ -1,10 +1,11 @@
 # NBA Fantasy Pickup Report — agent instructions
 
-You run in the cloud on a schedule (7:00pm, 10:00pm and 11:30pm Pacific) so the owner can
-submit waiver claims before midnight Pacific. Your job: find NBA news that could
-**significantly raise the fantasy value of a player who is probably on waivers**, publish
-it as a mobile-friendly HTML report, and send a push notification only when the report has
-changed since the previous run.
+You run in the cloud every hour from 12:00pm to 11:00pm Pacific, plus a last check at
+11:30pm, so the owner can submit waiver claims before midnight Pacific. Your job: find NBA
+news that could **significantly raise the fantasy value of a player who is probably on
+waivers**, keep a mobile-friendly HTML report up to date, and send a push notification only
+when there is big, actionable pickup news (see step 8). Most hourly runs should update the
+report quietly without notifying.
 
 The owner plays in standard 12-team head-to-head category leagues (9-cat style) on Yahoo/ESPN.
 You do NOT have access to their leagues, so judge availability by reputation: assume anyone
@@ -56,13 +57,34 @@ with no clear beneficiary in the short "Injury watch" section.
 7. `git add -A && git commit -m "Report YYYY-MM-DD <run label>" && git push origin main`.
    If pushing to main is rejected, push to a branch instead and say so in your final
    message.
-8. **Notify only if at least one item is NEW or UPDATED compared with the state at the start
-   of this run.** Use the PushNotification tool with a short message (under 200 characters),
-   e.g. `3 new: Ryan Dunn (Durant out 2 wks), ... — https://seanunger.github.io/nba-fantasy-report/`.
-   If nothing changed, do not notify.
+8. **Notify only for significant pickup news.** The report updates every hour, but a push
+   notification interrupts the owner, so send one only when this run found at least one
+   NEW or UPDATED candidate that clears this bar:
+   - Its verdict is **Add now** or **Speculative add** (never for Watch, Drop watch or
+     Injury watch alone), and
+   - the trigger is a big, lasting change in opportunity:
+     - a starter or key rotation player is out for **a week or more**, indefinitely, or for
+       the season (surgery, a fracture, a multi-week timeline, a suspension), or ruled out
+       of upcoming games with no return date;
+     - a trade, signing, release or buyout that hands this player a starting job or a big
+       minutes jump;
+     - a confirmed promotion to the starting lineup, or a sustained jump in minutes
+       (30+ minutes in the last 2–3 games after playing far less before) for a likely
+       available player.
+   Never notify for: one-night rest, Day-To-Day or Questionable tags, a single big game on
+   normal minutes, back-to-back maintenance, or an UPDATED item whose verdict and
+   opportunity didn't really change (e.g. a confirmed absence that was already reported).
+   Don't notify twice for the same trigger: only notify for an item again if its verdict
+   was upgraded (e.g. Speculative add → Add now) or its timeline got much longer.
+   Record each notified item's `last_notified_pt` and `notified_for` in state.json.
+   Use the PushNotification tool with a short message (under 200 characters) that leads
+   with the pickup and reason, e.g.
+   `Add Ryan Dunn: Durant out 2+ wks, Dunn starting — https://seanunger.github.io/nba-fantasy-report/`.
+   When in doubt, don't notify; the report still has the news.
 9. Your final message is what the owner sees when they tap the notification, so its first
    line must be the bare report link: https://seanunger.github.io/nba-fantasy-report/
-   Then list the NEW/UPDATED candidates (one line each), whether you notified, and any errors.
+   Then list the NEW/UPDATED candidates (one line each), whether you notified and why (or
+   why not), and any errors.
 
 ## Report format (`index.html`)
 
@@ -111,7 +133,7 @@ chart (all from the owner's backend and ESPN). You don't need to fetch or embed 
 ```json
 {
   "last_run_pt": "2026-10-25T19:00:00-07:00",
-  "run_label": "7pm",
+  "run_label": "7pm",  // the Pacific hour of this run, e.g. "1pm", "11pm", "11:30pm"
   "items": {
     "ryan-dunn": {
       "player": "Ryan Dunn",
@@ -121,7 +143,9 @@ chart (all from the owner's backend and ESPN). You don't need to fetch or embed 
       "verdict": "Add now",
       "summary": "Starting at SF; 30+ min, steals/blocks/3s",
       "first_seen_pt": "2026-10-25T19:00:00-07:00",
-      "last_updated_pt": "2026-10-25T19:00:00-07:00"
+      "last_updated_pt": "2026-10-25T19:00:00-07:00",
+      "last_notified_pt": "2026-10-25T19:00:00-07:00",
+      "notified_for": "Durant out 2+ weeks; verdict Add now"
     }
   },
   "drop_watch": [],
