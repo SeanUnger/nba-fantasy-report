@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T23:20:00-07:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-10-25T23:35:00-07:00",
+ "run_label": "11:30pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -116,9 +116,9 @@
    "trigger": "Edey out Sunday (ankle management)",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Backup C, 16 min in debut; one-night bump",
+   "summary": "Started Sun, 22 min, 13 pts/5 reb/2 blk; Edey absence unclear",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-25T23:35:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Edey out Sunday (ankle management); verdict Watch"
   },
@@ -128,9 +128,9 @@
    "trigger": "Keegan Murray (ankle) ruled out Sun",
    "trigger_status": "questionable",
    "verdict": "Speculative add",
-   "summary": "Likely starter if Murray sits; rebounds, blocks, FG%",
+   "summary": "Started Sun in Murray's place: 12 pts/10 reb/2 stl/3 blk",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-10-25T16:15:00-07:00",
+   "last_updated_pt": "2026-10-25T23:35:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Keegan Murray (ankle) questionable Sun; verdict Watch"
   },
@@ -200,9 +200,9 @@
    "trigger": "Kawhi (knee swelling) out Sun",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starter if Kawhi sits",
+   "summary": "Started Sun, 22 pts/5 3s in 31 min; Kawhi timeline unknown",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+   "last_updated_pt": "2026-10-25T23:35:00-07:00"
   },
   "jared-mccain": {
    "player": "Jared McCain",
