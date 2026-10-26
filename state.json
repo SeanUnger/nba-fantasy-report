@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-26T13:15:00-07:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-10-26T14:15:00-07:00",
+ "run_label": "2pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -217,12 +217,12 @@
   "daniss-jenkins": {
    "player": "Daniss Jenkins",
    "team": "DET",
-   "trigger": "Thompson (ankle) out, Joe (hip) hurt",
+   "trigger": "Thompson (ankle) and Joe (hip) both questionable Tue vs. NYK",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting Sun, ~26 min; Thompson back Tue",
+   "summary": "Started Sun (~26 min); Thompson and Joe both questionable Tue, so guard minutes stay open if either sits",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+   "last_updated_pt": "2026-10-26T14:15:00-07:00"
   },
   "anthony-black": {
    "player": "Anthony Black",
@@ -253,6 +253,7 @@
   "Keegan Murray",
   "Anthony Edwards",
   "Joel Embiid",
-  "Ivica Zubac"
+  "Ivica Zubac",
+  "Jose Alvarado"
  ]
 }
