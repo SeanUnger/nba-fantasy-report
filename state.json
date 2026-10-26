@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T23:35:00-07:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-10-26T12:20:00-07:00",
+ "run_label": "12pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -29,12 +29,12 @@
   "marcus-sasser": {
    "player": "Marcus Sasser",
    "team": "DAL",
-   "trigger": "Marshall (illness) out Mon, Flagg (shoulder) questionable Mon",
+   "trigger": "Marshall out Mon; Flagg now probable",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Possible Mon start with Flagg Q; Irving back caps upside",
+   "summary": "Opening shrinking",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-25T14:15:00-07:00",
+   "last_updated_pt": "2026-10-26T12:20:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
   },
@@ -147,12 +147,12 @@
   "jase-richardson": {
    "player": "Jase Richardson",
    "team": "ORL",
-   "trigger": "Magic leaning toward starting him; Banchero out 4-6 wks",
-   "trigger_status": "starting",
+   "trigger": "Banchero out 4-6 wks; Suggs out 2+ wks",
+   "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Confirmed Sun starter; Black returning caps upside; Suggs hurt, more minutes possible",
+   "summary": "Starter upside in open backcourt",
    "first_seen_pt": "2026-10-25T15:15:00-07:00",
-   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+   "last_updated_pt": "2026-10-26T12:20:00-07:00"
   },
   "kentavious-caldwell-pope": {
    "player": "Kentavious Caldwell-Pope",
@@ -167,12 +167,12 @@
   "jay-huff": {
    "player": "Jay Huff",
    "team": "IND",
-   "trigger": "Zubac (ankle) doubtful Mon, X-rays negative",
+   "trigger": "Zubac (ankle) out Mon",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Expanded C role while Zubac out; 14 pts/3 blk Sun",
+   "summary": "Starter-level C minutes",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-25T18:15:00-07:00"
+   "last_updated_pt": "2026-10-26T12:20:00-07:00"
   },
   "tre-johnson": {
    "player": "Tre Johnson",
@@ -207,12 +207,12 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "Jalen Williams (ankle) stretchered off Sun",
-   "trigger_status": "questionable",
+   "trigger": "J. Williams (ankle) significant injury; Wallace, Holmgren out Mon",
+   "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Extra wing minutes; layoff unconfirmed",
+   "summary": "Extra guard/wing minutes",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+   "last_updated_pt": "2026-10-26T12:20:00-07:00"
   },
   "daniss-jenkins": {
    "player": "Daniss Jenkins",
@@ -227,12 +227,14 @@
   "anthony-black": {
    "player": "Anthony Black",
    "team": "ORL",
-   "trigger": "Suggs (knee) doubtful to return Sun",
-   "trigger_status": "doubtful",
-   "verdict": "Speculative add",
-   "summary": "Suggs (knee) left Sun, MRI pending; Black 18 pts/5 3s in debut",
+   "trigger": "Suggs (knee) out at least 2 wks",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "Likely starting guard 25-30 min",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-25T21:15:00-07:00"
+   "last_updated_pt": "2026-10-26T12:20:00-07:00",
+   "last_notified_pt": "2026-10-26T12:20:00-07:00",
+   "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
   }
  },
  "drop_watch": [
@@ -242,22 +244,15 @@
   "Jarace Walker"
  ],
  "injury_watch": [
-  "Cason Wallace",
   "Jalen Williams",
+  "Chet Holmgren",
+  "Cason Wallace",
   "Jalen Suggs",
-  "Isaiah Joe",
   "Paolo Banchero",
-  "Cooper Flagg",
-  "Kon Knueppel",
-  "Coby White",
-  "AJ Dybantsa",
-  "Yves Missi",
-  "Mikel Brown Jr.",
-  "Jabari Walker",
-  "Cedric Coward",
-  "Joel Embiid",
-  "Ausar Thompson",
   "Kawhi Leonard",
-  "Keegan Murray"
+  "Keegan Murray",
+  "Anthony Edwards",
+  "Joel Embiid",
+  "Ivica Zubac"
  ]
 }
