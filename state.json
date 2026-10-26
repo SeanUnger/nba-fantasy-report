@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T17:20:00-07:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-10-25T18:15:00-07:00",
+ "run_label": "6pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -167,12 +167,12 @@
   "jay-huff": {
    "player": "Jay Huff",
    "team": "IND",
-   "trigger": "Zubac (ankle) left Sun game, will not return",
+   "trigger": "Zubac (ankle) doubtful Mon, X-rays negative",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Expanded C role if Zubac misses time",
+   "summary": "Expanded C role while Zubac out; 14 pts/3 blk Sun",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+   "last_updated_pt": "2026-10-25T18:15:00-07:00"
   },
   "tre-johnson": {
    "player": "Tre Johnson",
