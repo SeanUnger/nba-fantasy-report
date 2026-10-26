@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T18:15:00-07:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-10-25T19:15:00-07:00",
+ "run_label": "7pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -150,9 +150,9 @@
    "trigger": "Magic leaning toward starting him; Banchero out 4-6 wks",
    "trigger_status": "starting",
    "verdict": "Speculative add",
-   "summary": "Confirmed Sun starter; Black returning caps upside",
+   "summary": "Confirmed Sun starter; Black returning caps upside; Suggs hurt, more minutes possible",
    "first_seen_pt": "2026-10-25T15:15:00-07:00",
-   "last_updated_pt": "2026-10-25T16:15:00-07:00"
+   "last_updated_pt": "2026-10-25T19:15:00-07:00"
   },
   "kentavious-caldwell-pope": {
    "player": "Kentavious Caldwell-Pope",
@@ -203,6 +203,36 @@
    "summary": "Starter if Kawhi sits",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
    "last_updated_pt": "2026-10-25T17:20:00-07:00"
+  },
+  "jared-mccain": {
+   "player": "Jared McCain",
+   "team": "OKC",
+   "trigger": "Jalen Williams (ankle) stretchered off Sun",
+   "trigger_status": "questionable",
+   "verdict": "Speculative add",
+   "summary": "Extra wing minutes; layoff unconfirmed",
+   "first_seen_pt": "2026-10-25T19:15:00-07:00",
+   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+  },
+  "daniss-jenkins": {
+   "player": "Daniss Jenkins",
+   "team": "DET",
+   "trigger": "Thompson (ankle) out, Joe (hip) hurt",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Starting Sun, ~26 min; Thompson back Tue",
+   "first_seen_pt": "2026-10-25T19:15:00-07:00",
+   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+  },
+  "anthony-black": {
+   "player": "Anthony Black",
+   "team": "ORL",
+   "trigger": "Suggs (knee) doubtful to return Sun",
+   "trigger_status": "doubtful",
+   "verdict": "Speculative add",
+   "summary": "Starts if Suggs misses time",
+   "first_seen_pt": "2026-10-25T19:15:00-07:00",
+   "last_updated_pt": "2026-10-25T19:15:00-07:00"
   }
  },
  "drop_watch": [
@@ -212,6 +242,9 @@
   "Jarace Walker"
  ],
  "injury_watch": [
+  "Jalen Williams",
+  "Jalen Suggs",
+  "Isaiah Joe",
   "Paolo Banchero",
   "Cooper Flagg",
   "Kon Knueppel",
