@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T20:15:00-07:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-10-25T21:15:00-07:00",
+ "run_label": "9pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -230,9 +230,9 @@
    "trigger": "Suggs (knee) doubtful to return Sun",
    "trigger_status": "doubtful",
    "verdict": "Speculative add",
-   "summary": "Starts if Suggs misses time",
+   "summary": "Suggs (knee) left Sun, MRI pending; Black 18 pts/5 3s in debut",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-25T19:15:00-07:00"
+   "last_updated_pt": "2026-10-25T21:15:00-07:00"
   }
  },
  "drop_watch": [
