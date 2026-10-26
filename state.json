@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T19:15:00-07:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-10-25T20:15:00-07:00",
+ "run_label": "8pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -242,6 +242,7 @@
   "Jarace Walker"
  ],
  "injury_watch": [
+  "Cason Wallace",
   "Jalen Williams",
   "Jalen Suggs",
   "Isaiah Joe",
