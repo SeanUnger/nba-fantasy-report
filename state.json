@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-25T16:15:00-07:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-10-25T17:20:00-07:00",
+ "run_label": "5pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -163,6 +163,46 @@
    "summary": "Starter ~26 min; 3s, steals",
    "first_seen_pt": "2026-10-25T16:15:00-07:00",
    "last_updated_pt": "2026-10-25T16:15:00-07:00"
+  },
+  "jay-huff": {
+   "player": "Jay Huff",
+   "team": "IND",
+   "trigger": "Zubac (ankle) left Sun game, will not return",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Expanded C role if Zubac misses time",
+   "first_seen_pt": "2026-10-25T17:20:00-07:00",
+   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+  },
+  "tre-johnson": {
+   "player": "Tre Johnson",
+   "team": "WAS",
+   "trigger": "Dybantsa (ankle) out Mon, 4th straight",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "More wing minutes",
+   "first_seen_pt": "2026-10-25T17:20:00-07:00",
+   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+  },
+  "sion-james": {
+   "player": "Sion James",
+   "team": "CHA",
+   "trigger": "Knueppel (hamstring) out Mon, 3rd straight",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Extra guard minutes",
+   "first_seen_pt": "2026-10-25T17:20:00-07:00",
+   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+  },
+  "ja-kobe-walter": {
+   "player": "Ja'Kobe Walter",
+   "team": "TOR",
+   "trigger": "Kawhi (knee swelling) out Sun",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starter if Kawhi sits",
+   "first_seen_pt": "2026-10-25T17:20:00-07:00",
+   "last_updated_pt": "2026-10-25T17:20:00-07:00"
   }
  },
  "drop_watch": [
@@ -183,6 +223,7 @@
   "Cedric Coward",
   "Joel Embiid",
   "Ausar Thompson",
-  "Kawhi Leonard"
+  "Kawhi Leonard",
+  "Keegan Murray"
  ]
 }
