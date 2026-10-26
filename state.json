@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-26T15:15:00-07:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-10-26T16:15:00-07:00",
+ "run_label": "4pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -187,12 +187,12 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Knueppel (hamstring) out Mon, 3rd straight",
+   "trigger": "Knueppel and White out, no timeline",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Extra guard minutes",
+   "summary": "Extra guard minutes; spread with Schroder/Anderson",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+   "last_updated_pt": "2026-10-26T16:15:00-07:00"
   },
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
@@ -237,6 +237,16 @@
    "last_updated_pt": "2026-10-26T12:20:00-07:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
+  },
+  "quenton-jackson": {
+   "player": "Quenton Jackson",
+   "team": "IND",
+   "trigger": "Nembhard (neck) and McConnell out Mon",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-night bump",
+   "first_seen_pt": "2026-10-26T16:15:00-07:00",
+   "last_updated_pt": "2026-10-26T16:15:00-07:00"
   }
  },
  "drop_watch": [
