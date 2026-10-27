@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T12:15:00-07:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-10-27T13:20:00-07:00",
+ "run_label": "1pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -193,6 +193,28 @@
    "last_updated_pt": "2026-10-26T12:20:00-07:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
+  },
+  "jaxson-hayes": {
+   "player": "Jaxson Hayes",
+   "team": "UTA",
+   "trigger": "Jaren Jackson Jr. (torn MCL) out 6-8 wks; Nurkic (foot) out",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "One of few healthy Utah centers; starting-C minutes likely",
+   "first_seen_pt": "2026-10-27T13:20:00-07:00",
+   "last_updated_pt": "2026-10-27T13:20:00-07:00",
+   "last_notified_pt": "2026-10-27T13:20:00-07:00",
+   "notified_for": "JJJ out 6-8 wks; verdict Add now"
+  },
+  "kobe-sanders": {
+   "player": "Kobe Sanders",
+   "team": "LAC",
+   "trigger": "Hachimura (quad) out Wed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting Wed; likely one game",
+   "first_seen_pt": "2026-10-27T13:20:00-07:00",
+   "last_updated_pt": "2026-10-27T13:20:00-07:00"
   }
  },
  "drop_watch": [
