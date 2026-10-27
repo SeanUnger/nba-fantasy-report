@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T15:15:00-07:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-10-27T16:20:00-07:00",
+ "run_label": "4pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -225,6 +225,30 @@
    "summary": "Extra C minutes, likely one game",
    "first_seen_pt": "2026-10-27T15:15:00-07:00",
    "last_updated_pt": "2026-10-27T15:15:00-07:00"
+  },
+  "ayo-dosunmu": {
+   "player": "Ayo Dosunmu",
+   "team": "MIN",
+   "trigger": "Edwards (knee surgery) out up to ~2 months",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "Likely starter 28-32 min with Edwards out",
+   "first_seen_pt": "2026-10-27T16:20:00-07:00",
+   "last_updated_pt": "2026-10-27T16:20:00-07:00",
+   "last_notified_pt": "2026-10-27T16:20:00-07:00",
+   "notified_for": "Edwards out ~2 months; verdict Add now"
+  },
+  "terrence-shannon-jr": {
+   "player": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "trigger": "Edwards (knee surgery) out up to ~2 months",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "More usage/scoring with Edwards out",
+   "first_seen_pt": "2026-10-27T16:20:00-07:00",
+   "last_updated_pt": "2026-10-27T16:20:00-07:00",
+   "last_notified_pt": "2026-10-27T16:20:00-07:00",
+   "notified_for": "Edwards out ~2 months; verdict Speculative add"
   }
  },
  "drop_watch": [
@@ -235,6 +259,7 @@
   "Zaccharie Risacher"
  ],
  "injury_watch": [
+  "Anthony Edwards",
   "Alex Caruso",
   "Lauri Markkanen",
   "Jaren Jackson Jr.",
@@ -243,7 +268,6 @@
   "Cason Wallace",
   "Jalen Suggs",
   "Paolo Banchero",
-  "Anthony Edwards",
   "Joel Embiid",
   "Ivica Zubac",
   "Jose Alvarado",
