@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-26T18:15:00-07:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-10-26T19:10:00-07:00",
+ "run_label": "7pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -103,10 +103,10 @@
    "team": "GSW",
    "trigger": "Horford, Green rest; Santos hurt",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "2nd straight start at C; points and 3s",
+   "verdict": "Watch",
+   "summary": "Benched Mon; starting window closed",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-26T19:10:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Horford, Green rest; Santos hurt; verdict Speculative add"
   },
@@ -116,9 +116,9 @@
    "trigger": "Edey out Sunday (ankle management)",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Started Sun, 22 min, 13 pts/5 reb/2 blk; Edey absence unclear",
+   "summary": "Edey back, Stewart to bench",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-25T23:35:00-07:00",
+   "last_updated_pt": "2026-10-26T19:10:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Edey out Sunday (ankle management); verdict Watch"
   },
@@ -177,12 +177,12 @@
   "tre-johnson": {
    "player": "Tre Johnson",
    "team": "WAS",
-   "trigger": "Dybantsa (ankle) out Mon, 4th straight",
+   "trigger": "Dybantsa out; Champagnie (foot) hurt Mon",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "More wing minutes",
+   "summary": "More wing minutes; Champagnie (foot) out for rest of Mon",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-25T17:20:00-07:00"
+   "last_updated_pt": "2026-10-26T19:10:00-07:00"
   },
   "sion-james": {
    "player": "Sion James",
@@ -210,9 +210,9 @@
    "trigger": "J. Williams (dislocated ankle, fibula fx, surgery) and Wallace (torn labrum, season) out",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Starting Mon vs PHX; guard/wing minutes with Mitchell/Caruso",
+   "summary": "Starting Mon vs PHX; Caruso (ankle) also hurt",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-26T17:15:00-07:00",
+   "last_updated_pt": "2026-10-26T19:10:00-07:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
   },
@@ -257,6 +257,16 @@
    "summary": "Started Mon, first since Feb; likely one-night",
    "first_seen_pt": "2026-10-26T18:15:00-07:00",
    "last_updated_pt": "2026-10-26T18:15:00-07:00"
+  },
+  "kyle-filipowski": {
+   "player": "Kyle Filipowski",
+   "team": "UTA",
+   "trigger": "Jaren Jackson Jr. (knee) and Markkanen (hand) left Mon game",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Frontcourt minutes open if injuries linger",
+   "first_seen_pt": "2026-10-26T19:10:00-07:00",
+   "last_updated_pt": "2026-10-26T19:10:00-07:00"
   }
  },
  "drop_watch": [
@@ -267,6 +277,9 @@
   "Zaccharie Risacher"
  ],
  "injury_watch": [
+  "Alex Caruso",
+  "Lauri Markkanen",
+  "Jaren Jackson Jr.",
   "Jalen Williams",
   "Chet Holmgren",
   "Cason Wallace",
