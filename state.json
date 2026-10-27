@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-26T17:15:00-07:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-10-26T18:15:00-07:00",
+ "run_label": "6pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -29,12 +29,12 @@
   "marcus-sasser": {
    "player": "Marcus Sasser",
    "team": "DAL",
-   "trigger": "Marshall out Mon; Flagg now probable",
+   "trigger": "De Larrea (knee) doubtful to return Mon; Marshall out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Opening shrinking",
+   "summary": "Possible bench-guard bump if De Larrea sits",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-26T12:20:00-07:00",
+   "last_updated_pt": "2026-10-26T18:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
   },
@@ -247,6 +247,16 @@
    "summary": "One-night bump",
    "first_seen_pt": "2026-10-26T16:15:00-07:00",
    "last_updated_pt": "2026-10-26T16:15:00-07:00"
+  },
+  "kenrich-williams": {
+   "player": "Kenrich Williams",
+   "team": "OKC",
+   "trigger": "Holmgren (knee) out Mon; J. Williams/Wallace long-term",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Started Mon, first since Feb; likely one-night",
+   "first_seen_pt": "2026-10-26T18:15:00-07:00",
+   "last_updated_pt": "2026-10-26T18:15:00-07:00"
   }
  },
  "drop_watch": [
