@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T14:15:00-07:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-10-27T15:15:00-07:00",
+ "run_label": "3pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -215,6 +215,16 @@
    "summary": "Starting Wed; likely one game",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
    "last_updated_pt": "2026-10-27T13:20:00-07:00"
+  },
+  "clint-capela": {
+   "player": "Clint Capela",
+   "team": "HOU",
+   "trigger": "Sengun (back) out Wed; Adams out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Extra C minutes, likely one game",
+   "first_seen_pt": "2026-10-27T15:15:00-07:00",
+   "last_updated_pt": "2026-10-27T15:15:00-07:00"
   }
  },
  "drop_watch": [
