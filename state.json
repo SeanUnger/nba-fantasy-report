@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-26T16:15:00-07:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-10-26T17:15:00-07:00",
+ "run_label": "5pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -167,12 +167,12 @@
   "jay-huff": {
    "player": "Jay Huff",
    "team": "IND",
-   "trigger": "Zubac (ankle) out Mon",
+   "trigger": "Zubac (ankle) out, no timetable (encouraging)",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starter-level C minutes",
+   "summary": "Starting C Mon; Zubac no timetable",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-26T12:20:00-07:00"
+   "last_updated_pt": "2026-10-26T17:15:00-07:00"
   },
   "tre-johnson": {
    "player": "Tre Johnson",
@@ -210,9 +210,9 @@
    "trigger": "J. Williams (dislocated ankle, fibula fx, surgery) and Wallace (torn labrum, season) out",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Guard/wing minutes with Mitchell/Caruso; shot 1-8 Sun in 21 min",
+   "summary": "Starting Mon vs PHX; guard/wing minutes with Mitchell/Caruso",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-26T15:15:00-07:00",
+   "last_updated_pt": "2026-10-26T17:15:00-07:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
   },
@@ -253,7 +253,8 @@
   "Reed Sheppard",
   "Dean Wade",
   "Naji Marshall",
-  "Jarace Walker"
+  "Jarace Walker",
+  "Zaccharie Risacher"
  ],
  "injury_watch": [
   "Jalen Williams",
@@ -265,6 +266,8 @@
   "Anthony Edwards",
   "Joel Embiid",
   "Ivica Zubac",
-  "Jose Alvarado"
+  "Jose Alvarado",
+  "Steven Adams",
+  "Ben Sheppard"
  ]
 }
