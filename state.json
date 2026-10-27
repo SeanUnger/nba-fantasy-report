@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T13:20:00-07:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-10-27T14:15:00-07:00",
+ "run_label": "2pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -121,10 +121,10 @@
   "kentavious-caldwell-pope": {
    "player": "Kentavious Caldwell-Pope",
    "team": "PHI",
-   "trigger": "Edgecombe (abdomen) out Sun; KCP starting",
+   "trigger": "Edgecombe (abdomen) cleared for Wed",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starter ~26 min; 3s, steals",
+   "summary": "KCP likely back to bench; value fading",
    "first_seen_pt": "2026-10-25T16:15:00-07:00",
    "last_updated_pt": "2026-10-25T16:15:00-07:00"
   },
