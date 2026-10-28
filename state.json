@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T19:15:00-07:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-10-27T20:15:00-07:00",
+ "run_label": "8pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -32,9 +32,9 @@
    "trigger": "De Larrea (knee) doubtful to return Mon; Marshall out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Possible bench-guard bump if De Larrea sits",
+   "summary": "Extra bench-guard minutes Wed with De Larrea out; Irving/Marshall Q",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-26T18:15:00-07:00",
+   "last_updated_pt": "2026-10-27T20:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
   },
@@ -77,12 +77,12 @@
   "sergio-de-larrea": {
    "player": "Sergio De Larrea",
    "team": "DAL",
-   "trigger": "Flagg (shoulder), Irving (knee) out",
+   "trigger": "De Larrea (knee) out Wed",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Rookie bench guard, 21 pts, 3 3s, 4 ast vs. SAS",
+   "verdict": "Watch",
+   "summary": "Rookie guard out Wed vs OKC with knee injury",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-27T20:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder), Irving (knee) out; verdict Speculative add"
   },
@@ -232,9 +232,9 @@
    "trigger": "Edwards (knee surgery) out up to ~2 months",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Likely starter 28-32 min with Edwards out",
+   "summary": "Likely starter 28-32 min with Edwards out; Edwards timeline may exceed 2 months (Athletic)",
    "first_seen_pt": "2026-10-27T16:20:00-07:00",
-   "last_updated_pt": "2026-10-27T16:20:00-07:00",
+   "last_updated_pt": "2026-10-27T20:15:00-07:00",
    "last_notified_pt": "2026-10-27T16:20:00-07:00",
    "notified_for": "Edwards out ~2 months; verdict Add now"
   },
@@ -244,9 +244,9 @@
    "trigger": "Edwards (knee surgery) out up to ~2 months",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "More usage/scoring with Edwards out",
+   "summary": "More usage/scoring with Edwards out; Edwards timeline may exceed 2 months (Athletic)",
    "first_seen_pt": "2026-10-27T16:20:00-07:00",
-   "last_updated_pt": "2026-10-27T16:20:00-07:00",
+   "last_updated_pt": "2026-10-27T20:15:00-07:00",
    "last_notified_pt": "2026-10-27T16:20:00-07:00",
    "notified_for": "Edwards out ~2 months; verdict Speculative add"
   },
