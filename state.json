@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T14:15:00-07:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-10-28T15:15:00-07:00",
+ "run_label": "3pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -153,7 +153,7 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topić also out",
+   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topi\u0107 also out",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting guard minutes in a banged-up OKC backcourt; Mitchell also Q (ankle)",
@@ -253,12 +253,12 @@
   "quenton-jackson": {
    "player": "Quenton Jackson",
    "team": "IND",
-   "trigger": "Haliburton (left hamstring strain) out, no timeline (Shams)",
+   "trigger": "Haliburton (hamstring) out at least 2 wks; Sheppard (meniscus) out months",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Next man up behind Nembhard (neck, Q) at PG; McConnell (hamstring) still out",
+   "summary": "Next man up behind Nembhard; McConnell still out",
    "first_seen_pt": "2026-10-28T12:20:00-07:00",
-   "last_updated_pt": "2026-10-28T12:20:00-07:00"
+   "last_updated_pt": "2026-10-28T15:15:00-07:00"
   },
   "bilal-coulibaly": {
    "player": "Bilal Coulibaly",
@@ -308,7 +308,7 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porziņģis",
-  "Luka Dončić"
+  "Kristaps Porzi\u0146\u0123is",
+  "Luka Don\u010di\u0107"
  ]
 }
