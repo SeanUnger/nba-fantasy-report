@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T13:15:00-07:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-10-28T14:15:00-07:00",
+ "run_label": "2pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -269,6 +269,16 @@
    "summary": "Primary reserve wing behind Dybantsa (debut Wed); minutes up with Champagnie out",
    "first_seen_pt": "2026-10-28T12:20:00-07:00",
    "last_updated_pt": "2026-10-28T12:20:00-07:00"
+  },
+  "jake-laravia": {
+   "player": "Jake LaRavia",
+   "team": "LAL",
+   "trigger": "Doncic (back) and Z. Williams (foot) out Wed vs LAC",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Likely start Wed; Grimes/Sexton also; one-game bump",
+   "first_seen_pt": "2026-10-28T14:15:00-07:00",
+   "last_updated_pt": "2026-10-28T14:15:00-07:00"
   }
  },
  "drop_watch": [
@@ -298,6 +308,7 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porziņģis"
+  "Kristaps Porziņģis",
+  "Luka Dončić"
  ]
 }
