@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T22:15:00-07:00",
- "run_label": "10pm",
+ "last_run_pt": "2026-10-27T23:15:00-07:00",
+ "run_label": "11pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -56,9 +56,9 @@
    "trigger": "C. Johnson, Diallo out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Started Mon, 13 pts in 31 min vs GSW",
+   "summary": "Started Mon, 13 pts in 31 min; C. Johnson doubtful, Diallo out Wed so likely starts again",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-27T12:15:00-07:00",
+   "last_updated_pt": "2026-10-27T23:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "C. Johnson, Diallo out; verdict Watch"
   },
