@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T15:15:00-07:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-10-28T16:15:00-07:00",
+ "run_label": "4pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -222,7 +222,7 @@
    "trigger": "Edwards (knee surgery) out up to ~2 months",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Likely starter 28-32 min with Edwards out; Edwards timeline may exceed 2 months (Athletic)",
+   "summary": "Likely starter 28-32 min with Edwards out; Edwards timeline may exceed 2 months (Athletic); starting Wed confirmed (Athletic)",
    "first_seen_pt": "2026-10-27T16:20:00-07:00",
    "last_updated_pt": "2026-10-27T20:15:00-07:00",
    "last_notified_pt": "2026-10-27T16:20:00-07:00",
@@ -265,10 +265,10 @@
    "team": "WAS",
    "trigger": "Champagnie (right foot fracture) had surgery, out long-term",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Primary reserve wing behind Dybantsa (debut Wed); minutes up with Champagnie out",
+   "verdict": "Watch",
+   "summary": "Moving to bench Wed (Dybantsa starts); minutes less certain with Champagnie out",
    "first_seen_pt": "2026-10-28T12:20:00-07:00",
-   "last_updated_pt": "2026-10-28T12:20:00-07:00"
+   "last_updated_pt": "2026-10-28T16:15:00-07:00"
   },
   "jake-laravia": {
    "player": "Jake LaRavia",
