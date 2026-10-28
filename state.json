@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T17:15:00-07:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-10-27T18:15:00-07:00",
+ "run_label": "6pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -175,12 +175,12 @@
   "daniss-jenkins": {
    "player": "Daniss Jenkins",
    "team": "DET",
-   "trigger": "Thompson (ankle) full at Tue shootaround; Joe (hip) questionable",
+   "trigger": "Thompson (ankle) available Tue; Jenkins back to bench",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Value fades if Thompson plays",
+   "summary": "Back to bench; value faded",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-27T12:15:00-07:00"
+   "last_updated_pt": "2026-10-27T18:15:00-07:00"
   },
   "anthony-black": {
    "player": "Anthony Black",
@@ -200,9 +200,9 @@
    "trigger": "Jaren Jackson Jr. (torn MCL) out 6-8 wks; Nurkic (foot) out",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "One of few healthy Utah centers; starting-C minutes likely",
+   "summary": "Starting-C minutes likely; questionable Wed (shoulder), Markkanen also Q",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-10-27T13:20:00-07:00",
+   "last_updated_pt": "2026-10-27T18:15:00-07:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
@@ -212,9 +212,9 @@
    "trigger": "Hachimura (quad) out Wed",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting Wed; likely one game",
+   "summary": "Starting Wed confirmed; likely one game",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-10-27T13:20:00-07:00"
+   "last_updated_pt": "2026-10-27T18:15:00-07:00"
   },
   "clint-capela": {
    "player": "Clint Capela",
@@ -256,9 +256,9 @@
    "trigger": "First start of season; Ellis to bench (Nets 0-3)",
    "trigger_status": "active",
    "verdict": "Watch",
-   "summary": "17/5 ast in 25 min Sun; starting PG Tue",
+   "summary": "17/5 ast in 25 min Sun; starting PG Tue; Demin (leg) left game",
    "first_seen_pt": "2026-10-27T17:15:00-07:00",
-   "last_updated_pt": "2026-10-27T17:15:00-07:00"
+   "last_updated_pt": "2026-10-27T18:15:00-07:00"
   }
  },
  "drop_watch": [
@@ -284,6 +284,7 @@
   "Steven Adams",
   "Ben Sheppard",
   "Kawhi Leonard",
-  "Jonathan Isaac"
+  "Jonathan Isaac",
+  "Alperen Sengun"
  ]
 }
