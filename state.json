@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-27T21:15:00-07:00",
- "run_label": "9pm",
+ "last_run_pt": "2026-10-27T22:15:00-07:00",
+ "run_label": "10pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -256,7 +256,7 @@
    "trigger": "First start of season; Ellis to bench (Nets 0-3)",
    "trigger_status": "active",
    "verdict": "Watch",
-   "summary": "17/5 ast in 25 min Sun; starting PG Tue; Demin (leg) left game",
+   "summary": "17/5 ast in 25 min Sun; starting PG Tue; Demin (leg) left game; cramps late Tue after 15 pts",
    "first_seen_pt": "2026-10-27T17:15:00-07:00",
    "last_updated_pt": "2026-10-27T18:15:00-07:00"
   }
