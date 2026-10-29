@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T23:20:00-07:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-10-28T23:35:00-07:00",
+ "run_label": "11:30pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -153,7 +153,7 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topi\u0107 also out",
+   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topić also out",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting guard minutes in a banged-up OKC backcourt; Mitchell also Q (ankle)",
@@ -303,7 +303,7 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porzi\u0146\u0123is (illness) out, 'extreme pessimism' he plays for GSW again",
+   "trigger": "Porziņģis (illness) out, 'extreme pessimism' he plays for GSW again",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starting F; 26/8 vs MIN",
@@ -348,8 +348,8 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porzi\u0146\u0123is",
-  "Luka Don\u010di\u0107",
+  "Kristaps Porziņģis",
+  "Luka Dončić",
   "Tre Johnson",
   "Brandon Ingram"
  ]
