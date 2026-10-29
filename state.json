@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T19:15:00-07:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-10-28T20:15:00-07:00",
+ "run_label": "8pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -141,12 +141,12 @@
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
    "team": "TOR",
-   "trigger": "Kawhi Leonard (knee) out multiple weeks (MRI: no structural damage)",
+   "trigger": "Kawhi out multiple weeks; Ingram out 1+ more wk",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Started Sun, 22 pts/5 3s in 31 min; Rotoworld's preferred add with Kawhi out weeks",
+   "summary": "Started again Wed (14 pts/5 reb); Kawhi and Ingram both out",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-27T12:15:00-07:00",
+   "last_updated_pt": "2026-10-28T20:15:00-07:00",
    "last_notified_pt": "2026-10-27T12:15:00-07:00",
    "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
   },
@@ -299,6 +299,16 @@
    "summary": "Starting Wed vs SAS; likely one-game bump",
    "first_seen_pt": "2026-10-28T18:15:00-07:00",
    "last_updated_pt": "2026-10-28T18:15:00-07:00"
+  },
+  "yaxel-lendeborg": {
+   "player": "Yaxel Lendeborg",
+   "team": "GSW",
+   "trigger": "Porziņģis (illness) out, 'extreme pessimism' he plays for GSW again",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Starting F; 26/8 vs MIN",
+   "first_seen_pt": "2026-10-28T20:15:00-07:00",
+   "last_updated_pt": "2026-10-28T20:15:00-07:00"
   }
  },
  "drop_watch": [
@@ -330,6 +340,7 @@
   "Justin Champagnie",
   "Kristaps Porziņģis",
   "Luka Dončić",
-  "Tre Johnson"
+  "Tre Johnson",
+  "Brandon Ingram"
  ]
 }
