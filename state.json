@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T17:15:00-07:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-10-28T18:15:00-07:00",
+ "run_label": "6pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -178,9 +178,9 @@
    "trigger": "Suggs (knee) out at least 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Likely starting guard 25-30 min",
+   "summary": "Starting Wed sans Suggs",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-26T12:20:00-07:00",
+   "last_updated_pt": "2026-10-28T18:15:00-07:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
   },
@@ -190,9 +190,9 @@
    "trigger": "Jaren Jackson Jr. (torn MCL) out 6-8 wks; Nurkic (foot) out",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Starting-C minutes likely; questionable Wed (shoulder), Markkanen also Q",
+   "summary": "Starting C Wed confirmed",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-10-27T18:15:00-07:00",
+   "last_updated_pt": "2026-10-28T18:15:00-07:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
@@ -289,6 +289,16 @@
    "summary": "First start Wed; 27+ min last 3 games, 14.7/5.7 reb",
    "first_seen_pt": "2026-10-28T17:15:00-07:00",
    "last_updated_pt": "2026-10-28T17:15:00-07:00"
+  },
+  "josh-green": {
+   "player": "Josh Green",
+   "team": "UTA",
+   "trigger": "Markkanen (wrist) out Wed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting Wed vs SAS; likely one-game bump",
+   "first_seen_pt": "2026-10-28T18:15:00-07:00",
+   "last_updated_pt": "2026-10-28T18:15:00-07:00"
   }
  },
  "drop_watch": [
