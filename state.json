@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T20:15:00-07:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-10-28T21:15:00-07:00",
+ "run_label": "9pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -113,10 +113,10 @@
    "team": "ORL",
    "trigger": "Banchero out 4-6 wks; Suggs out 2+ wks",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starter upside in open backcourt",
+   "verdict": "Watch",
+   "summary": "Started Wed vs TOR but only 14 min (10 pts); Black also started",
    "first_seen_pt": "2026-10-25T15:15:00-07:00",
-   "last_updated_pt": "2026-10-26T12:20:00-07:00"
+   "last_updated_pt": "2026-10-28T21:15:00-07:00"
   },
   "jay-huff": {
    "player": "Jay Huff",
@@ -178,9 +178,9 @@
    "trigger": "Suggs (knee) out at least 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Starting Wed sans Suggs",
+   "summary": "First start Wed: 8 pts in 22 min; still starting sans Suggs",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-28T18:15:00-07:00",
+   "last_updated_pt": "2026-10-28T21:15:00-07:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
   },
@@ -222,9 +222,9 @@
    "trigger": "Edwards (knee surgery) out up to ~2 months",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Likely starter 28-32 min with Edwards out; Edwards timeline may exceed 2 months (Athletic); starting Wed confirmed (Athletic)",
+   "summary": "Started Wed: 17 pts/5 ast/4 stl; Edwards timeline may exceed 2 months (Athletic)",
    "first_seen_pt": "2026-10-27T16:20:00-07:00",
-   "last_updated_pt": "2026-10-27T20:15:00-07:00",
+   "last_updated_pt": "2026-10-28T21:15:00-07:00",
    "last_notified_pt": "2026-10-27T16:20:00-07:00",
    "notified_for": "Edwards out ~2 months; verdict Add now"
   },
