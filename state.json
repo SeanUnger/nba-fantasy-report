@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T22:15:00-07:00",
- "run_label": "10pm",
+ "last_run_pt": "2026-10-28T23:20:00-07:00",
+ "run_label": "11pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -68,9 +68,9 @@
    "trigger": "C. Johnson (ankle) out 3rd straight game, Diallo out",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting Wed vs NOP in place of Hopkins; ~28 min, 17/9/2 blk/3 3s earlier",
+   "summary": "Started Wed vs NOP: 11 pts/8 reb in win; ~28 min",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-28T17:15:00-07:00",
+   "last_updated_pt": "2026-10-28T23:20:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
   },
@@ -153,7 +153,7 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topić also out",
+   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topi\u0107 also out",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting guard minutes in a banged-up OKC backcourt; Mitchell also Q (ankle)",
@@ -276,9 +276,9 @@
    "trigger": "Doncic (back) and Z. Williams (foot) out Wed vs LAC",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Likely start Wed; Grimes/Sexton also; one-game bump",
+   "summary": "Started Wed vs LAC (confirmed); one-game bump likely",
    "first_seen_pt": "2026-10-28T14:15:00-07:00",
-   "last_updated_pt": "2026-10-28T14:15:00-07:00"
+   "last_updated_pt": "2026-10-28T23:20:00-07:00"
   },
   "tari-eason": {
    "player": "Tari Eason",
@@ -303,12 +303,22 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porziņģis (illness) out, 'extreme pessimism' he plays for GSW again",
+   "trigger": "Porzi\u0146\u0123is (illness) out, 'extreme pessimism' he plays for GSW again",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starting F; 26/8 vs MIN",
    "first_seen_pt": "2026-10-28T20:15:00-07:00",
    "last_updated_pt": "2026-10-28T20:15:00-07:00"
+  },
+  "jalen-smith": {
+   "player": "Jalen Smith",
+   "team": "CHI",
+   "trigger": "Claxton (hamstring) out, getting closer",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "17/11/5/3 blk vs NYK; ~46% rostered",
+   "first_seen_pt": "2026-10-28T23:20:00-07:00",
+   "last_updated_pt": "2026-10-28T23:20:00-07:00"
   }
  },
  "drop_watch": [
@@ -338,8 +348,8 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porziņģis",
-  "Luka Dončić",
+  "Kristaps Porzi\u0146\u0123is",
+  "Luka Don\u010di\u0107",
   "Tre Johnson",
   "Brandon Ingram"
  ]
