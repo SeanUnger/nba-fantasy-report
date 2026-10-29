@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T23:35:00-07:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-10-29T12:20:00-07:00",
+ "run_label": "12pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -141,12 +141,12 @@
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
    "team": "TOR",
-   "trigger": "Kawhi out multiple weeks; Ingram out 1+ more wk",
+   "trigger": "Kawhi out 3-4 wks (Haynes); Ingram out 1+ more wk",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Started again Wed (14 pts/5 reb); Kawhi and Ingram both out",
+   "summary": "Started Wed (14 pts/5 reb); Kawhi's timeline now 3-4 weeks, Ingram also out",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-28T20:15:00-07:00",
+   "last_updated_pt": "2026-10-29T12:15:00-07:00",
    "last_notified_pt": "2026-10-27T12:15:00-07:00",
    "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
   },
