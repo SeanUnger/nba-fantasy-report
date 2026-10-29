@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-28T16:15:00-07:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-10-28T17:15:00-07:00",
+ "run_label": "5pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -56,21 +56,21 @@
    "trigger": "C. Johnson, Diallo out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Started Mon, 13 pts in 31 min; C. Johnson doubtful, Diallo out Wed so likely starts again",
+   "summary": "Back to bench Wed (Brazile starts); still meaningful minutes",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-27T23:15:00-07:00",
+   "last_updated_pt": "2026-10-28T17:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "C. Johnson, Diallo out; verdict Watch"
   },
   "trevon-brazile": {
    "player": "Trevon Brazile",
    "team": "DEN",
-   "trigger": "C. Johnson, Diallo out",
+   "trigger": "C. Johnson (ankle) out 3rd straight game, Diallo out",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "28 min off bench, 17/9/2 blk/3 3s; more minutes than starter Hopkins",
+   "summary": "Starting Wed vs NOP in place of Hopkins; ~28 min, 17/9/2 blk/3 3s earlier",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-24T22:10:00-07:00",
+   "last_updated_pt": "2026-10-28T17:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
   },
@@ -153,7 +153,7 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topi\u0107 also out",
+   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topić also out",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting guard minutes in a banged-up OKC backcourt; Mitchell also Q (ankle)",
@@ -279,6 +279,16 @@
    "summary": "Likely start Wed; Grimes/Sexton also; one-game bump",
    "first_seen_pt": "2026-10-28T14:15:00-07:00",
    "last_updated_pt": "2026-10-28T14:15:00-07:00"
+  },
+  "tari-eason": {
+   "player": "Tari Eason",
+   "team": "HOU",
+   "trigger": "Sengun (back) out Wed; Smart out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "First start Wed; 27+ min last 3 games, 14.7/5.7 reb",
+   "first_seen_pt": "2026-10-28T17:15:00-07:00",
+   "last_updated_pt": "2026-10-28T17:15:00-07:00"
   }
  },
  "drop_watch": [
@@ -308,7 +318,8 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porzi\u0146\u0123is",
-  "Luka Don\u010di\u0107"
+  "Kristaps Porziņģis",
+  "Luka Dončić",
+  "Tre Johnson"
  ]
 }
