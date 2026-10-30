@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T15:15:00-07:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-10-30T16:15:00-07:00",
+ "run_label": "4pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -77,12 +77,12 @@
   "sergio-de-larrea": {
    "player": "Sergio De Larrea",
    "team": "DAL",
-   "trigger": "De Larrea (knee) out Wed",
+   "trigger": "De Larrea (knee) re-evaluated in one week",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Rookie guard out Wed vs OKC with knee injury",
+   "summary": "Rookie guard out another week; Sasser gets small bench-guard bump",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-27T20:15:00-07:00",
+   "last_updated_pt": "2026-10-30T16:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Flagg (shoulder), Irving (knee) out; verdict Speculative add"
   },
