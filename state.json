@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-29T23:35:00-07:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-10-30T12:20:00-07:00",
+ "run_label": "12pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -339,6 +339,26 @@
    "summary": "9 pts/9 ast in 18 min Wed; backup PG",
    "first_seen_pt": "2026-10-29T17:15:00-07:00",
    "last_updated_pt": "2026-10-29T17:15:00-07:00"
+  },
+  "cam-spencer": {
+   "player": "Cam Spencer",
+   "team": "MEM",
+   "trigger": "Moved ahead of Scotty Pippen in the backup guard rotation (Commercial Appeal)",
+   "trigger_status": "role",
+   "verdict": "Speculative add",
+   "summary": "8 pts/6 reb/8 ast/2 stl in 23 min Thu vs POR; season highs in boards and dimes, leads second unit in assists",
+   "first_seen_pt": "2026-10-30T12:20:00-07:00",
+   "last_updated_pt": "2026-10-30T12:20:00-07:00"
+  },
+  "scoot-henderson": {
+   "player": "Scoot Henderson",
+   "team": "POR",
+   "trigger": "Morant (left hamstring, Grade 2) out ~4 weeks (Portland announced)",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Jrue Holiday expected to fill the starting backcourt spot; Henderson may see extra bench guard minutes",
+   "first_seen_pt": "2026-10-30T12:20:00-07:00",
+   "last_updated_pt": "2026-10-30T12:20:00-07:00"
   }
  },
  "drop_watch": [
@@ -373,6 +393,8 @@
   "Tre Johnson",
   "Brandon Ingram",
   "Dejounte Murray",
-  "Jordan Poole"
+  "Jordan Poole",
+  "Ja Morant",
+  "Kon Knueppel"
  ]
 }
