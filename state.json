@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-29T16:15:00-07:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-10-29T17:15:00-07:00",
+ "run_label": "5pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -20,9 +20,9 @@
    "trigger": "Missi (knee bone bruise) out, no timetable",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starter minutes (~25-30), rebounds, FG%, some assists/blocks.",
+   "summary": "Bench role Wed (11 pts/12 reb, 25 min); Matkovic starts at C",
    "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-10-24T20:25:00-07:00",
+   "last_updated_pt": "2026-10-29T17:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "Missi (knee bone bruise) out, no timetable; verdict Speculative add"
   },
@@ -131,12 +131,12 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Knueppel and White out, no timeline",
+   "trigger": "Knueppel (hamstring) practicing with G League, return near",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Extra guard minutes; spread with Schroder/Anderson",
+   "summary": "Extra guard minutes likely fade when Knueppel returns",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-10-26T16:15:00-07:00"
+   "last_updated_pt": "2026-10-29T17:15:00-07:00"
   },
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
@@ -273,12 +273,12 @@
   "jake-laravia": {
    "player": "Jake LaRavia",
    "team": "LAL",
-   "trigger": "Doncic (back) and Z. Williams (foot) out Wed vs LAC",
+   "trigger": "Doncic back Fri; Z. Williams (foot) Q",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Started Wed vs LAC (confirmed); one-game bump likely",
+   "summary": "Starts only if Williams sits",
    "first_seen_pt": "2026-10-28T14:15:00-07:00",
-   "last_updated_pt": "2026-10-28T23:20:00-07:00"
+   "last_updated_pt": "2026-10-29T17:15:00-07:00"
   },
   "tari-eason": {
    "player": "Tari Eason",
@@ -319,6 +319,26 @@
    "summary": "17/11/5/3 blk vs NYK; ~46% rostered",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
    "last_updated_pt": "2026-10-28T23:20:00-07:00"
+  },
+  "karlo-matkovic": {
+   "player": "Karlo Matković",
+   "team": "NOP",
+   "trigger": "Missi (knee) out; Jordan to bench",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "First start of season Thu; starting C while Missi out",
+   "first_seen_pt": "2026-10-29T17:15:00-07:00",
+   "last_updated_pt": "2026-10-29T17:15:00-07:00"
+  },
+  "tyler-kolek": {
+   "player": "Tyler Kolek",
+   "team": "NYK",
+   "trigger": "Alvarado (ankle) out, week-to-week",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "9 pts/9 ast in 18 min Wed; backup PG",
+   "first_seen_pt": "2026-10-29T17:15:00-07:00",
+   "last_updated_pt": "2026-10-29T17:15:00-07:00"
   }
  },
  "drop_watch": [
