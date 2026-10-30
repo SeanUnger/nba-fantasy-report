@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-29T21:15:00-07:00",
- "run_label": "9pm",
+ "last_run_pt": "2026-10-29T22:15:00-07:00",
+ "run_label": "10pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -89,12 +89,12 @@
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
-   "trigger": "Murray (ankle capsulitis) out 10-14 days; Cardwell, Raynaud also out",
+   "trigger": "Murray (ankle) re-evaluated early Nov; Cardwell, Raynaud also out",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Starting PF/C, 38 min Sun, 12/10/2 stl/3 blk; frontcourt thin 1-2 wks",
+   "summary": "Started 3rd straight; season-high 24 pts/9 reb/3 stl Thu",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-10-26T15:15:00-07:00",
+   "last_updated_pt": "2026-10-29T22:15:00-07:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Murray out 10-14 days; verdict Add now"
   },
