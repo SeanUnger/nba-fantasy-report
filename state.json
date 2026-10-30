@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T12:20:00-07:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-10-30T13:15:00-07:00",
+ "run_label": "1pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -65,12 +65,12 @@
   "trevon-brazile": {
    "player": "Trevon Brazile",
    "team": "DEN",
-   "trigger": "C. Johnson (ankle) out 3rd straight game, Diallo out",
+   "trigger": "C. Johnson (ankle) expected to play Fri; Diallo out",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Started Wed vs NOP: 11 pts/8 reb in win; ~28 min",
+   "verdict": "Watch",
+   "summary": "Start likely ends when Johnson returns Fri",
    "first_seen_pt": "2026-10-24T22:10:00-07:00",
-   "last_updated_pt": "2026-10-28T23:20:00-07:00",
+   "last_updated_pt": "2026-10-30T13:15:00-07:00",
    "last_notified_pt": "2026-10-24T23:40:00-07:00",
    "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
   },
