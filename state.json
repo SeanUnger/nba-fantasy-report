@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T20:15:00-07:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-10-30T21:15:00-07:00",
+ "run_label": "9pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -178,9 +178,9 @@
    "trigger": "Suggs (knee) out at least 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "First start Wed: 8 pts in 22 min; still starting sans Suggs",
+   "summary": "Started Fri: 17 pts/6 reb/10 ast vs TOR",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-28T21:15:00-07:00",
+   "last_updated_pt": "2026-10-30T21:15:00-07:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
   },
@@ -256,9 +256,9 @@
    "trigger": "Haliburton (hamstring) out at least 2 wks; Sheppard (meniscus) out months",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Next man up behind Nembhard; McConnell still out",
+   "summary": "24 pts in 24 min Fri at MIA; Toppin out",
    "first_seen_pt": "2026-10-28T12:20:00-07:00",
-   "last_updated_pt": "2026-10-28T15:15:00-07:00"
+   "last_updated_pt": "2026-10-30T21:15:00-07:00"
   },
   "bilal-coulibaly": {
    "player": "Bilal Coulibaly",
