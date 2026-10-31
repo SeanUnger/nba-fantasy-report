@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T18:15:00-07:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-10-30T19:15:00-07:00",
+ "run_label": "7pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -243,10 +243,10 @@
   "nolan-traore": {
    "player": "Nolan Traore",
    "team": "BKN",
-   "trigger": "Dëmin (leg bone bruise) out, reevaluated in one week; Traore starting PG",
+   "trigger": "D\u00ebmin (leg bone bruise) out, reevaluated in one week; Traore starting PG",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting PG; 17/5 ast Sun, 15 pts Tue; Dëmin out ~1 wk",
+   "summary": "Starting PG; 17/5 ast Sun, 15 pts Tue; D\u00ebmin out ~1 wk",
    "first_seen_pt": "2026-10-27T17:15:00-07:00",
    "last_updated_pt": "2026-10-30T14:15:00-07:00"
   },
@@ -303,7 +303,7 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porziņģis (illness) out, 'extreme pessimism' he plays for GSW again",
+   "trigger": "Porzi\u0146\u0123is (illness) out, 'extreme pessimism' he plays for GSW again",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starting F; 26/8 vs MIN",
@@ -321,7 +321,7 @@
    "last_updated_pt": "2026-10-28T23:20:00-07:00"
   },
   "karlo-matkovic": {
-   "player": "Karlo Matković",
+   "player": "Karlo Matkovi\u0107",
    "team": "NOP",
    "trigger": "Missi (knee) out; Jordan to bench",
    "trigger_status": "out",
@@ -398,8 +398,8 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Kristaps Porziņģis",
-  "Luka Dončić",
+  "Kristaps Porzi\u0146\u0123is",
+  "Luka Don\u010di\u0107",
   "Tre Johnson",
   "Brandon Ingram",
   "Dejounte Murray",
