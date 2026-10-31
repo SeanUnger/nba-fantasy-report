@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T16:15:00-07:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-10-30T17:15:00-07:00",
+ "run_label": "5pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -199,22 +199,22 @@
   "kobe-sanders": {
    "player": "Kobe Sanders",
    "team": "LAC",
-   "trigger": "Hachimura (quad) out Wed",
+   "trigger": "Hachimura (quad) back to start Fri",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting Wed confirmed; likely one game",
+   "summary": "Back to bench Fri; value faded",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-10-27T18:15:00-07:00"
+   "last_updated_pt": "2026-10-30T17:15:00-07:00"
   },
   "clint-capela": {
    "player": "Clint Capela",
    "team": "HOU",
-   "trigger": "Sengun (back) out Wed; Adams out",
+   "trigger": "Sengun (back soreness) out Fri vs DAL; Adams out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Extra C minutes, likely one game",
+   "summary": "Starting C Fri sans Sengun; one-game/short-term bump",
    "first_seen_pt": "2026-10-27T15:15:00-07:00",
-   "last_updated_pt": "2026-10-27T15:15:00-07:00"
+   "last_updated_pt": "2026-10-30T17:15:00-07:00"
   },
   "ayo-dosunmu": {
    "player": "Ayo Dosunmu",
@@ -283,12 +283,12 @@
   "tari-eason": {
    "player": "Tari Eason",
    "team": "HOU",
-   "trigger": "Sengun (back) out Wed; Smart out",
+   "trigger": "Sengun out Fri; Smart (forearm) available",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "First start Wed; 27+ min last 3 games, 14.7/5.7 reb",
+   "summary": "Back to bench Fri; value faded",
    "first_seen_pt": "2026-10-28T17:15:00-07:00",
-   "last_updated_pt": "2026-10-28T17:15:00-07:00"
+   "last_updated_pt": "2026-10-30T17:15:00-07:00"
   },
   "josh-green": {
    "player": "Josh Green",
@@ -359,6 +359,16 @@
    "summary": "Jrue Holiday expected to fill the starting backcourt spot; Henderson may see extra bench guard minutes",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
    "last_updated_pt": "2026-10-30T12:20:00-07:00"
+  },
+  "chaney-johnson": {
+   "player": "Chaney Johnson",
+   "team": "BKN",
+   "trigger_status": "out",
+   "first_seen_pt": "2026-10-30T17:15:00-07:00",
+   "trigger": "Demin (leg bone bruise) out ~1 wk",
+   "summary": "Starting PF Fri vs DET (2nd career start); 7.3 pts/3.5 reb in 20.8 min over 4 games",
+   "verdict": "Watch",
+   "last_updated_pt": "2026-10-30T17:15:00-07:00"
   }
  },
  "drop_watch": [
