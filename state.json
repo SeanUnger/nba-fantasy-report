@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-10-30T17:15:00-07:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-10-30T18:15:00-07:00",
+ "run_label": "6pm",
  "items": {
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -153,12 +153,12 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "J. Williams (ankle surgery) and Wallace (labrum, season) out; Caruso (ankle sprain) now expected to miss more than one game; Holmgren, Sorber, Topić also out",
+   "trigger": "Holmgren (patellar tendon tear) out 8-10 wks; Williams, Wallace, Caruso also out",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting guard minutes in a banged-up OKC backcourt; Mitchell also Q (ankle)",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-10-28T12:20:00-07:00",
+   "last_updated_pt": "2026-10-30T18:15:00-07:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
   },
@@ -326,9 +326,9 @@
    "trigger": "Missi (knee) out; Jordan to bench",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "First start of season Thu; starting C while Missi out",
+   "summary": "12/4/3 stl/1 blk starting Thu; Missi out Sat",
    "first_seen_pt": "2026-10-29T17:15:00-07:00",
-   "last_updated_pt": "2026-10-29T17:15:00-07:00"
+   "last_updated_pt": "2026-10-30T18:15:00-07:00"
   },
   "tyler-kolek": {
    "player": "Tyler Kolek",
