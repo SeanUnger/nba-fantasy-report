@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-01T22:20:00-08:00",
-  "run_label": "10pm",
+  "last_run_pt": "2026-11-01T23:10:00-08:00",
+  "run_label": "11pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -443,12 +443,12 @@
     "gradey-dick": {
       "player": "Gradey Dick",
       "team": "LAC",
-      "trigger": "D. Jones Jr. (knee) left Sun game",
+      "trigger": "D. Jones Jr. (knee) questionable Mon",
       "trigger_status": "q",
       "verdict": "Watch",
       "summary": "Minutes if Jones misses time",
       "first_seen_pt": "2026-11-01T20:15:00-08:00",
-      "last_updated_pt": "2026-11-01T20:15:00-08:00"
+      "last_updated_pt": "2026-11-01T23:10:00-08:00"
     },
     "dayron-sharpe": {
       "player": "Day'Ron Sharpe",
@@ -505,6 +505,8 @@
     "Rudy Gobert (out Sat, back)",
     "Mikel Brown Jr. (back, out Sun)",
     "Jalen Johnson (ankle, left Sat vs NOP; Q)",
-    "Derrick Jones Jr. (right knee, left Sun)"
+    "Derrick Jones Jr. (right knee, left Sun)",
+    "Gui Santos (knee tendinitis, out Mon)",
+    "Kingston Flemings (suspended Mon)"
   ]
 }
