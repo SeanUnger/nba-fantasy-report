@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-01T23:35:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-02T12:20:00-08:00",
+  "run_label": "12pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -17,12 +17,12 @@
     "marcus-sasser": {
       "player": "Marcus Sasser",
       "team": "DAL",
-      "trigger": "De Larrea (knee) doubtful to return Mon; Marshall out",
+      "trigger": "Irving (knee) doubtful Mon at SAC; Lively (foot), Aldama out",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Extra bench-guard minutes Wed with De Larrea out; Irving/Marshall Q",
+      "summary": "Extra bench-guard minutes while Irving, De Larrea out",
       "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-27T20:15:00-07:00",
+      "last_updated_pt": "2026-11-02T12:20:00-08:00",
       "last_notified_pt": "2026-10-24T23:40:00-07:00",
       "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
     },
@@ -121,12 +121,12 @@
     "anthony-black": {
       "player": "Anthony Black",
       "team": "ORL",
-      "trigger": "Suggs (knee) out at least 2 wks",
+      "trigger": "Suggs (knee) out 2+ wks; Black rests Mon (maintenance)",
       "trigger_status": "out",
       "verdict": "Add now",
-      "summary": "Started Fri: 17 pts/6 reb/10 ast vs TOR",
+      "summary": "Started Fri 17/6/10 vs TOR; one-night rest Mon vs WAS, expected back after",
       "first_seen_pt": "2026-10-25T19:15:00-07:00",
-      "last_updated_pt": "2026-10-30T21:15:00-07:00",
+      "last_updated_pt": "2026-11-02T12:20:00-08:00",
       "last_notified_pt": "2026-10-26T12:20:00-07:00",
       "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
     },
@@ -189,12 +189,12 @@
     "quenton-jackson": {
       "player": "Quenton Jackson",
       "team": "IND",
-      "trigger": "Haliburton (hamstring) out at least 2 wks; Sheppard (meniscus) out months",
+      "trigger": "Haliburton (hamstring) out 2+ wks; Nembhard, Nesmith, McConnell (wk-to-wk), Zubac (indef.), Siakam all out Mon vs ATL; Nance doubtful",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "24 pts in 24 min Fri at MIA; Toppin out",
+      "summary": "12 pts/3 reb/2 ast in 23 min Sun; IND short-handed again Mon (Sheppard out, Toppin Q)",
       "first_seen_pt": "2026-10-28T12:20:00-07:00",
-      "last_updated_pt": "2026-10-30T21:15:00-07:00"
+      "last_updated_pt": "2026-11-02T12:20:00-08:00"
     },
     "bilal-coulibaly": {
       "player": "Bilal Coulibaly",
@@ -231,12 +231,12 @@
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Claxton (hamstring) practiced fully Sun, debut near",
+      "trigger": "Claxton (hamstring) doubtful Mon vs PHI",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C; Claxton doubtful Mon vs PHI so Smith likely starts again; loses job on return (~46% rostered)",
+      "summary": "Smith (finger) probable Mon; starts again if Claxton sits; loses job on return",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-01T13:15:00-08:00"
+      "last_updated_pt": "2026-11-02T12:20:00-08:00"
     },
     "karlo-matkovic": {
       "player": "Karlo Matković",
@@ -343,12 +343,12 @@
     "jay-huff": {
       "player": "Jay Huff",
       "team": "IND",
-      "trigger": "Zubac (ankle) out Sun, 4th straight game",
+      "trigger": "Zubac (ankle) out indefinitely (5th straight); Nance doubtful, Siakam rest Mon",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C again; Nance bump",
+      "summary": "Starting C again; 17 min, 0 pts Sun (fouled out)",
       "first_seen_pt": "2026-10-31T15:15:00-07:00",
-      "last_updated_pt": "2026-10-31T15:15:00-07:00"
+      "last_updated_pt": "2026-11-02T12:20:00-08:00"
     },
     "asa-newell": {
       "player": "Asa Newell",
@@ -507,6 +507,12 @@
     "Jalen Johnson (ankle, left Sat vs NOP; Q)",
     "Derrick Jones Jr. (right knee, left Sun)",
     "Gui Santos (knee tendinitis, out Mon)",
-    "Kingston Flemings (suspended Mon)"
+    "Kingston Flemings (suspended Mon)",
+    "Reece Beekman (shoulder AC joint, ~3 wks)",
+    "Dereck Lively II (foot)",
+    "Kyrie Irving (knee, doubtful Mon)",
+    "Aaron Nesmith / Andrew Nembhard (Mon out)",
+    "T.J. McConnell (hamstring, week-to-week)",
+    "Kon Knueppel (hamstring, out Mon)"
   ]
 }
