@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-02T14:15:00-08:00",
-  "run_label": "2pm",
+  "last_run_pt": "2026-11-02T15:15:00-08:00",
+  "run_label": "3pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -231,12 +231,12 @@
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Claxton (hamstring) doubtful Mon vs PHI",
+      "trigger": "Claxton (hamstring) out Mon vs PHI",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Smith (finger) probable Mon; starts again if Claxton sits; loses job on return",
+      "summary": "Smith active, starts Mon; loses job when Claxton returns",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-02T12:20:00-08:00"
+      "last_updated_pt": "2026-11-02T15:15:00-08:00"
     },
     "karlo-matkovic": {
       "player": "Karlo Matković",
@@ -459,6 +459,16 @@
       "summary": "Best game of season vs short-handed IND",
       "first_seen_pt": "2026-11-01T20:15:00-08:00",
       "last_updated_pt": "2026-11-01T20:15:00-08:00"
+    },
+    "braden-smith": {
+      "player": "Braden Smith",
+      "team": "IND",
+      "trigger": "Nembhard, McConnell, Haliburton, Nesmith out; first career start Mon",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Two-way rookie starting at PG Mon vs ATL; likely short-term",
+      "first_seen_pt": "2026-11-02T15:15:00-08:00",
+      "last_updated_pt": "2026-11-02T15:15:00-08:00"
     }
   },
   "drop_watch": [
