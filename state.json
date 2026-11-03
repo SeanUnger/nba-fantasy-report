@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-03T12:30:00-08:00",
-  "run_label": "12pm",
+  "last_run_pt": "2026-11-03T13:20:00-08:00",
+  "run_label": "1pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -231,12 +231,12 @@
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Claxton (hamstring) out Mon vs PHI",
+      "trigger": "Claxton (hamstring) questionable Wed; Smith probable (finger sprain)",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Smith active, starts Mon; loses job when Claxton returns",
+      "summary": "Starts if Claxton sits; loses job when he returns",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-02T15:15:00-08:00"
+      "last_updated_pt": "2026-11-03T13:20:00-08:00"
     },
     "karlo-matkovic": {
       "player": "Karlo Matković",
