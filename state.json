@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-02T23:35:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-03T12:30:00-08:00",
+  "run_label": "12pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -8,9 +8,9 @@
       "trigger": "Missi (knee bone bruise) out, no timetable",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Bench role Wed (11 pts/12 reb, 25 min); Matkovic starts at C",
+      "summary": "Season-high 20 pts/7 reb/5 ast Mon in 24 min off bench; Matkovic starts",
       "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-29T17:15:00-07:00",
+      "last_updated_pt": "2026-11-03T12:30:00-08:00",
       "last_notified_pt": "2026-10-24T23:40:00-07:00",
       "notified_for": "Missi (knee bone bruise) out, no timetable; verdict Speculative add"
     },
@@ -192,9 +192,9 @@
       "trigger": "Haliburton (hamstring) out 2+ wks; Nembhard, Nesmith, McConnell (wk-to-wk), Zubac (indef.), Siakam all out Mon vs ATL; Nance doubtful",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "12 pts/3 reb/2 ast in 23 min Sun; IND short-handed again Mon (Sheppard out, Toppin Q)",
+      "summary": "Started Mon: 20/7/3/2 blk/4 stl in 34 min; IND short-handed",
       "first_seen_pt": "2026-10-28T12:20:00-07:00",
-      "last_updated_pt": "2026-11-02T12:20:00-08:00"
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
     },
     "bilal-coulibaly": {
       "player": "Bilal Coulibaly",
@@ -243,10 +243,10 @@
       "team": "NOP",
       "trigger": "Missi (knee) out; Jordan to bench",
       "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Career-high 25 pts/5 threes Mon vs MEM; starting C while Missi out",
+      "verdict": "Speculative add",
+      "summary": "Career-high 25 pts/5 threes Mon; starting C while Missi out",
       "first_seen_pt": "2026-10-29T17:15:00-07:00",
-      "last_updated_pt": "2026-10-30T18:15:00-07:00"
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
     },
     "tyler-kolek": {
       "player": "Tyler Kolek",
@@ -346,9 +346,9 @@
       "trigger": "Zubac (ankle) out indefinitely (5th straight); Nance doubtful, Siakam rest Mon",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C again; 17 min, 0 pts Sun (fouled out)",
+      "summary": "22 pts/8 reb/2 blk in 40 min Mon; starting C, Zubac indef.",
       "first_seen_pt": "2026-10-31T15:15:00-07:00",
-      "last_updated_pt": "2026-11-02T12:20:00-08:00"
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
     },
     "asa-newell": {
       "player": "Asa Newell",
@@ -468,7 +468,7 @@
       "verdict": "Watch",
       "summary": "First career start Mon: 19 pts/10 ast/3 stl in 42 min; short-term while IND guards out",
       "first_seen_pt": "2026-11-02T15:15:00-08:00",
-      "last_updated_pt": "2026-11-02T19:10:00-08:00"
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
     },
     "brayden-burries": {
       "player": "Brayden Burries",
@@ -476,9 +476,19 @@
       "trigger": "Rollins benched, Burries first career start Mon",
       "trigger_status": "active",
       "verdict": "Watch",
-      "summary": "Rookie starts Mon vs MIN; no injury reason for Rollins move",
+      "summary": "9 pts/9 reb in 26 min Mon (4-15 FG); starting",
       "first_seen_pt": "2026-11-02T17:15:00-08:00",
-      "last_updated_pt": "2026-11-02T17:15:00-08:00"
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
+    },
+    "jalen-slawson": {
+      "player": "Jalen Slawson",
+      "team": "IND",
+      "trigger": "IND depleted: Haliburton 2+ wks, Zubac indef., Nembhard/McConnell out",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "41 min Mon: 12/7/3/3 stl/3 blk as starter; Kobe Brown 38 min also",
+      "first_seen_pt": "2026-11-03T12:30:00-08:00",
+      "last_updated_pt": "2026-11-03T12:30:00-08:00"
     }
   },
   "drop_watch": [
