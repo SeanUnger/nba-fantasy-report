@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-02T20:10:00-08:00",
-  "run_label": "8pm",
+  "last_run_pt": "2026-11-02T21:10:00-08:00",
+  "run_label": "9pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -244,7 +244,7 @@
       "trigger": "Missi (knee) out; Jordan to bench",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "12/4/3 stl/1 blk starting Thu; Missi out Sat",
+      "summary": "Career-high 25 pts/5 threes Mon vs MEM; starting C while Missi out",
       "first_seen_pt": "2026-10-29T17:15:00-07:00",
       "last_updated_pt": "2026-10-30T18:15:00-07:00"
     },
