@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-02T18:15:00-08:00",
-  "run_label": "6pm",
+  "last_run_pt": "2026-11-02T19:10:00-08:00",
+  "run_label": "7pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -466,9 +466,9 @@
       "trigger": "Nembhard, McConnell, Haliburton, Nesmith out; first career start Mon",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Two-way rookie starting at PG Mon vs ATL; likely short-term",
+      "summary": "First career start Mon: 19 pts/10 ast/3 stl in 42 min; short-term while IND guards out",
       "first_seen_pt": "2026-11-02T15:15:00-08:00",
-      "last_updated_pt": "2026-11-02T15:15:00-08:00"
+      "last_updated_pt": "2026-11-02T19:10:00-08:00"
     },
     "brayden-burries": {
       "player": "Brayden Burries",
