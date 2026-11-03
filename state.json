@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-02T23:15:00-08:00",
-  "run_label": "11pm",
+  "last_run_pt": "2026-11-02T23:35:00-08:00",
+  "run_label": "11:30pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -482,6 +482,7 @@
     }
   },
   "drop_watch": [
+    "Dennis Schröder (Coby White back)",
     "Cam Spencer (Jerome back Mon)",
     "Joan Beringer (Gobert back Mon)",
     "Dean Wade",
@@ -534,6 +535,9 @@
     "Aaron Nesmith / Andrew Nembhard (Mon out)",
     "T.J. McConnell (hamstring, week-to-week)",
     "Kon Knueppel (hamstring, out Mon)",
-    "Alex Sarr (knee soreness, out Mon, Ayton starts)"
+    "Alex Sarr (knee soreness, out Mon, Ayton starts)",
+    "Jordan Goodwin (PHX, calf)",
+    "Max Christie (DAL, hip)",
+    "Jakob Poeltl (TOR, shoulder)"
   ]
 }
