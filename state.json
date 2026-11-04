@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-04T14:15:00-08:00",
-  "run_label": "2pm",
+  "last_run_pt": "2026-11-04T15:15:00-08:00",
+  "run_label": "3pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -131,12 +131,12 @@
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Claxton (hamstring) questionable Wed; Smith probable (finger sprain)",
+      "trigger": "Claxton (hamstring) out Wed vs NYK; Smith available (finger sprain)",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starts if Claxton sits; loses job when he returns",
+      "summary": "Starts at C Wed with Claxton out; loses job when Claxton returns",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-03T13:20:00-08:00"
+      "last_updated_pt": "2026-11-04T15:15:00-08:00"
     },
     "karlo-matkovic": {
       "player": "Karlo Matković",
@@ -462,6 +462,8 @@
     "Max Christie (DAL, hip, out Wed)",
     "Jayson Tatum (rest Wed)",
     "Josh Hart (ankle, out Wed)",
-    "Kon Knueppel (back Wed)"
+    "Kon Knueppel (back Wed)",
+    "Nic Claxton (CHI, hamstring, out Wed)",
+    "Dominick Barlow (PHI, back, 10-12 more days)"
   ]
 }
