@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-03T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-03T16:20:00-08:00",
+  "run_label": "4pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -191,10 +191,10 @@
       "team": "IND",
       "trigger": "Haliburton (hamstring) out 2+ wks; Nembhard, Nesmith, McConnell (wk-to-wk), Zubac (indef.), Siakam all out Mon vs ATL; Nance doubtful",
       "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Started Mon: 20/7/3/2 blk/4 stl in 34 min; IND short-handed",
+      "verdict": "Watch",
+      "summary": "Nesmith, Nembhard back Wed; Jackson to bench",
       "first_seen_pt": "2026-10-28T12:20:00-07:00",
-      "last_updated_pt": "2026-11-03T12:30:00-08:00"
+      "last_updated_pt": "2026-11-03T16:20:00-08:00"
     },
     "bilal-coulibaly": {
       "player": "Bilal Coulibaly",
@@ -346,9 +346,9 @@
       "trigger": "Zubac (ankle) out indefinitely (5th straight); Nance doubtful, Siakam rest Mon",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "22 pts/8 reb/2 blk in 40 min Mon; starting C, Zubac indef.",
+      "summary": "Zubac questionable Wed; loses job if he plays",
       "first_seen_pt": "2026-10-31T15:15:00-07:00",
-      "last_updated_pt": "2026-11-03T12:30:00-08:00"
+      "last_updated_pt": "2026-11-03T16:20:00-08:00"
     },
     "asa-newell": {
       "player": "Asa Newell",
@@ -466,9 +466,9 @@
       "trigger": "Nembhard, McConnell, Haliburton, Nesmith out; first career start Mon",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "First career start Mon: 19 pts/10 ast/3 stl in 42 min; short-term while IND guards out",
+      "summary": "Nembhard back; may not be active",
       "first_seen_pt": "2026-11-02T15:15:00-08:00",
-      "last_updated_pt": "2026-11-03T12:30:00-08:00"
+      "last_updated_pt": "2026-11-03T16:20:00-08:00"
     },
     "brayden-burries": {
       "player": "Brayden Burries",
@@ -485,10 +485,20 @@
       "team": "IND",
       "trigger": "IND depleted: Haliburton 2+ wks, Zubac indef., Nembhard/McConnell out",
       "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "41 min Mon: 12/7/3/3 stl/3 blk as starter; Kobe Brown 38 min also",
+      "verdict": "Watch",
+      "summary": "Siakam, Nance back Wed; to bench",
       "first_seen_pt": "2026-11-03T12:30:00-08:00",
-      "last_updated_pt": "2026-11-03T12:30:00-08:00"
+      "last_updated_pt": "2026-11-03T16:20:00-08:00"
+    },
+    "paul-reed": {
+      "player": "Paul Reed",
+      "team": "DET",
+      "trigger": "Duren (hamstring) out at least 2 wks, re-eval ~Nov 6",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Top-30 9-cat over last 4 games; fill-in C, not confirmed starter",
+      "first_seen_pt": "2026-11-03T16:20:00-08:00",
+      "last_updated_pt": "2026-11-03T16:20:00-08:00"
     }
   },
   "drop_watch": [
