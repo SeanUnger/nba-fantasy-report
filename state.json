@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-03T23:32:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-04T12:15:00-08:00",
+  "run_label": "12pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -26,83 +26,27 @@
       "last_notified_pt": "2026-10-24T23:40:00-07:00",
       "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
     },
-    "bryce-hopkins": {
-      "player": "Bryce Hopkins",
-      "team": "DEN",
-      "trigger": "C. Johnson, Diallo out",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Back to bench Wed (Brazile starts); still meaningful minutes",
-      "first_seen_pt": "2026-10-24T20:25:00-07:00",
-      "last_updated_pt": "2026-10-28T17:15:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "C. Johnson, Diallo out; verdict Watch"
-    },
-    "trevon-brazile": {
-      "player": "Trevon Brazile",
-      "team": "DEN",
-      "trigger": "C. Johnson (ankle) expected to play Fri; Diallo out",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Start likely ends when Johnson returns Fri",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-30T13:15:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "C. Johnson, Diallo out; verdict Speculative add"
-    },
-    "sergio-de-larrea": {
-      "player": "Sergio De Larrea",
-      "team": "DAL",
-      "trigger": "De Larrea (knee) re-evaluated in one week",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Rookie guard out another week; Sasser gets small bench-guard bump",
-      "first_seen_pt": "2026-10-24T22:10:00-07:00",
-      "last_updated_pt": "2026-10-30T16:15:00-07:00",
-      "last_notified_pt": "2026-10-24T23:40:00-07:00",
-      "notified_for": "Flagg (shoulder), Irving (knee) out; verdict Speculative add"
-    },
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
       "team": "SAC",
-      "trigger": "Murray (ankle) re-evaluated early Nov; Cardwell, Raynaud also out",
+      "trigger": "Cardwell (calf) off injury report, set to debut Wed; Murray (ankle) re-evaluated early Nov",
       "trigger_status": "out",
-      "verdict": "Add now",
-      "summary": "Started 3rd straight; season-high 24 pts/9 reb/3 stl Thu",
+      "verdict": "Speculative add",
+      "summary": "Probable Wed (ankle soreness); 11.6 pts in 7 games, but Cardwell's debut threatens minutes",
       "first_seen_pt": "2026-10-24T23:40:00-07:00",
-      "last_updated_pt": "2026-10-29T22:15:00-07:00",
+      "last_updated_pt": "2026-11-04T12:15:00-08:00",
       "last_notified_pt": "2026-10-26T15:15:00-07:00",
       "notified_for": "Murray out 10-14 days; verdict Add now"
-    },
-    "jase-richardson": {
-      "player": "Jase Richardson",
-      "team": "ORL",
-      "trigger": "Banchero out 4-6 wks; Suggs out 2+ wks",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Started Wed vs TOR but only 14 min (10 pts); Black also started",
-      "first_seen_pt": "2026-10-25T15:15:00-07:00",
-      "last_updated_pt": "2026-10-28T21:15:00-07:00"
-    },
-    "sion-james": {
-      "player": "Sion James",
-      "team": "CHA",
-      "trigger": "Knueppel (hamstring) practicing with G League, return near",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Extra guard minutes likely fade when Knueppel returns",
-      "first_seen_pt": "2026-10-25T17:20:00-07:00",
-      "last_updated_pt": "2026-10-29T17:15:00-07:00"
     },
     "ja-kobe-walter": {
       "player": "Ja'Kobe Walter",
       "team": "TOR",
-      "trigger": "Kawhi out 3-4 wks (Haynes); Ingram out 1+ more wk",
+      "trigger": "Kawhi (knee) begins ramp-up, re-evaluated in one week; Ingram also out",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Started Wed (14 pts/5 reb); Kawhi's timeline now 3-4 weeks, Ingram also out",
+      "summary": "Started Wed (14 pts/5 reb); Kawhi return could be ~1-2 wks, so bump is time-limited",
       "first_seen_pt": "2026-10-25T17:20:00-07:00",
-      "last_updated_pt": "2026-10-29T12:15:00-07:00",
+      "last_updated_pt": "2026-11-04T12:15:00-08:00",
       "last_notified_pt": "2026-10-27T12:15:00-07:00",
       "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
     },
@@ -124,7 +68,7 @@
       "trigger": "Suggs (knee) out 2+ wks; Black rests Mon (maintenance)",
       "trigger_status": "out",
       "verdict": "Add now",
-      "summary": "Started Fri 17/6/10 vs TOR; one-night rest Mon vs WAS, expected back after",
+      "summary": "Off injury report for Thu vs PHX after Mon maintenance rest; 16.5 pts/4.8 reb/4.8 ast/1.3 stl in 28 min over 4 games",
       "first_seen_pt": "2026-10-25T19:15:00-07:00",
       "last_updated_pt": "2026-11-02T12:20:00-08:00",
       "last_notified_pt": "2026-10-26T12:20:00-07:00",
@@ -133,12 +77,12 @@
     "jaxson-hayes": {
       "player": "Jaxson Hayes",
       "team": "UTA",
-      "trigger": "Jaren Jackson Jr. (torn MCL) out 6-8 wks; Nurkic (foot) out",
+      "trigger": "Nurkić (foot) still out Wed, week-to-week; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
       "trigger_status": "out",
       "verdict": "Add now",
-      "summary": "Starting C Wed confirmed",
+      "summary": "Remains Utah's primary C; Nurkić has yet to debut",
       "first_seen_pt": "2026-10-27T13:20:00-07:00",
-      "last_updated_pt": "2026-10-28T18:15:00-07:00",
+      "last_updated_pt": "2026-11-04T12:15:00-08:00",
       "last_notified_pt": "2026-10-27T13:20:00-07:00",
       "notified_for": "JJJ out 6-8 wks; verdict Add now"
     },
@@ -152,40 +96,6 @@
       "first_seen_pt": "2026-10-27T15:15:00-07:00",
       "last_updated_pt": "2026-10-31T16:10:00-07:00"
     },
-    "ayo-dosunmu": {
-      "player": "Ayo Dosunmu",
-      "team": "MIN",
-      "trigger": "Edwards (knee surgery) out up to ~2 months",
-      "trigger_status": "out",
-      "verdict": "Add now",
-      "summary": "Started Wed: 17 pts/5 ast/4 stl; Edwards timeline may exceed 2 months (Athletic)",
-      "first_seen_pt": "2026-10-27T16:20:00-07:00",
-      "last_updated_pt": "2026-10-28T21:15:00-07:00",
-      "last_notified_pt": "2026-10-27T16:20:00-07:00",
-      "notified_for": "Edwards out ~2 months; verdict Add now"
-    },
-    "terrence-shannon-jr": {
-      "player": "Terrence Shannon Jr.",
-      "team": "MIN",
-      "trigger": "Edwards (knee surgery) out up to ~2 months",
-      "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "More usage/scoring with Edwards out; Edwards timeline may exceed 2 months (Athletic)",
-      "first_seen_pt": "2026-10-27T16:20:00-07:00",
-      "last_updated_pt": "2026-10-27T20:15:00-07:00",
-      "last_notified_pt": "2026-10-27T16:20:00-07:00",
-      "notified_for": "Edwards out ~2 months; verdict Speculative add"
-    },
-    "nolan-traore": {
-      "player": "Nolan Traore",
-      "team": "BKN",
-      "trigger": "Dëmin (leg bone bruise) out, reevaluated in one week; Traore starting PG",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Starting PG; 17/5 ast Sun, 15 pts Tue; Dëmin out ~1 wk",
-      "first_seen_pt": "2026-10-27T17:15:00-07:00",
-      "last_updated_pt": "2026-10-30T14:15:00-07:00"
-    },
     "quenton-jackson": {
       "player": "Quenton Jackson",
       "team": "IND",
@@ -195,16 +105,6 @@
       "summary": "Nesmith, Nembhard back Wed; Jackson to bench",
       "first_seen_pt": "2026-10-28T12:20:00-07:00",
       "last_updated_pt": "2026-11-03T16:20:00-08:00"
-    },
-    "bilal-coulibaly": {
-      "player": "Bilal Coulibaly",
-      "team": "WAS",
-      "trigger": "Champagnie (right foot fracture) had surgery, out long-term",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Moving to bench Wed (Dybantsa starts); minutes less certain with Champagnie out",
-      "first_seen_pt": "2026-10-28T12:20:00-07:00",
-      "last_updated_pt": "2026-10-28T16:15:00-07:00"
     },
     "jake-laravia": {
       "player": "Jake LaRavia",
@@ -219,12 +119,12 @@
     "yaxel-lendeborg": {
       "player": "Yaxel Lendeborg",
       "team": "GSW",
-      "trigger": "Porziņģis (illness) out indefinitely; Butler (knee) out until new year",
+      "trigger": "Porziņģis (illness) away from team, Warriors withholding pay, considering retirement; Butler (knee) out until new year",
       "trigger_status": "out",
       "verdict": "Add now",
-      "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F",
+      "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
       "first_seen_pt": "2026-10-28T20:15:00-07:00",
-      "last_updated_pt": "2026-11-01T20:15:00-08:00",
+      "last_updated_pt": "2026-11-04T12:15:00-08:00",
       "last_notified_pt": "2026-11-01T20:15:00-08:00",
       "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
     },
@@ -279,16 +179,6 @@
       "last_updated_pt": "2026-10-31T16:10:00-07:00",
       "last_notified_pt": "2026-10-31T12:15:00-07:00",
       "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
-    },
-    "chaney-johnson": {
-      "player": "Chaney Johnson",
-      "team": "BKN",
-      "trigger_status": "out",
-      "first_seen_pt": "2026-10-30T17:15:00-07:00",
-      "trigger": "Demin (leg bone bruise) out ~1 wk",
-      "summary": "Starting PF Fri vs DET (2nd career start); 7.3 pts/3.5 reb in 20.8 min over 4 games",
-      "verdict": "Watch",
-      "last_updated_pt": "2026-10-30T17:15:00-07:00"
     },
     "adem-bona": {
       "player": "Adem Bona",
@@ -499,20 +389,31 @@
       "summary": "Top-30 9-cat over last 4 games; fill-in C, not confirmed starter",
       "first_seen_pt": "2026-11-03T16:20:00-08:00",
       "last_updated_pt": "2026-11-03T16:20:00-08:00"
+    },
+    "landry-shamet": {
+      "player": "Landry Shamet",
+      "team": "NYK",
+      "trigger": "Josh Hart (ankle) out Wed vs CHI, first miss of season",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Likely starts Wed; led NYK with 23 pts Mon; one-game bump unless Hart's absence extends",
+      "first_seen_pt": "2026-11-04T12:15:00-08:00",
+      "last_updated_pt": "2026-11-04T12:15:00-08:00"
     }
   },
   "drop_watch": [
-    "Dennis Schröder (Coby White back)",
-    "Cam Spencer (Jerome back Mon)",
-    "Joan Beringer (Gobert back Mon)",
+    "Sion James, Dennis Schröder (Knueppel, Coby White back)",
+    "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
+    "Quenton Jackson, Jalen Slawson (IND healthy again)",
+    "Cam Spencer (Jerome back)",
+    "Jalen Smith (Claxton returning)",
     "Dean Wade",
     "Josh Green",
     "Reed Sheppard",
     "Naji Marshall",
     "Jarace Walker",
     "Zaccharie Risacher",
-    "Jalen Smith (Claxton returning)",
-    "Tyler Kolek (Alvarado may return Mon)"
+    "Tyler Kolek (Alvarado may return)"
   ],
   "injury_watch": [
     "Anthony Edwards",
@@ -532,14 +433,12 @@
     "Alperen Sengun",
     "Tyrese Haliburton",
     "Justin Champagnie",
-    "Kristaps Porziņģis",
     "Luka Dončić",
     "Tre Johnson",
     "Brandon Ingram",
     "Dejounte Murray",
     "Jordan Poole",
     "Ja Morant",
-    "Kon Knueppel",
     "LeBron James (rest Sat)",
     "Joel Embiid (rest Sat)",
     "Fred VanVleet (rest Sat)",
@@ -554,10 +453,15 @@
     "Kyrie Irving (knee, doubtful Mon)",
     "Aaron Nesmith / Andrew Nembhard (Mon out)",
     "T.J. McConnell (hamstring, week-to-week)",
-    "Kon Knueppel (hamstring, out Mon)",
     "Alex Sarr (knee soreness, out Mon, Ayton starts)",
     "Jordan Goodwin (PHX, calf)",
-    "Max Christie (DAL, hip)",
-    "Jakob Poeltl (TOR, shoulder)"
+    "Kristaps Porziņģis (away from team, considering retirement; salary withheld)",
+    "Jakob Poeltl (TOR, shoulder, Q Wed)",
+    "Trey Murphy III (NOP, knee, Q Wed)",
+    "Alex Sarr (WAS, knee, Q Wed; Ayton starts if out)",
+    "Max Christie (DAL, hip, out Wed)",
+    "Jayson Tatum (rest Wed)",
+    "Josh Hart (ankle, out Wed)",
+    "Kon Knueppel (back Wed)"
   ]
 }
