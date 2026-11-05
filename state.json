@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-05T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-05T14:10:00-08:00",
+ "run_label": "2pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -343,12 +343,12 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Knueppel (hamstring) left season debut in Q1",
+   "trigger": "Knueppel (hamstring) out Fri vs BOS",
    "trigger_status": "questionable",
    "verdict": "Watch",
-   "summary": "Bench role restored to starter-level minutes if Knueppel misses time; Knueppel out rest of Wed (leg), Q Fri",
+   "summary": "Starter-level minutes while Knueppel out",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-04T19:15:00-08:00"
+   "last_updated_pt": "2026-11-05T14:10:00-08:00"
   },
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
