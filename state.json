@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-04T20:15:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-04T21:15:00-08:00",
+ "run_label": "9pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -77,10 +77,10 @@
   "jaxson-hayes": {
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "trigger": "Nurkić (foot) still out Wed, week-to-week; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
+   "trigger": "Nurki\u0107 (foot) still out Wed, week-to-week; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Remains Utah's primary C; Nurkić has yet to debut",
+   "summary": "Remains Utah's primary C; Nurki\u0107 has yet to debut",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
    "last_updated_pt": "2026-11-04T12:15:00-08:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
@@ -119,14 +119,14 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porziņģis (illness) away from team, Warriors withholding pay, considering retirement; Butler (knee) out until new year",
+   "trigger": "Porzi\u0146\u0123is (illness) away from team, Warriors withholding pay, considering retirement; Butler (knee) out until new year",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
+   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porzi\u0146\u0123is return now very unlikely",
    "first_seen_pt": "2026-10-28T20:15:00-07:00",
    "last_updated_pt": "2026-11-04T12:15:00-08:00",
    "last_notified_pt": "2026-11-01T20:15:00-08:00",
-   "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
+   "notified_for": "Porzi\u0146\u0123is/Butler out long-term; verdict Add now"
   },
   "jalen-smith": {
    "player": "Jalen Smith",
@@ -139,7 +139,7 @@
    "last_updated_pt": "2026-11-04T19:15:00-08:00"
   },
   "karlo-matkovic": {
-   "player": "Karlo Matković",
+   "player": "Karlo Matkovi\u0107",
    "team": "NOP",
    "trigger": "Missi (knee) out; Jordan to bench",
    "trigger_status": "out",
@@ -271,7 +271,7 @@
    "last_updated_pt": "2026-11-01T13:15:00-08:00"
   },
   "vit-krejci": {
-   "player": "Vít Krejčí",
+   "player": "V\u00edt Krej\u010d\u00ed",
    "team": "POR",
    "trigger": "Morant (hamstring) out ~4 wks",
    "trigger_status": "out",
@@ -442,7 +442,7 @@
   }
  },
  "drop_watch": [
-  "Dennis Schröder (Knueppel, Coby White back)",
+  "Dennis Schr\u00f6der (Knueppel, Coby White back)",
   "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
   "Quenton Jackson, Jalen Slawson (IND healthy again)",
   "Jalen Smith (Claxton returning)",
@@ -455,6 +455,9 @@
   "Tyler Kolek (Alvarado may return)"
  ],
  "injury_watch": [
+  "DeMar DeRozan (DEN, out Thu)",
+  "Payton Pritchard (BOS, eye, Q Fri)",
+  "Noah Clowney (BKN, Q Sat)",
   "Anthony Edwards",
   "Alex Caruso",
   "Jaren Jackson Jr.",
@@ -472,7 +475,7 @@
   "Alperen Sengun",
   "Tyrese Haliburton",
   "Justin Champagnie",
-  "Luka Dončić",
+  "Luka Don\u010di\u0107",
   "Tre Johnson",
   "Brandon Ingram",
   "Dejounte Murray",
@@ -494,7 +497,7 @@
   "T.J. McConnell (hamstring, week-to-week)",
   "Alex Sarr (knee soreness, out Mon, Ayton starts)",
   "Jordan Goodwin (PHX, calf)",
-  "Kristaps Porziņģis (away from team, considering retirement; salary withheld)",
+  "Kristaps Porzi\u0146\u0123is (away from team, considering retirement; salary withheld)",
   "Jakob Poeltl (TOR, shoulder, Q Wed)",
   "Trey Murphy III (NOP, knee, Q Wed)",
   "Alex Sarr (WAS, knee, Q Wed; Ayton starts if out)",
