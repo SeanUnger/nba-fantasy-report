@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-04T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-04T16:15:00-08:00",
+  "run_label": "4pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -161,12 +161,12 @@
     "cam-spencer": {
       "player": "Cam Spencer",
       "team": "MEM",
-      "trigger": "Jerome (back), Pippen (back) out Sat; Spencer starts at PG",
+      "trigger": "Pippen (back) out, day-to-day or week-to-week; Spencer Jerome's only backup",
       "trigger_status": "role",
-      "verdict": "Watch",
-      "summary": "Jerome back Mon; Spencer to bench",
+      "verdict": "Speculative add",
+      "summary": "Sole backup PG behind Jerome while Pippen out",
       "first_seen_pt": "2026-10-30T12:20:00-07:00",
-      "last_updated_pt": "2026-11-01T20:15:00-08:00"
+      "last_updated_pt": "2026-11-04T16:15:00-08:00"
     },
     "scoot-henderson": {
       "player": "Scoot Henderson",
@@ -399,13 +399,32 @@
       "summary": "Likely starts Wed; led NYK with 23 pts Mon; one-game bump unless Hart's absence extends",
       "first_seen_pt": "2026-11-04T12:15:00-08:00",
       "last_updated_pt": "2026-11-04T12:15:00-08:00"
+    },
+    "kingston-flemings": {
+      "player": "Kingston Flemings",
+      "team": "ATL",
+      "trigger": "Jalen Johnson (ankle) out Wed; Flemings first career start, McCollum to bench",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Rookie PG starts Wed; 7.1 pts/4.7 ast in 20 min; Johnson may return Fri",
+      "first_seen_pt": "2026-11-04T16:15:00-08:00",
+      "last_updated_pt": "2026-11-04T16:15:00-08:00"
+    },
+    "aday-mara": {
+      "player": "Aday Mara",
+      "team": "OKC",
+      "trigger": "Jaylin Williams (back spasms) out Wed vs CLE",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Expected minutes bump; Holmgren out 8-10 wks",
+      "first_seen_pt": "2026-11-04T16:15:00-08:00",
+      "last_updated_pt": "2026-11-04T16:15:00-08:00"
     }
   },
   "drop_watch": [
     "Sion James, Dennis Schröder (Knueppel, Coby White back)",
     "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
     "Quenton Jackson, Jalen Slawson (IND healthy again)",
-    "Cam Spencer (Jerome back)",
     "Jalen Smith (Claxton returning)",
     "Dean Wade",
     "Josh Green",
