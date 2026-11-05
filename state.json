@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-04T23:30:00-08:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-11-05T12:30:00-08:00",
+ "run_label": "12pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -86,16 +86,6 @@
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
-  "clint-capela": {
-   "player": "Clint Capela",
-   "team": "HOU",
-   "trigger": "Sengun back; Capela to bench Sat",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Back to bench Sat vs OKC",
-   "first_seen_pt": "2026-10-27T15:15:00-07:00",
-   "last_updated_pt": "2026-10-31T16:10:00-07:00"
-  },
   "quenton-jackson": {
    "player": "Quenton Jackson",
    "team": "IND",
@@ -109,12 +99,12 @@
   "jake-laravia": {
    "player": "Jake LaRavia",
    "team": "LAL",
-   "trigger": "Z. Williams (foot) out Sun, 3rd straight; Thiero out",
+   "trigger": "LaRavia started a 5th straight (9 pts, 2 reb, 2 ast, blk, stl) but with limited minutes",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Should start Sun vs TOR with Williams and Thiero out",
+   "summary": "Starting F but minutes modest; Thiero's return caps upside.",
    "first_seen_pt": "2026-10-28T14:15:00-07:00",
-   "last_updated_pt": "2026-11-01T13:15:00-08:00"
+   "last_updated_pt": "2026-11-05T12:30:00-08:00"
   },
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
@@ -131,12 +121,12 @@
   "jalen-smith": {
    "player": "Jalen Smith",
    "team": "CHI",
-   "trigger": "Claxton (hamstring) out Wed vs NYK; Smith available (finger sprain)",
+   "trigger": "Nic Claxton (hamstring) assigned to G League for rehab, recalled shortly after Thursday practice: Smith's fill-in job ends soon (Smith also hand injury).",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starts at C Wed with Claxton out; loses job when Claxton returns; left Wed game (hand), Collins also hurt",
+   "summary": "Losing starting C job; consider dropping once Claxton is active.",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-04T19:15:00-08:00"
+   "last_updated_pt": "2026-11-05T12:30:00-08:00"
   },
   "karlo-matkovic": {
    "player": "Karlo Matković",
@@ -161,74 +151,24 @@
   "cam-spencer": {
    "player": "Cam Spencer",
    "team": "MEM",
-   "trigger": "Pippen (back) out, day-to-day or week-to-week; Spencer Jerome's only backup",
+   "trigger": "Pippen (back) still out, no timeline",
    "trigger_status": "role",
    "verdict": "Speculative add",
-   "summary": "Sole backup PG behind Jerome while Pippen out",
+   "summary": "~24 min; assists, boards, 3s.",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-04T16:15:00-08:00"
+   "last_updated_pt": "2026-11-05T12:30:00-08:00"
   },
   "scoot-henderson": {
    "player": "Scoot Henderson",
    "team": "POR",
-   "trigger": "Morant (left hamstring, Grade 2) out ~4 weeks; Henderson confirmed starting Sat at UTA",
+   "trigger": "Morant (hamstring, ~4 wks) out",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Started Sat at UTA: 14 pts/3 stl in 31 min; Holiday also in backcourt",
+   "summary": "~22-31 min as starter; steals, assists, FT.",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-10-31T16:10:00-07:00",
+   "last_updated_pt": "2026-11-05T12:30:00-08:00",
    "last_notified_pt": "2026-10-31T12:15:00-07:00",
    "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
-  },
-  "adem-bona": {
-   "player": "Adem Bona",
-   "team": "PHI",
-   "trigger": "Embiid (foot) out Sat, second night of back-to-back",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Confirmed starter Sat at CHA; one-game maintenance bump",
-   "first_seen_pt": "2026-10-31T12:15:00-07:00",
-   "last_updated_pt": "2026-10-31T16:10:00-07:00"
-  },
-  "julian-champagnie": {
-   "player": "Julian Champagnie",
-   "team": "SAS",
-   "trigger": "Castle (migraine) cleared to play Sat",
-   "trigger_status": "available",
-   "verdict": "Watch",
-   "summary": "Castle available; bump off",
-   "first_seen_pt": "2026-10-31T12:15:00-07:00",
-   "last_updated_pt": "2026-10-31T16:10:00-07:00"
-  },
-  "will-richard": {
-   "player": "Will Richard",
-   "team": "GSW",
-   "trigger": "Curry (knee), Draymond (back) out Sunday",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Likely starts Sun; one-game",
-   "first_seen_pt": "2026-10-31T13:15:00-07:00",
-   "last_updated_pt": "2026-10-31T13:15:00-07:00"
-  },
-  "joan-beringer": {
-   "player": "Joan Beringer",
-   "team": "MIN",
-   "trigger": "Gobert (back) out Sat, first miss of season",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "First start Sat at SAS: 12 pts/6 reb/2 ast/1 stl",
-   "first_seen_pt": "2026-10-31T13:15:00-07:00",
-   "last_updated_pt": "2026-10-31T20:15:00-07:00"
-  },
-  "bennedict-mathurin": {
-   "player": "Bennedict Mathurin",
-   "team": "NOP",
-   "trigger": "Murray out Sat (personal)",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Likely starts one game",
-   "first_seen_pt": "2026-10-31T15:15:00-07:00",
-   "last_updated_pt": "2026-10-31T15:15:00-07:00"
   },
   "jay-huff": {
    "player": "Jay Huff",
@@ -250,25 +190,15 @@
    "first_seen_pt": "2026-10-31T20:15:00-07:00",
    "last_updated_pt": "2026-11-01T15:20:00-08:00"
   },
-  "darius-acuff-jr": {
-   "player": "Darius Acuff Jr.",
-   "team": "SAC",
-   "trigger": "Career-high 38 pts Sat; no offensive limits",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Rookie PG, 9 threes, 6 games in; minutes unconfirmed",
-   "first_seen_pt": "2026-10-31T22:15:00-07:00",
-   "last_updated_pt": "2026-10-31T22:15:00-07:00"
-  },
   "neemias-queta": {
    "player": "Neemias Queta",
    "team": "BOS",
-   "trigger": "Mitchell Robinson (rest) out Sun at ORL; Queta starts at C",
+   "trigger": "Mitchell Robinson has come off the bench two straight games",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-game start Sun; Gonzalez also entering BOS starting lineup, Walsh out of it",
+   "verdict": "Speculative add",
+   "summary": "Starting C, 26-29 min; boards, blocks, FG%. Role looks sustained, not a one-game bump.",
    "first_seen_pt": "2026-11-01T12:15:00-08:00",
-   "last_updated_pt": "2026-11-01T13:15:00-08:00"
+   "last_updated_pt": "2026-11-05T12:30:00-08:00"
   },
   "tristan-da-silva": {
    "player": "Tristan da Silva",
