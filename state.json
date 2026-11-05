@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-04T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-04T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -134,9 +134,9 @@
    "trigger": "Claxton (hamstring) out Wed vs NYK; Smith available (finger sprain)",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starts at C Wed with Claxton out; loses job when Claxton returns",
+   "summary": "Starts at C Wed with Claxton out; loses job when Claxton returns; left Wed game (hand), Collins also hurt",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-04T15:15:00-08:00"
+   "last_updated_pt": "2026-11-04T19:15:00-08:00"
   },
   "karlo-matkovic": {
    "player": "Karlo Matković",
@@ -426,9 +426,9 @@
    "trigger": "Knueppel (hamstring) left season debut in Q1",
    "trigger_status": "questionable",
    "verdict": "Watch",
-   "summary": "Bench role restored to starter-level minutes if Knueppel misses time",
+   "summary": "Bench role restored to starter-level minutes if Knueppel misses time; Knueppel out rest of Wed (leg), Q Fri",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-04T17:15:00-08:00"
+   "last_updated_pt": "2026-11-04T19:15:00-08:00"
   },
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
@@ -438,7 +438,7 @@
    "verdict": "Watch",
    "summary": "First start Wed vs OKC; 13 min/game avg",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-04T17:15:00-08:00"
+   "last_updated_pt": "2026-11-04T19:15:00-08:00"
   }
  },
  "drop_watch": [
@@ -503,6 +503,10 @@
   "Josh Hart (ankle, out Wed)",
   "Kon Knueppel (back Wed)",
   "Nic Claxton (CHI, hamstring, out Wed)",
-  "Dominick Barlow (PHI, back, 10-12 more days)"
+  "Dominick Barlow (PHI, back, 10-12 more days)",
+  "Jarrett Allen (CLE, knee)",
+  "Zach Collins (CHI)",
+  "Isaiah Stewart (MEM, knee)",
+  "Asa Newell (ATL, toe)"
  ]
 }
