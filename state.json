@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-04T16:15:00-08:00",
-  "run_label": "4pm",
+  "last_run_pt": "2026-11-04T17:15:00-08:00",
+  "run_label": "5pm",
   "items": {
     "derik-queen": {
       "player": "Derik Queen",
@@ -413,16 +413,36 @@
     "aday-mara": {
       "player": "Aday Mara",
       "team": "OKC",
-      "trigger": "Jaylin Williams (back spasms) out Wed vs CLE",
+      "trigger": "Jaylin Williams (back spasms) out Wed; Mara starts",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Expected minutes bump; Holmgren out 8-10 wks",
+      "summary": "Confirmed first career start Wed vs CLE",
       "first_seen_pt": "2026-11-04T16:15:00-08:00",
-      "last_updated_pt": "2026-11-04T16:15:00-08:00"
+      "last_updated_pt": "2026-11-04T17:15:00-08:00"
+    },
+    "sion-james": {
+      "player": "Sion James",
+      "team": "CHA",
+      "trigger": "Knueppel (hamstring) left season debut in Q1",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Bench role restored to starter-level minutes if Knueppel misses time",
+      "first_seen_pt": "2026-11-04T17:15:00-08:00",
+      "last_updated_pt": "2026-11-04T17:15:00-08:00"
+    },
+    "tyrese-proctor": {
+      "player": "Tyrese Proctor",
+      "team": "CLE",
+      "trigger": "Watson (hamstring) out Wed",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "First start Wed vs OKC; 13 min/game avg",
+      "first_seen_pt": "2026-11-04T17:15:00-08:00",
+      "last_updated_pt": "2026-11-04T17:15:00-08:00"
     }
   },
   "drop_watch": [
-    "Sion James, Dennis Schröder (Knueppel, Coby White back)",
+    "Dennis Schröder (Knueppel, Coby White back)",
     "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
     "Quenton Jackson, Jalen Slawson (IND healthy again)",
     "Jalen Smith (Claxton returning)",
