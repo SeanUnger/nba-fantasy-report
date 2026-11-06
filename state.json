@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-05T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-05T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -369,6 +369,16 @@
    "summary": "11 pts/2 stl in 17 min Wed; frontcourt depth behind Okongwu",
    "first_seen_pt": "2026-11-05T16:15:00-08:00",
    "last_updated_pt": "2026-11-05T16:15:00-08:00"
+  },
+  "oso-ighodaro": {
+   "player": "Oso Ighodaro",
+   "team": "PHX",
+   "trigger": "Replaces Maluach as starting C; Mark Williams (shoulder) out",
+   "trigger_status": "role",
+   "verdict": "Speculative add",
+   "summary": "Starting C Thu vs ORL; already out-minuting Maluach, modest gain",
+   "first_seen_pt": "2026-11-05T18:15:00-08:00",
+   "last_updated_pt": "2026-11-05T18:15:00-08:00"
   }
  },
  "drop_watch": [
