@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T12:15:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-06T13:10:00-08:00",
+ "run_label": "1pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -379,6 +379,36 @@
    "summary": "Starting C Thu vs ORL; already out-minuting Maluach, modest gain",
    "first_seen_pt": "2026-11-05T18:15:00-08:00",
    "last_updated_pt": "2026-11-05T18:15:00-08:00"
+  },
+  "ryan-kalkbrenner": {
+   "player": "Ryan Kalkbrenner",
+   "team": "CHA",
+   "trigger": "Diabaté (quad) out Fri vs BOS, first miss of the season",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Likely one-game start at C; blocks/FG% if it sticks. Check Diabaté's status for Sat.",
+   "first_seen_pt": "2026-11-06T13:10:00-08:00",
+   "last_updated_pt": "2026-11-06T13:10:00-08:00"
+  },
+  "jaylen-clark": {
+   "player": "Jaylen Clark",
+   "team": "MIN",
+   "trigger": "Shannon (hip) out Fri vs NOP, a third straight miss",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Extra wing minutes; steals, 3s. Bump ends when Shannon returns.",
+   "first_seen_pt": "2026-11-06T13:10:00-08:00",
+   "last_updated_pt": "2026-11-06T13:10:00-08:00"
+  },
+  "jabari-walker": {
+   "player": "Jabari Walker",
+   "team": "PHI",
+   "trigger": "Bona (spine) downgraded to doubtful Fri at CLE",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Backup-C minutes only if Bona sits; rebounds. Spine issue could linger, so monitor.",
+   "first_seen_pt": "2026-11-06T13:10:00-08:00",
+   "last_updated_pt": "2026-11-06T13:10:00-08:00"
   }
  },
  "drop_watch": [
@@ -450,6 +480,9 @@
   "Jarrett Allen (CLE, knee)",
   "Zach Collins (CHI)",
   "Isaiah Stewart (MEM, knee)",
-  "Asa Newell (ATL, toe)"
+  "Asa Newell (ATL, toe)",
+  "Clint Capela (HOU, ankle, out Sat; 3rd straight)",
+  "Brandon Ingram (TOR, Achilles, full contact, mid-Nov target)",
+  "De'Andre Hunter (SAC, illness, Q Fri)"
  ]
 }
