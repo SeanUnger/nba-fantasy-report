@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-05T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-05T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -183,12 +183,12 @@
   "asa-newell": {
    "player": "Asa Newell",
    "team": "ATL",
-   "trigger": "Landale (hip) ruled out Monday vs IND",
+   "trigger": "Newell (toe) out Fri; Landale (hip) out 3rd straight",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Entered rotation after Landale injury; Landale out Mon, severity unknown",
+   "summary": "Newell out Fri, day-to-day; Okongwu/Ejiofor hold frontcourt",
    "first_seen_pt": "2026-10-31T20:15:00-07:00",
-   "last_updated_pt": "2026-11-01T15:20:00-08:00"
+   "last_updated_pt": "2026-11-05T16:15:00-08:00"
   },
   "neemias-queta": {
    "player": "Neemias Queta",
@@ -353,12 +353,22 @@
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
    "team": "CLE",
-   "trigger": "Watson (hamstring) out Wed",
+   "trigger": "Tyson out 4th straight; Watson, Allen, Proctor all Q Fri",
+   "trigger_status": "q",
+   "verdict": "Watch",
+   "summary": "Started Wed (21 min); bigger role if Watson/Allen out",
+   "first_seen_pt": "2026-11-04T17:15:00-08:00",
+   "last_updated_pt": "2026-11-05T16:15:00-08:00"
+  },
+  "zuby-ejiofor": {
+   "player": "Zuby Ejiofor",
+   "team": "ATL",
+   "trigger": "Landale out 3rd straight; Newell out Fri",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "First start Wed vs OKC; 13 min/game avg",
-   "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-04T19:15:00-08:00"
+   "summary": "11 pts/2 stl in 17 min Wed; frontcourt depth behind Okongwu",
+   "first_seen_pt": "2026-11-05T16:15:00-08:00",
+   "last_updated_pt": "2026-11-05T16:15:00-08:00"
   }
  },
  "drop_watch": [
