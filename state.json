@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T13:10:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-06T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -109,12 +109,12 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porziņģis (illness) away from team, Warriors withholding pay, considering retirement; Butler (knee) out until new year",
+   "trigger": "Porziņģis stepping away from basketball; Butler (knee) out until new year",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
    "first_seen_pt": "2026-10-28T20:15:00-07:00",
-   "last_updated_pt": "2026-11-04T12:15:00-08:00",
+   "last_updated_pt": "2026-11-06T14:15:00-08:00",
    "last_notified_pt": "2026-11-01T20:15:00-08:00",
    "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
   },
@@ -179,16 +179,6 @@
    "summary": "Zubac questionable Wed; loses job if he plays",
    "first_seen_pt": "2026-10-31T15:15:00-07:00",
    "last_updated_pt": "2026-11-03T16:20:00-08:00"
-  },
-  "asa-newell": {
-   "player": "Asa Newell",
-   "team": "ATL",
-   "trigger": "Newell (toe) out Fri; Landale (hip) out 3rd straight",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Newell out Fri, day-to-day; Okongwu/Ejiofor hold frontcourt",
-   "first_seen_pt": "2026-10-31T20:15:00-07:00",
-   "last_updated_pt": "2026-11-05T16:15:00-08:00"
   },
   "neemias-queta": {
    "player": "Neemias Queta",
@@ -313,12 +303,12 @@
   "landry-shamet": {
    "player": "Landry Shamet",
    "team": "NYK",
-   "trigger": "Josh Hart (ankle) out Wed vs CHI, first miss of season",
+   "trigger": "Hart (ankle) out Sat vs CLE too",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Likely starts Wed; led NYK with 23 pts Mon; one-game bump unless Hart's absence extends",
+   "summary": "Second straight start Sat; bump ends when Hart returns",
    "first_seen_pt": "2026-11-04T12:15:00-08:00",
-   "last_updated_pt": "2026-11-04T12:15:00-08:00"
+   "last_updated_pt": "2026-11-06T14:15:00-08:00"
   },
   "kingston-flemings": {
    "player": "Kingston Flemings",
@@ -363,12 +353,12 @@
   "zuby-ejiofor": {
    "player": "Zuby Ejiofor",
    "team": "ATL",
-   "trigger": "Landale out 3rd straight; Newell out Fri",
+   "trigger": "Newell (toe) re-evaluated in 2 wks; Landale (hip) out 3rd straight",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "11 pts/2 stl in 17 min Wed; frontcourt depth behind Okongwu",
+   "verdict": "Speculative add",
+   "summary": "11 pts/2 stl in 17 min Wed; frontcourt minutes behind Okongwu with Newell, Landale out",
    "first_seen_pt": "2026-11-05T16:15:00-08:00",
-   "last_updated_pt": "2026-11-05T16:15:00-08:00"
+   "last_updated_pt": "2026-11-06T14:15:00-08:00"
   },
   "oso-ighodaro": {
    "player": "Oso Ighodaro",
@@ -409,6 +399,16 @@
    "summary": "Backup-C minutes only if Bona sits; rebounds. Spine issue could linger, so monitor.",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-06T13:10:00-08:00"
+  },
+  "jase-richardson": {
+   "player": "Jase Richardson",
+   "team": "ORL",
+   "trigger": "Suggs (knee) out 2+ wks",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Started 6th straight; 26+ min each, 10 pts + 4 defensive stats Thu",
+   "first_seen_pt": "2026-11-06T14:15:00-08:00",
+   "last_updated_pt": "2026-11-06T14:15:00-08:00"
   }
  },
  "drop_watch": [
