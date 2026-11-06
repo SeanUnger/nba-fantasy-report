@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-05T23:30:00-08:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-11-06T12:15:00-08:00",
+ "run_label": "12pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -77,12 +77,12 @@
   "jaxson-hayes": {
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "trigger": "Nurkić (foot) still out Wed, week-to-week; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
+   "trigger": "Nurkić (foot) re-evaluated in two weeks; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Remains Utah's primary C; Nurkić has yet to debut",
+   "summary": "Nurkić only now doing on-court work, next check ~Nov 20, so Hayes stays UTA's primary C",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-11-04T12:15:00-08:00",
+   "last_updated_pt": "2026-11-06T12:15:00-08:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
@@ -121,12 +121,12 @@
   "jalen-smith": {
    "player": "Jalen Smith",
    "team": "CHI",
-   "trigger": "Nic Claxton (hamstring) assigned to G League for rehab, recalled shortly after Thursday practice: Smith's fill-in job ends soon (Smith also hand injury).",
+   "trigger": "Claxton (hamstring) expected to make season debut Sun vs PHI",
    "trigger_status": "out",
    "verdict": "Watch",
    "summary": "Losing starting C job; consider dropping once Claxton is active.",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-05T12:30:00-08:00"
+   "last_updated_pt": "2026-11-06T12:15:00-08:00"
   },
   "karlo-matkovic": {
    "player": "Karlo Matković",
