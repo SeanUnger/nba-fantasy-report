@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T21:15:00-08:00",
- "run_label": "9pm",
+ "last_run_pt": "2026-11-06T22:15:00-08:00",
+ "run_label": "10pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -449,6 +449,36 @@
    "summary": "First start of season Fri; 20+ min last two games; one-game bump",
    "first_seen_pt": "2026-11-06T19:10:00-08:00",
    "last_updated_pt": "2026-11-06T19:10:00-08:00"
+  },
+  "trey-lyles": {
+   "player": "Trey Lyles",
+   "team": "MIN",
+   "trigger": "Beringer (nasal fracture) out rest of Fri",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "13 reb, 3 stl; PF minutes if Beringer sits",
+   "first_seen_pt": "2026-11-06T22:15:00-08:00",
+   "last_updated_pt": "2026-11-06T22:15:00-08:00"
+  },
+  "alijah-martin": {
+   "player": "Alijah Martin",
+   "team": "TOR",
+   "trigger": "Kawhi, Barnes, Quickley out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "27 pts off bench Fri, 6-7 3PT",
+   "first_seen_pt": "2026-11-06T22:15:00-08:00",
+   "last_updated_pt": "2026-11-06T22:15:00-08:00"
+  },
+  "morez-johnson-jr": {
+   "player": "Morez Johnson Jr.",
+   "team": "DAL",
+   "trigger": "Gafford benched 2nd half",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "17 reb, 13 pts in 24 min",
+   "first_seen_pt": "2026-11-06T22:15:00-08:00",
+   "last_updated_pt": "2026-11-06T22:15:00-08:00"
   }
  },
  "drop_watch": [
