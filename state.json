@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T19:10:00-08:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-11-06T20:15:00-08:00",
+ "run_label": "8pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -56,7 +56,7 @@
    "trigger": "Holmgren (patellar tendon) out 8-10 wks; McCain back in starting five Fri",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting Fri vs MEM at G next to SGA; 12.7 pts/3.7 reb/3.3 ast in 3 prior starts; role in and out",
+   "summary": "Starting Fri vs MEM at G next to SGA; season-high 21 pts/5 reb/4 ast in 29 min; 12.7 pts in 3 prior starts; role in and out",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
    "last_updated_pt": "2026-11-06T18:15:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
@@ -416,7 +416,7 @@
    "trigger": "Quickley (hamstring) out Fri; Q Mon",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "First start of season Fri; 11.5 pts/7.5 ast as a starter last year",
+   "summary": "First start Fri at MIL: 10 pts, 16 ast, 2 stl; Quickley out, Q Mon",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
    "last_updated_pt": "2026-11-06T18:15:00-08:00"
   },
