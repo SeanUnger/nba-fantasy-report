@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T20:15:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-06T21:15:00-08:00",
+ "run_label": "9pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -426,9 +426,9 @@
    "trigger": "Brandon Miller (groin) left Fri early",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Played rest of half; wait on Miller status",
+   "summary": "Miller (groin) Q, re-evaluated over weekend, update Mon",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-06T18:15:00-08:00"
+   "last_updated_pt": "2026-11-06T21:15:00-08:00"
   },
   "caleb-martin": {
    "player": "Caleb Martin",
