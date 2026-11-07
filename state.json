@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-06T19:10:00-08:00",
+ "run_label": "7pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -439,6 +439,16 @@
    "summary": "Starting Fri vs UTA; one-game-ish",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
    "last_updated_pt": "2026-11-06T18:15:00-08:00"
+  },
+  "leaky-black": {
+   "player": "Leaky Black",
+   "team": "SAC",
+   "trigger": "Hunter (illness) out Fri vs SAS",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "First start of season Fri; 20+ min last two games; one-game bump",
+   "first_seen_pt": "2026-11-06T19:10:00-08:00",
+   "last_updated_pt": "2026-11-06T19:10:00-08:00"
   }
  },
  "drop_watch": [
