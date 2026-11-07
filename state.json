@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T23:15:00-08:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-11-06T23:35:00-08:00",
+ "run_label": "11:30pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -275,10 +275,10 @@
    "team": "MIL",
    "trigger": "Rollins benched, Burries first career start Mon",
    "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "9 pts/9 reb in 26 min Mon (4-15 FG); starting",
+   "verdict": "Speculative add",
+   "summary": "Starting; 21 pts/11 reb/6 ast in 38 min Fri vs TOR",
    "first_seen_pt": "2026-11-02T17:15:00-08:00",
-   "last_updated_pt": "2026-11-03T12:30:00-08:00"
+   "last_updated_pt": "2026-11-06T23:35:00-08:00"
   },
   "jalen-slawson": {
    "player": "Jalen Slawson",
