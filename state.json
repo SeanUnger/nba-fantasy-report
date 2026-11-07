@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T14:10:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-07T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -376,9 +376,9 @@
    "trigger": "Bona (spine) out Fri at CLE",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Backup-C minutes with Bona out",
+   "summary": "Backup-C minutes; Bona out Sun too (2nd straight)",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-06T16:15:00-08:00"
+   "last_updated_pt": "2026-11-07T15:15:00-08:00"
   },
   "jase-richardson": {
    "player": "Jase Richardson",
@@ -477,6 +477,7 @@
   "Jalen Smith (Claxton returning Sun)"
  ],
  "injury_watch": [
+  "Luka Dončić (LAL, back tightness, Q Sun vs DET)",
   "Desmond Bane (ORL, illness, out Sat)",
   "Jalen Johnson (ATL, ankle, probable Sat)",
   "Brandon Miller (CHA, groin, re-eval over weekend, update Mon)",
