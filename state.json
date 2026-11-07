@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T13:10:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-07T14:10:00-08:00",
+ "run_label": "2pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -124,9 +124,9 @@
    "trigger": "Claxton (hamstring) expected to make season debut Sun vs PHI",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Losing starting C job; consider dropping once Claxton is active.",
+   "summary": "Claxton downgraded to questionable Sun; Collins out, Smith probable",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-06T12:15:00-08:00"
+   "last_updated_pt": "2026-11-07T14:10:00-08:00"
   },
   "karlo-matkovic": {
    "player": "Karlo Matković",
