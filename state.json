@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-06T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-06T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -41,12 +41,12 @@
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
    "team": "TOR",
-   "trigger": "Kawhi (knee) begins ramp-up, re-evaluated in one week; Ingram also out",
+   "trigger": "Barnes (adductor), Quickley (hamstring) out Fri; Kawhi, Ingram also out",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Started Wed (14 pts/5 reb); Kawhi return could be ~1-2 wks, so bump is time-limited",
+   "summary": "Starter minutes while TOR depleted; Ingram near return",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-11-04T12:15:00-08:00",
+   "last_updated_pt": "2026-11-06T16:15:00-08:00",
    "last_notified_pt": "2026-10-27T12:15:00-07:00",
    "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
   },
@@ -313,12 +313,12 @@
   "kingston-flemings": {
    "player": "Kingston Flemings",
    "team": "ATL",
-   "trigger": "Jalen Johnson (ankle) out Wed; Flemings first career start, McCollum to bench",
+   "trigger": "Jalen Johnson (ankle) out Fri; Flemings starts",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Rookie PG starts Wed; 7.1 pts/4.7 ast in 20 min; Johnson may return Fri",
+   "summary": "Rookie PG starts again Fri",
    "first_seen_pt": "2026-11-04T16:15:00-08:00",
-   "last_updated_pt": "2026-11-04T16:15:00-08:00"
+   "last_updated_pt": "2026-11-06T16:15:00-08:00"
   },
   "aday-mara": {
    "player": "Aday Mara",
@@ -343,12 +343,12 @@
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
    "team": "CLE",
-   "trigger": "Tyson out 4th straight; Watson, Allen, Proctor all Q Fri",
+   "trigger": "Allen out; Proctor not starting Fri (Merrill)",
    "trigger_status": "q",
    "verdict": "Watch",
-   "summary": "Started Wed (21 min); bigger role if Watson/Allen out",
+   "summary": "Reduced role",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-05T16:15:00-08:00"
+   "last_updated_pt": "2026-11-06T16:15:00-08:00"
   },
   "zuby-ejiofor": {
    "player": "Zuby Ejiofor",
@@ -376,9 +376,9 @@
    "trigger": "Diabaté (quad) out Fri vs BOS, first miss of the season",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Likely one-game start at C; blocks/FG% if it sticks. Check Diabaté's status for Sat.",
+   "summary": "Confirmed starting Fri sans Diabate",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-06T13:10:00-08:00"
+   "last_updated_pt": "2026-11-06T16:15:00-08:00"
   },
   "jaylen-clark": {
    "player": "Jaylen Clark",
@@ -393,12 +393,12 @@
   "jabari-walker": {
    "player": "Jabari Walker",
    "team": "PHI",
-   "trigger": "Bona (spine) downgraded to doubtful Fri at CLE",
+   "trigger": "Bona (spine) out Fri at CLE",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Backup-C minutes only if Bona sits; rebounds. Spine issue could linger, so monitor.",
+   "summary": "Backup-C minutes with Bona out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-06T13:10:00-08:00"
+   "last_updated_pt": "2026-11-06T16:15:00-08:00"
   },
   "jase-richardson": {
    "player": "Jase Richardson",
@@ -483,6 +483,9 @@
   "Asa Newell (ATL, toe)",
   "Clint Capela (HOU, ankle, out Sat; 3rd straight)",
   "Brandon Ingram (TOR, Achilles, full contact, mid-Nov target)",
-  "De'Andre Hunter (SAC, illness, Q Fri)"
+  "De'Andre Hunter (SAC, illness, Q Fri)",
+  "Anthony Davis (WAS, ankle, out Fri)",
+  "Scottie Barnes (TOR, adductor, out Fri)",
+  "Immanuel Quickley (TOR, hamstring, out Fri)"
  ]
 }
