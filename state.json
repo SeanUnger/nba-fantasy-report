@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-08T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-08T15:20:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -189,12 +189,14 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Knueppel (hamstring) out Fri vs BOS",
-   "trigger_status": "questionable",
-   "verdict": "Watch",
-   "summary": "Starter-level minutes while Knueppel out",
+   "trigger": "Knueppel (hamstring) out 4+ wks; Schröder out 2 wks; Miller out Mon",
+   "trigger_status": "out",
+   "verdict": "Add now",
+   "summary": "Starter-level minutes with CHA backcourt/wings depleted",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-05T14:10:00-08:00"
+   "last_updated_pt": "2026-11-08T15:20:00-08:00",
+   "last_notified_pt": "2026-11-08T15:20:00-08:00",
+   "notified_for": "Knueppel out 4+ weeks; verdict Add now"
   },
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
@@ -279,12 +281,12 @@
   "tidjane-salaun": {
    "player": "Tidjane Salaün",
    "team": "CHA",
-   "trigger": "Brandon Miller (groin) left Fri early",
+   "trigger": "Miller (groin) out Mon; Knueppel out 4+ wks",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Miller (groin) Q, re-evaluated over weekend, update Mon",
+   "verdict": "Speculative add",
+   "summary": "Named candidate for wing minutes; Miller timeline unknown",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-06T21:15:00-08:00"
+   "last_updated_pt": "2026-11-08T15:20:00-08:00"
   },
   "caleb-martin": {
    "player": "Caleb Martin",
@@ -398,7 +400,6 @@
   }
  },
  "drop_watch": [
-  "Dennis Schröder (Knueppel, Coby White back)",
   "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
   "Dean Wade",
   "Josh Green",
@@ -425,6 +426,8 @@
   "Gary Trent Jr. (MIL, illness, Q Sun)",
   "Brandon Miller (CHA, groin, update Mon)",
   "Deandre Ayton (WAS, lower leg, Q Mon at DET)",
-  "Brandon Ingram (TOR, Achilles, no timeline)"
+  "Brandon Ingram (TOR, Achilles, no timeline)",
+  "Kon Knueppel (CHA, hamstring, out 4+ wks)",
+  "Dennis Schröder (CHA, hamstring, 2 wks)"
  ]
 }
