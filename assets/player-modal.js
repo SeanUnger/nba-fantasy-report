@@ -6,7 +6,7 @@
 //   - the 9-cat value chart (FantasyPros ROS, Per Game / Per Min toggle),
 //     with each category's projected per-game stat under its bar
 //   - the stats table (2 seasons ago .. this season, L90, L30, projections,
-//     ending with SPS Live / SPS ROS, then Archimedes Live / ROS)
+//     ending with the Live projections, SPS then Archimedes, then the ROS ones)
 //   - the player's latest ESPN news (same Rotowire feed as the extension)
 //   - the team depth chart from the nightly projected playing time
 //     (/api/playing-time), with a Live / ROS toggle, projected minutes plus
@@ -273,10 +273,10 @@
         // Basketball-Reference SPS per-36 rates x the nightly live/ros
         // projected minutes; GP is the team's games left.
         { key: 'spsLiveProjection', short: 'SPS LIVE', projection: true },
-        { key: 'spsRosProjection', short: 'SPS ROS', projection: true },
         // Archimedes, our own rate projection, at the same minutes and games
         // left as SPS.
         { key: 'archimedesLiveProjection', short: 'ARCHIMEDES LIVE', projection: true },
+        { key: 'spsRosProjection', short: 'SPS ROS', projection: true },
         { key: 'archimedesRosProjection', short: 'ARCHIMEDES ROS', projection: true },
     ];
     const COLUMNS = ['GP', 'MIN', 'PTS', 'FG%', 'FT%', '3PM', 'REB', 'AST', 'STL', 'BLK', 'TO', 'FPTS', 'VAL/MIN', 'VALUE'];
