@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T20:15:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-07T21:15:00-08:00",
+ "run_label": "9pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -243,12 +243,12 @@
   "dayron-sharpe": {
    "player": "Day'Ron Sharpe",
    "team": "BKN",
-   "trigger": "15/13 in BKN's first win",
-   "trigger_status": "q",
-   "verdict": "Watch",
-   "summary": "Best game of season vs short-handed IND",
+   "trigger": "Triple-double (12/10/13) in 32 min Sat as starting C; Demin out 2+ more games",
+   "trigger_status": "active",
+   "verdict": "Speculative add",
+   "summary": "First career triple-double, starting C ~32 min; Demin out, Wolf starting alongside",
    "first_seen_pt": "2026-11-01T20:15:00-08:00",
-   "last_updated_pt": "2026-11-01T20:15:00-08:00"
+   "last_updated_pt": "2026-11-07T21:15:00-08:00"
   },
   "braden-smith": {
    "player": "Braden Smith",
