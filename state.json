@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T17:10:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-07T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -161,12 +161,12 @@
   "scoot-henderson": {
    "player": "Scoot Henderson",
    "team": "POR",
-   "trigger": "Morant (hamstring, ~4 wks) out",
+   "trigger": "Morant (hamstring) may return sooner than late-Nov re-eval",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "~22-31 min as starter; steals, assists, FT.",
+   "summary": "Starting PG ~22-31 min; Morant timeline possibly shortening",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-05T12:30:00-08:00",
+   "last_updated_pt": "2026-11-07T18:15:00-08:00",
    "last_notified_pt": "2026-10-31T12:15:00-07:00",
    "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
   },
@@ -193,12 +193,12 @@
   "tristan-da-silva": {
    "player": "Tristan da Silva",
    "team": "ORL",
-   "trigger": "Banchero out 4-6 wks; Suggs out 2+ wks",
+   "trigger": "Banchero out 4-6 wks; Bane out Sat; starting Sat",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "23 pts/10 reb in 35 min off bench Sun vs BOS",
+   "verdict": "Speculative add",
+   "summary": "Starting vs GSW Sat; 23/10 in 35 min earlier",
    "first_seen_pt": "2026-11-01T17:15:00-08:00",
-   "last_updated_pt": "2026-11-01T17:15:00-08:00"
+   "last_updated_pt": "2026-11-07T18:15:00-08:00"
   },
   "charles-bassey": {
    "player": "Charles Bassey",
@@ -386,9 +386,9 @@
    "trigger": "Bane out Sat (illness); Suggs out 2+ wks",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Bane (illness) out Sat vs GSW; Suggs out 2+ wks, starting G minutes",
+   "summary": "Slid to bench Sat vs GSW despite Bane out; Suggs out 2+ wks",
    "first_seen_pt": "2026-11-06T14:15:00-08:00",
-   "last_updated_pt": "2026-11-07T12:20:00-08:00"
+   "last_updated_pt": "2026-11-07T18:15:00-08:00"
   },
   "jamal-shead": {
    "player": "Jamal Shead",
@@ -469,6 +469,16 @@
    "summary": "First start Sat; Dëmin out 2+ more games",
    "first_seen_pt": "2026-11-07T16:10:00-08:00",
    "last_updated_pt": "2026-11-07T17:10:00-08:00"
+  },
+  "meleek-thomas": {
+   "player": "Meleek Thomas",
+   "team": "CLE",
+   "trigger": "Allen, Merrill, Tyson out Sat; starting vs NYK",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting G Sat; one-game unless injuries persist",
+   "first_seen_pt": "2026-11-07T18:15:00-08:00",
+   "last_updated_pt": "2026-11-07T18:15:00-08:00"
   }
  },
  "drop_watch": [
