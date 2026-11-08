@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T21:15:00-08:00",
- "run_label": "9pm",
+ "last_run_pt": "2026-11-07T22:10:00-08:00",
+ "run_label": "10pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -306,7 +306,7 @@
    "trigger": "Williams (back) out Sat vs WAS",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting Sat vs WAS (Williams out); Holmgren out 8-10 wks",
+   "summary": "Starting Sat vs WAS; season-high 18 pts/8 reb/3 blk in 27 min; Holmgren out 8-10 wks",
    "first_seen_pt": "2026-11-04T16:15:00-08:00",
    "last_updated_pt": "2026-11-07T17:10:00-08:00"
   },
