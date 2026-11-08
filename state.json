@@ -1,31 +1,7 @@
 {
- "last_run_pt": "2026-11-07T23:35:00-08:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-11-08T12:10:00-08:00",
+ "run_label": "12pm",
  "items": {
-  "derik-queen": {
-   "player": "Derik Queen",
-   "team": "NOP",
-   "trigger": "Missi (knee bone bruise) out, no timetable",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Season-high 20 pts/7 reb/5 ast Mon in 24 min off bench; Matkovic starts",
-   "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-11-03T12:30:00-08:00",
-   "last_notified_pt": "2026-10-24T23:40:00-07:00",
-   "notified_for": "Missi (knee bone bruise) out, no timetable; verdict Speculative add"
-  },
-  "marcus-sasser": {
-   "player": "Marcus Sasser",
-   "team": "DAL",
-   "trigger": "Irving (knee) out Mon at SAC; Lively, Aldama out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra bench-guard minutes while Irving, De Larrea out",
-   "first_seen_pt": "2026-10-24T20:25:00-07:00",
-   "last_updated_pt": "2026-11-02T17:15:00-08:00",
-   "last_notified_pt": "2026-10-24T23:40:00-07:00",
-   "notified_for": "Flagg (shoulder) out; Irving out; verdict Watch"
-  },
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
@@ -86,16 +62,6 @@
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
-  "quenton-jackson": {
-   "player": "Quenton Jackson",
-   "team": "IND",
-   "trigger": "Haliburton (hamstring) out 2+ wks; Nembhard, Nesmith, McConnell (wk-to-wk), Zubac (indef.), Siakam all out Mon vs ATL; Nance doubtful",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Nesmith, Nembhard back Wed; Jackson to bench",
-   "first_seen_pt": "2026-10-28T12:20:00-07:00",
-   "last_updated_pt": "2026-11-03T16:20:00-08:00"
-  },
   "jake-laravia": {
    "player": "Jake LaRavia",
    "team": "LAL",
@@ -121,32 +87,12 @@
   "jalen-smith": {
    "player": "Jalen Smith",
    "team": "CHI",
-   "trigger": "Claxton (hamstring) expected to make season debut Sun vs PHI",
-   "trigger_status": "out",
+   "trigger": "Claxton debuts Sun off bench, 16-20 min; Smith stays starter",
+   "trigger_status": "active",
    "verdict": "Watch",
-   "summary": "Claxton downgraded to questionable Sun; Collins out, Smith probable",
+   "summary": "Starting C; Claxton minutes capped",
    "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-07T14:10:00-08:00"
-  },
-  "karlo-matkovic": {
-   "player": "Karlo Matković",
-   "team": "NOP",
-   "trigger": "Missi (knee) out; Jordan to bench",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Career-high 25 pts/5 threes Mon; starting C while Missi out",
-   "first_seen_pt": "2026-10-29T17:15:00-07:00",
-   "last_updated_pt": "2026-11-03T12:30:00-08:00"
-  },
-  "tyler-kolek": {
-   "player": "Tyler Kolek",
-   "team": "NYK",
-   "trigger": "Alvarado (ankle) chance to return Mon",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "9 pts/9 ast in 18 min Wed; backup PG",
-   "first_seen_pt": "2026-10-29T17:15:00-07:00",
-   "last_updated_pt": "2026-11-01T19:15:00-08:00"
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   },
   "cam-spencer": {
    "player": "Cam Spencer",
@@ -170,25 +116,15 @@
    "last_notified_pt": "2026-10-31T12:15:00-07:00",
    "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
   },
-  "jay-huff": {
-   "player": "Jay Huff",
-   "team": "IND",
-   "trigger": "Zubac (ankle) out indefinitely (5th straight); Nance doubtful, Siakam rest Mon",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Zubac questionable Wed; loses job if he plays",
-   "first_seen_pt": "2026-10-31T15:15:00-07:00",
-   "last_updated_pt": "2026-11-03T16:20:00-08:00"
-  },
   "neemias-queta": {
    "player": "Neemias Queta",
    "team": "BOS",
-   "trigger": "Mitchell Robinson has come off the bench two straight games",
+   "trigger": "Mitchell Robinson (illness) Q Sun",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting C, 26-29 min; boards, blocks, FG%. Role looks sustained, not a one-game bump.",
+   "summary": "Starting C 26-29 min; more if Robinson sits",
    "first_seen_pt": "2026-11-01T12:15:00-08:00",
-   "last_updated_pt": "2026-11-05T12:30:00-08:00"
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   },
   "tristan-da-silva": {
    "player": "Tristan da Silva",
@@ -200,46 +136,6 @@
    "first_seen_pt": "2026-11-01T17:15:00-08:00",
    "last_updated_pt": "2026-11-07T18:15:00-08:00"
   },
-  "charles-bassey": {
-   "player": "Charles Bassey",
-   "team": "GSW",
-   "trigger": "Draymond Green rest Sun (back-to-back)",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting C Sun at LAC; one-game",
-   "first_seen_pt": "2026-11-01T18:15:00-08:00",
-   "last_updated_pt": "2026-11-01T18:15:00-08:00"
-  },
-  "georges-niang": {
-   "player": "Georges Niang",
-   "team": "GSW",
-   "trigger": "Curry, Draymond rest Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting PF Sun at LAC; one-night",
-   "first_seen_pt": "2026-11-01T19:15:00-08:00",
-   "last_updated_pt": "2026-11-01T19:15:00-08:00"
-  },
-  "deanthony-melton": {
-   "player": "De'Anthony Melton",
-   "team": "GSW",
-   "trigger": "Curry rest Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting G Sun at LAC; one-night",
-   "first_seen_pt": "2026-11-01T19:15:00-08:00",
-   "last_updated_pt": "2026-11-01T19:15:00-08:00"
-  },
-  "gradey-dick": {
-   "player": "Gradey Dick",
-   "team": "LAC",
-   "trigger": "D. Jones Jr. (knee) questionable Mon",
-   "trigger_status": "q",
-   "verdict": "Watch",
-   "summary": "Minutes if Jones misses time",
-   "first_seen_pt": "2026-11-01T20:15:00-08:00",
-   "last_updated_pt": "2026-11-01T23:10:00-08:00"
-  },
   "dayron-sharpe": {
    "player": "Day'Ron Sharpe",
    "team": "BKN",
@@ -249,16 +145,6 @@
    "summary": "First career triple-double, starting C ~32 min; Demin out, Wolf starting alongside",
    "first_seen_pt": "2026-11-01T20:15:00-08:00",
    "last_updated_pt": "2026-11-07T21:15:00-08:00"
-  },
-  "braden-smith": {
-   "player": "Braden Smith",
-   "team": "IND",
-   "trigger": "Nembhard, McConnell, Haliburton, Nesmith out; first career start Mon",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Nembhard back; may not be active",
-   "first_seen_pt": "2026-11-02T15:15:00-08:00",
-   "last_updated_pt": "2026-11-03T16:20:00-08:00"
   },
   "brayden-burries": {
    "player": "Brayden Burries",
@@ -270,25 +156,15 @@
    "first_seen_pt": "2026-11-02T17:15:00-08:00",
    "last_updated_pt": "2026-11-06T23:35:00-08:00"
   },
-  "jalen-slawson": {
-   "player": "Jalen Slawson",
-   "team": "IND",
-   "trigger": "IND depleted: Haliburton 2+ wks, Zubac indef., Nembhard/McConnell out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Siakam, Nance back Wed; to bench",
-   "first_seen_pt": "2026-11-03T12:30:00-08:00",
-   "last_updated_pt": "2026-11-03T16:20:00-08:00"
-  },
   "paul-reed": {
    "player": "Paul Reed",
    "team": "DET",
-   "trigger": "Duren (hamstring) out at least 2 wks, re-eval ~Nov 6",
+   "trigger": "Duren (hamstring) cleared for on-court work, re-eval in 2 wks",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Top-30 9-cat over last 4 games; fill-in C, not confirmed starter",
+   "summary": "Top-30 9-cat last 4 games; primary C while Duren out through ~Nov 22",
    "first_seen_pt": "2026-11-03T16:20:00-08:00",
-   "last_updated_pt": "2026-11-03T16:20:00-08:00"
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   },
   "landry-shamet": {
    "player": "Landry Shamet",
@@ -393,12 +269,12 @@
   "jamal-shead": {
    "player": "Jamal Shead",
    "team": "TOR",
-   "trigger": "Quickley (hamstring) out Fri; Q Mon",
+   "trigger": "Quickley (hamstring), Barnes (adductor) Q Mon",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "First start Fri at MIL: 10 pts, 16 ast, 2 stl; Quickley out, Q Mon",
+   "summary": "First start Fri 10 pts/16 ast; starts again if Quickley sits",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-06T18:15:00-08:00"
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   },
   "tidjane-salaun": {
    "player": "Tidjane Salaün",
@@ -433,12 +309,12 @@
   "trey-lyles": {
    "player": "Trey Lyles",
    "team": "MIN",
-   "trigger": "Beringer (nasal fracture) out rest of Fri",
+   "trigger": "Beringer (nose) available Sun",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "13 reb, 3 stl; PF minutes if Beringer sits",
+   "summary": "Minutes bump fading",
    "first_seen_pt": "2026-11-06T22:15:00-08:00",
-   "last_updated_pt": "2026-11-06T22:15:00-08:00"
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   },
   "alijah-martin": {
    "player": "Alijah Martin",
@@ -479,12 +355,51 @@
    "summary": "Starting G Sat; one-game unless injuries persist",
    "first_seen_pt": "2026-11-07T18:15:00-08:00",
    "last_updated_pt": "2026-11-07T18:15:00-08:00"
+  },
+  "isaac-okoro": {
+   "player": "Isaac Okoro",
+   "team": "CHI",
+   "trigger": "Powell (shoulder) out Sun; Okoro starting",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "First start of season Sun vs PHI; one-game unless Powell stays out",
+   "first_seen_pt": "2026-11-08T12:10:00-08:00",
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+  },
+  "bennett-stirtz": {
+   "player": "Bennett Stirtz",
+   "team": "OKC",
+   "trigger": "OKC injuries; 20+ min in 6 of 7",
+   "trigger_status": "role",
+   "verdict": "Speculative add",
+   "summary": "Career-high 29 min Sat; Clifford trade could cut minutes",
+   "first_seen_pt": "2026-11-08T12:10:00-08:00",
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+  },
+  "nique-clifford": {
+   "player": "Nique Clifford",
+   "team": "OKC",
+   "trigger": "Traded from SAC to OKC",
+   "trigger_status": "trade",
+   "verdict": "Watch",
+   "summary": "Fell out of KINGS rotation; OKC needs depth; role unknown",
+   "first_seen_pt": "2026-11-08T12:10:00-08:00",
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+  },
+  "isaiah-collier": {
+   "player": "Isaiah Collier",
+   "team": "UTA",
+   "trigger": "Keyonte George (illness) Q Sun",
+   "trigger_status": "q",
+   "verdict": "Watch",
+   "summary": "Playmaking minutes if George sits",
+   "first_seen_pt": "2026-11-08T12:10:00-08:00",
+   "last_updated_pt": "2026-11-08T12:10:00-08:00"
   }
  },
  "drop_watch": [
   "Dennis Schröder (Knueppel, Coby White back)",
   "Kobe Sanders, Gradey Dick (Hachimura, D. Jones Jr. back)",
-  "Quenton Jackson, Jalen Slawson (IND healthy again)",
   "Dean Wade",
   "Josh Green",
   "Reed Sheppard",
@@ -493,24 +408,23 @@
   "Zaccharie Risacher",
   "Tyler Kolek (Alvarado may return)",
   "Trayce Jackson-Davis (Poeltl back starting, 19/11)",
-  "Kingston Flemings (Jalen Johnson probable Sat)",
-  "Jalen Smith (Claxton returning Sun)"
+  "Kingston Flemings (Jalen Johnson back)",
+  "Trey Lyles (Beringer back)",
+  "Quenton Jackson (McConnell debuted Sat)"
  ],
  "injury_watch": [
-  "Luka Dončić (LAL, back tightness, Q Sun vs DET)",
-  "Desmond Bane (ORL, illness, out Sat)",
-  "Jalen Johnson (ATL, ankle, probable Sat)",
-  "Brandon Miller (CHA, groin, re-eval over weekend, update Mon)",
-  "Brandon Ingram (Achilles, close to returning, no timeline)",
-  "Jarrett Allen (CLE, knee, out Sat)",
-  "Josh Hart (NYK, ankle, out Sat)",
-  "Jordan Goodwin (PHX, calf, doubtful Sat)",
-  "Rasheer Fleming (PHX, ankle, Q Sat)",
-  "Anthony Davis (WAS, ankle, out Sat vs OKC)",
-  "Noah Clowney (BKN, illness, Q Sat)",
-  "Draymond Green / Gary Payton II / Gui Santos (GSW, Q Sat)",
-  "T.J. McConnell / Kelly Oubre Jr. (IND, Q Sat)",
-  "Joan Beringer (MIN, nasal fracture)",
-  "Deandre Ayton (WAS, lower leg, left Sat early, Q Mon at DET)"
+  "Luka Dončić (LAL, back tightness, out Sun at DET",
+  "next chance Mon at ATL",
+  "Reaves absorbs usage)",
+  "Norman Powell (CHI, shoulder, out Sun)",
+  "Jalen Duren (DET, hamstring, on-court work, re-eval in 2 wks)",
+  "Immanuel Quickley / Scottie Barnes (TOR, Q Mon)",
+  "Mitchell Robinson (BOS, illness, Q Sun)",
+  "Keyonte George (UTA, illness, Q Sun)",
+  "Mikel Brown Jr. (BKN, back, out Sun, no back-to-backs yet)",
+  "Gary Trent Jr. (MIL, illness, Q Sun)",
+  "Brandon Miller (CHA, groin, update Mon)",
+  "Deandre Ayton (WAS, lower leg, Q Mon at DET)",
+  "Brandon Ingram (TOR, Achilles, no timeline)"
  ]
 }
