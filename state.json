@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-07T16:10:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-07T17:10:00-08:00",
+ "run_label": "5pm",
  "items": {
   "derik-queen": {
    "player": "Derik Queen",
@@ -53,12 +53,12 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "Holmgren (patellar tendon) out 8-10 wks; McCain back in starting five Fri",
+   "trigger": "Holmgren out 8-10 wks; McCain back to bench Sat (Mara starts), 25+ min six straight",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting Fri vs MEM at G next to SGA; season-high 21 pts/5 reb/4 ast in 29 min; 12.7 pts in 3 prior starts; role in and out",
+   "summary": "Bench role Sat; 25+ min six straight; Fri 21/5/4 in start",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-11-06T18:15:00-08:00",
+   "last_updated_pt": "2026-11-07T17:10:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
   },
@@ -306,9 +306,9 @@
    "trigger": "Williams (back) out Sat vs WAS",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Jaylin Williams (back) out Sat; Holmgren out 8-10 wks",
+   "summary": "Starting Sat vs WAS (Williams out); Holmgren out 8-10 wks",
    "first_seen_pt": "2026-11-04T16:15:00-08:00",
-   "last_updated_pt": "2026-11-07T12:20:00-08:00"
+   "last_updated_pt": "2026-11-07T17:10:00-08:00"
   },
   "sion-james": {
    "player": "Sion James",
@@ -463,12 +463,12 @@
   "danny-wolf": {
    "player": "Danny Wolf",
    "team": "BKN",
-   "trigger": "Starting Sat vs ATL; C. Johnson to bench",
+   "trigger": "Starting Sat vs ATL; Dëmin out Sat and Sun, re-eval next week",
    "trigger_status": "starting",
    "verdict": "Watch",
-   "summary": "Starting big Sat; one-game role unclear",
+   "summary": "First start Sat; Dëmin out 2+ more games",
    "first_seen_pt": "2026-11-07T16:10:00-08:00",
-   "last_updated_pt": "2026-11-07T16:10:00-08:00"
+   "last_updated_pt": "2026-11-07T17:10:00-08:00"
   }
  },
  "drop_watch": [
