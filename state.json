@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-08T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-08T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -199,12 +199,12 @@
   "tyrese-proctor": {
    "player": "Tyrese Proctor",
    "team": "CLE",
-   "trigger": "Allen, Merrill, Tyson out Sat vs NYK",
+   "trigger": "Tyson (ankle) out Mon, 6th straight",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Allen/Merrill/Tyson out Sat vs NYK",
+   "summary": "Larger role with Tyson out; Meleek Thomas also in play",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-07T12:20:00-08:00"
+   "last_updated_pt": "2026-11-08T14:15:00-08:00"
   },
   "zuby-ejiofor": {
    "player": "Zuby Ejiofor",
