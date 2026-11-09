@@ -1,16 +1,16 @@
 {
- "last_run_pt": "2026-11-08T23:15:00-08:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-11-08T23:30:00-08:00",
+ "run_label": "11:30pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
-   "trigger": "Keegan Murray (ankle) back Sun; Sabonis Q",
+   "trigger": "Keegan Murray (ankle) returned Sun off bench (23 min); Sabonis Q",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Fading as Murray reclaims starting job",
+   "summary": "Murray back as reserve; Achiuwa keeps bench minutes",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-11-08T16:20:00-08:00",
+   "last_updated_pt": "2026-11-08T23:30:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Murray out 10-14 days; verdict Add now"
   },
