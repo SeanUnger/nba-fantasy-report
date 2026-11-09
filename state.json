@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-08T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-08T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -391,12 +391,12 @@
   "isaiah-collier": {
    "player": "Isaiah Collier",
    "team": "UTA",
-   "trigger": "Keyonte George (illness) Q Sun",
+   "trigger": "Keyonte George (ankle) left Sun game, Q Tue; Markkanen out Sun",
    "trigger_status": "q",
-   "verdict": "Watch",
-   "summary": "Playmaking minutes if George sits",
+   "verdict": "Speculative add",
+   "summary": "Playmaking minutes if George sits Tue",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+   "last_updated_pt": "2026-11-08T19:15:00-08:00"
   },
   "quinten-post": {
    "player": "Quinten Post",
@@ -498,6 +498,7 @@
   "Deandre Ayton (WAS, lower leg, Q Mon at DET)",
   "Brandon Ingram (TOR, Achilles, no timeline)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
-  "Dennis Schröder (CHA, hamstring, 2 wks)"
+  "Dennis Schröder (CHA, hamstring, 2 wks)",
+  "Keyonte George (UTA, ankle, Q Tue)"
  ]
 }
