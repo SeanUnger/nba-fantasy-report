@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-09T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-09T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -17,12 +17,12 @@
   "ja-kobe-walter": {
    "player": "Ja'Kobe Walter",
    "team": "TOR",
-   "trigger": "Barnes (adductor), Quickley (hamstring) out Fri; Kawhi, Ingram also out",
+   "trigger": "Barnes, Quickley, Murray-Boyles out Mon; Kawhi, Ingram also out",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starter minutes while TOR depleted; Ingram near return",
+   "summary": "Starter-level minutes while TOR is depleted",
    "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-11-06T16:15:00-08:00",
+   "last_updated_pt": "2026-11-09T15:15:00-08:00",
    "last_notified_pt": "2026-10-27T12:15:00-07:00",
    "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
   },
@@ -231,12 +231,12 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Moussa Diabaté (quad) downgraded to doubtful vs CLE; Michael Ajayi recalled from G League.",
+   "trigger": "Diabaté (quad) out Mon vs CLE; Ajayi recalled",
    "trigger_status": "out",
    "verdict": "Watch",
    "summary": "Starting-C minutes if Diabaté sits; blocks, FG%.",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-09T12:10:00-08:00"
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
   },
   "jaylen-clark": {
    "player": "Jaylen Clark",
@@ -271,12 +271,12 @@
   "jamal-shead": {
    "player": "Jamal Shead",
    "team": "TOR",
-   "trigger": "Quickley (hamstring), Barnes (adductor) Q Mon",
+   "trigger": "Quickley (hamstring) and Barnes (adductor) both out Mon vs MEM; Murray-Boyles (illness) out too",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "First start Fri 10 pts/16 ast; starts again if Quickley sits",
+   "verdict": "Speculative add",
+   "summary": "Starting PG; career-high 16 ast Fri",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
   },
   "tidjane-salaun": {
    "player": "Tidjane Salaün",
@@ -467,6 +467,46 @@
    "summary": "First start of season; one game absence so far",
    "first_seen_pt": "2026-11-08T18:15:00-08:00",
    "last_updated_pt": "2026-11-08T18:15:00-08:00"
+  },
+  "allen-graves": {
+   "first_seen_pt": "2026-11-09T15:15:00-08:00",
+   "player": "Allen Graves",
+   "team": "TOR",
+   "trigger": "Barnes and Murray-Boyles out Mon; possible first NBA start",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Rookie; playing time rises Mon",
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
+  },
+  "hannes-steinbach": {
+   "first_seen_pt": "2026-11-09T15:15:00-08:00",
+   "player": "Hannes Steinbach",
+   "team": "CHA",
+   "trigger": "Diabaté (quad) out Mon vs CLE",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Rookie big; streaming rebounds",
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
+  },
+  "collin-sexton": {
+   "first_seen_pt": "2026-11-09T15:15:00-08:00",
+   "player": "Collin Sexton",
+   "team": "LAL",
+   "trigger": "Reaves (illness) out Mon at ATL; Luka back",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Sexton should play more Mon",
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
+  },
+  "tre-johnson": {
+   "first_seen_pt": "2026-11-09T15:15:00-08:00",
+   "player": "Tre Johnson",
+   "team": "WAS",
+   "trigger": "Coulibaly (hand) out Mon vs DET",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Streamer with Carrington",
+   "last_updated_pt": "2026-11-09T15:15:00-08:00"
   }
  },
  "drop_watch": [
