@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-08T23:30:00-08:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-11-09T12:10:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -53,12 +53,12 @@
   "jaxson-hayes": {
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "trigger": "Nurkić (foot) re-evaluated in two weeks; Jaren Jackson Jr. (torn MCL) out 6-8 wks",
+   "trigger": "Nurkić (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Nurkić only now doing on-court work, next check ~Nov 20, so Hayes stays UTA's primary C",
+   "summary": "Starting C, ~29 min; FG%, blocks, boards.",
    "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-11-06T12:15:00-08:00",
+   "last_updated_pt": "2026-11-09T12:10:00-08:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
   },
@@ -149,12 +149,12 @@
   "brayden-burries": {
    "player": "Brayden Burries",
    "team": "MIL",
-   "trigger": "Rollins benched, Burries first career start Mon",
+   "trigger": "Rollins benched; Burries started again Sun (13 pts/8 reb/4 ast/1 blk in 29 min).",
    "trigger_status": "active",
    "verdict": "Speculative add",
-   "summary": "Starting; 21 pts/11 reb/6 ast in 38 min Fri vs TOR",
+   "summary": "Starter, ~29 min; boards, assists, 3s.",
    "first_seen_pt": "2026-11-02T17:15:00-08:00",
-   "last_updated_pt": "2026-11-06T23:35:00-08:00"
+   "last_updated_pt": "2026-11-09T12:10:00-08:00"
   },
   "paul-reed": {
    "player": "Paul Reed",
@@ -231,12 +231,12 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabaté (quad) out Fri vs BOS, first miss of the season",
+   "trigger": "Moussa Diabaté (quad) downgraded to doubtful vs CLE; Michael Ajayi recalled from G League.",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Confirmed starting Fri sans Diabate",
+   "summary": "Starting-C minutes if Diabaté sits; blocks, FG%.",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-06T16:15:00-08:00"
+   "last_updated_pt": "2026-11-09T12:10:00-08:00"
   },
   "jaylen-clark": {
    "player": "Jaylen Clark",
@@ -371,12 +371,12 @@
   "bennett-stirtz": {
    "player": "Bennett Stirtz",
    "team": "OKC",
-   "trigger": "OKC injuries; 20+ min in 6 of 7",
+   "trigger": "Isaiah Joe (hip) out Mon vs WAS; Stirtz has 20+ min in 6 of 7.",
    "trigger_status": "role",
    "verdict": "Speculative add",
-   "summary": "Career-high 29 min Sat; Clifford trade could cut minutes",
+   "summary": "Rotation guard 20+ min; assists, steals.",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+   "last_updated_pt": "2026-11-09T12:10:00-08:00"
   },
   "nique-clifford": {
    "player": "Nique Clifford",
@@ -498,6 +498,8 @@
   "Brandon Ingram (TOR, Achilles, no timeline)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
   "Dennis Schröder (CHA, hamstring, 2 wks)",
-  "Keyonte George (UTA, ankle, Q Tue)"
+  "Keyonte George (UTA, ankle, Q Tue)",
+  "Luka Dončić back off injury report Mon",
+  "Vassell (SAS, groin) out Mon"
  ]
 }
