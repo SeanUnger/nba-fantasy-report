@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-08T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-08T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -447,6 +447,26 @@
    "verdict": "Watch",
    "summary": "Rotating starters; minimal sample",
    "last_updated_pt": "2026-11-08T17:15:00-08:00"
+  },
+  "pelle-larsson": {
+   "player": "Pelle Larsson",
+   "team": "MIA",
+   "trigger": "Wiggins benched; Larsson starts Sun at SAC",
+   "trigger_status": "role change",
+   "verdict": "Watch",
+   "summary": "Starting SG/SF; double figures in 5 of last 7",
+   "first_seen_pt": "2026-11-08T18:15:00-08:00",
+   "last_updated_pt": "2026-11-08T18:15:00-08:00"
+  },
+  "dylan-cardwell": {
+   "player": "Dylan Cardwell",
+   "team": "SAC",
+   "trigger": "Sabonis (knee soreness) out Sun; Cardwell starts",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "First start of season; one game absence so far",
+   "first_seen_pt": "2026-11-08T18:15:00-08:00",
+   "last_updated_pt": "2026-11-08T18:15:00-08:00"
   }
  },
  "drop_watch": [
