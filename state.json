@@ -1,16 +1,16 @@
 {
- "last_run_pt": "2026-11-09T16:20:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-09T17:20:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
-   "trigger": "Keegan Murray (ankle) returned Sun off bench (23 min); Sabonis Q",
+   "trigger": "Sabonis (knee) Q Tue, Raynaud out week-to-week, Murray (wrist) Q",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Murray back as reserve; Achiuwa keeps bench minutes",
+   "summary": "14 reb in 36 min Sun; minutes if Sabonis sits",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-11-08T23:30:00-08:00",
+   "last_updated_pt": "2026-11-09T17:20:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Murray out 10-14 days; verdict Add now"
   },
@@ -517,6 +517,36 @@
    "summary": "Starting G, one-game sample",
    "first_seen_pt": "2026-11-09T16:20:00-08:00",
    "last_updated_pt": "2026-11-09T16:20:00-08:00"
+  },
+  "julian-champagnie": {
+   "player": "Julian Champagnie",
+   "team": "SAS",
+   "trigger": "Vassell (groin) out Mon; first start",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-game starter bump",
+   "first_seen_pt": "2026-11-09T17:20:00-08:00",
+   "last_updated_pt": "2026-11-09T17:20:00-08:00"
+  },
+  "kyle-anderson": {
+   "player": "Kyle Anderson",
+   "team": "TOR",
+   "trigger": "Barnes, Murray-Boyles out Mon; rare start",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-game bump",
+   "first_seen_pt": "2026-11-09T17:20:00-08:00",
+   "last_updated_pt": "2026-11-09T17:20:00-08:00"
+  },
+  "ziaire-williams": {
+   "player": "Ziaire Williams",
+   "team": "LAL",
+   "trigger": "Reaves, Grimes out Mon; starting",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-game starter bump",
+   "first_seen_pt": "2026-11-09T17:20:00-08:00",
+   "last_updated_pt": "2026-11-09T17:20:00-08:00"
   }
  },
  "drop_watch": [
