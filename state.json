@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-09T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-09T16:20:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -159,12 +159,12 @@
   "paul-reed": {
    "player": "Paul Reed",
    "team": "DET",
-   "trigger": "Duren (hamstring) cleared for on-court work, re-eval in 2 wks",
+   "trigger": "Moved to bench Mon (Jenkins starts); Duren re-eval ~2 wks",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Top-30 9-cat last 4 games; primary C while Duren out through ~Nov 22",
+   "verdict": "Watch",
+   "summary": "Lost starting job after 7 straight starts",
    "first_seen_pt": "2026-11-03T16:20:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+   "last_updated_pt": "2026-11-09T16:20:00-08:00"
   },
   "landry-shamet": {
    "player": "Landry Shamet",
@@ -189,12 +189,12 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Knueppel (hamstring) out 4+ wks; Schröder out 2 wks; Miller out Mon",
+   "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schröder 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Starter-level minutes with CHA backcourt/wings depleted",
+   "summary": "Confirmed starter Mon vs CLE",
    "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-08T15:20:00-08:00",
+   "last_updated_pt": "2026-11-09T16:20:00-08:00",
    "last_notified_pt": "2026-11-08T15:20:00-08:00",
    "notified_for": "Knueppel out 4+ weeks; verdict Add now"
   },
@@ -391,12 +391,12 @@
   "isaiah-collier": {
    "player": "Isaiah Collier",
    "team": "UTA",
-   "trigger": "Keyonte George (ankle) left Sun game, Q Tue; Markkanen out Sun",
+   "trigger": "Keyonte George (ankle) out Tue vs MIA; Markkanen Q",
    "trigger_status": "q",
    "verdict": "Speculative add",
-   "summary": "Playmaking minutes if George sits Tue",
+   "summary": "Playmaking minutes with George out Tue",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-08T19:15:00-08:00"
+   "last_updated_pt": "2026-11-09T16:20:00-08:00"
   },
   "quinten-post": {
    "player": "Quinten Post",
@@ -507,6 +507,16 @@
    "verdict": "Watch",
    "summary": "Streamer with Carrington",
    "last_updated_pt": "2026-11-09T15:15:00-08:00"
+  },
+  "daniss-jenkins": {
+   "player": "Daniss Jenkins",
+   "team": "DET",
+   "trigger": "Promoted to starting lineup Mon over Reed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting G, one-game sample",
+   "first_seen_pt": "2026-11-09T16:20:00-08:00",
+   "last_updated_pt": "2026-11-09T16:20:00-08:00"
   }
  },
  "drop_watch": [
