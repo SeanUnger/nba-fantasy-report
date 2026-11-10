@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-10T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-10T15:10:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -53,7 +53,7 @@
   "jaxson-hayes": {
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "trigger": "Nurki\u0107 (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
+   "trigger": "Nurkić (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting C, ~29 min; FG%, blocks, boards.",
@@ -75,14 +75,14 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porzi\u0146\u0123is stepping away from basketball; Butler (knee) out until new year",
+   "trigger": "Porziņģis stepping away from basketball; Butler (knee) out until new year",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porzi\u0146\u0123is return now very unlikely",
+   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
    "first_seen_pt": "2026-10-28T20:15:00-07:00",
    "last_updated_pt": "2026-11-06T14:15:00-08:00",
    "last_notified_pt": "2026-11-01T20:15:00-08:00",
-   "notified_for": "Porzi\u0146\u0123is/Butler out long-term; verdict Add now"
+   "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
   },
   "jalen-smith": {
    "player": "Jalen Smith",
@@ -189,7 +189,7 @@
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schr\u00f6der 2 wks",
+   "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schröder 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Confirmed starter Mon vs CLE",
@@ -231,10 +231,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
+   "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -279,7 +279,7 @@
    "last_updated_pt": "2026-11-09T19:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
+   "player": "Tidjane Salaün",
    "team": "CHA",
    "trigger": "Miller (groin) out Mon; Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -341,10 +341,10 @@
   "danny-wolf": {
    "player": "Danny Wolf",
    "team": "BKN",
-   "trigger": "Starting Sat vs ATL; D\u00ebmin out Sat and Sun, re-eval next week",
+   "trigger": "Starting Sat vs ATL; Dëmin out Sat and Sun, re-eval next week",
    "trigger_status": "starting",
    "verdict": "Watch",
-   "summary": "First start Sat; D\u00ebmin out 2+ more games",
+   "summary": "First start Sat; Dëmin out 2+ more games",
    "first_seen_pt": "2026-11-07T16:10:00-08:00",
    "last_updated_pt": "2026-11-07T17:10:00-08:00"
   },
@@ -484,7 +484,7 @@
    "first_seen_pt": "2026-11-09T15:15:00-08:00",
    "player": "Hannes Steinbach",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon vs CLE",
+   "trigger": "Diabaté (quad) out Mon vs CLE",
    "trigger_status": "out",
    "verdict": "Watch",
    "summary": "Rookie big; streaming rebounds",
@@ -622,6 +622,6 @@
   "Will Richard (GSW, thumb UCL, surgery decision pending)",
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
-  "Dennis Schr\u00f6der (CHA, hamstring, ~2 wks)"
+  "Dennis Schröder (CHA, hamstring, ~2 wks)"
  ]
 }
