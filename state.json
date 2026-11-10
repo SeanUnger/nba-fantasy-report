@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-09T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-09T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -274,9 +274,9 @@
    "trigger": "Quickley (hamstring) and Barnes (adductor) both out Mon vs MEM; Murray-Boyles (illness) out too",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting PG; career-high 16 ast Fri",
+   "summary": "Started 2nd straight; 20/11 in 36 min Mon, Quickley out",
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-09T15:15:00-08:00"
+   "last_updated_pt": "2026-11-09T19:15:00-08:00"
   },
   "tidjane-salaun": {
    "player": "Tidjane Salaün",
@@ -547,6 +547,26 @@
    "summary": "One-game starter bump",
    "first_seen_pt": "2026-11-09T17:20:00-08:00",
    "last_updated_pt": "2026-11-09T17:20:00-08:00"
+  },
+  "sandro-mamukelashvili": {
+   "player": "Sandro Mamukelashvili",
+   "team": "LAL",
+   "trigger": "Reaves (illness) out Mon; 23 pts off bench",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Single-game bump",
+   "first_seen_pt": "2026-11-09T19:15:00-08:00",
+   "last_updated_pt": "2026-11-09T19:15:00-08:00"
+  },
+  "saddiq-bey": {
+   "player": "Saddiq Bey",
+   "team": "NOP",
+   "trigger": "Murphy, Zion out Mon; Bey starting",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Single-game bump",
+   "first_seen_pt": "2026-11-09T19:15:00-08:00",
+   "last_updated_pt": "2026-11-09T19:15:00-08:00"
   }
  },
  "drop_watch": [
