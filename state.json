@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-10T23:35:00-08:00",
- "run_label": "11:30pm",
+ "last_run_pt": "2026-11-11T12:15:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -61,28 +61,6 @@
    "last_updated_pt": "2026-11-09T12:10:00-08:00",
    "last_notified_pt": "2026-10-27T13:20:00-07:00",
    "notified_for": "JJJ out 6-8 wks; verdict Add now"
-  },
-  "jake-laravia": {
-   "player": "Jake LaRavia",
-   "team": "LAL",
-   "trigger": "LaRavia started a 5th straight (9 pts, 2 reb, 2 ast, blk, stl) but with limited minutes",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting F but minutes modest; Thiero's return caps upside.",
-   "first_seen_pt": "2026-10-28T14:15:00-07:00",
-   "last_updated_pt": "2026-11-05T12:30:00-08:00"
-  },
-  "yaxel-lendeborg": {
-   "player": "Yaxel Lendeborg",
-   "team": "GSW",
-   "trigger": "Porziņģis stepping away from basketball; Butler (knee) out until new year",
-   "trigger_status": "out",
-   "verdict": "Add now",
-   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
-   "first_seen_pt": "2026-10-28T20:15:00-07:00",
-   "last_updated_pt": "2026-11-06T14:15:00-08:00",
-   "last_notified_pt": "2026-11-01T20:15:00-08:00",
-   "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
   },
   "jalen-smith": {
    "player": "Jalen Smith",
@@ -218,16 +196,6 @@
    "first_seen_pt": "2026-11-05T16:15:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
-  "oso-ighodaro": {
-   "player": "Oso Ighodaro",
-   "team": "PHX",
-   "trigger": "Replaces Maluach as starting C; Mark Williams (shoulder) out",
-   "trigger_status": "role",
-   "verdict": "Speculative add",
-   "summary": "Starting C Thu vs ORL; already out-minuting Maluach, modest gain",
-   "first_seen_pt": "2026-11-05T18:15:00-08:00",
-   "last_updated_pt": "2026-11-05T18:15:00-08:00"
-  },
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
@@ -237,16 +205,6 @@
    "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
-  },
-  "jaylen-clark": {
-   "player": "Jaylen Clark",
-   "team": "MIN",
-   "trigger": "Shannon (hip) out Fri vs NOP, a third straight miss",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra wing minutes; steals, 3s. Bump ends when Shannon returns.",
-   "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-06T13:10:00-08:00"
   },
   "jabari-walker": {
    "player": "Jabari Walker",
@@ -288,26 +246,6 @@
    "first_seen_pt": "2026-11-06T18:15:00-08:00",
    "last_updated_pt": "2026-11-08T15:20:00-08:00"
   },
-  "caleb-martin": {
-   "player": "Caleb Martin",
-   "team": "DAL",
-   "trigger": "Christie (hip) out; Risacher benched",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting Fri vs UTA; one-game-ish",
-   "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-06T18:15:00-08:00"
-  },
-  "leaky-black": {
-   "player": "Leaky Black",
-   "team": "SAC",
-   "trigger": "Hunter (illness) out Fri vs SAS",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "First start of season Fri; 20+ min last two games; one-game bump",
-   "first_seen_pt": "2026-11-06T19:10:00-08:00",
-   "last_updated_pt": "2026-11-06T19:10:00-08:00"
-  },
   "trey-lyles": {
    "player": "Trey Lyles",
    "team": "MIN",
@@ -317,26 +255,6 @@
    "summary": "Minutes bump fading",
    "first_seen_pt": "2026-11-06T22:15:00-08:00",
    "last_updated_pt": "2026-11-08T12:10:00-08:00"
-  },
-  "alijah-martin": {
-   "player": "Alijah Martin",
-   "team": "TOR",
-   "trigger": "Kawhi, Barnes, Quickley out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "27 pts off bench Fri, 6-7 3PT",
-   "first_seen_pt": "2026-11-06T22:15:00-08:00",
-   "last_updated_pt": "2026-11-06T22:15:00-08:00"
-  },
-  "morez-johnson-jr": {
-   "player": "Morez Johnson Jr.",
-   "team": "DAL",
-   "trigger": "Gafford benched 2nd half",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "17 reb, 13 pts in 24 min",
-   "first_seen_pt": "2026-11-06T22:15:00-08:00",
-   "last_updated_pt": "2026-11-06T22:15:00-08:00"
   },
   "danny-wolf": {
    "player": "Danny Wolf",
@@ -391,12 +309,12 @@
   "isaiah-collier": {
    "player": "Isaiah Collier",
    "team": "UTA",
-   "trigger": "Keyonte George (ankle) and Markkanen (wrist) out Tue",
+   "trigger": "Markkanen out 1+ month; George (ankle) Q Wed",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Lead-guard minutes",
+   "summary": "Lead-guard minutes if George out",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-10T12:15:00-08:00"
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
   },
   "quinten-post": {
    "player": "Quinten Post",
@@ -411,12 +329,14 @@
   "ace-bailey": {
    "player": "Ace Bailey",
    "team": "UTA",
-   "trigger": "Markkanen (wrist) out Sun",
+   "trigger": "Markkanen (hand fracture) out 1+ month, mid-Dec return",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra minutes while Markkanen out; Green starts",
+   "verdict": "Speculative add",
+   "summary": "Starting F while Markkanen out",
    "first_seen_pt": "2026-11-08T16:20:00-08:00",
-   "last_updated_pt": "2026-11-08T16:20:00-08:00"
+   "last_updated_pt": "2026-11-11T12:15:00-08:00",
+   "last_notified_pt": "2026-11-11T12:15:00-08:00",
+   "notified_for": "Markkanen out 1+ month; verdict Speculative add"
   },
   "deanthony-melton": {
    "first_seen_pt": "2026-11-08T17:15:00-08:00",
@@ -494,11 +414,11 @@
    "first_seen_pt": "2026-11-09T15:15:00-08:00",
    "player": "Collin Sexton",
    "team": "LAL",
-   "trigger": "Reaves (illness) out Mon at ATL; Luka back",
+   "trigger": "Grimes out Wed",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Sexton should play more Mon",
-   "last_updated_pt": "2026-11-09T15:15:00-08:00"
+   "summary": "Bench scorer",
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
   },
   "tre-johnson": {
    "first_seen_pt": "2026-11-09T15:15:00-08:00",
@@ -563,12 +483,12 @@
   "saddiq-bey": {
    "player": "Saddiq Bey",
    "team": "NOP",
-   "trigger": "Murphy probable Wed; Bey back to bench",
-   "trigger_status": "active",
+   "trigger": "Murphy doubtful Wed, Watford out",
+   "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Murphy probable Wed; Bey back to bench",
+   "summary": "One-game starter",
    "first_seen_pt": "2026-11-09T19:15:00-08:00",
-   "last_updated_pt": "2026-11-10T12:15:00-08:00"
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
   },
   "jakobe-walter": {
    "player": "Ja'Kobe Walter",
@@ -603,12 +523,12 @@
   "sidy-cissoko": {
    "player": "Sidy Cissoko",
    "team": "POR",
-   "trigger": "Starting Tue in place of Henderson",
+   "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting Tue in place of Henderson",
+   "verdict": "Speculative add",
+   "summary": "Starter/rotation wing",
    "first_seen_pt": "2026-11-10T20:15:00-08:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00"
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
   },
   "jamal-cain": {
    "player": "Jamal Cain",
@@ -619,11 +539,32 @@
    "summary": "Starting Tue; da Silva out",
    "first_seen_pt": "2026-11-10T20:15:00-08:00",
    "last_updated_pt": "2026-11-10T20:15:00-08:00"
+  },
+  "kel-el-ware": {
+   "player": "Kel'el Ware",
+   "team": "MIL",
+   "first_seen_pt": "2026-11-11T12:15:00-08:00",
+   "trigger": "Turner rest Wed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-night starter",
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
+  },
+  "andre-drummond": {
+   "player": "Andre Drummond",
+   "team": "CLE",
+   "first_seen_pt": "2026-11-11T12:15:00-08:00",
+   "trigger": "KAT Q Wed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starter if KAT out",
+   "last_updated_pt": "2026-11-11T12:15:00-08:00"
   }
  },
  "drop_watch": [
+  "Landry Shamet (Hart probable Wed, returns to bench)",
+  "Day'Ron Sharpe, Danny Wolf (Dëmin available Wed)",
   "Scoot Henderson (Morant back); Jase Richardson (Cain starts); Aday Mara (bench again)",
-  "Day'Ron Sharpe, Danny Wolf (Démin probable Wed)",
   "Zuby Ejiofor (Landale back)",
   "Saddiq Bey (Murphy probable Wed, Zion back)",
   "Herbert Jones (Zion back)",
@@ -640,24 +581,30 @@
   "Quenton Jackson (McConnell debuted Sat)"
  ],
  "injury_watch": [
+  "Lauri Markkanen (UTA, right-hand fracture, out ~1 month, mid-Dec)",
+  "Vít Krejčí (POR, ankle surgery, re-eval 8 wks)",
+  "Trey Murphy III (NOP, knee, doubtful Wed)",
+  "Karl-Anthony Towns (CLE, calf, Q Wed)",
+  "Myles Turner (MIL, rest Wed)",
+  "Tyler Herro (MIL, knee, Q Wed)",
+  "Caleb Wilson (CHA, hip, Q Wed)",
+  "Quentin Grimes (LAL, finger, out Wed)",
+  "Paul George (PHI, illness, out Wed)",
+  "Mikel Brown Jr. (BKN, illness, out Wed)",
+  "Will Richard (GSW, thumb UCL, probable Wed)",
+  "Tobias Harris (DET, calf, no timeline)",
   "Brandon Williams (GSW, hamstring, out 1+ wk)",
   "Gary Payton II (GSW, knee, out Wed)",
-  "Lauri Markkanen (UTA, wrist, out Tue, short turnaround Wed)",
   "Kawhi Leonard (TOR, knee, out at least another week)",
-  "Josh Hart (NYK, illness, doubtful Tue)",
   "Kel'el Ware (MIA, ankle, Q Tue; Nate Ament backup minutes)",
   "Tristan da Silva (ORL, calf, out Tue)",
-  "Trendon Watford (NOP, ankle, out Wed)",
-  "Trey Murphy III (NOP, knee, probable Wed)",
   "Raynaud (SAC, knee, out Tue)",
   "Quinten Post (MEM, concussion, out Wed)",
-  "Will Richard (GSW, thumb UCL, surgery decision pending)",
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
   "Dennis Schröder (CHA, hamstring, ~2 wks)",
   "Isaiah Stewart (MEM, knee, Q Wed)",
   "Jaylon Tyson (CLE, ankle, out Wed)",
-  "Sam Merrill (CLE, elbow, out Wed)",
-  "Tobias Harris (DET, calf, out Wed)"
+  "Sam Merrill (CLE, elbow, out Wed)"
  ]
 }
