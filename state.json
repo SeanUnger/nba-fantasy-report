@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-11T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-11T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -157,12 +157,12 @@
   "aday-mara": {
    "player": "Aday Mara",
    "team": "OKC",
-   "trigger": "Back to bench Tue; McCain starts",
+   "trigger": "Jaylin Williams (back) out indefinitely, Holmgren out long term",
    "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting Sat vs WAS; season-high 18 pts/8 reb/3 blk in 27 min; Holmgren out 8-10 wks",
+   "verdict": "Speculative add",
+   "summary": "10/10 in 26 min Tue; splits C minutes with Hartenstein",
    "first_seen_pt": "2026-11-04T16:15:00-08:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00"
+   "last_updated_pt": "2026-11-11T14:15:00-08:00"
   },
   "sion-james": {
    "player": "Sion James",
@@ -299,12 +299,12 @@
   "nique-clifford": {
    "player": "Nique Clifford",
    "team": "OKC",
-   "trigger": "Traded from SAC to OKC",
+   "trigger": "Mitchell out Wed; Clifford a candidate to start",
    "trigger_status": "trade",
    "verdict": "Watch",
-   "summary": "Fell out of KINGS rotation; OKC needs depth; role unknown",
+   "summary": "Possible spot starter",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
+   "last_updated_pt": "2026-11-11T14:15:00-08:00"
   },
   "isaiah-collier": {
    "player": "Isaiah Collier",
@@ -483,12 +483,12 @@
   "saddiq-bey": {
    "player": "Saddiq Bey",
    "team": "NOP",
-   "trigger": "Murphy doubtful Wed, Watford out",
+   "trigger": "Murphy doubtful Wed, Watford and Mathurin out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "One-game starter",
+   "summary": "One-game starter minutes",
    "first_seen_pt": "2026-11-09T19:15:00-08:00",
-   "last_updated_pt": "2026-11-11T12:15:00-08:00"
+   "last_updated_pt": "2026-11-11T14:15:00-08:00"
   },
   "jakobe-walter": {
    "player": "Ja'Kobe Walter",
@@ -559,12 +559,32 @@
    "verdict": "Watch",
    "summary": "Starter if KAT out",
    "last_updated_pt": "2026-11-11T12:15:00-08:00"
+  },
+  "micah-peavy": {
+   "player": "Micah Peavy",
+   "team": "OKC",
+   "trigger": "Mitchell (ankle) out Wed at POR",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Possible spot starter",
+   "first_seen_pt": "2026-11-11T14:15:00-08:00",
+   "last_updated_pt": "2026-11-11T14:15:00-08:00"
+  },
+  "keon-ellis": {
+   "player": "Keon Ellis",
+   "team": "BKN",
+   "trigger": "Traore (calf) and Brown (illness) out Wed",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Extra guard minutes one night",
+   "first_seen_pt": "2026-11-11T14:15:00-08:00",
+   "last_updated_pt": "2026-11-11T14:15:00-08:00"
   }
  },
  "drop_watch": [
   "Landry Shamet (Hart probable Wed, returns to bench)",
   "Day'Ron Sharpe, Danny Wolf (Dëmin available Wed)",
-  "Scoot Henderson (Morant back); Jase Richardson (Cain starts); Aday Mara (bench again)",
+  "Scoot Henderson (Morant back); Jase Richardson (Cain starts)",
   "Zuby Ejiofor (Landale back)",
   "Saddiq Bey (Murphy probable Wed, Zion back)",
   "Herbert Jones (Zion back)",
@@ -581,6 +601,11 @@
   "Quenton Jackson (McConnell debuted Sat)"
  ],
  "injury_watch": [
+  "Jaylin Williams (OKC, back, out indefinitely, week-to-week)",
+  "Ajay Mitchell (OKC, ankle, out Wed)",
+  "Nolan Traore (BKN, calf, out Wed)",
+  "Bennedict Mathurin (NOP, thumb, out Wed)",
+  "Chris Youngblood (POR, foot, out Wed)",
   "Lauri Markkanen (UTA, right-hand fracture, out ~1 month, mid-Dec)",
   "Vít Krejčí (POR, ankle surgery, re-eval 8 wks)",
   "Trey Murphy III (NOP, knee, doubtful Wed)",
@@ -597,7 +622,7 @@
   "Gary Payton II (GSW, knee, out Wed)",
   "Kawhi Leonard (TOR, knee, out at least another week)",
   "Kel'el Ware (MIA, ankle, Q Tue; Nate Ament backup minutes)",
-  "Tristan da Silva (ORL, calf, out Tue)",
+  "Tristan da Silva (ORL, calf, Q Wed)",
   "Raynaud (SAC, knee, out Tue)",
   "Quinten Post (MEM, concussion, out Wed)",
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
