@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-11T12:15:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-11T13:15:00-08:00",
+ "run_label": "1pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -526,9 +526,9 @@
    "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starter/rotation wing",
+   "summary": "Starter/rotation wing; Youngblood out Wed",
    "first_seen_pt": "2026-11-10T20:15:00-08:00",
-   "last_updated_pt": "2026-11-11T12:15:00-08:00"
+   "last_updated_pt": "2026-11-11T13:15:00-08:00"
   },
   "jamal-cain": {
    "player": "Jamal Cain",
