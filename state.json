@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-10T20:15:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-10T21:15:00-08:00",
+ "run_label": "9pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -654,6 +654,10 @@
   "Will Richard (GSW, thumb UCL, surgery decision pending)",
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
-  "Dennis Schröder (CHA, hamstring, ~2 wks)"
+  "Dennis Schröder (CHA, hamstring, ~2 wks)",
+  "Isaiah Stewart (MEM, knee, Q Wed)",
+  "Jaylon Tyson (CLE, ankle, out Wed)",
+  "Sam Merrill (CLE, elbow, out Wed)",
+  "Tobias Harris (DET, calf, out Wed)"
  ]
 }
