@@ -1,16 +1,16 @@
 {
- "last_run_pt": "2026-11-10T19:15:00-08:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-11-10T20:15:00-08:00",
+ "run_label": "8pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
    "team": "SAC",
-   "trigger": "Sabonis (knee) Q Tue, Raynaud out week-to-week, Murray (wrist) Q",
+   "trigger": "Sabonis back, starts Tue with Achiuwa; Raynaud out",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "14 reb in 36 min Sun; minutes if Sabonis sits",
+   "summary": "Starts alongside Sabonis",
    "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-11-09T17:20:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Murray out 10-14 days; verdict Add now"
   },
@@ -29,31 +29,31 @@
   "jared-mccain": {
    "player": "Jared McCain",
    "team": "OKC",
-   "trigger": "Holmgren out 8-10 wks; McCain back to bench Sat (Mara starts), 25+ min six straight",
+   "trigger": "Holmgren out 8-10 wks; McCain starts Tue, Mara back to bench",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Bench role Sat; 25+ min six straight; Fri 21/5/4 in start",
+   "summary": "Starting Tue; 14.8/4.0/2.5 as starter",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-11-07T17:10:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00",
    "last_notified_pt": "2026-10-26T15:15:00-07:00",
    "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
   },
   "anthony-black": {
    "player": "Anthony Black",
    "team": "ORL",
-   "trigger": "Bane out Sat; Suggs out 2+ wks",
+   "trigger": "Bane back; Suggs out 2+ wks; da Silva out Tue",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Bane out Sat (illness); 16.5 pts/4.8 reb/4.8 ast in 28 min over 4 games",
+   "summary": "Starting Tue; 16.5/4.8/4.8 in 28 min recently",
    "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-11-07T12:20:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00",
    "last_notified_pt": "2026-10-26T12:20:00-07:00",
    "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
   },
   "jaxson-hayes": {
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "trigger": "Nurki\u0107 (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
+   "trigger": "Nurkić (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Starting C, ~29 min; FG%, blocks, boards.",
@@ -75,14 +75,14 @@
   "yaxel-lendeborg": {
    "player": "Yaxel Lendeborg",
    "team": "GSW",
-   "trigger": "Porzi\u0146\u0123is stepping away from basketball; Butler (knee) out until new year",
+   "trigger": "Porziņģis stepping away from basketball; Butler (knee) out until new year",
    "trigger_status": "out",
    "verdict": "Add now",
-   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porzi\u0146\u0123is return now very unlikely",
+   "summary": "Career-high 37 Sun; 25.2 ppg/32 min last 5, starting F; Porziņģis return now very unlikely",
    "first_seen_pt": "2026-10-28T20:15:00-07:00",
    "last_updated_pt": "2026-11-06T14:15:00-08:00",
    "last_notified_pt": "2026-11-01T20:15:00-08:00",
-   "notified_for": "Porzi\u0146\u0123is/Butler out long-term; verdict Add now"
+   "notified_for": "Porziņģis/Butler out long-term; verdict Add now"
   },
   "jalen-smith": {
    "player": "Jalen Smith",
@@ -107,12 +107,12 @@
   "scoot-henderson": {
    "player": "Scoot Henderson",
    "team": "POR",
-   "trigger": "Morant (hamstring) may return sooner than late-Nov re-eval",
+   "trigger": "Morant back; Henderson to bench Tue (Cissoko starts)",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starting PG ~22-31 min; Morant timeline possibly shortening",
+   "verdict": "Watch",
+   "summary": "Back to ~22 min bench role",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-07T18:15:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00",
    "last_notified_pt": "2026-10-31T12:15:00-07:00",
    "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
   },
@@ -179,17 +179,17 @@
   "aday-mara": {
    "player": "Aday Mara",
    "team": "OKC",
-   "trigger": "Williams (back) out Sat vs WAS",
+   "trigger": "Back to bench Tue; McCain starts",
    "trigger_status": "out",
    "verdict": "Watch",
    "summary": "Starting Sat vs WAS; season-high 18 pts/8 reb/3 blk in 27 min; Holmgren out 8-10 wks",
    "first_seen_pt": "2026-11-04T16:15:00-08:00",
-   "last_updated_pt": "2026-11-07T17:10:00-08:00"
+   "last_updated_pt": "2026-11-10T20:15:00-08:00"
   },
   "sion-james": {
    "player": "Sion James",
    "team": "CHA",
-   "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schr\u00f6der 2 wks",
+   "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schröder 2 wks",
    "trigger_status": "out",
    "verdict": "Add now",
    "summary": "Confirmed starter Mon vs CLE",
@@ -231,10 +231,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
+   "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -261,12 +261,12 @@
   "jase-richardson": {
    "player": "Jase Richardson",
    "team": "ORL",
-   "trigger": "Bane out Sat (illness); Suggs out 2+ wks",
+   "trigger": "Benched Tue; Cain starts",
    "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Slid to bench Sat vs GSW despite Bane out; Suggs out 2+ wks",
+   "verdict": "Watch",
+   "summary": "4.0 pts/3.0 ast in 14 min as reserve",
    "first_seen_pt": "2026-11-06T14:15:00-08:00",
-   "last_updated_pt": "2026-11-07T18:15:00-08:00"
+   "last_updated_pt": "2026-11-10T20:15:00-08:00"
   },
   "jamal-shead": {
    "player": "Jamal Shead",
@@ -279,7 +279,7 @@
    "last_updated_pt": "2026-11-09T19:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
+   "player": "Tidjane Salaün",
    "team": "CHA",
    "trigger": "Miller (groin) out Mon; Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -341,10 +341,10 @@
   "danny-wolf": {
    "player": "Danny Wolf",
    "team": "BKN",
-   "trigger": "Starting Sat vs ATL; D\u00ebmin out Sat and Sun, re-eval next week",
+   "trigger": "Starting Sat vs ATL; Dëmin out Sat and Sun, re-eval next week",
    "trigger_status": "starting",
    "verdict": "Watch",
-   "summary": "First start Sat; D\u00ebmin out 2+ more games",
+   "summary": "First start Sat; Dëmin out 2+ more games",
    "first_seen_pt": "2026-11-07T16:10:00-08:00",
    "last_updated_pt": "2026-11-07T17:10:00-08:00"
   },
@@ -484,7 +484,7 @@
    "first_seen_pt": "2026-11-09T15:15:00-08:00",
    "player": "Hannes Steinbach",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon vs CLE",
+   "trigger": "Diabaté (quad) out Mon vs CLE",
    "trigger_status": "out",
    "verdict": "Watch",
    "summary": "Rookie big; streaming rebounds",
@@ -593,16 +593,37 @@
   "ryan-rollins": {
    "player": "Ryan Rollins",
    "team": "MIL",
-   "trigger": "Herro (knee) out Tue at NYK",
+   "trigger": "Herro out Tue; Rollins started 24 min, Jakucionis 23",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "One-game fill-in starter",
+   "summary": "14 pts/4 3s in 24 min",
    "first_seen_pt": "2026-11-10T16:15:00-08:00",
-   "last_updated_pt": "2026-11-10T16:15:00-08:00"
+   "last_updated_pt": "2026-11-10T20:15:00-08:00"
+  },
+  "sidy-cissoko": {
+   "player": "Sidy Cissoko",
+   "team": "POR",
+   "trigger": "Starting Tue in place of Henderson",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting Tue in place of Henderson",
+   "first_seen_pt": "2026-11-10T20:15:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00"
+  },
+  "jamal-cain": {
+   "player": "Jamal Cain",
+   "team": "ORL",
+   "trigger": "Starting Tue; da Silva out",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "Starting Tue; da Silva out",
+   "first_seen_pt": "2026-11-10T20:15:00-08:00",
+   "last_updated_pt": "2026-11-10T20:15:00-08:00"
   }
  },
  "drop_watch": [
-  "Day'Ron Sharpe, Danny Wolf (D\u00e9min probable Wed)",
+  "Scoot Henderson (Morant back); Jase Richardson (Cain starts); Aday Mara (bench again)",
+  "Day'Ron Sharpe, Danny Wolf (Démin probable Wed)",
   "Zuby Ejiofor (Landale back)",
   "Saddiq Bey (Murphy probable Wed, Zion back)",
   "Herbert Jones (Zion back)",
@@ -633,6 +654,6 @@
   "Will Richard (GSW, thumb UCL, surgery decision pending)",
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
-  "Dennis Schr\u00f6der (CHA, hamstring, ~2 wks)"
+  "Dennis Schröder (CHA, hamstring, ~2 wks)"
  ]
 }
