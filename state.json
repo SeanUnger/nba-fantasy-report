@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-10T15:10:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-10T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -589,9 +589,20 @@
    "summary": "10.2/4.2/3.8 last five",
    "first_seen_pt": "2026-11-10T12:15:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
+  },
+  "ryan-rollins": {
+   "player": "Ryan Rollins",
+   "team": "MIL",
+   "trigger": "Herro (knee) out Tue at NYK",
+   "trigger_status": "out",
+   "verdict": "Watch",
+   "summary": "One-game fill-in starter",
+   "first_seen_pt": "2026-11-10T16:15:00-08:00",
+   "last_updated_pt": "2026-11-10T16:15:00-08:00"
   }
  },
  "drop_watch": [
+  "Day'Ron Sharpe, Danny Wolf (Démin probable Wed)",
   "Zuby Ejiofor (Landale back)",
   "Saddiq Bey (Murphy probable Wed, Zion back)",
   "Herbert Jones (Zion back)",
