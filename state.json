@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-11T18:15:00-08:00",
-  "run_label": "6pm",
+  "last_run_pt": "2026-11-11T19:15:00-08:00",
+  "run_label": "7pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -642,6 +642,9 @@
     "Jamal Shead (Quickley back Wed)"
   ],
   "injury_watch": [
+    "Stephen Curry (GSW, hip/oblique, exited Wed, Q)",
+    "Austin Reaves (LAL, undisclosed, exited Wed)",
+    "Aaron Nesmith (IND, knee, out rest of Wed game)",
     "Jaylin Williams (OKC, back, out indefinitely, week-to-week)",
     "Ajay Mitchell (OKC, ankle, out Wed)",
     "Nolan Traore (BKN, calf, out Wed)",
