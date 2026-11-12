@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-12T12:15:00-08:00",
-  "run_label": "12pm",
+  "last_run_pt": "2026-11-12T13:15:00-08:00",
+  "run_label": "1pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -53,7 +53,7 @@
     "jaxson-hayes": {
       "player": "Jaxson Hayes",
       "team": "UTA",
-      "trigger": "Nurkić (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
+      "trigger": "Nurki\u0107 (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
       "trigger_status": "out",
       "verdict": "Add now",
       "summary": "Starting C, ~29 min; FG%, blocks, boards.",
@@ -75,12 +75,12 @@
     "cam-spencer": {
       "player": "Cam Spencer",
       "team": "MEM",
-      "trigger": "Pippen (back) out Mon, 5th straight",
+      "trigger": "Pippen (back) out until ~Nov 21; Saunders out to Dec 1",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "~24 min; assists, boards, 3s; Pippen next chance Wed",
+      "summary": "~20-24 min; assists, boards, 3s; 15 pts in 20 min Wed",
       "first_seen_pt": "2026-10-30T12:20:00-07:00",
-      "last_updated_pt": "2026-11-08T17:15:00-08:00"
+      "last_updated_pt": "2026-11-12T13:15:00-08:00"
     },
     "scoot-henderson": {
       "player": "Scoot Henderson",
@@ -147,7 +147,7 @@
     "sion-james": {
       "player": "Sion James",
       "team": "CHA",
-      "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schröder 2 wks",
+      "trigger": "Miller out Mon; James confirmed starting; Knueppel out 4+ wks, Schr\u00f6der 2 wks",
       "trigger_status": "out",
       "verdict": "Add now",
       "summary": "Confirmed starter Mon vs CLE",
@@ -179,10 +179,10 @@
     "ryan-kalkbrenner": {
       "player": "Ryan Kalkbrenner",
       "team": "CHA",
-      "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+      "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C while Diabaté out",
+      "summary": "Starting C while Diabat\u00e9 out",
       "first_seen_pt": "2026-11-06T13:10:00-08:00",
       "last_updated_pt": "2026-11-10T12:15:00-08:00"
     },
@@ -207,7 +207,7 @@
       "last_updated_pt": "2026-11-11T15:15:00-08:00"
     },
     "tidjane-salaun": {
-      "player": "Tidjane Salaün",
+      "player": "Tidjane Sala\u00fcn",
       "team": "CHA",
       "trigger": "Miller (groin) out Mon; Knueppel out 4+ wks",
       "trigger_status": "out",
@@ -354,7 +354,7 @@
       "first_seen_pt": "2026-11-09T15:15:00-08:00",
       "player": "Hannes Steinbach",
       "team": "CHA",
-      "trigger": "Diabaté (quad) out Mon vs CLE",
+      "trigger": "Diabat\u00e9 (quad) out Mon vs CLE",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "Rookie big; streaming rebounds",
@@ -433,12 +433,12 @@
     "saddiq-bey": {
       "player": "Saddiq Bey",
       "team": "NOP",
-      "trigger": "Murphy doubtful Wed, Watford and Mathurin out",
+      "trigger": "Fri vs MEM: Murphy and Mathurin doubtful, Watford out",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "One-game starter minutes",
+      "summary": "~30 min if Murphy/Mathurin sit",
       "first_seen_pt": "2026-11-09T19:15:00-08:00",
-      "last_updated_pt": "2026-11-11T14:15:00-08:00"
+      "last_updated_pt": "2026-11-12T13:15:00-08:00"
     },
     "walter-clayton-jr": {
       "player": "Walter Clayton Jr.",
@@ -463,7 +463,7 @@
     "sidy-cissoko": {
       "player": "Sidy Cissoko",
       "team": "POR",
-      "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+      "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
       "trigger_status": "out",
       "verdict": "Speculative add",
       "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -572,10 +572,9 @@
     }
   },
   "drop_watch": [
-    "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
+    "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
     "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
     "Jamal Shead (Quickley back)",
-    "Saddiq Bey (Murphy, Zion back)",
     "Scoot Henderson (Morant back)",
     "Jase Richardson (Cain starts)",
     "Zuby Ejiofor (Landale back)",
@@ -596,7 +595,7 @@
     "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
     "Kon Knueppel (CHA, hamstring, out 4+ wks)",
     "Brandon Williams (GSW, hamstring, out 1+ wk)",
-    "Vít Krejčí (POR, ankle surgery, 8 wks)",
+    "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
     "Caleb Wilson (CHA, hand, Q Fri)",
     "Dominick Barlow (PHI, back, no timeline, at shootaround)",
     "Tobias Harris (DET, calf, no timeline)"
