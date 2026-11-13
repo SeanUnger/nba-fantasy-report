@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-12T16:15:00-08:00",
-  "run_label": "4pm",
+  "last_run_pt": "2026-11-12T17:15:00-08:00",
+  "run_label": "5pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -53,7 +53,7 @@
     "jaxson-hayes": {
       "player": "Jaxson Hayes",
       "team": "UTA",
-      "trigger": "Nurkić (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
+      "trigger": "Nurki\u0107 (foot) not back until ~Nov 20 recheck and Jaren Jackson Jr. out 6-8 wks, so Hayes is UTA's primary C (18/6/1 blk in 29 min Sun).",
       "trigger_status": "out",
       "verdict": "Add now",
       "summary": "Starting C, ~29 min; FG%, blocks, boards.",
@@ -169,20 +169,20 @@
     "zuby-ejiofor": {
       "player": "Zuby Ejiofor",
       "team": "ATL",
-      "trigger": "Landale (hip) back Mon; Ejiofor squeezed",
-      "trigger_status": "active",
-      "verdict": "Watch",
-      "summary": "Landale (hip) back Mon; Ejiofor squeezed",
+      "trigger": "Gueye out 4+ wks, Newell out Fri, Johnson/Landale out 3rd straight",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Likely starting C with ATL bigs out",
       "first_seen_pt": "2026-11-05T16:15:00-08:00",
-      "last_updated_pt": "2026-11-10T12:15:00-08:00"
+      "last_updated_pt": "2026-11-12T17:15:00-08:00"
     },
     "ryan-kalkbrenner": {
       "player": "Ryan Kalkbrenner",
       "team": "CHA",
-      "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+      "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C while Diabaté out",
+      "summary": "Starting C while Diabat\u00e9 out",
       "first_seen_pt": "2026-11-06T13:10:00-08:00",
       "last_updated_pt": "2026-11-10T12:15:00-08:00"
     },
@@ -207,7 +207,7 @@
       "last_updated_pt": "2026-11-11T15:15:00-08:00"
     },
     "tidjane-salaun": {
-      "player": "Tidjane Salaün",
+      "player": "Tidjane Sala\u00fcn",
       "team": "CHA",
       "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
       "trigger_status": "out",
@@ -467,7 +467,7 @@
     "sidy-cissoko": {
       "player": "Sidy Cissoko",
       "team": "POR",
-      "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+      "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
       "trigger_status": "out",
       "verdict": "Speculative add",
       "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -616,12 +616,11 @@
     }
   },
   "drop_watch": [
-    "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
+    "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
     "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
     "Jamal Shead (Quickley back)",
     "Scoot Henderson (Morant back)",
     "Jase Richardson (Cain starts)",
-    "Zuby Ejiofor (Landale back)",
     "Trey Lyles (Beringer back)",
     "Quenton Jackson (McConnell back)"
   ],
@@ -639,9 +638,11 @@
     "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
     "Kon Knueppel (CHA, hamstring, out 4+ wks)",
     "Brandon Williams (GSW, hamstring, out 1+ wk)",
-    "Vít Krejčí (POR, ankle surgery, 8 wks)",
+    "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
     "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
     "Dominick Barlow (PHI, back, no timeline, at shootaround)",
-    "Tobias Harris (DET, calf, no timeline)"
+    "Tobias Harris (DET, calf, no timeline)",
+    "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
+    "Asa Newell (ATL, toe, out Fri)"
   ]
 }
