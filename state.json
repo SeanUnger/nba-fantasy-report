@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-12T23:35:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-13T12:20:00-08:00",
+  "run_label": "12pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -41,12 +41,12 @@
     "anthony-black": {
       "player": "Anthony Black",
       "team": "ORL",
-      "trigger": "Suggs (knee) questionable Fri vs MIL; Black 22/7/8 in 38 min Wed",
+      "trigger": "Suggs (knee) Q Fri but says he will play; Black 22/7/8 Wed",
       "trigger_status": "out",
-      "verdict": "Add now",
-      "summary": "Starting; 22/7/8 in 38 min Wed; Suggs may return Fri",
+      "verdict": "Speculative add",
+      "summary": "Starter at risk if Suggs returns Fri",
       "first_seen_pt": "2026-10-25T19:15:00-07:00",
-      "last_updated_pt": "2026-11-12T16:15:00-08:00",
+      "last_updated_pt": "2026-11-13T12:20:00-08:00",
       "last_notified_pt": "2026-10-26T12:20:00-07:00",
       "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
     },
@@ -137,12 +137,12 @@
     "aday-mara": {
       "player": "Aday Mara",
       "team": "OKC",
-      "trigger": "Jaylin Williams (back) out indefinitely, Holmgren out long term",
+      "trigger": "Jaylin Williams (back) out 6th straight Fri; Holmgren out long term; Mara starting",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Starting C Wed vs POR; ~25+ min",
+      "summary": "Starting C absorbing minutes",
       "first_seen_pt": "2026-11-04T16:15:00-08:00",
-      "last_updated_pt": "2026-11-11T20:15:00-08:00"
+      "last_updated_pt": "2026-11-13T12:20:00-08:00"
     },
     "sion-james": {
       "player": "Sion James",
@@ -613,6 +613,16 @@
       "summary": "Starting C while Missi out",
       "first_seen_pt": "2026-11-12T16:15:00-08:00",
       "last_updated_pt": "2026-11-12T16:15:00-08:00"
+    },
+    "nikola-topic": {
+      "player": "Nikola Topić",
+      "team": "OKC",
+      "trigger": "Recalled from G League",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Back on OKC roster; role unclear",
+      "first_seen_pt": "2026-11-13T12:20:00-08:00",
+      "last_updated_pt": "2026-11-13T12:20:00-08:00"
     }
   },
   "drop_watch": [
