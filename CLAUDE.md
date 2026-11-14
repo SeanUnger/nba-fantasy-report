@@ -144,11 +144,20 @@ Every time you write an NBA player's name anywhere in the report (card titles, t
 "Banchero out", beneficiaries, one-line rows, drop watch, injury watch), wrap it like this:
 
 ```html
-<a class="player" href="#" data-name="Tristan da Silva" data-team="ORL">Tristan da Silva</a>
+<a class="player" href="#" data-espn-id="4433134" data-name="Tristan da Silva" data-team="ORL">Tristan da Silva</a>
 ```
 
+- `data-espn-id` is how the modal finds the player, so it must be right:
+  - For a player with a note, copy the note's `espn_player_id` from fetch_notes.py's output.
+  - For anyone else (beneficiaries, teammates, drop watch), run
+    `python3 scripts/team_players.py TEAM` (one or more tricodes) and copy the id from the
+    line with that player's name on that team.
+  - Never guess or reuse an id from memory. If you can't find one (`espn_player_id` is null
+    and the player isn't on the team list), leave `data-espn-id` out; the modal then says it
+    can't load that player.
 - `data-name` is the player's full name as Yahoo/ESPN spell it (keep suffixes like "Jr.").
   The visible text may be shorter (e.g. "Banchero"), but `data-name` must be the full name.
+  It's only used as the modal's title.
 - `data-team` is the NBA tricode of the player's current team (GSW, NOP, NYK, SAS, PHX, ...).
 - Include `<script src="assets/player-modal.js" defer></script>` before `</body>` in
   `index.html`, and `<script src="../assets/player-modal.js" defer></script>` in the copy under

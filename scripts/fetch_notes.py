@@ -6,10 +6,15 @@ Usage: python3 scripts/fetch_notes.py [--hours 24] [--out notes.json]
 Yahoo shows 9 notes per page, newest first, paged with ?count=<offset>.
 Timestamps are rendered in US/Eastern ("12 minutes ago", "Today, 8:35 pm",
 "Yesterday, 11:02 am", "Tuesday, 8:08 pm", "Oct 23, 5:12 pm").
+
+Each note also gets espn_player_id: the player's ESPN id (the backend's playerId),
+looked up by Yahoo player id in the backend's player ID cross-reference. It's null
+for a player the cross-reference hasn't matched yet.
 """
 import argparse
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -24,6 +29,7 @@ POSITIONS = ["ALL", "PG", "SG", "SF", "PF", "C"]
 WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 ET = ZoneInfo("America/New_York")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+BACKEND = os.environ.get("BASKETBALL_API", "https://i9708892i9.execute-api.us-west-1.amazonaws.com/prod")
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
@@ -87,6 +93,16 @@ def parse_page(page, now):
     return notes
 
 
+def yahoo_to_espn_ids(errors):
+    """Yahoo player id -> ESPN playerId, from the backend's player ID cross-reference."""
+    try:
+        req = urllib.request.Request(f"{BACKEND}/api/player-xref/sites/yahoo", headers={"Accept": "application/json"})
+        return json.loads(urllib.request.urlopen(req, timeout=30).read())["players"]
+    except Exception as exc:  # the notes are still useful without ids
+        errors.append(f"player id lookup failed: {exc}")
+        return {}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hours", type=float, default=24)
@@ -128,6 +144,9 @@ def main():
             time.sleep(1.5)
 
     notes.sort(key=lambda n: n["time_et"], reverse=True)
+    espn_ids = yahoo_to_espn_ids(errors)
+    for n in notes:
+        n["espn_player_id"] = espn_ids.get(n["yahoo_player_id"] or "")
     result = {"fetched_at_et": now.isoformat(), "hours": args.hours, "count": len(notes),
               "pages": pages, "errors": errors, "notes": notes}
     out = json.dumps(result, indent=1, ensure_ascii=False)

@@ -71,27 +71,6 @@
         return `rgb(${r}, ${g}, ${b})`;
     }
 
-    // Same as the backend's normalize_name() and the extension's normalizeName.
-    const normalizeName = (name) =>
-        (name || '')
-            .normalize('NFKD')
-            .replace(/[̀-ͯ]/g, '')
-            .toLowerCase()
-            .replace(/\./g, '')
-            .trim()
-            .replace(/\s+(jr|sr|ii|iii|iv|v)\.?$/, '')
-            .replace(/\s+/g, ' ')
-            .trim();
-    // The backend's ?name= is a case-insensitive substring match without
-    // accent folding, so search with the bare name and filter client-side.
-    const searchName = (name) =>
-        (name || '')
-            .normalize('NFKD')
-            .replace(/[̀-ͯ]/g, '')
-            .replace(/\./g, '')
-            .replace(/\s+(Jr|Sr|II|III|IV|V)$/i, '')
-            .trim();
-
     // Report team codes are NBA tricodes, but accept Yahoo/ESPN short forms too.
     const TEAM_ALIASES = { GS: 'GSW', NO: 'NOP', NY: 'NYK', SA: 'SAS', PHO: 'PHX', UTAH: 'UTA', WSH: 'WAS', BRK: 'BKN', CHO: 'CHA' };
     const toTricode = (team) => TEAM_ALIASES[(team || '').toUpperCase()] ?? (team || '').toUpperCase();
@@ -135,16 +114,13 @@
         return response.json();
     }
 
-    // Exact normalized name match, team as the tiebreaker (the extension's
-    // buildPoolMatcher rule), falling back to a lone substring match.
-    const fetchPlayer = (name, team) =>
-        cached(`player|${normalizeName(name)}|${team}`, async () => {
-            const url = `${API_BASE_URL}/api/players?pageSize=10&name=${encodeURIComponent(searchName(name))}&${STATS_FLAGS.join('&')}&categoryValue`;
-            const players = (await getJson(url)).players ?? [];
-            const exact = players.filter((p) => normalizeName(p.playerName) === normalizeName(name));
-            const candidates = exact.length ? exact : players;
-            if (candidates.length <= 1) return candidates[0] ?? null;
-            return candidates.find((p) => p.team === toTricode(team)) ?? null;
+    // The player behind a link's data-espn-id (the backend's playerId). The
+    // report writes that id from the backend's player ID cross-reference, so
+    // the modal never has to guess a player from a name.
+    const fetchPlayer = (espnId) =>
+        cached(`player|${espnId}`, async () => {
+            const url = `${API_BASE_URL}/api/players?pageSize=1&playerId=${encodeURIComponent(espnId)}&${STATS_FLAGS.join('&')}&categoryValue`;
+            return (await getJson(url)).players?.[0] ?? null;
         });
 
     // { team, live, ros }: the team's newest projected depth charts, with
@@ -690,9 +666,10 @@
         document.body.classList.add('pm-open');
         const $ = (sel) => backdrop.querySelector(sel);
 
+        const espnId = el.dataset.espnId;
         let player = null;
         try {
-            player = await fetchPlayer(name, team);
+            player = espnId ? await fetchPlayer(espnId) : null;
         } catch (error) {
             if (!isCurrent()) return;
             $('.pm-s-value').innerHTML = failed('projections', error);
@@ -715,7 +692,9 @@
             $('.pm-s-stats').innerHTML = statsTableHtml(player);
             wireImageFallbacks($('.pm-s-stats'));
         } else if (!$('.pm-s-value .error')) {
-            $('.pm-s-value').innerHTML = '<div class="pm-empty">Player not found in the projection pool.</div>';
+            $('.pm-s-value').innerHTML = espnId
+                ? '<div class="pm-empty">Player not found in the projection pool.</div>'
+                : '<div class="pm-empty">This link doesn\'t identify a player yet.</div>';
         }
 
         // News needs the ESPN id; the depth chart can fall back to the link's team.
