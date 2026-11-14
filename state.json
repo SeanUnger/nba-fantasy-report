@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-13T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-13T16:15:00-08:00",
+  "run_label": "4pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -41,12 +41,12 @@
     "anthony-black": {
       "player": "Anthony Black",
       "team": "ORL",
-      "trigger": "Suggs (knee) confirmed available Fri vs MIL; Black likely back to bench",
+      "trigger": "Suggs (knee) coming off bench Fri vs MIL; Black keeps starting",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "Starter at risk; shared minutes with Suggs back",
       "first_seen_pt": "2026-10-25T19:15:00-07:00",
-      "last_updated_pt": "2026-11-13T15:15:00-08:00",
+      "last_updated_pt": "2026-11-13T16:15:00-08:00",
       "last_notified_pt": "2026-10-26T12:20:00-07:00",
       "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
     },
@@ -643,6 +643,16 @@
       "summary": "Dart throw, 15.8 mpg",
       "first_seen_pt": "2026-11-13T13:15:00-08:00",
       "last_updated_pt": "2026-11-13T13:15:00-08:00"
+    },
+    "ousmane-dieng": {
+      "player": "Ousmane Dieng",
+      "team": "MIL",
+      "trigger": "Promoted to starting lineup Fri vs ORL; Ware, Ament to bench",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Starting F, one game confirmed",
+      "first_seen_pt": "2026-11-13T16:15:00-08:00",
+      "last_updated_pt": "2026-11-13T16:15:00-08:00"
     }
   },
   "drop_watch": [
