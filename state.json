@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-13T23:30:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-14T12:15:00-08:00",
+  "run_label": "12pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -65,12 +65,12 @@
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Smith (hand) left Fri OT win, Q Sat at MIN; Claxton gains if he sits",
-      "trigger_status": "questionable",
+      "trigger": "Smith, Claxton Q Sat at MIN; Awaka out",
+      "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C; hand injury, watch Sat status",
+      "summary": "Starting C unclear Sat",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-13T20:15:00-08:00"
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
     },
     "cam-spencer": {
       "player": "Cam Spencer",
@@ -587,12 +587,12 @@
     "isaiah-stewart": {
       "player": "Isaiah Stewart",
       "team": "MEM",
-      "trigger": "Edey (ankle) and Post (concussion) out Fri",
+      "trigger": "Post out Sat, Edey Q; Stewart started Fri",
       "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Starting C one night",
+      "verdict": "Speculative add",
+      "summary": "Starts if Edey sits; 4 blk Fri",
       "first_seen_pt": "2026-11-12T16:15:00-08:00",
-      "last_updated_pt": "2026-11-12T16:15:00-08:00"
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
     },
     "dean-wade": {
       "player": "Dean Wade",
@@ -603,16 +603,6 @@
       "summary": "Starts Thu; B2B Sun/Mon",
       "first_seen_pt": "2026-11-12T16:15:00-08:00",
       "last_updated_pt": "2026-11-12T16:15:00-08:00"
-    },
-    "karlo-matkovic": {
-      "player": "Karlo Matkovic",
-      "team": "NOP",
-      "trigger": "Missi (knee) ruled out Fri vs MEM",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "Starting C tonight, 25+ min",
-      "first_seen_pt": "2026-11-12T16:15:00-08:00",
-      "last_updated_pt": "2026-11-13T14:15:00-08:00"
     },
     "nikola-topic": {
       "player": "Nikola Topić",
@@ -653,16 +643,6 @@
       "summary": "Started Fri but played only 5 min; role unclear",
       "first_seen_pt": "2026-11-13T16:15:00-08:00",
       "last_updated_pt": "2026-11-13T21:15:00-08:00"
-    },
-    "deandre-jordan": {
-      "player": "DeAndre Jordan",
-      "team": "NOP",
-      "trigger": "Missi out; Jordan promoted to starter Fri vs MEM",
-      "trigger_status": "out",
-      "verdict": "Watch",
-      "summary": "One-night start at C",
-      "first_seen_pt": "2026-11-13T17:10:00-08:00",
-      "last_updated_pt": "2026-11-13T17:10:00-08:00"
     },
     "tim-hardaway-jr": {
       "player": "Tim Hardaway Jr.",
@@ -713,6 +693,46 @@
       "summary": "~30 min starter",
       "first_seen_pt": "2026-11-13T23:15:00-08:00",
       "last_updated_pt": "2026-11-13T23:15:00-08:00"
+    },
+    "proctor": {
+      "player": "Tyrese Proctor",
+      "team": "CLE",
+      "trigger": "Mobley, Merrill out Sat; Mitchell, Allen Q",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Bigger guard role; 22 pts Fri",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
+    },
+    "khalifa-diop": {
+      "player": "Khalifa Diop",
+      "team": "CLE",
+      "trigger": "Diop debut; Mobley out, Allen Q",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Debut; role depends on Allen",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
+    },
+    "craig-porter-jr": {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "trigger": "Mitchell Q; Cavs guard depth",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Guard depth piece",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
+    },
+    "conwell": {
+      "player": "Ryan Conwell",
+      "team": "MIA",
+      "trigger": "Christie, Larsson doubtful Sat",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "20 pts Fri; extra minutes Sat",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
     }
   },
   "drop_watch": [
@@ -723,11 +743,12 @@
     "Jase Richardson (Cain starts)",
     "Trey Lyles (Beringer back)",
     "Quenton Jackson (McConnell back)",
-    "Julian Champagnie (Vassell back, Champagnie to bench)"
+    "Julian Champagnie (Vassell back, Champagnie to bench)",
+    "Karlo Matkovic (Missi back, probable Sat)",
+    "DeAndre Jordan (Missi back, probable Sat)"
   ],
   "injury_watch": [
     "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
-    "Austin Reaves (LAL, left heel, X-rays negative, day-to-day, status Sat)",
     "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
     "Scottie Barnes (TOR, groin, out 4th straight)",
     "Kawhi Leonard (TOR, knee, out 1+ more wk)",
@@ -746,7 +767,12 @@
     "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
     "Asa Newell (ATL, toe, out Fri)",
     "Bub Carrington (WAS, chest, left Thu game, status TBD)",
-    "Aaron Nesmith (IND, hand/wrist, left Fri win late, Q)",
-    "Kingston Flemings (ATL, back tightness, left Fri loss, Q Sun)"
+    "Evan Mobley (CLE, toe, out Sat, 2nd straight)",
+    "Trey Murphy III (NOP, knees, out 4th straight, maybe Mon)",
+    "Zach Edey (MEM, ankle, Q Sat)",
+    "Scottie Barnes (TOR, groin, Q Sun)",
+    "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
+    "Nic Claxton (CHI, hamstring, Q Sat)",
+    "Pelle Larsson (MIA, illness, doubtful Sat)"
   ]
 }
