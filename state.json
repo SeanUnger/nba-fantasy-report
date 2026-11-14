@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-13T22:15:00-08:00",
-  "run_label": "10pm",
+  "last_run_pt": "2026-11-13T23:15:00-08:00",
+  "run_label": "11pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -693,6 +693,26 @@
       "summary": "Starter, low usage",
       "first_seen_pt": "2026-11-13T20:15:00-08:00",
       "last_updated_pt": "2026-11-13T20:15:00-08:00"
+    },
+    "mo-bamba": {
+      "player": "Mo Bamba",
+      "team": "UTA",
+      "trigger": "Hayes (knee) left Fri game, did not return",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "20 min Fri; backup C",
+      "first_seen_pt": "2026-11-13T23:15:00-08:00",
+      "last_updated_pt": "2026-11-13T23:15:00-08:00"
+    },
+    "kelly-oubre-jr": {
+      "player": "Kelly Oubre Jr.",
+      "team": "IND",
+      "trigger": "Back-to-back starts; Nesmith Q Sun",
+      "trigger_status": "starting",
+      "verdict": "Watch",
+      "summary": "~30 min starter",
+      "first_seen_pt": "2026-11-13T23:15:00-08:00",
+      "last_updated_pt": "2026-11-13T23:15:00-08:00"
     }
   },
   "drop_watch": [
