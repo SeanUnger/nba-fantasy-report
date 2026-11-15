@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T12:15:00-08:00",
-  "run_label": "12pm",
+  "last_run_pt": "2026-11-15T13:15:00-08:00",
+  "run_label": "1pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -397,12 +397,12 @@
     "julian-champagnie": {
       "player": "Julian Champagnie",
       "team": "SAS",
-      "trigger": "Vassell (groin) out Mon; first start",
+      "trigger": "Fox (hip) out Sun at UTA; Champagnie top candidate to start",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "One-game starter bump",
+      "summary": "One-night starter bump",
       "first_seen_pt": "2026-11-09T17:20:00-08:00",
-      "last_updated_pt": "2026-11-09T17:20:00-08:00"
+      "last_updated_pt": "2026-11-15T13:15:00-08:00"
     },
     "kyle-anderson": {
       "player": "Kyle Anderson",
@@ -637,12 +637,12 @@
     "ousmane-dieng": {
       "player": "Ousmane Dieng",
       "team": "MIL",
-      "trigger": "Promoted to starting lineup Fri vs ORL; Ware, Ament to bench",
-      "trigger_status": "active",
+      "trigger": "Fractured left finger, out Sun vs ATL, no timeline",
+      "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Started Fri but played only 5 min; role unclear",
+      "summary": "~12 min role; little value",
       "first_seen_pt": "2026-11-13T16:15:00-08:00",
-      "last_updated_pt": "2026-11-13T21:15:00-08:00"
+      "last_updated_pt": "2026-11-15T13:15:00-08:00"
     },
     "tim-hardaway-jr": {
       "player": "Tim Hardaway Jr.",
@@ -823,7 +823,6 @@
     "Jase Richardson (Cain starts)",
     "Trey Lyles (Beringer back)",
     "Quenton Jackson (McConnell back)",
-    "Julian Champagnie (Vassell back, Champagnie to bench)",
     "Karlo Matkovic (Missi back, probable Sat)",
     "DeAndre Jordan (Missi back, probable Sat)",
     "Sion James (Brandon Miller back Sun, James to bench)",
