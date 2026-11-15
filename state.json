@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-14T23:35:00-08:00",
-  "run_label": "11:30pm",
+  "last_run_pt": "2026-11-15T12:15:00-08:00",
+  "run_label": "12pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -527,12 +527,12 @@
     "quenton-jackson": {
       "player": "Quenton Jackson",
       "team": "IND",
-      "trigger": "Haliburton (hamstring) out at least 10 more days",
+      "trigger": "Nembhard (hip) out Sun, Haliburton out 10+ days; Q. Jackson starts Sun vs PHI",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "Candidate for extra minutes with Nembhard on ball; McConnell also back",
       "first_seen_pt": "2026-11-11T15:15:00-08:00",
-      "last_updated_pt": "2026-11-11T15:15:00-08:00"
+      "last_updated_pt": "2026-11-15T12:15:00-08:00"
     },
     "nate-ament": {
       "player": "Nate Ament",
@@ -597,12 +597,12 @@
     "dean-wade": {
       "player": "Dean Wade",
       "team": "PHI",
-      "trigger": "Embiid (foot mgmt) out Sun vs IND; Bona, Barlow out",
+      "trigger": "Embiid out but Wade to bench Sun (Walker starts at C)",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "Extra big minutes one night",
       "first_seen_pt": "2026-11-12T16:15:00-08:00",
-      "last_updated_pt": "2026-11-14T14:15:00-08:00"
+      "last_updated_pt": "2026-11-15T12:15:00-08:00"
     },
     "nikola-topic": {
       "player": "Nikola Topi\u0107",
@@ -803,6 +803,16 @@
       "summary": "Career-high 22 off bench; bigger role if Jackson out",
       "first_seen_pt": "2026-11-14T21:15:00-08:00",
       "last_updated_pt": "2026-11-14T21:15:00-08:00"
+    },
+    "jabari-walker": {
+      "player": "Jabari Walker",
+      "team": "PHI",
+      "trigger": "Embiid (foot mgmt) out Sun vs IND; Bona, Barlow out; Walker starts at C (Nurse)",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-night C start; Embiid maintenance, not long-term",
+      "first_seen_pt": "2026-11-15T12:15:00-08:00",
+      "last_updated_pt": "2026-11-15T12:15:00-08:00"
     }
   },
   "drop_watch": [
@@ -816,7 +826,8 @@
     "Julian Champagnie (Vassell back, Champagnie to bench)",
     "Karlo Matkovic (Missi back, probable Sat)",
     "DeAndre Jordan (Missi back, probable Sat)",
-    "Sion James (Brandon Miller back Sun, James to bench)"
+    "Sion James (Brandon Miller back Sun, James to bench)",
+    "Dean Wade (Walker starts at C Sun; Wade bench)"
   ],
   "injury_watch": [
     "Duncan Robinson (DET, thigh, left Sat early, Q)",
