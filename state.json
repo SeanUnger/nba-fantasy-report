@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-14T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-14T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -808,6 +808,7 @@
   "DeAndre Jordan (Missi back, probable Sat)"
  ],
  "injury_watch": [
+  "Daniel Gafford (DAL, facial/shoulder stinger, left Sat, minor so far)",
   "GG Jackson (MEM, foot, left Sat game, severity TBD)",
   "Jaylen Clark (MIN, hamstring, left Sat game)",
   "Austin Reaves (LAL, heel, out Sun)",
