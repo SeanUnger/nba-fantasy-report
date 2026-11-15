@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-14T21:15:00-08:00",
- "run_label": "9pm",
+ "last_run_pt": "2026-11-14T22:15:00-08:00",
+ "run_label": "10pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -819,6 +819,7 @@
   "Sion James (Brandon Miller back Sun, James to bench)"
  ],
  "injury_watch": [
+  "Duncan Robinson (DET, thigh, left Sat early, Q)",
   "Daniel Gafford (DAL, facial/shoulder stinger, left Sat, minor so far)",
   "GG Jackson (MEM, foot, \"relatively serious\", no timeline)",
   "Jaylen Clark (MIN, hamstring, left Sat game)",
