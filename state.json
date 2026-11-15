@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T13:15:00-08:00",
-  "run_label": "1pm",
+  "last_run_pt": "2026-11-15T14:15:00-08:00",
+  "run_label": "2pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -677,12 +677,12 @@
     "mo-bamba": {
       "player": "Mo Bamba",
       "team": "UTA",
-      "trigger": "Hayes (knee) left Fri game, did not return",
+      "trigger": "Hayes (knee) out Sun; Bamba starts vs SAS",
       "trigger_status": "questionable",
       "verdict": "Watch",
-      "summary": "20 min Fri; backup C",
+      "summary": "First start since 2024-25; ~24 min",
       "first_seen_pt": "2026-11-13T23:15:00-08:00",
-      "last_updated_pt": "2026-11-13T23:15:00-08:00"
+      "last_updated_pt": "2026-11-15T14:15:00-08:00"
     },
     "kelly-oubre-jr": {
       "player": "Kelly Oubre Jr.",
@@ -697,12 +697,12 @@
     "proctor": {
       "player": "Tyrese Proctor",
       "team": "CLE",
-      "trigger": "Mobley, Merrill, Mitchell, Allen out Sat vs DAL",
+      "trigger": "Harden/Mitchell/Allen back Mon; Proctor to bench",
       "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "First career triple-double Sat (24/11/10) starting for gutted CLE",
+      "verdict": "Watch",
+      "summary": "Triple-double Sat but loses start",
       "first_seen_pt": "2026-11-14T12:15:00-08:00",
-      "last_updated_pt": "2026-11-14T20:10:00-08:00"
+      "last_updated_pt": "2026-11-15T14:15:00-08:00"
     },
     "khalifa-diop": {
       "player": "Khalifa Diop",
@@ -813,6 +813,16 @@
       "summary": "One-night C start; Embiid maintenance, not long-term",
       "first_seen_pt": "2026-11-15T12:15:00-08:00",
       "last_updated_pt": "2026-11-15T12:15:00-08:00"
+    },
+    "myron-gardner": {
+      "player": "Myron Gardner",
+      "team": "MIA",
+      "trigger": "Larsson (illness) Q Mon; Gardner started last 2",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Starter if Larsson sits",
+      "first_seen_pt": "2026-11-15T14:15:00-08:00",
+      "last_updated_pt": "2026-11-15T14:15:00-08:00"
     }
   },
   "drop_watch": [
@@ -826,7 +836,8 @@
     "Karlo Matkovic (Missi back, probable Sat)",
     "DeAndre Jordan (Missi back, probable Sat)",
     "Sion James (Brandon Miller back Sun, James to bench)",
-    "Dean Wade (Walker starts at C Sun; Wade bench)"
+    "Dean Wade (Walker starts at C Sun; Wade bench)",
+    "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
   ],
   "injury_watch": [
     "Duncan Robinson (DET, thigh, left Sat early, Q)",
