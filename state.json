@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-14T20:10:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-14T21:15:00-08:00",
+ "run_label": "9pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -179,10 +179,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabaté out",
+   "summary": "Starting C while Diabat\u00e9 out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -207,7 +207,7 @@
    "last_updated_pt": "2026-11-11T15:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Salaün",
+   "player": "Tidjane Sala\u00fcn",
    "team": "CHA",
    "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -467,7 +467,7 @@
   "sidy-cissoko": {
    "player": "Sidy Cissoko",
    "team": "POR",
-   "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+   "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -605,7 +605,7 @@
    "last_updated_pt": "2026-11-14T14:15:00-08:00"
   },
   "nikola-topic": {
-   "player": "Nikola Topić",
+   "player": "Nikola Topi\u0107",
    "team": "OKC",
    "trigger": "Recalled from G League",
    "trigger_status": "active",
@@ -793,10 +793,20 @@
    "summary": "Harden, Mitchell, Allen, Mobley, Watson out Sat; Bryant starts",
    "first_seen_pt": "2026-11-14T17:15:00-08:00",
    "last_updated_pt": "2026-11-14T17:15:00-08:00"
+  },
+  "taylor-hendricks": {
+   "player": "Taylor Hendricks",
+   "team": "MEM",
+   "trigger": "GG Jackson (foot, relatively serious) hurt; Grant out Sat",
+   "trigger_status": "out",
+   "verdict": "Speculative add",
+   "summary": "Career-high 22 off bench; bigger role if Jackson out",
+   "first_seen_pt": "2026-11-14T21:15:00-08:00",
+   "last_updated_pt": "2026-11-14T21:15:00-08:00"
   }
  },
  "drop_watch": [
-  "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
+  "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
   "Jamal Shead (Quickley back)",
   "Scoot Henderson (Morant back)",
@@ -810,7 +820,7 @@
  ],
  "injury_watch": [
   "Daniel Gafford (DAL, facial/shoulder stinger, left Sat, minor so far)",
-  "GG Jackson (MEM, foot, left Sat game, severity TBD)",
+  "GG Jackson (MEM, foot, \"relatively serious\", no timeline)",
   "Jaylen Clark (MIN, hamstring, left Sat game)",
   "Austin Reaves (LAL, heel, out Sun)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
@@ -825,7 +835,7 @@
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
   "Brandon Williams (GSW, hamstring, out 1+ wk)",
-  "Vít Krejčí (POR, ankle surgery, 8 wks)",
+  "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
   "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
   "Dominick Barlow (PHI, back, no timeline, at shootaround)",
   "Tobias Harris (DET, calf, no timeline)",
