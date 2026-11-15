@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-14T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-14T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -808,6 +808,9 @@
   "DeAndre Jordan (Missi back, probable Sat)"
  ],
  "injury_watch": [
+  "GG Jackson (MEM, foot, left Sat game, severity TBD)",
+  "Jaylen Clark (MIN, hamstring, left Sat game)",
+  "Austin Reaves (LAL, heel, out Sun)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
   "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
   "Scottie Barnes (TOR, groin, out 4th straight)",
