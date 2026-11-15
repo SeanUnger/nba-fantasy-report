@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T14:15:00-08:00",
-  "run_label": "2pm",
+  "last_run_pt": "2026-11-15T15:15:00-08:00",
+  "run_label": "3pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -75,12 +75,12 @@
     "cam-spencer": {
       "player": "Cam Spencer",
       "team": "MEM",
-      "trigger": "Pippen (back) out to ~Nov 21; Jerome (hip) out Sat; Saunders out to Dec 1",
+      "trigger": "Jerome (hip) out Mon; Pippen out to ~Nov 21; Saunders out to Dec 1",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Started Sat: 17 pts/8 ast; Jerome next chance Mon",
+      "summary": "Started Sat: 17 pts/8 ast; likely starts again Mon",
       "first_seen_pt": "2026-10-30T12:20:00-07:00",
-      "last_updated_pt": "2026-11-14T20:10:00-08:00"
+      "last_updated_pt": "2026-11-15T15:15:00-08:00"
     },
     "scoot-henderson": {
       "player": "Scoot Henderson",
@@ -797,12 +797,12 @@
     "taylor-hendricks": {
       "player": "Taylor Hendricks",
       "team": "MEM",
-      "trigger": "GG Jackson (foot, relatively serious) hurt; Grant out Sat",
+      "trigger": "GG Jackson (foot, relatively serious) out Mon, no timeline; Grant back",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Career-high 22 off bench; bigger role if Jackson out",
+      "summary": "Career-high 22 off bench; bigger role if Jackson out long",
       "first_seen_pt": "2026-11-14T21:15:00-08:00",
-      "last_updated_pt": "2026-11-14T21:15:00-08:00"
+      "last_updated_pt": "2026-11-15T15:15:00-08:00"
     },
     "jabari-walker": {
       "player": "Jabari Walker",
@@ -841,9 +841,8 @@
   ],
   "injury_watch": [
     "Duncan Robinson (DET, thigh, left Sat early, Q)",
-    "Daniel Gafford (DAL, facial/shoulder stinger, left Sat, minor so far)",
     "GG Jackson (MEM, foot, \"relatively serious\", no timeline)",
-    "Jaylen Clark (MIN, hamstring, left Sat game)",
+    "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
     "Austin Reaves (LAL, heel, out Sun)",
     "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
     "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
