@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-14T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-14T16:15:00-08:00",
+  "run_label": "4pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -53,24 +53,24 @@
     "jaxson-hayes": {
       "player": "Jaxson Hayes",
       "team": "UTA",
-      "trigger": "Hayes (left knee) left Fri game vs HOU, did not return; severity unknown. JJJ out 6-8 wks, Nurki\u0107 ~Nov 20",
+      "trigger": "Hayes (left knee) out Sun vs SAS; severity unknown. JJJ out 6-8 wks",
       "trigger_status": "out",
-      "verdict": "Add now",
-      "summary": "Starting C, ~29 min; FG%, blocks, boards.",
+      "verdict": "Watch",
+      "summary": "Bradley/Filipowski get C minutes",
       "first_seen_pt": "2026-10-27T13:20:00-07:00",
-      "last_updated_pt": "2026-11-13T19:15:00-08:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00",
       "last_notified_pt": "2026-10-27T13:20:00-07:00",
       "notified_for": "JJJ out 6-8 wks; verdict Add now"
     },
     "jalen-smith": {
       "player": "Jalen Smith",
       "team": "CHI",
-      "trigger": "Smith, Claxton Q Sat at MIN; Awaka out",
+      "trigger": "Smith and Claxton both out Sat at MIN; Awaka out",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "Starting C unclear Sat",
+      "summary": "Collins starts at C",
       "first_seen_pt": "2026-10-28T23:20:00-07:00",
-      "last_updated_pt": "2026-11-14T12:15:00-08:00"
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
     },
     "cam-spencer": {
       "player": "Cam Spencer",
@@ -700,9 +700,9 @@
       "trigger": "Mobley, Merrill, Mitchell, Allen out Sat vs DAL",
       "trigger_status": "out",
       "verdict": "Speculative add",
-      "summary": "Bigger guard role; 22 pts Fri",
+      "summary": "Starting Sat vs DAL; 22 pts Fri",
       "first_seen_pt": "2026-11-14T12:15:00-08:00",
-      "last_updated_pt": "2026-11-14T15:15:00-08:00"
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
     },
     "khalifa-diop": {
       "player": "Khalifa Diop",
@@ -727,12 +727,12 @@
     "conwell": {
       "player": "Ryan Conwell",
       "team": "MIA",
-      "trigger": "Christie out Sat; Larsson doubtful",
+      "trigger": "Christie, Larsson out Sat vs DET",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "20 pts Fri; extra minutes Sat",
+      "summary": "Extra wing minutes Sat",
       "first_seen_pt": "2026-11-14T12:15:00-08:00",
-      "last_updated_pt": "2026-11-14T15:15:00-08:00"
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
     },
     "will-riley": {
       "player": "Will Riley",
@@ -747,12 +747,22 @@
     "deandre-jordan": {
       "player": "DeAndre Jordan",
       "team": "NOP",
-      "trigger": "Starting Sat vs DEN; Missi probable",
-      "trigger_status": "questionable",
+      "trigger": "Back to bench Sat; Missi starts",
+      "trigger_status": "returning",
       "verdict": "Watch",
-      "summary": "One-night starter?",
+      "summary": "No longer starting",
       "first_seen_pt": "2026-11-14T13:15:00-08:00",
-      "last_updated_pt": "2026-11-14T13:15:00-08:00"
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
+    },
+    "meleek-thomas": {
+      "player": "Meleek Thomas",
+      "team": "CLE",
+      "trigger": "Six Cavs starters/rotation out Sat; Thomas starts",
+      "trigger_status": "starting",
+      "verdict": "Watch",
+      "summary": "One-night starter, ~25 min",
+      "first_seen_pt": "2026-11-14T16:15:00-08:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
     }
   },
   "drop_watch": [
