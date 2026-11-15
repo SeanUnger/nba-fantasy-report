@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-14T19:15:00-08:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-11-14T20:10:00-08:00",
+ "run_label": "8pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -78,9 +78,9 @@
    "trigger": "Pippen (back) out to ~Nov 21; Jerome (hip) out Sat; Saunders out to Dec 1",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Expanded role; ~25 min guard; back in starting lineup Sat",
+   "summary": "Started Sat: 17 pts/8 ast; Jerome next chance Mon",
    "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-14T17:15:00-08:00"
+   "last_updated_pt": "2026-11-14T20:10:00-08:00"
   },
   "scoot-henderson": {
    "player": "Scoot Henderson",
@@ -179,10 +179,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
+   "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -207,7 +207,7 @@
    "last_updated_pt": "2026-11-11T15:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
+   "player": "Tidjane Salaün",
    "team": "CHA",
    "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -467,7 +467,7 @@
   "sidy-cissoko": {
    "player": "Sidy Cissoko",
    "team": "POR",
-   "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+   "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -605,7 +605,7 @@
    "last_updated_pt": "2026-11-14T14:15:00-08:00"
   },
   "nikola-topic": {
-   "player": "Nikola Topi\u0107",
+   "player": "Nikola Topić",
    "team": "OKC",
    "trigger": "Recalled from G League",
    "trigger_status": "active",
@@ -700,9 +700,9 @@
    "trigger": "Mobley, Merrill, Mitchell, Allen out Sat vs DAL",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Starting Sat vs DAL; 22 pts Fri",
+   "summary": "First career triple-double Sat (24/11/10) starting for gutted CLE",
    "first_seen_pt": "2026-11-14T12:15:00-08:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00"
+   "last_updated_pt": "2026-11-14T20:10:00-08:00"
   },
   "khalifa-diop": {
    "player": "Khalifa Diop",
@@ -796,7 +796,7 @@
   }
  },
  "drop_watch": [
-  "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
+  "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
   "Jamal Shead (Quickley back)",
   "Scoot Henderson (Morant back)",
@@ -805,7 +805,8 @@
   "Quenton Jackson (McConnell back)",
   "Julian Champagnie (Vassell back, Champagnie to bench)",
   "Karlo Matkovic (Missi back, probable Sat)",
-  "DeAndre Jordan (Missi back, probable Sat)"
+  "DeAndre Jordan (Missi back, probable Sat)",
+  "Sion James (Brandon Miller back Sun, James to bench)"
  ],
  "injury_watch": [
   "Daniel Gafford (DAL, facial/shoulder stinger, left Sat, minor so far)",
@@ -824,7 +825,7 @@
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
   "Brandon Williams (GSW, hamstring, out 1+ wk)",
-  "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
+  "Vít Krejčí (POR, ankle surgery, 8 wks)",
   "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
   "Dominick Barlow (PHI, back, no timeline, at shootaround)",
   "Tobias Harris (DET, calf, no timeline)",
