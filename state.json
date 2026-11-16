@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T16:15:00-08:00",
-  "run_label": "4pm",
+  "last_run_pt": "2026-11-15T17:15:00-08:00",
+  "run_label": "5pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -397,12 +397,12 @@
     "julian-champagnie": {
       "player": "Julian Champagnie",
       "team": "SAS",
-      "trigger": "Fox (hip) out Sun at UTA; Champagnie top candidate to start",
+      "trigger": "Fox (hip) out Sun; Champagnie confirmed starting",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "One-night starter bump",
       "first_seen_pt": "2026-11-09T17:20:00-08:00",
-      "last_updated_pt": "2026-11-15T13:15:00-08:00"
+      "last_updated_pt": "2026-11-15T17:15:00-08:00"
     },
     "kyle-anderson": {
       "player": "Kyle Anderson",
@@ -447,12 +447,12 @@
     "walter-clayton-jr": {
       "player": "Walter Clayton Jr.",
       "team": "DAL",
-      "trigger": "Steady ~25 min role in DAL backcourt",
+      "trigger": "Irving, Christie, Aldama, Biberovic out Sun vs BOS",
       "trigger_status": "active",
       "verdict": "Watch",
       "summary": "10.2/4.2/3.8 last five",
       "first_seen_pt": "2026-11-10T12:15:00-08:00",
-      "last_updated_pt": "2026-11-10T12:15:00-08:00"
+      "last_updated_pt": "2026-11-15T17:15:00-08:00"
     },
     "ryan-rollins": {
       "player": "Ryan Rollins",
