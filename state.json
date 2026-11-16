@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-16T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -879,6 +879,30 @@
    "last_updated_pt": "2026-11-16T14:15:00-08:00",
    "last_notified_pt": "2026-11-16T14:15:00-08:00",
    "notified_for": "status out 7-10 days; Bryant Speculative add"
+  },
+  "injury:duncan-robinson": {
+   "kind": "injury",
+   "player": "Duncan Robinson",
+   "team": "DET",
+   "injury": "quad",
+   "status": "out",
+   "status_note": "Left Sat early; out Tue vs SAS",
+   "beneficiaries": [
+    {
+     "player": "Kevin Huerter",
+     "verdict": "Speculative add",
+     "summary": "38 min Sat; wings thin"
+    },
+    {
+     "player": "Daniss Jenkins",
+     "verdict": "Watch",
+     "summary": "extra guard minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-16T15:15:00-08:00",
+   "last_updated_pt": "2026-11-16T15:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
@@ -901,7 +925,6 @@
   "Neemias Queta (BOS, rest, Q Mon)",
   "Zach LaVine (SAC, illness, out Sun)",
   "De'Andre Hunter (SAC, hip, out Sun)",
-  "Duncan Robinson (DET, thigh, left Sat early, Q)",
   "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
   "Austin Reaves (LAL, heel, out Sun)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
