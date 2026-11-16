@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-16T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -855,6 +855,30 @@
    "last_updated_pt": "2026-11-16T12:20:00-08:00",
    "last_notified_pt": "2026-11-16T12:20:00-08:00",
    "notified_for": "Amen Thompson Q; Eason Speculative add"
+  },
+  "injury:evan-mobley": {
+   "kind": "injury",
+   "player": "Evan Mobley",
+   "team": "CLE",
+   "injury": "toe",
+   "status": "out-multi-week",
+   "status_note": "Right great toe sprain; re-eval in 7-10 days",
+   "beneficiaries": [
+    {
+     "player": "Thomas Bryant",
+     "verdict": "Speculative add",
+     "summary": "Backup C, extra minutes"
+    },
+    {
+     "player": "Peyton Watson",
+     "verdict": "Watch",
+     "summary": "Possible forward minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-16T14:15:00-08:00",
+   "last_updated_pt": "2026-11-16T14:15:00-08:00",
+   "last_notified_pt": "2026-11-16T14:15:00-08:00",
+   "notified_for": "status out 7-10 days; Bryant Speculative add"
   }
  },
  "drop_watch": [
