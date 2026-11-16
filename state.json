@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T12:20:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-16T13:15:00-08:00",
+ "run_label": "1pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -872,6 +872,9 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
+  "Ryan Dunn (PHX, thumb, Q Mon)",
+  "Tre Johnson (WAS, back, Q Mon)",
+  "Neemias Queta (BOS, rest, Q Mon)",
   "Zach LaVine (SAC, illness, out Sun)",
   "De'Andre Hunter (SAC, hip, out Sun)",
   "Duncan Robinson (DET, thigh, left Sat early, Q)",
