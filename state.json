@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-15T16:15:00-08:00",
+  "run_label": "4pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -637,12 +637,12 @@
     "ousmane-dieng": {
       "player": "Ousmane Dieng",
       "team": "MIL",
-      "trigger": "Fractured left finger, out Sun vs ATL, no timeline",
+      "trigger": "Fractured left finger, surgery Mon, no timeline",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "~12 min role; little value",
       "first_seen_pt": "2026-11-13T16:15:00-08:00",
-      "last_updated_pt": "2026-11-15T13:15:00-08:00"
+      "last_updated_pt": "2026-11-15T16:15:00-08:00"
     },
     "tim-hardaway-jr": {
       "player": "Tim Hardaway Jr.",
