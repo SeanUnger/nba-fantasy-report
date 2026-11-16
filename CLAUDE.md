@@ -1,11 +1,13 @@
 # NBA Fantasy Pickup Report — agent instructions
 
-You run in the cloud every hour from 12:00pm to 11:00pm Pacific, plus a last check at
-11:30pm, so the owner can submit waiver claims before midnight Pacific. Your job: find NBA
-news that could **significantly raise the fantasy value of a player who is probably on
-waivers**, keep a mobile-friendly HTML report up to date, and send a push notification only
-when there is big, actionable pickup news (see step 8). Most hourly runs should update the
-report quietly without notifying.
+You run in the cloud every hour from 9:00am to 11:00pm Pacific, so the owner can submit
+waiver claims before midnight Pacific. The 9am run is the first of a new Pacific day and
+should pick up anything from last night's games (in-game injuries, post-game updates). The
+11pm run is the last chance before waivers lock, so be quick. Your job: find NBA news that
+could **significantly raise the fantasy value of a player who is probably on waivers**,
+keep a mobile-friendly HTML report up to date, and send a push notification when there is
+actionable pickup news (see step 8). Many hourly runs should update the report quietly
+without notifying.
 
 The owner plays in standard 12-team head-to-head category leagues (9-cat style) on Yahoo/ESPN.
 You do NOT have access to their leagues, so judge availability by reputation: assume anyone
@@ -17,9 +19,11 @@ Live report URL: https://seanunger.github.io/nba-fantasy-report/
 ## What counts as a pickup signal (most to least common)
 
 1. **Injury to a starter or rotation player** (Out, Doubtful, multi-week, surgery, rest
-   management) that opens minutes or usage for a teammate. The story is the *beneficiary*:
-   who starts, who absorbs the shots, who closes games. Name 1–3 beneficiaries and say why
-   (same position, backup on depth chart, played extra minutes last time this player sat).
+   management) that opens minutes or usage for a teammate. The card is about the *injured
+   player* (see "Two kinds of cards" below), and its analysis names 1–3 beneficiaries and
+   says why (same position, backup on depth chart, played extra minutes last time this
+   player sat). Include in-game exits and players newly listed Questionable or Doubtful,
+   not just confirmed absences, when the injured player is a star or key starter.
 2. **Minutes or role change**: moved into the starting lineup, minutes trending up over the
    last 3–5 games, new closing-lineup role, coach quotes about a bigger role.
 3. **Hot streak from a young or low-rostered player**, especially if it comes with more
@@ -43,12 +47,13 @@ with no clear beneficiary in the short "Injury watch" section.
 3. Use web search to fill gaps and confirm: today's NBA injury report, starting-lineup news,
    beat-reporter updates, and recent minutes trends for candidates. Prefer news from the
    last 24 hours; mark anything older as background.
-4. Read `state.json`. For each pickup candidate decide what changed **in this run**
+4. Read `state.json`. For each card (an injury or a pickup, see "Two kinds of cards")
+   decide what changed **in this run**
    (used for notifications and the "since last run" marker):
    - **NEW**: not in state.
    - **UPDATED**: in state, but something material changed (injury status or timeline,
-     starter vs. bench, a big new game, a new beneficiary). A repeat of the same news is not
-     an update.
+     e.g. Questionable → Out or Out → multi-week; starter vs. bench; a big new game; a new
+     beneficiary). A repeat of the same news is not an update.
    - **ONGOING**: in state and still relevant, nothing material new.
    - Drop items with no new news in 4 days, or whose trigger player has returned.
    Separately, decide where it goes **on the page**, which is based on the Pacific date, not
@@ -60,34 +65,52 @@ with no clear beneficiary in the short "Injury watch" section.
 7. `git add -A && git commit -m "Report YYYY-MM-DD <run label>" && git push origin main`.
    If pushing to main is rejected, push to a branch instead and say so in your final
    message.
-8. **Notify only for significant pickup news.** The report updates every hour, but a push
-   notification interrupts the owner, so send one only when this run found at least one
-   NEW or UPDATED candidate that clears this bar:
-   - Its verdict is **Add now** or **Speculative add** (never for Watch, Drop watch or
-     Injury watch alone), and
-   - the trigger is a big, lasting change in opportunity:
-     - a starter or key rotation player is out for **a week or more**, indefinitely, or for
-       the season (surgery, a fracture, a multi-week timeline, a suspension), or ruled out
-       of upcoming games with no return date;
-     - a trade, signing, release or buyout that hands this player a starting job or a big
-       minutes jump;
-     - a confirmed promotion to the starting lineup, or a sustained jump in minutes
-       (30+ minutes in the last 2–3 games after playing far less before) for a likely
-       available player.
-   Never notify for: one-night rest, Day-To-Day or Questionable tags, a single big game on
-   normal minutes, back-to-back maintenance, or an UPDATED item whose verdict and
-   opportunity didn't really change (e.g. a confirmed absence that was already reported).
-   Don't notify twice for the same trigger: only notify for an item again if its verdict
-   was upgraded (e.g. Speculative add → Add now) or its timeline got much longer.
-   Record each notified item's `last_notified_pt` and `notified_for` in state.json.
-   Use the PushNotification tool with a short message (under 200 characters) that leads
-   with the pickup and reason, e.g.
-   `Add Ryan Dunn: Durant out 2+ wks, Dunn starting — https://seanunger.github.io/nba-fantasy-report/`.
-   When in doubt, don't notify; the report still has the news.
+8. **Notify for actionable pickup news.** A push notification interrupts the owner, so
+   send one when this run found at least one NEW or UPDATED card that clears either bar
+   below, and at least one pickup on it has an **Add now** or **Speculative add** verdict
+   (never for Watch, Drop watch or Injury watch alone).
+
+   **A. Star injury (any length).** A star or key starter gets hurt and it creates a real
+   pickup. "Star or key starter" means roughly a top-60 fantasy player, or a team's
+   primary starter who plays heavy minutes and usage (about 30+ minutes a night). Notify
+   on the *first* sign, without waiting for a timeline:
+   - he leaves a game with an injury, or is reported hurt after one;
+   - he is newly listed Questionable, Doubtful or Out for an upcoming game;
+   - he is ruled out for a longer stretch, has surgery, or gets a multi-week timeline.
+   Notify again each time his status **gets worse**: e.g. left the game → Questionable →
+   Out → out multiple weeks / surgery. Example: a star exits his game with an ankle
+   injury and is called questionable for the next one → notify; the next day he is ruled
+   out for 2–3 weeks → notify again. Do not notify again if the status repeats or
+   improves.
+
+   **B. Other big, lasting opportunities:**
+   - a non-star starter or key rotation player is out for **a week or more**,
+     indefinitely, or for the season, or ruled out with no return date;
+   - a trade, signing, release or buyout that hands this player a starting job or a big
+     minutes jump;
+   - a confirmed promotion to the starting lineup (injury, coaching decision, etc.), or a
+     sustained jump in minutes (30+ minutes in the last 2–3 games after playing far less
+     before) for a likely available player.
+
+   Never notify for: scheduled rest or back-to-back maintenance; Day-To-Day or
+   Questionable tags on non-stars; a single big game on normal minutes; or an UPDATED card
+   whose status, verdict and opportunity didn't really change (e.g. a confirmed absence
+   that was already reported). Beyond the "status got worse" rule in A, only notify for a
+   card again if a pickup's verdict was upgraded (e.g. Speculative add → Add now) or a new,
+   clearly better pickup emerged.
+   Record each notified card's `last_notified_pt` and `notified_for` (the status and
+   verdict you notified for) in state.json, and compare against them to avoid repeats.
+   Use the PushNotification tool with a short message (under 200 characters). For an
+   injury, lead with the injured player and status, then the pickup, e.g.
+   `Curry left game (ankle), Q for Tue → add Podziemski — https://seanunger.github.io/nba-fantasy-report/`.
+   For other cards, lead with the pickup and reason, e.g.
+   `Add Ryan Dunn: moved into PHX starting lineup — https://seanunger.github.io/nba-fantasy-report/`.
+   One notification per run; if several cards qualify, combine them in one message.
 9. Your final message is what the owner sees when they tap the notification, so its first
    line must be the bare report link: https://seanunger.github.io/nba-fantasy-report/
-   Then list the NEW/UPDATED candidates (one line each), whether you notified and why (or
-   why not), and any errors.
+   Then list the NEW/UPDATED cards (one line each), whether you notified and why (or
+   why not), and any errors. This run summary goes **only** in your final message and the
+   commit, never on the page (see "No run log on the page").
 
 ## Report format (`index.html`)
 
@@ -117,22 +140,51 @@ not start a fresh page that only covers its own hour.
 - The first run of a new Pacific date starts a new page: yesterday's Add tonight items with
   no new news today move to Still relevant (or drop off per step 4).
 
+### No run log on the page
+
+Never put a run log, status paragraph or "what each run found" notes on the page (e.g.
+"11:30pm: final check, quiet… 9pm: quiet… 8pm: …"), anywhere: not under a heading, not in
+the header, not in the footer. If a run finds nothing new, the page simply stays the same
+apart from the "updated" time. What changed is shown only by the small since-last-run tags
+on cards. If today's page already has such a paragraph from an earlier run, delete it.
+
+### Two kinds of cards
+
+- **Injury cards**, for any pickup that exists because someone got hurt (or is out for
+  rest, suspension or personal reasons). The card is titled and centered on the
+  **injured player**: his name, team, position, the injury and his current status (e.g.
+  "Stephen Curry · GSW · PG — ankle, left game Sun, Questionable Tue"). The body then
+  explains the injury and timeline and points to **who is in line to capture his fantasy
+  value**: 1–3 beneficiaries, each with expected role, likely availability and a verdict.
+  One card per injured player; never a separate card per beneficiary. If two injuries on
+  the same team feed the same beneficiary, give each injured player his own card and
+  mention the overlap.
+- **Pickup cards**, for everything that isn't caused by an injury: trades, signings,
+  buyouts, a coaching decision to start someone, a minutes jump, a hot streak. These are
+  titled by the **player to pick up**.
+
 ### Layout
 
 - Header: "NBA Pickup Report", the Pacific date, the run label, and "updated h:mm pm PT".
-- **Add tonight**: every candidate first seen or updated today, strongest first (by
-  verdict, then size of the opportunity). Each card shows:
-  - player, team, position, and a NEW or UPDATED badge (UPDATED says what changed), plus
-    the "since last run" tag if it changed in this run
-  - **why**: the trigger, e.g. "Durant (ankle) out 2+ weeks", in one or two sentences
-  - **expected role**: minutes or usage estimate and which categories he helps
-  - **likely availability**: e.g. "~20% rostered, likely available" with your confidence
-  - **verdict**: Add now / Speculative add / Watch
+  Nothing else above the first section.
+- **Add tonight**: every card first seen or updated today, strongest first (by the best
+  pickup verdict on it, then size of the opportunity). Each card shows:
+  - a title line: the injured player (injury card) or the pickup (pickup card), team,
+    position, and a NEW or UPDATED badge (UPDATED says what changed), plus the "since last
+    run" tag if it changed in this run
+  - **why**: one or two sentences. Injury card: injury, status and timeline. Pickup card:
+    the trigger, e.g. "moved into the starting lineup over Bogdanovic".
+  - **who gains** (injury card) or **expected role** (pickup card): for each pickup, the
+    minutes or usage estimate and which categories he helps
+  - **likely availability** for each pickup: e.g. "~20% rostered, likely available" with
+    your confidence
+  - **verdict** for each pickup: Add now / Speculative add / Watch
   - source links
-- **Still relevant**: candidates from earlier days with no material news today, compact
-  one-line rows.
+- **Still relevant**: cards from earlier days with no material news today, compact
+  one-line rows (injury rows lead with the injured player, then "→ pickup").
 - **Drop watch**: fill-ins losing value because a starter is returning.
-- **Injury watch**: notable stars out or questionable with no clear pickup. One line each.
+- **Injury watch**: notable players out or questionable with no clear pickup. One line
+  each. If a pickup emerges later, promote the player to an injury card.
 - Footer: links to the last 14 reports in `reports/` (newest first), data sources used, and
   any fetch errors.
 
@@ -172,19 +224,35 @@ chart (all from the owner's backend and ESPN). You don't need to fetch or embed 
 ```json
 {
   "last_run_pt": "2026-10-25T19:00:00-07:00",
-  "run_label": "7pm",  // the Pacific hour of this run, e.g. "1pm", "11pm", "11:30pm"
+  "run_label": "7pm",  // the Pacific hour of this run, e.g. "9am", "1pm", "11pm"
   "items": {
-    "ryan-dunn": {
-      "player": "Ryan Dunn",
+    "injury:stephen-curry": {
+      "kind": "injury",
+      "player": "Stephen Curry",          // the injured player (card title)
+      "team": "GSW",
+      "injury": "ankle",
+      "status": "questionable",           // left-game | questionable | doubtful | out | out-multi-week | out-season
+      "status_note": "Left Sun game; Q for Tue",
+      "beneficiaries": [
+        {"player": "Brandin Podziemski", "verdict": "Speculative add",
+         "summary": "Would start at guard; 30+ min, points/3s/assists"}
+      ],
+      "first_seen_pt": "2026-10-25T19:00:00-07:00",
+      "last_updated_pt": "2026-10-25T19:00:00-07:00",
+      "last_notified_pt": "2026-10-25T19:00:00-07:00",
+      "notified_for": "status questionable; Podziemski Speculative add"
+    },
+    "pickup:ryan-dunn": {
+      "kind": "pickup",
+      "player": "Ryan Dunn",              // the player to pick up (card title)
       "team": "PHX",
-      "trigger": "Kevin Durant (ankle) out 2+ weeks",
-      "trigger_status": "out",
+      "trigger": "Moved into the starting lineup (coach's decision)",
       "verdict": "Add now",
       "summary": "Starting at SF; 30+ min, steals/blocks/3s",
       "first_seen_pt": "2026-10-25T19:00:00-07:00",
       "last_updated_pt": "2026-10-25T19:00:00-07:00",
-      "last_notified_pt": "2026-10-25T19:00:00-07:00",
-      "notified_for": "Durant out 2+ weeks; verdict Add now"
+      "last_notified_pt": null,
+      "notified_for": null
     }
   },
   "drop_watch": [],
@@ -192,5 +260,15 @@ chart (all from the owner's backend and ESPN). You don't need to fetch or embed 
 }
 ```
 
-Keys are lowercase hyphenated player names. Compare `trigger`, `trigger_status`, `verdict` and
-`summary` with the previous state to decide NEW / UPDATED / ONGOING.
+Keys are `injury:` or `pickup:` plus the lowercase hyphenated name of the card's title
+player. Compare `status`, `trigger`, `verdict`s, `beneficiaries` and `summary` with the
+previous state to decide NEW / UPDATED / ONGOING, and compare `status` against
+`notified_for` to apply the "status got worse" rule in step 8.
+
+**Migrating old entries.** Older entries have no `kind` and are keyed by the pickup's name
+(e.g. `"ja-kobe-walter"` with `trigger: "Kawhi out 1+ wk"`). When you meet one, convert it:
+if its trigger is an injury, fold it into the `injury:<injured player>` card as a
+beneficiary (merging with any other old entries for the same injured player); otherwise
+rename it to `pickup:<name>` with `kind: "pickup"`. Keep the earliest `first_seen_pt` and the
+latest `last_notified_pt`/`notified_for`. A converted entry is **ONGOING**, not NEW, unless
+the news itself changed, so the migration alone never triggers a notification or a NEW tag.
