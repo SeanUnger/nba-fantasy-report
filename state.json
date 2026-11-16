@@ -1,16 +1,16 @@
 {
-  "last_run_pt": "2026-11-15T17:15:00-08:00",
-  "run_label": "5pm",
+  "last_run_pt": "2026-11-15T18:15:00-08:00",
+  "run_label": "6pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
       "team": "SAC",
-      "trigger": "Achiuwa (ankle) out Fri vs POR; K. Murray may start",
+      "trigger": "Achiuwa (ankle) out Sun; Monk, Cardwell start",
       "trigger_status": "out",
       "verdict": "Watch",
       "summary": "Starts alongside Sabonis",
       "first_seen_pt": "2026-10-24T23:40:00-07:00",
-      "last_updated_pt": "2026-11-13T15:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00",
       "last_notified_pt": "2026-10-26T15:15:00-07:00",
       "notified_for": "Murray out 10-14 days; verdict Add now"
     },
@@ -137,12 +137,12 @@
     "aday-mara": {
       "player": "Aday Mara",
       "team": "OKC",
-      "trigger": "Jaylin Williams (back) out 6th straight Fri; Holmgren out long term; Mara starting",
+      "trigger": "Mitchell back; Mara to bench Sun",
       "trigger_status": "out",
-      "verdict": "Speculative add",
-      "summary": "Starting C absorbing minutes",
+      "verdict": "Watch",
+      "summary": "Back to reserve role, 12.3/6.8/2.0 blk last four",
       "first_seen_pt": "2026-11-04T16:15:00-08:00",
-      "last_updated_pt": "2026-11-13T12:20:00-08:00"
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
     },
     "sion-james": {
       "player": "Sion James",
@@ -335,12 +335,12 @@
     "dylan-cardwell": {
       "player": "Dylan Cardwell",
       "team": "SAC",
-      "trigger": "Sabonis (knee soreness) out Sun; Cardwell starts",
+      "trigger": "Starts Sun with Hunter, Achiuwa out",
       "trigger_status": "out",
       "verdict": "Watch",
-      "summary": "First start of season; one game absence so far",
+      "summary": "Frontcourt starter alongside Sabonis",
       "first_seen_pt": "2026-11-08T18:15:00-08:00",
-      "last_updated_pt": "2026-11-08T18:15:00-08:00"
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
     },
     "allen-graves": {
       "first_seen_pt": "2026-11-09T15:15:00-08:00",
@@ -823,6 +823,26 @@
       "summary": "Starter if Larsson sits",
       "first_seen_pt": "2026-11-15T14:15:00-08:00",
       "last_updated_pt": "2026-11-15T14:15:00-08:00"
+    },
+    "malik-monk": {
+      "player": "Malik Monk",
+      "team": "SAC",
+      "trigger": "LaVine (illness), Hunter (hip), Achiuwa (ankle) out Sun; Monk starts",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-night starter bump",
+      "first_seen_pt": "2026-11-15T18:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
+    },
+    "jericho-sims": {
+      "player": "Jericho Sims",
+      "team": "MIL",
+      "trigger": "First start of season Sun vs ATL",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Low-minute big, one-night starter",
+      "first_seen_pt": "2026-11-15T18:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
     }
   },
   "drop_watch": [
@@ -840,6 +860,8 @@
     "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
   ],
   "injury_watch": [
+    "Zach LaVine (SAC, illness, out Sun)",
+    "De'Andre Hunter (SAC, hip, out Sun)",
     "Duncan Robinson (DET, thigh, left Sat early, Q)",
     "GG Jackson (MEM, foot, \"relatively serious\", no timeline)",
     "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
