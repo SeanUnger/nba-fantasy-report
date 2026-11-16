@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-15T19:15:00-08:00",
-  "run_label": "7pm",
+  "last_run_pt": "2026-11-15T20:15:00-08:00",
+  "run_label": "8pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -677,12 +677,12 @@
     "mo-bamba": {
       "player": "Mo Bamba",
       "team": "UTA",
-      "trigger": "Hayes (knee) out Sun; Bamba starts vs SAS",
+      "trigger": "Hayes (knee strain) out Sun; Bamba 26 pts/6 3s in 35 min",
       "trigger_status": "questionable",
       "verdict": "Watch",
-      "summary": "First start since 2024-25; ~24 min",
+      "summary": "Starter minutes while Hayes out; Hayes injury minor",
       "first_seen_pt": "2026-11-13T23:15:00-08:00",
-      "last_updated_pt": "2026-11-15T14:15:00-08:00"
+      "last_updated_pt": "2026-11-15T20:15:00-08:00"
     },
     "kelly-oubre-jr": {
       "player": "Kelly Oubre Jr.",
