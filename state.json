@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T09:10:00-08:00",
- "run_label": "9am",
+ "last_run_pt": "2026-11-16T10:20:00-08:00",
+ "run_label": "10am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -797,12 +797,14 @@
   "taylor-hendricks": {
    "player": "Taylor Hendricks",
    "team": "MEM",
-   "trigger": "GG Jackson (foot, relatively serious) out Mon, no timeline; Grant back",
+   "trigger": "GG Jackson (fractured 5th metatarsal) surgery, lengthy absence",
    "trigger_status": "out",
    "verdict": "Speculative add",
-   "summary": "Career-high 22 off bench; bigger role if Jackson out long",
+   "summary": "Next forward in line; career-high 22 recently",
    "first_seen_pt": "2026-11-14T21:15:00-08:00",
-   "last_updated_pt": "2026-11-15T15:15:00-08:00"
+   "last_updated_pt": "2026-11-16T10:20:00-08:00",
+   "last_notified_pt": "2026-11-16T10:20:00-08:00",
+   "notified_for": "Jackson surgery; Hendricks Speculative add"
   },
   "jabari-walker": {
    "player": "Jabari Walker",
@@ -863,7 +865,6 @@
   "Zach LaVine (SAC, illness, out Sun)",
   "De'Andre Hunter (SAC, hip, out Sun)",
   "Duncan Robinson (DET, thigh, left Sat early, Q)",
-  "GG Jackson (MEM, foot, \"relatively serious\", no timeline)",
   "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
   "Austin Reaves (LAL, heel, out Sun)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
