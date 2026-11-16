@@ -11,12 +11,18 @@
 //   - the team depth chart from the nightly projected playing time
 //     (/api/playing-time), with a Live / ROS toggle, projected minutes plus
 //     FantasyPros ROS FGA per player; tapping anyone on it opens their modal
-// Everything is fetched live from the browser when the modal opens; the
-// backend and site.api.espn.com both allow any origin.
+// Those sit on an Overview tab; a Game Logs tab (port of PocketPass's
+// GameLogsTab.tsx) lists the team's next games and every game played this
+// season with its box score line, FPTS and Cat $, each category shaded by
+// its $ in that game; a game opens its PocketPass Game Flow page.
+// Everything is fetched live from the browser when the modal opens (game
+// logs only once that tab is opened); the backend and site.api.espn.com both
+// allow any origin.
 
 (() => {
     const API_BASE_URL = 'https://i9708892i9.execute-api.us-west-1.amazonaws.com/prod';
     const ESPN_NEWS_URL = 'https://site.api.espn.com/apis/fantasy/v2/games/fba/news/players';
+    const GAME_FLOW_URL = 'https://pocketpassanalytics.com/games';
     const VALUE_WINDOW = 'fantasyProsRosProjection';
     const NEWS_ITEMS = 3;
     const STATS_FLAGS = [
@@ -150,6 +156,10 @@
                 .map((item) => ({ headline: item.headline, story: item.story ?? item.description ?? '', published: item.published, source: item.type ?? '' }));
         });
 
+    // { games (newest first), upcoming (soonest first), fptsReplacement },
+    // valued with the backend's default league settings (12 teams, 9-cat).
+    const fetchGameLogs = (playerId) => cached(`gamelogs|${playerId}`, () => getJson(`${API_BASE_URL}/api/players/${encodeURIComponent(playerId)}/game-logs`));
+
     // ---------- 9-cat value ----------
 
     const VALUE_MODES = [
@@ -259,8 +269,26 @@
 
     const valueCell = (v) =>
         v == null ? '<td class="pm-mono pm-cell-value">&mdash;</td>' : `<td class="pm-mono pm-cell-value" style="color:${valueColor(v)}">${dollar(v)}</td>`;
-    const pctCell = (pct, attempts) =>
-        `<td class="pm-mono"><span class="pm-pct"><span>${pct2(pct)}</span><span class="pm-pct-att">${fmt0(attempts)}</span></span></td>`;
+    // The extension's catBar: a light green (or red, if negative) bar rising
+    // from each 9-cat stat's baseline, sized by the category's |$| value in
+    // this window, full height at $25.
+    const CAT_BAR_MAX_DOLLAR = 25;
+    function catBar(s, cat, text) {
+        const v = s[`auctionValue${cat.key[0].toUpperCase()}${cat.key.slice(1)}L156R120B2400C9`];
+        if (v == null) return text;
+        const height = Math.min(Math.abs(v) / CAT_BAR_MAX_DOLLAR, 1);
+        return `<span class="pm-cat-bar ${v < 0 ? 'neg' : 'pos'}" style="--cat-bar-height:${height}">${text}</span>`;
+    }
+    // Hover text, e.g. "Rebounds: $12"; data-tap-tip also shows it on a tap
+    // on touch screens (see showTapTip).
+    function catTitle(s, cat) {
+        const v = s[`auctionValue${cat.key[0].toUpperCase()}${cat.key.slice(1)}L156R120B2400C9`];
+        return v == null ? '' : ` title="${escapeHtml(`${cat.name}: ${dollar(v)}`)}" data-tap-tip`;
+    }
+    const catTd = (s, cat) =>
+        cat.att
+            ? `<td class="pm-mono"${catTitle(s, cat)}><span class="pm-pct"><span>${catBar(s, cat, pct2(s[cat.stat]))}</span><span class="pm-pct-att">${fmt0(s[cat.att])}</span></span></td>`
+            : `<td class="pm-mono"${catTitle(s, cat)}>${catBar(s, cat, fmt1(s[cat.stat]))}</td>`;
 
     function statCells(s, isProjection) {
         if (!s || s.gamesPlayed === 0) {
@@ -271,15 +299,7 @@
         return [
             `<td class="pm-mono">${s.gamesPlayed}</td>`,
             `<td class="pm-mono">${fmt1(s.minutesPerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.pointsPerGame)}</td>`,
-            pctCell(s.fieldGoalPct, s.fieldGoalsAttemptedPerGame),
-            pctCell(s.freeThrowPct, s.freeThrowsAttemptedPerGame),
-            `<td class="pm-mono">${fmt1(s.threePointersMadePerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.reboundsPerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.assistsPerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.stealsPerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.blocksPerGame)}</td>`,
-            `<td class="pm-mono">${fmt1(s.turnoversPerGame)}</td>`,
+            ...CATS.map((cat) => catTd(s, cat)),
             `<td class="pm-mono pm-cell-fpts">${fmt1(s.espnFantasyPointsPerGame)}</td>`,
             valueCell(s.auctionValueTotalPerMinL156R120B2400C9),
             valueCell(s.auctionValueTotalL156R120B2400C9),
@@ -328,6 +348,70 @@
             .join('');
     }
 
+    // ---------- game logs (port of PocketPass GameLogsTab.tsx) ----------
+
+    const GAME_COLUMNS = [
+        { label: 'Cat $', title: "The game's category auction value: what he'd be worth over a season of games like this one" },
+        { label: 'FPTS', title: 'ESPN fantasy points for the game' },
+        { label: 'MIN', title: 'Minutes' },
+        ...CATS.map((cat) => ({ label: cat.label, title: cat.att ? `${cat.name} (made/attempted below)` : cat.name, cat })),
+    ];
+    // A single game's category $ swings wider than a season average's, so
+    // the shading fills later than the Stats table's $25.
+    const GAME_CAT_BAR_MAX_DOLLAR = 30;
+
+    const glDate = (iso) => new Date(iso).toLocaleDateString(undefined, { weekday: 'short', month: 'numeric', day: 'numeric' });
+    const glTime = (iso) => new Date(iso).toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
+    const glPct = (made, attempted) => (attempted ? `${Math.round((made / attempted) * 100)}%` : '&ndash;');
+
+    function glMatchup(game) {
+        return `<span class="gl-matchup"><span class="gl-at">${game.home ? 'vs' : '@'}</span><img class="gl-logo" src="${teamLogoUrl(game.opponent)}" alt="" data-fallback="remove"><span class="gl-opp">${escapeHtml(game.opponent)}</span></span>`;
+    }
+
+    // One game's stat in a category, shaded by its $ in that game (like the
+    // Stats table's catBar), with "Rebounds: $12" as hover / tap text.
+    function glCatTd(game, cat) {
+        const v = game.value?.categories?.[cat.key];
+        const made = { fg: game.fgm, ft: game.ftm, tpm: game.tpm }[cat.key];
+        const attempted = { fg: game.fga, ft: game.fta, tpm: game.tpa }[cat.key];
+        const main = cat.key === 'fg' || cat.key === 'ft' ? glPct(made, attempted) : fmt0(game[cat.key]);
+        const punted = game.value?.punted === cat.key;
+        const bar =
+            v == null
+                ? main
+                : `<span class="pm-cat-bar ${v < 0 ? 'neg' : 'pos'}" style="--cat-bar-height:${punted ? 0 : Math.min(Math.abs(v) / GAME_CAT_BAR_MAX_DOLLAR, 1)}">${main}</span>`;
+        const tip = v == null ? '' : ` title="${escapeHtml(`${cat.name}: ${punted ? 'punted ($0)' : dollar(v)}`)}" data-tap-tip`;
+        const body = attempted == null ? bar : `<span class="pm-pct"><span>${bar}</span><span class="pm-pct-att">${made}/${attempted}</span></span>`;
+        return `<td class="pm-mono"${tip}>${body}</td>`;
+    }
+
+    function glGameRow(game, playerId, fptsReplacement) {
+        const result = game.result ? `<span class="gl-result">${game.result} ${game.teamScore}-${game.opponentScore}</span>` : '';
+        const href = `${GAME_FLOW_URL}/${encodeURIComponent(game.gameId)}?player=${encodeURIComponent(playerId)}`;
+        const label = `<td class="pm-row-window gl-game"><a class="gl-link" href="${href}" target="_blank" rel="noopener" title="Open this game's flow: when every player was on the court"><span class="gl-date">${escapeHtml(glDate(game.date))}</span>${glMatchup(game)}${result}${game.postseason ? '<span class="pm-proj-tag">PO</span>' : ''}</a></td>`;
+        if (game.min === 0) return `<tr>${label}<td colspan="${GAME_COLUMNS.length}" class="pm-empty-cell">Did not play</td></tr>`;
+        const above = fptsReplacement == null ? null : game.fpts - fptsReplacement;
+        const fptsTip = above == null ? '' : ` title="${escapeHtml(`${above >= 0 ? '+' : ''}${fmt1(above)} vs. replacement level (${fmt1(fptsReplacement)} FPTS/G)`)}" data-tap-tip`;
+        return `<tr>${label}${valueCell(game.value?.total)}<td class="pm-mono pm-cell-fpts"${fptsTip}>${fmt1(game.fpts)}</td><td class="pm-mono">${game.min}</td>${CATS.map((cat) => glCatTd(game, cat)).join('')}</tr>`;
+    }
+
+    function gameLogsHtml(data, playerId) {
+        const head = GAME_COLUMNS.map((c) => `<th title="${escapeHtml(c.title)}">${c.label}</th>`).join('');
+        // Newest at the top: the furthest upcoming game first, down to the last game played.
+        const upcoming = [...(data.upcoming ?? [])]
+            .reverse()
+            .map(
+                (game) =>
+                    `<tr class="gl-upcoming"><td class="pm-row-window gl-game"><span class="gl-link"><span class="gl-date">${escapeHtml(glDate(game.date))}</span>${glMatchup(game)}</span></td><td colspan="${GAME_COLUMNS.length}" class="pm-empty-cell">${escapeHtml(glTime(game.date))}</td></tr>`
+            )
+            .join('');
+        const games = (data.games ?? []).map((game) => glGameRow(game, playerId, data.fptsReplacement)).join('');
+        const empty = data.games?.length ? '' : `<tr><td colspan="${GAME_COLUMNS.length + 1}" class="pm-empty-cell">No games played this season</td></tr>`;
+        return `<div class="pm-section-row"><h3>Game Logs</h3><span class="pm-hint">scroll &rarr;</span></div>
+            <div class="pm-scroll"><table class="pm-table gl-table"><thead><tr><th class="pm-th-window">Game</th>${head}</tr></thead><tbody>${upcoming}${games}${empty}</tbody></table></div>
+            <p class="dc-note">Cat $: what a season of games like this one would be worth (12-team 9-cat). Tap a game for its game flow.</p>`;
+    }
+
     // ---------- depth chart (port of the extension's depthChartHtml) ----------
 
     const POSITION_ORDER = ['pg', 'sg', 'sf', 'pf', 'c'];
@@ -359,7 +443,8 @@
         `<div class="dc-avatar dc-avatar-${size}"><img src="${headshotUrl(entry.playerId)}" alt="" data-fallback="${escapeHtml(initials(entry.playerName))}"></div>`;
 
     // Each player is itself a .player link, so tapping one opens their modal.
-    const playerAttrs = (entry, tricode) => ` data-name="${escapeHtml(entry.playerName)}" data-team="${escapeHtml(tricode)}"`;
+    const playerAttrs = (entry, tricode) =>
+        ` data-espn-id="${escapeHtml(entry.playerId)}" data-name="${escapeHtml(entry.playerName)}" data-team="${escapeHtml(tricode)}"`;
 
     // live: today's injured players stay out. ros: players expected back
     // this season are in. The sheet opens on Live every time.
@@ -464,6 +549,7 @@
             --pm-text: #14181f; --pm-text2: #4c5563; --pm-muted: #8890a0; --pm-danger: #c0392b; --pm-success: #006300;
             --pm-accent: #c2410c; --pm-accent-strong: #9a3412; --pm-accent-soft: #fdece1; --pm-accent-soft-strong: #fad9c2;
             --pm-out: #c0392b; --pm-dtd: #b6790a; --pm-court: #fbf4ee; --pm-proj-bg: #fdf3e9; --pm-proj-edge: #e2a468;
+            --pm-cat-bar-opacity: 0.16;
             --pm-shadow: 0 1px 2px rgba(20, 24, 31, 0.04), 0 8px 24px -12px rgba(20, 24, 31, 0.12);
             width: 100%; max-width: min(640px, 100vw); min-width: 0; max-height: 90vh; overflow-y: auto; overscroll-behavior: contain; box-sizing: border-box;
             background: var(--pm-bg); color: var(--pm-text); border-radius: 16px 16px 0 0; padding: 16px 16px 32px;
@@ -476,6 +562,7 @@
                 --pm-text: #eef1f5; --pm-text2: #b8c0cc; --pm-muted: #8a93a3; --pm-danger: #ff6b5e; --pm-success: #5fd068;
                 --pm-accent: #f08a4b; --pm-accent-strong: #f7a26c; --pm-accent-soft: #3a2a20; --pm-accent-soft-strong: #5a3a26;
                 --pm-out: #ff6b5e; --pm-dtd: #e0a83a; --pm-court: #262019; --pm-proj-bg: #2c241c; --pm-proj-edge: #d9925a;
+                --pm-cat-bar-opacity: 0.26;
                 --pm-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.6);
             }
         }
@@ -526,8 +613,34 @@
         .pm-empty-cell { text-align: left !important; font-style: italic; font-size: 11.5px !important; color: var(--pm-muted) !important; padding-left: 14px !important; }
         .pm-pct { display: inline-flex; flex-direction: column; align-items: flex-end; line-height: 1.15; }
         .pm-pct-att { font-size: 9px; font-weight: 600; color: var(--pm-muted); margin-top: 1px; }
+        .pm-cat-bar { display: inline-block; position: relative; z-index: 0; line-height: 1; }
+        .pm-cat-bar::before {
+            content: ''; position: absolute; z-index: -1; left: -3px; right: -3px; bottom: 0.14em;
+            height: calc(1.2em * var(--cat-bar-height)); border-radius: 2px 2px 0 0;
+            opacity: var(--pm-cat-bar-opacity); pointer-events: none;
+        }
+        .pm-cat-bar.pos::before { background: var(--pm-success); }
+        .pm-cat-bar.neg::before { background: var(--pm-danger); }
         .pm-cell-fpts { font-weight: 700; color: var(--pm-text) !important; }
         .pm-cell-value { font-weight: 700; }
+
+        .pm-tabs { display: flex; gap: 4px; margin-top: 14px; border-bottom: 1px solid var(--pm-border); }
+        .pm-tabs button { font: inherit; font-size: 13.5px; font-weight: 700; color: var(--pm-muted); background: transparent; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 8px 12px; cursor: pointer; }
+        .pm-tabs button.on { color: var(--pm-accent-strong); border-bottom-color: var(--pm-accent); }
+        .pm-sheet[data-tab="overview"] [data-pane-tab="games"], .pm-sheet[data-tab="games"] [data-pane-tab="overview"] { display: none; }
+        .gl-table { min-width: 680px; }
+        .gl-table td.gl-game { font-size: 11.5px !important; font-weight: 600; letter-spacing: 0; color: var(--pm-text2) !important; }
+        .gl-link { display: inline-grid; grid-template-columns: 62px 66px auto auto; align-items: center; column-gap: 6px; color: inherit; text-decoration: none; }
+        a.gl-link:hover .gl-opp { color: var(--pm-accent-strong); text-decoration: underline; }
+        .gl-date { color: var(--pm-muted); font-weight: 500; }
+        .gl-matchup { display: inline-flex; align-items: center; gap: 4px; }
+        .gl-at { color: var(--pm-muted); font-weight: 500; width: 16px; }
+        .gl-logo { width: 16px; height: 16px; object-fit: contain; }
+        .gl-opp { color: var(--pm-text); font-weight: 700; }
+        .gl-result { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; font-weight: 600; }
+        .gl-upcoming td { background: var(--pm-bg-alt); }
+        .gl-upcoming .gl-opp { color: var(--pm-text2); }
+        .gl-upcoming + tr:not(.gl-upcoming) td { border-top: 1px solid var(--pm-border-strong); }
 
         .pm-news { padding: 10px 0; border-top: 1px solid var(--pm-border); }
         .pm-news:first-child { border-top: 0; padding-top: 2px; }
@@ -636,6 +749,12 @@
         openToken++;
     }
 
+    const MODAL_TABS = [
+        { key: 'overview', label: 'Overview' },
+        { key: 'games', label: 'Game Logs' },
+    ];
+    let modalTab = 'overview'; // remembered across modals until the page reloads
+
     const loading = (what) => `<div class="pm-empty">Loading ${what}&hellip;</div>`;
     const failed = (what, error) => `<div class="pm-empty error">Couldn't load ${what}: ${escapeHtml(error.message)}</div>`;
 
@@ -648,16 +767,25 @@
 
         backdrop = document.createElement('div');
         backdrop.className = 'pm-backdrop';
-        backdrop.innerHTML = `<div class="pm-sheet" role="dialog" aria-modal="true" aria-label="${escapeHtml(name)}">
+        const tabs = MODAL_TABS.map(
+            (t) => `<button type="button" role="tab" data-tab="${t.key}" class="${t.key === modalTab ? 'on' : ''}" aria-selected="${t.key === modalTab}">${t.label}</button>`
+        ).join('');
+        backdrop.innerHTML = `<div class="pm-sheet" role="dialog" aria-modal="true" aria-label="${escapeHtml(name)}" data-tab="${modalTab}">
             <div class="pm-head">
                 <img alt="" hidden>
                 <div class="pm-titles"><div class="pm-name">${escapeHtml(name)}</div><div class="pm-sub">${escapeHtml(team)}</div><div class="pm-meta"></div></div>
                 <button class="pm-close" type="button" aria-label="Close">&times;</button>
             </div>
-            <section class="pm-section pm-s-value">${loading('projections')}</section>
-            <section class="pm-section pm-s-stats"></section>
-            <section class="pm-section"><div class="pm-section-row"><h3>Latest news</h3></div><div class="pm-s-news">${loading('news')}</div></section>
-            <section class="pm-section pm-s-depth">${loading('depth chart')}</section>
+            <div class="pm-tabs" role="tablist">${tabs}</div>
+            <div data-pane-tab="overview" role="tabpanel">
+                <section class="pm-section pm-s-value">${loading('projections')}</section>
+                <section class="pm-section pm-s-stats"></section>
+                <section class="pm-section"><div class="pm-section-row"><h3>Latest news</h3></div><div class="pm-s-news">${loading('news')}</div></section>
+                <section class="pm-section pm-s-depth">${loading('depth chart')}</section>
+            </div>
+            <div data-pane-tab="games" role="tabpanel">
+                <section class="pm-section pm-s-games">${loading('game logs')}</section>
+            </div>
         </div>`;
         backdrop.addEventListener('click', (event) => {
             if (event.target === backdrop || event.target.closest('.pm-close')) close();
@@ -667,6 +795,42 @@
         const $ = (sel) => backdrop.querySelector(sel);
 
         const espnId = el.dataset.espnId;
+
+        // Game logs load the first time their tab shows (right away if the
+        // last modal was left on that tab); they only need the link's id.
+        let gameLogsRequested = false;
+        const loadGameLogs = () => {
+            if (gameLogsRequested) return;
+            gameLogsRequested = true;
+            if (!espnId) {
+                $('.pm-s-games').innerHTML = '<div class="pm-empty">No player id, so no game logs.</div>';
+                return;
+            }
+            fetchGameLogs(espnId)
+                .then((data) => {
+                    if (!isCurrent()) return;
+                    $('.pm-s-games').innerHTML = gameLogsHtml(data, espnId);
+                    wireImageFallbacks($('.pm-s-games'));
+                })
+                .catch((error) => isCurrent() && ($('.pm-s-games').innerHTML = failed('game logs', error)));
+        };
+        const showTab = (key) => {
+            modalTab = key;
+            $('.pm-sheet').dataset.tab = key;
+            for (const button of backdrop.querySelectorAll('.pm-tabs button')) {
+                button.classList.toggle('on', button.dataset.tab === key);
+                button.setAttribute('aria-selected', String(button.dataset.tab === key));
+            }
+            if (key === 'games') loadGameLogs();
+            // The depth chart's bench names only measure right once visible.
+            else if ($('.pm-s-depth')) fitBenchNames($('.pm-s-depth'));
+        };
+        $('.pm-tabs').addEventListener('click', (event) => {
+            const button = event.target.closest('button[data-tab]');
+            if (button) showTab(button.dataset.tab);
+        });
+        if (modalTab === 'games') loadGameLogs();
+
         let player = null;
         try {
             player = espnId ? await fetchPlayer(espnId) : null;
