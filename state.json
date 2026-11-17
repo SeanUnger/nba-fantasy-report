@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T20:20:00-08:00",
- "run_label": "8pm",
+ "last_run_pt": "2026-11-16T21:20:00-08:00",
+ "run_label": "9pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -972,6 +972,30 @@
    "last_updated_pt": "2026-11-16T20:20:00-08:00",
    "last_notified_pt": "2026-11-16T20:20:00-08:00",
    "notified_for": "status left-game; Shannon Speculative add"
+  },
+  "injury:jaylen-brown": {
+   "kind": "injury",
+   "player": "Jaylen Brown",
+   "team": "PHI",
+   "injury": "left hamstring tightness / head",
+   "status": "left-game",
+   "status_note": "Sat final 1:44 Mon; further eval Tue, MRI possible; PHI next Wed at ORL",
+   "beneficiaries": [
+    {
+     "player": "Kentavious Caldwell-Pope",
+     "verdict": "Speculative add",
+     "summary": "Starting wing minutes, 3s/steals"
+    },
+    {
+     "player": "Anfernee Simons",
+     "verdict": "Watch",
+     "summary": "Extra usage off bench"
+    }
+   ],
+   "first_seen_pt": "2026-11-16T21:20:00-08:00",
+   "last_updated_pt": "2026-11-16T21:20:00-08:00",
+   "last_notified_pt": "2026-11-16T21:20:00-08:00",
+   "notified_for": "status left-game/MRI possible; Caldwell-Pope Speculative add"
   }
  },
  "drop_watch": [
