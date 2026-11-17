@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T23:15:00-08:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-11-17T09:15:00-08:00",
+ "run_label": "9am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -875,8 +875,8 @@
    "player": "Duncan Robinson",
    "team": "DET",
    "injury": "quad",
-   "status": "out",
-   "status_note": "Left Sat early; out Tue vs SAS",
+   "status": "out-multi-week",
+   "status_note": "Quad strain; out Tue, re-eval in 1 week",
    "beneficiaries": [
     {
      "player": "Kevin Huerter",
@@ -890,9 +890,9 @@
     }
    ],
    "first_seen_pt": "2026-11-16T15:15:00-08:00",
-   "last_updated_pt": "2026-11-16T15:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-17T09:15:00-08:00",
+   "last_notified_pt": "2026-11-17T09:15:00-08:00",
+   "notified_for": "status out 1+ week; Huerter Speculative add"
   },
   "injury:amen-thompson": {
    "kind": "injury",
@@ -955,7 +955,7 @@
    "team": "MIN",
    "injury": "shoulder",
    "status": "left-game",
-   "status_note": "Left Mon vs POR in Q4; Q Tue",
+   "status_note": "Left Mon in Q4; possible dislocation (unconfirmed); Q Tue",
    "beneficiaries": [
     {
      "player": "Terrence Shannon Jr.",
@@ -969,7 +969,7 @@
     }
    ],
    "first_seen_pt": "2026-11-16T20:20:00-08:00",
-   "last_updated_pt": "2026-11-16T20:20:00-08:00",
+   "last_updated_pt": "2026-11-17T09:15:00-08:00",
    "last_notified_pt": "2026-11-16T20:20:00-08:00",
    "notified_for": "status left-game; Shannon Speculative add"
   },
@@ -996,6 +996,35 @@
    "last_updated_pt": "2026-11-16T21:20:00-08:00",
    "last_notified_pt": "2026-11-16T21:20:00-08:00",
    "notified_for": "status left-game/MRI possible; Caldwell-Pope Speculative add"
+  },
+  "injury:austin-reaves": {
+   "kind": "injury",
+   "player": "Austin Reaves",
+   "team": "LAL",
+   "injury": "heel bruise",
+   "status": "out",
+   "status_note": "Out Tue vs CHA (2nd straight), day-to-day",
+   "beneficiaries": [
+    {
+     "player": "Quentin Grimes",
+     "verdict": "Watch",
+     "summary": "Starts in Reaves' place"
+    },
+    {
+     "player": "Collin Sexton",
+     "verdict": "Watch",
+     "summary": "more bench minutes"
+    },
+    {
+     "player": "Ziaire Williams",
+     "verdict": "Watch",
+     "summary": "more bench minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-17T09:15:00-08:00",
+   "last_updated_pt": "2026-11-17T09:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
@@ -1021,7 +1050,6 @@
   "Zach LaVine (SAC, illness, out Sun)",
   "De'Andre Hunter (SAC, hip, out Sun)",
   "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
-  "Austin Reaves (LAL, heel, out Sun)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
   "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
   "Scottie Barnes (TOR, groin, out 4th straight)",
@@ -1048,6 +1076,7 @@
   "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
   "Nic Claxton (CHI, hamstring, Q Sat)",
   "Pelle Larsson (MIA, illness, doubtful Sat)",
-  "Walker Kessler (LAL, leg, out Tue, first miss)"
+  "Walker Kessler (LAL, leg, out Tue, first miss)",
+  "Anthony Edwards (MIN, knee, out ~2 months)"
  ]
 }
