@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T12:15:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-17T13:15:00-08:00",
+ "run_label": "1pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1078,6 +1078,35 @@
    "last_updated_pt": "2026-11-17T12:15:00-08:00",
    "last_notified_pt": "2026-11-17T12:15:00-08:00",
    "notified_for": "status questionable; Cissoko Speculative add"
+  },
+  "injury:cj-mccollum": {
+   "kind": "injury",
+   "player": "CJ McCollum",
+   "team": "ATL",
+   "injury": "left calf strain",
+   "status": "out-multi-week",
+   "status_note": "Out at least 4 weeks",
+   "beneficiaries": [
+    {
+     "player": "Aaron Wiggins",
+     "verdict": "Speculative add",
+     "summary": "Extra wing minutes"
+    },
+    {
+     "player": "Kingston Flemings",
+     "verdict": "Speculative add",
+     "summary": "Top PG once back healthy; Q Wed"
+    },
+    {
+     "player": "RayJ Dennis",
+     "verdict": "Watch",
+     "summary": "Backup guard minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-17T13:15:00-08:00",
+   "last_updated_pt": "2026-11-17T13:15:00-08:00",
+   "last_notified_pt": "2026-11-17T13:15:00-08:00",
+   "notified_for": "status out-multi-week; Wiggins Speculative add"
   }
  },
  "drop_watch": [
