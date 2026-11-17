@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-16T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -929,6 +929,25 @@
    "last_updated_pt": "2026-11-16T17:15:00-08:00",
    "last_notified_pt": "2026-11-16T17:15:00-08:00",
    "notified_for": "starting lineup; Speculative add"
+  },
+  "injury:bam-adebayo": {
+   "kind": "injury",
+   "player": "Bam Adebayo",
+   "team": "MIA",
+   "injury": "hip",
+   "status": "left-game",
+   "status_note": "Left Mon vs HOU in Q3; Q to return",
+   "beneficiaries": [
+    {
+     "player": "Bobby Portis",
+     "verdict": "Speculative add",
+     "summary": "Starter-level big minutes if Adebayo sits; likely widely rostered"
+    }
+   ],
+   "first_seen_pt": "2026-11-16T18:15:00-08:00",
+   "last_updated_pt": "2026-11-16T18:15:00-08:00",
+   "last_notified_pt": "2026-11-16T18:15:00-08:00",
+   "notified_for": "status left-game; Portis Speculative add"
   }
  },
  "drop_watch": [
@@ -946,7 +965,6 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
-  "Ryan Dunn (PHX, thumb, Q Mon)",
   "Tre Johnson (WAS, back, Q Mon)",
   "Neemias Queta (BOS, rest, Q Mon)",
   "Zach LaVine (SAC, illness, out Sun)",
@@ -978,6 +996,7 @@
   "Scottie Barnes (TOR, groin, Q Sun)",
   "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
   "Nic Claxton (CHI, hamstring, Q Sat)",
-  "Pelle Larsson (MIA, illness, doubtful Sat)"
+  "Pelle Larsson (MIA, illness, doubtful Sat)",
+  "Walker Kessler (LAL, leg, out Tue, first miss)"
  ]
 }
