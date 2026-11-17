@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T16:15:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-16T17:15:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -917,6 +917,18 @@
    "last_updated_pt": "2026-11-16T16:15:00-08:00",
    "last_notified_pt": "2026-11-16T16:15:00-08:00",
    "notified_for": "status out; Eason Speculative add"
+  },
+  "pickup:lj-cryer": {
+   "kind": "pickup",
+   "player": "LJ Cryer",
+   "team": "GSW",
+   "trigger": "Moved into starting lineup Mon at NOP (Curry out 2+ wks)",
+   "verdict": "Speculative add",
+   "summary": "Starting PG; ~25-30 min, threes/points",
+   "first_seen_pt": "2026-11-16T17:15:00-08:00",
+   "last_updated_pt": "2026-11-16T17:15:00-08:00",
+   "last_notified_pt": "2026-11-16T17:15:00-08:00",
+   "notified_for": "starting lineup; Speculative add"
   }
  },
  "drop_watch": [
