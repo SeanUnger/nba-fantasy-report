@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-17T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -899,12 +899,12 @@
    "player": "Amen Thompson",
    "team": "HOU",
    "injury": "knee",
-   "status": "out",
-   "status_note": "Left knee soreness; out Mon at MIA (was Q)",
+   "status": "questionable",
+   "status_note": "Q Wed vs IND after missing Mon",
    "beneficiaries": [
     {
      "player": "Tari Eason",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Starts; Capela and Adams also out"
     },
     {
@@ -914,7 +914,7 @@
     }
    ],
    "first_seen_pt": "2026-11-16T12:20:00-08:00",
-   "last_updated_pt": "2026-11-16T16:15:00-08:00",
+   "last_updated_pt": "2026-11-17T14:15:00-08:00",
    "last_notified_pt": "2026-11-16T16:15:00-08:00",
    "notified_for": "status out; Eason Speculative add"
   },
@@ -978,8 +978,8 @@
    "player": "Jaylen Brown",
    "team": "PHI",
    "injury": "left hamstring tightness / head",
-   "status": "left-game",
-   "status_note": "Sat final 1:44 Mon; further eval Tue, MRI possible; PHI next Wed at ORL",
+   "status": "out",
+   "status_note": "Out Wed at ORL (left hamstring strain), day-to-day per team; left Mon game final 1:44",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -993,9 +993,9 @@
     }
    ],
    "first_seen_pt": "2026-11-16T21:20:00-08:00",
-   "last_updated_pt": "2026-11-16T21:20:00-08:00",
-   "last_notified_pt": "2026-11-16T21:20:00-08:00",
-   "notified_for": "status left-game/MRI possible; Caldwell-Pope Speculative add"
+   "last_updated_pt": "2026-11-17T14:15:00-08:00",
+   "last_notified_pt": "2026-11-17T14:15:00-08:00",
+   "notified_for": "status out Wed; Caldwell-Pope Speculative add"
   },
   "injury:austin-reaves": {
    "kind": "injury",
@@ -1148,7 +1148,6 @@
   "Dominick Barlow (PHI, back, no timeline, at shootaround)",
   "Tobias Harris (SAS, calf, likely out through November)",
   "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
-  "Asa Newell (ATL, toe, out Fri)",
   "Bub Carrington (WAS, chest, left Thu game, status TBD)",
   "Evan Mobley (CLE, toe, out Sat, 2nd straight)",
   "Trey Murphy III (NOP, knees, out 4th straight, maybe Mon)",
@@ -1157,6 +1156,7 @@
   "Nic Claxton (CHI, hamstring, Q Sat)",
   "Pelle Larsson (MIA, illness, doubtful Sat)",
   "Walker Kessler (LAL, leg, out Tue, first miss)",
-  "Anthony Edwards (MIN, knee, out ~2 months)"
+  "Anthony Edwards (MIN, knee, out ~2 months)",
+  "Asa Newell (ATL, toe surgery, out ~4 months)"
  ]
 }
