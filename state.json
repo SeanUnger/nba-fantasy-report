@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-16T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-16T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -846,16 +846,6 @@
    "first_seen_pt": "2026-11-15T18:15:00-08:00",
    "last_updated_pt": "2026-11-15T18:15:00-08:00"
   },
-  "tari-eason": {
-   "player": "Tari Eason",
-   "team": "HOU",
-   "trigger": "Amen Thompson (knee) Q Mon; Capela and Adams out",
-   "verdict": "Speculative add",
-   "first_seen_pt": "2026-11-16T12:20:00-08:00",
-   "last_updated_pt": "2026-11-16T12:20:00-08:00",
-   "last_notified_pt": "2026-11-16T12:20:00-08:00",
-   "notified_for": "Amen Thompson Q; Eason Speculative add"
-  },
   "injury:evan-mobley": {
    "kind": "injury",
    "player": "Evan Mobley",
@@ -903,6 +893,30 @@
    "last_updated_pt": "2026-11-16T15:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:amen-thompson": {
+   "kind": "injury",
+   "player": "Amen Thompson",
+   "team": "HOU",
+   "injury": "knee",
+   "status": "out",
+   "status_note": "Left knee soreness; out Mon at MIA (was Q)",
+   "beneficiaries": [
+    {
+     "player": "Tari Eason",
+     "verdict": "Speculative add",
+     "summary": "Starts; Capela and Adams also out"
+    },
+    {
+     "player": "Reed Sheppard",
+     "verdict": "Watch",
+     "summary": "extra guard minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-16T12:20:00-08:00",
+   "last_updated_pt": "2026-11-16T16:15:00-08:00",
+   "last_notified_pt": "2026-11-16T16:15:00-08:00",
+   "notified_for": "status out; Eason Speculative add"
   }
  },
  "drop_watch": [
@@ -942,7 +956,7 @@
   "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
   "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
   "Dominick Barlow (PHI, back, no timeline, at shootaround)",
-  "Tobias Harris (DET, calf, no timeline)",
+  "Tobias Harris (SAS, calf, likely out through November)",
   "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
   "Asa Newell (ATL, toe, out Fri)",
   "Bub Carrington (WAS, chest, left Thu game, status TBD)",
