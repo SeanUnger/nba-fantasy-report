@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T09:15:00-08:00",
- "run_label": "9am",
+ "last_run_pt": "2026-11-17T10:15:00-08:00",
+ "run_label": "10am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1025,6 +1025,35 @@
    "last_updated_pt": "2026-11-17T09:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:scottie-barnes": {
+   "kind": "injury",
+   "player": "Scottie Barnes",
+   "team": "TOR",
+   "injury": "illness",
+   "status": "questionable",
+   "status_note": "Questionable Tue vs NYK (illness), back-to-back",
+   "beneficiaries": [
+    {
+     "player": "Ja'Kobe Walter",
+     "verdict": "Speculative add",
+     "summary": "Starter-level minutes with TOR depleted"
+    },
+    {
+     "player": "Kyle Anderson",
+     "verdict": "Watch",
+     "summary": "rare start/playmaking"
+    },
+    {
+     "player": "Jakob Poeltl",
+     "verdict": "Watch",
+     "summary": "extra usage; likely rostered"
+    }
+   ],
+   "first_seen_pt": "2026-11-17T10:15:00-08:00",
+   "last_updated_pt": "2026-11-17T10:15:00-08:00",
+   "last_notified_pt": "2026-11-17T10:15:00-08:00",
+   "notified_for": "status questionable; Walter Speculative add"
   }
  },
  "drop_watch": [
@@ -1052,7 +1081,6 @@
   "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
   "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
   "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
-  "Scottie Barnes (TOR, groin, out 4th straight)",
   "Kawhi Leonard (TOR, knee, out 1+ more wk)",
   "Adem Bona (PHI, back, re-eval ~1 wk after specialist)",
   "Lauri Markkanen (UTA, hand fracture, out ~1 month)",
@@ -1072,7 +1100,6 @@
   "Evan Mobley (CLE, toe, out Sat, 2nd straight)",
   "Trey Murphy III (NOP, knees, out 4th straight, maybe Mon)",
   "Zach Edey (MEM, ankle, Q Sat)",
-  "Scottie Barnes (TOR, groin, Q Sun)",
   "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
   "Nic Claxton (CHI, hamstring, Q Sat)",
   "Pelle Larsson (MIA, illness, doubtful Sat)",
