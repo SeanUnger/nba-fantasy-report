@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-18T14:10:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-18T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -983,8 +983,8 @@
    "player": "Jaylen Brown",
    "team": "PHI",
    "injury": "left hamstring tightness / head",
-   "status": "out",
-   "status_note": "Out Wed at ORL (left hamstring strain), day-to-day per team; left Mon game final 1:44",
+   "status": "out-multi-week",
+   "status_note": "Out Wed; no timetable, re-eval weekend; multiple games expected",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -993,12 +993,12 @@
     },
     {
      "player": "Anfernee Simons",
-     "verdict": "Watch",
+     "verdict": "Speculative add",
      "summary": "Extra usage off bench"
     }
    ],
    "first_seen_pt": "2026-11-16T21:20:00-08:00",
-   "last_updated_pt": "2026-11-17T14:15:00-08:00",
+   "last_updated_pt": "2026-11-18T15:15:00-08:00",
    "last_notified_pt": "2026-11-17T14:15:00-08:00",
    "notified_for": "status out Wed; Caldwell-Pope Speculative add"
   },
@@ -1147,8 +1147,8 @@
    "player": "Dylan Harper",
    "team": "SAS",
    "injury": "groin",
-   "status": "left-game",
-   "status_note": "Left Tue vs DET late Q4 after slip; undisclosed, no timeline",
+   "status": "out",
+   "status_note": "Hard fall Tue vs DET; out Thu vs LAC (hip); next chance Sat",
    "beneficiaries": [
     {
      "player": "Julian Champagnie",
@@ -1167,9 +1167,33 @@
     }
    ],
    "first_seen_pt": "2026-11-17T20:15:00-08:00",
-   "last_updated_pt": "2026-11-17T20:15:00-08:00",
-   "last_notified_pt": "2026-11-17T20:15:00-08:00",
-   "notified_for": "status left-game; Champagnie Speculative add"
+   "last_updated_pt": "2026-11-18T15:15:00-08:00",
+   "last_notified_pt": "2026-11-18T15:15:00-08:00",
+   "notified_for": "status out Thu; Champagnie Speculative add"
+  },
+  "injury:tyrese-maxey": {
+   "kind": "injury",
+   "player": "Tyrese Maxey",
+   "team": "PHI",
+   "injury": "right foot soreness",
+   "status": "questionable",
+   "status_note": "Q Wed at ORL after pregame locker-room retreat",
+   "beneficiaries": [
+    {
+     "player": "Anfernee Simons",
+     "verdict": "Speculative add",
+     "summary": "Primary guard minutes with Brown out"
+    },
+    {
+     "player": "VJ Edgecombe",
+     "verdict": "Watch",
+     "summary": "likely rostered"
+    }
+   ],
+   "first_seen_pt": "2026-11-18T15:15:00-08:00",
+   "last_updated_pt": "2026-11-18T15:15:00-08:00",
+   "last_notified_pt": "2026-11-18T15:15:00-08:00",
+   "notified_for": "status questionable; Simons Speculative add"
   }
  },
  "drop_watch": [
