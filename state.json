@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-18T12:15:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-18T13:15:00-08:00",
+ "run_label": "1pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1008,7 +1008,7 @@
    "team": "LAL",
    "injury": "heel bruise",
    "status": "out",
-   "status_note": "Out Tue (2nd straight); will test heel Wed",
+   "status_note": "Out Wed vs UTA (3rd straight); day-to-day, X-rays clean",
    "beneficiaries": [
     {
      "player": "Quentin Grimes",
@@ -1027,7 +1027,7 @@
     }
    ],
    "first_seen_pt": "2026-11-17T09:15:00-08:00",
-   "last_updated_pt": "2026-11-17T19:15:00-08:00",
+   "last_updated_pt": "2026-11-18T13:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -1221,8 +1221,8 @@
   "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
   "Nic Claxton (CHI, hamstring, Q Sat)",
   "Pelle Larsson (MIA, illness, doubtful Sat)",
-  "Walker Kessler (LAL, leg, out Tue, first miss)",
   "Anthony Edwards (MIN, knee, out ~2 months)",
-  "Asa Newell (ATL, toe surgery, out ~4 months)"
+  "Asa Newell (ATL, toe surgery, out ~4 months)",
+  "Jaxson Hayes (UTA, knee, Q Wed vs LAL)"
  ]
 }
