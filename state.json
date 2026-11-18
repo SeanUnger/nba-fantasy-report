@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T16:10:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-17T17:15:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -955,7 +955,7 @@
    "team": "MIN",
    "injury": "shoulder",
    "status": "out",
-   "status_note": "Left Mon in Q4; possible dislocation (unconfirmed); OUT Tue vs POR",
+   "status_note": "Left Mon in Q4; possible dislocation (unconfirmed); OUT Tue vs POR; Cody Williams starts Tue",
    "beneficiaries": [
     {
      "player": "Terrence Shannon Jr.",
@@ -969,7 +969,7 @@
     }
    ],
    "first_seen_pt": "2026-11-16T20:20:00-08:00",
-   "last_updated_pt": "2026-11-17T11:15:00-08:00",
+   "last_updated_pt": "2026-11-17T17:15:00-08:00",
    "last_notified_pt": "2026-11-17T11:15:00-08:00",
    "notified_for": "status out Tue; Shannon Speculative add"
   },
@@ -1060,8 +1060,8 @@
    "player": "Deni Avdija",
    "team": "POR",
    "injury": "foot",
-   "status": "questionable",
-   "status_note": "Questionable Tue vs MIN (foot)",
+   "status": "out",
+   "status_note": "Ruled out Tue vs MIN (foot)",
    "beneficiaries": [
     {
      "player": "Sidy Cissoko",
@@ -1075,9 +1075,9 @@
     }
    ],
    "first_seen_pt": "2026-11-17T12:15:00-08:00",
-   "last_updated_pt": "2026-11-17T12:15:00-08:00",
-   "last_notified_pt": "2026-11-17T12:15:00-08:00",
-   "notified_for": "status questionable; Cissoko Speculative add"
+   "last_updated_pt": "2026-11-17T17:15:00-08:00",
+   "last_notified_pt": "2026-11-17T17:15:00-08:00",
+   "notified_for": "status out Tue; Cissoko Speculative add"
   },
   "injury:cj-mccollum": {
    "kind": "injury",
