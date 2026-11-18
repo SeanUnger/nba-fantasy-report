@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-17T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1003,7 +1003,7 @@
    "team": "LAL",
    "injury": "heel bruise",
    "status": "out",
-   "status_note": "Out Tue vs CHA (2nd straight), day-to-day",
+   "status_note": "Out Tue (2nd straight); will test heel Wed",
    "beneficiaries": [
     {
      "player": "Quentin Grimes",
@@ -1022,7 +1022,7 @@
     }
    ],
    "first_seen_pt": "2026-11-17T09:15:00-08:00",
-   "last_updated_pt": "2026-11-17T09:15:00-08:00",
+   "last_updated_pt": "2026-11-17T19:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -1107,6 +1107,30 @@
    "last_updated_pt": "2026-11-17T13:15:00-08:00",
    "last_notified_pt": "2026-11-17T13:15:00-08:00",
    "notified_for": "status out-multi-week; Wiggins Speculative add"
+  },
+  "injury:gg-jackson": {
+   "kind": "injury",
+   "player": "GG Jackson",
+   "team": "MEM",
+   "injury": "broken 5th metatarsal",
+   "status": "out-multi-week",
+   "status_note": "Surgery Wed; out ~3 months",
+   "beneficiaries": [
+    {
+     "player": "Taylor Hendricks",
+     "verdict": "Speculative add",
+     "summary": "First in line for minutes; Stewart also out Wed"
+    },
+    {
+     "player": "Quinten Post",
+     "verdict": "Watch",
+     "summary": "extra C minutes while Stewart out"
+    }
+   ],
+   "first_seen_pt": "2026-11-17T19:15:00-08:00",
+   "last_updated_pt": "2026-11-17T19:15:00-08:00",
+   "last_notified_pt": "2026-11-17T19:15:00-08:00",
+   "notified_for": "status out ~3 months; Hendricks Speculative add"
   }
  },
  "drop_watch": [
