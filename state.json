@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T19:15:00-08:00",
- "run_label": "7pm",
+ "last_run_pt": "2026-11-17T20:15:00-08:00",
+ "run_label": "8pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1131,6 +1131,35 @@
    "last_updated_pt": "2026-11-17T19:15:00-08:00",
    "last_notified_pt": "2026-11-17T19:15:00-08:00",
    "notified_for": "status out ~3 months; Hendricks Speculative add"
+  },
+  "injury:dylan-harper": {
+   "kind": "injury",
+   "player": "Dylan Harper",
+   "team": "SAS",
+   "injury": "groin",
+   "status": "left-game",
+   "status_note": "Left Tue vs DET late Q4 after slip; undisclosed, no timeline",
+   "beneficiaries": [
+    {
+     "player": "Julian Champagnie",
+     "verdict": "Speculative add",
+     "summary": "Returns to starting five if Harper out"
+    },
+    {
+     "player": "Carter Bryant",
+     "verdict": "Watch",
+     "summary": "wing minutes"
+    },
+    {
+     "player": "Ja'Kobi Gillespie",
+     "verdict": "Watch",
+     "summary": "guard minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-17T20:15:00-08:00",
+   "last_updated_pt": "2026-11-17T20:15:00-08:00",
+   "last_notified_pt": "2026-11-17T20:15:00-08:00",
+   "notified_for": "status left-game; Champagnie Speculative add"
   }
  },
  "drop_watch": [
