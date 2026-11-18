@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-17T15:10:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-17T16:10:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1031,8 +1031,8 @@
    "player": "Scottie Barnes",
    "team": "TOR",
    "injury": "illness",
-   "status": "questionable",
-   "status_note": "Questionable Tue vs NYK (illness), back-to-back",
+   "status": "available",
+   "status_note": "Illness; removed from report, available Tue vs NYK",
    "beneficiaries": [
     {
      "player": "Ja'Kobe Walter",
@@ -1051,7 +1051,7 @@
     }
    ],
    "first_seen_pt": "2026-11-17T10:15:00-08:00",
-   "last_updated_pt": "2026-11-17T10:15:00-08:00",
+   "last_updated_pt": "2026-11-17T16:10:00-08:00",
    "last_notified_pt": "2026-11-17T10:15:00-08:00",
    "notified_for": "status questionable; Walter Speculative add"
   },
@@ -1085,7 +1085,7 @@
    "team": "ATL",
    "injury": "left calf strain",
    "status": "out-multi-week",
-   "status_note": "Out at least 4 weeks",
+   "status_note": "Out at least 4 weeks; Newell (toe) out ~4 months",
    "beneficiaries": [
     {
      "player": "Aaron Wiggins",
