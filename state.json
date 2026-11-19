@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-19T11:20:00-08:00",
- "run_label": "11am",
+ "last_run_pt": "2026-11-19T12:15:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1125,8 +1125,8 @@
    "player": "Dylan Harper",
    "team": "SAS",
    "injury": "groin",
-   "status": "out",
-   "status_note": "Hard fall Tue vs DET; out Thu vs LAC (hip); next chance Sat",
+   "status": "out-multi-week",
+   "status_note": "Hard fall Tue vs DET; out 2-3 wks (hip strain)",
    "beneficiaries": [
     {
      "player": "Julian Champagnie",
@@ -1145,9 +1145,9 @@
     }
    ],
    "first_seen_pt": "2026-11-17T20:15:00-08:00",
-   "last_updated_pt": "2026-11-18T15:15:00-08:00",
-   "last_notified_pt": "2026-11-18T15:15:00-08:00",
-   "notified_for": "status out Thu; Champagnie Speculative add"
+   "last_updated_pt": "2026-11-19T12:15:00-08:00",
+   "last_notified_pt": "2026-11-19T12:15:00-08:00",
+   "notified_for": "status out-multi-week; Champagnie Speculative add"
   },
   "injury:tyrese-maxey": {
    "kind": "injury",
@@ -1287,6 +1287,44 @@
    "last_updated_pt": "2026-11-19T11:20:00-08:00",
    "last_notified_pt": "2026-11-16T17:15:00-08:00",
    "notified_for": "starting lineup; Speculative add"
+  },
+  "injury:myles-turner": {
+   "kind": "injury",
+   "player": "Myles Turner",
+   "team": "MIL",
+   "injury": "shoulder",
+   "status": "out",
+   "status_note": "Out Thu vs POR",
+   "beneficiaries": [
+    {
+     "player": "Kasparas Jakucionis",
+     "verdict": "Watch",
+     "summary": "extra minutes tonight"
+    }
+   ],
+   "first_seen_pt": "2026-11-19T12:15:00-08:00",
+   "last_updated_pt": "2026-11-19T12:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:kyle-kuzma": {
+   "kind": "injury",
+   "player": "Kyle Kuzma",
+   "team": "MIL",
+   "injury": "shoulder",
+   "status": "out",
+   "status_note": "Out Thu vs POR",
+   "beneficiaries": [
+    {
+     "player": "Kasparas Jakucionis",
+     "verdict": "Watch",
+     "summary": "extra minutes tonight"
+    }
+   ],
+   "first_seen_pt": "2026-11-19T12:15:00-08:00",
+   "last_updated_pt": "2026-11-19T12:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
