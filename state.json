@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-18T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-18T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -133,16 +133,6 @@
    "summary": "Starting while Hart out",
    "first_seen_pt": "2026-11-04T12:15:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
-  },
-  "aday-mara": {
-   "player": "Aday Mara",
-   "team": "OKC",
-   "trigger": "Mitchell back; Mara to bench Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Back to reserve role, 12.3/6.8/2.0 blk last four",
-   "first_seen_pt": "2026-11-04T16:15:00-08:00",
-   "last_updated_pt": "2026-11-15T18:15:00-08:00"
   },
   "sion-james": {
    "player": "Sion James",
@@ -1201,7 +1191,7 @@
    "team": "HOU",
    "injury": "facial injury",
    "status": "left-game",
-   "status_note": "Left Wed game vs IND, apparent facial injury; Q",
+   "status_note": "Eye, left Wed game Q2, did not return; Q",
    "beneficiaries": [
     {
      "player": "Steven Adams",
@@ -1215,7 +1205,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-18T17:15:00-08:00",
+   "last_updated_pt": "2026-11-18T18:15:00-08:00",
    "last_notified_pt": "2026-11-18T17:15:00-08:00",
    "notified_for": "status left-game; Adams Speculative add"
   },
@@ -1242,6 +1232,30 @@
    "last_updated_pt": "2026-11-18T17:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "pickup:aday-mara": {
+   "kind": "pickup",
+   "player": "Aday Mara",
+   "team": "OKC",
+   "trigger": "Starting at C again (5th start) with Holmgren out until ~Jan 2",
+   "verdict": "Speculative add",
+   "summary": "~26 min, blocks/rebounds/FG%",
+   "first_seen_pt": "2026-11-15T18:15:00-08:00",
+   "last_updated_pt": "2026-11-18T18:15:00-08:00",
+   "last_notified_pt": "2026-11-18T18:15:00-08:00",
+   "notified_for": "Speculative add: sustained starting role"
+  },
+  "pickup:mario-hezonja": {
+   "kind": "pickup",
+   "player": "Mario Hezonja",
+   "team": "CLE",
+   "trigger": "Joined starting lineup Wed vs MEM",
+   "verdict": "Watch",
+   "summary": "25+ min, 3s",
+   "first_seen_pt": "2026-11-18T18:15:00-08:00",
+   "last_updated_pt": "2026-11-18T18:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
@@ -1259,6 +1273,7 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
+  "Collin Murray-Boyles (TOR, illness, left Wed vs WAS)",
   "Brandon Ingram (LAC, Achilles/heel, out Thu vs SAS, still no season debut; close to return)",
   "Grayson Allen (CHA, concussion-like symptoms, late scratch Tue vs LAL)",
   "Thomas Sorber (OKC, knee scope, 6-8 wks, no pickup)",
