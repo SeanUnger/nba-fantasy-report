@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-18T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-18T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -935,12 +935,12 @@
    "player": "Bam Adebayo",
    "team": "MIA",
    "injury": "hip",
-   "status": "questionable",
-   "status_note": "Downgraded to Q Wed vs MIL (was probable)",
+   "status": "available",
+   "status_note": "Cleared, starting Wed vs MIL",
    "beneficiaries": [
     {
      "player": "Bobby Portis",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Would start; ~28 min, rebounds/points"
     },
     {
@@ -950,7 +950,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T12:15:00-08:00",
-   "last_updated_pt": "2026-11-18T12:15:00-08:00",
+   "last_updated_pt": "2026-11-18T16:15:00-08:00",
    "last_notified_pt": "2026-11-18T12:15:00-08:00",
    "notified_for": "status questionable; Portis Speculative add"
   },
@@ -1176,13 +1176,13 @@
    "player": "Tyrese Maxey",
    "team": "PHI",
    "injury": "right foot soreness",
-   "status": "questionable",
-   "status_note": "Q Wed at ORL after pregame locker-room retreat",
+   "status": "out",
+   "status_note": "Late scratch Wed at ORL (foot soreness); Sat vs MIL uncertain",
    "beneficiaries": [
     {
      "player": "Anfernee Simons",
-     "verdict": "Speculative add",
-     "summary": "Primary guard minutes with Brown out"
+     "verdict": "Add now",
+     "summary": "Starting at guard with Maxey and Brown out"
     },
     {
      "player": "VJ Edgecombe",
@@ -1191,9 +1191,9 @@
     }
    ],
    "first_seen_pt": "2026-11-18T15:15:00-08:00",
-   "last_updated_pt": "2026-11-18T15:15:00-08:00",
-   "last_notified_pt": "2026-11-18T15:15:00-08:00",
-   "notified_for": "status questionable; Simons Speculative add"
+   "last_updated_pt": "2026-11-18T16:15:00-08:00",
+   "last_notified_pt": "2026-11-18T16:15:00-08:00",
+   "notified_for": "status out; Simons Add now"
   }
  },
  "drop_watch": [
@@ -1211,6 +1211,7 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
+  "Brandon Ingram (LAC, Achilles/heel, out Thu vs SAS, still no season debut; close to return)",
   "Cade Cunningham (DET, knee, Q Wed, likely maintenance)",
   "Grayson Allen (CHA, concussion-like symptoms, late scratch Tue vs LAL)",
   "Thomas Sorber (OKC, knee scope, 6-8 wks, no pickup)",
