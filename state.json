@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-19T13:10:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-19T14:20:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1325,6 +1325,35 @@
    "last_updated_pt": "2026-11-19T12:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:rj-barrett": {
+   "kind": "injury",
+   "player": "RJ Barrett",
+   "team": "TOR",
+   "injury": "right hamstring strain",
+   "status": "out-multi-week",
+   "status_note": "Re-eval in 2 weeks; mid-Dec return at earliest",
+   "beneficiaries": [
+    {
+     "player": "Ja'Kobe Walter",
+     "verdict": "Speculative add",
+     "summary": "Starter-level minutes; 3s/steals"
+    },
+    {
+     "player": "Jamison Battle",
+     "verdict": "Watch",
+     "summary": "More wing minutes"
+    },
+    {
+     "player": "Allen Graves",
+     "verdict": "Watch",
+     "summary": "Rookie, more minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-19T14:20:00-08:00",
+   "last_updated_pt": "2026-11-19T14:20:00-08:00",
+   "last_notified_pt": "2026-11-19T14:20:00-08:00",
+   "notified_for": "status out-multi-week; Walter Speculative add"
   }
  },
  "drop_watch": [
