@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-18T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-18T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1191,7 +1191,7 @@
    "team": "HOU",
    "injury": "facial injury",
    "status": "left-game",
-   "status_note": "Eye, left Wed game Q2, did not return; Q",
+   "status_note": "Eye, left Wed game Q2, did not return; Q; Fri at DEN undetermined",
    "beneficiaries": [
     {
      "player": "Steven Adams",
@@ -1273,6 +1273,7 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
+  "Braden Smith (IND, ankle sprain, Q Fri vs CLE; McConnell to watch)",
   "Collin Murray-Boyles (TOR, illness, left Wed vs WAS)",
   "Brandon Ingram (LAC, Achilles/heel, out Thu vs SAS, still no season debut; close to return)",
   "Grayson Allen (CHA, concussion-like symptoms, late scratch Tue vs LAL)",
