@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-19T17:10:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-19T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1364,6 +1364,44 @@
    "last_updated_pt": "2026-11-19T14:20:00-08:00",
    "last_notified_pt": "2026-11-19T14:20:00-08:00",
    "notified_for": "status out-multi-week; Walter Speculative add"
+  },
+  "injury:jerami-grant": {
+   "kind": "injury",
+   "player": "Jerami Grant",
+   "team": "MEM",
+   "injury": "left calf",
+   "status": "left-game",
+   "status_note": "Left Thu vs GSW after 5 min",
+   "beneficiaries": [
+    {
+     "player": "Taylor Hendricks",
+     "verdict": "Speculative add",
+     "summary": "Starting; extra forward minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-19T18:15:00-08:00",
+   "last_updated_pt": "2026-11-19T18:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:precious-achiuwa": {
+   "kind": "injury",
+   "player": "Precious Achiuwa",
+   "team": "SAC",
+   "injury": "lower leg bruise",
+   "status": "doubtful",
+   "status_note": "Doubtful Fri vs LAL; Hunter Q (hip)",
+   "beneficiaries": [
+    {
+     "player": "Dylan Cardwell",
+     "verdict": "Watch",
+     "summary": "Starts next to Sabonis"
+    }
+   ],
+   "first_seen_pt": "2026-11-19T18:15:00-08:00",
+   "last_updated_pt": "2026-11-19T18:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
