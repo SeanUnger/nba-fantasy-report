@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-20T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-20T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -169,10 +169,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
+   "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -197,7 +197,7 @@
    "last_updated_pt": "2026-11-11T15:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
+   "player": "Tidjane Salaün",
    "team": "CHA",
    "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -457,7 +457,7 @@
   "sidy-cissoko": {
    "player": "Sidy Cissoko",
    "team": "POR",
-   "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+   "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -595,7 +595,7 @@
    "last_updated_pt": "2026-11-15T12:15:00-08:00"
   },
   "nikola-topic": {
-   "player": "Nikola Topi\u0107",
+   "player": "Nikola Topić",
    "team": "OKC",
    "trigger": "Recalled from G League",
    "trigger_status": "active",
@@ -986,7 +986,7 @@
    "team": "LAL",
    "injury": "heel bruise",
    "status": "out",
-   "status_note": "Out Wed vs UTA (3rd straight); day-to-day, X-rays clean",
+   "status_note": "Out Fri vs SAC (4th straight); Redick hopes he returns within next two games",
    "beneficiaries": [
     {
      "player": "Quentin Grimes",
@@ -1005,7 +1005,7 @@
     }
    ],
    "first_seen_pt": "2026-11-17T09:15:00-08:00",
-   "last_updated_pt": "2026-11-18T13:15:00-08:00",
+   "last_updated_pt": "2026-11-20T18:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -1175,20 +1175,20 @@
   },
   "injury:alperen-sengun": {
    "kind": "injury",
-   "player": "Alperen \u015eeng\u00fcn",
+   "player": "Alperen Şengün",
    "team": "HOU",
    "injury": "facial injury",
-   "status": "questionable",
-   "status_note": "Eye scratch/swelling, left Wed Q2; Q Fri vs DEN, not serious per Yahoo; Capela out, Adams Q",
+   "status": "cleared",
+   "status_note": "Cleared to play Fri at DEN; Adams also available, Capela out",
    "beneficiaries": [
     {
      "player": "Oscar Tshiebwe",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Center minutes if Adams and Sengun sit; reb/blk"
     },
     {
      "player": "Steven Adams",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Only if he plays and Sengun sits"
     },
     {
@@ -1203,7 +1203,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-19T16:15:00-08:00",
+   "last_updated_pt": "2026-11-20T18:15:00-08:00",
    "last_notified_pt": "2026-11-18T17:15:00-08:00",
    "notified_for": "status left-game; Adams Speculative add"
   },
@@ -1465,7 +1465,7 @@
   }
  },
  "drop_watch": [
-  "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
+  "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
   "Jamal Shead (Quickley back)",
   "Scoot Henderson (Morant back)",
@@ -1479,14 +1479,14 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
-  "Jordan Clarkson (NYK, foot, out Sat) \u00b7 OG Anunoby (NYK, calf, Q Sat)",
+  "Jordan Clarkson (NYK, foot, out Sat) · OG Anunoby (NYK, calf, Q Sat)",
   "Ronald Holland II (DET, knee, doubtful Fri vs TOR; no clear pickup)",
   "Jalen Smith (CHI, illness, now Q Fri vs WAS; Collins/Claxton gain if out)",
-  "Nikola Topi\u0107 (OKC, hip, out Fri vs NOP, back Sun at MIA at the earliest)",
-  "Jusuf Nurki\u0107 (UTA, toe, out Fri, yet to play this season; Hayes/Bamba)",
+  "Nikola Topić (OKC, hip, out Fri vs NOP, back Sun at MIA at the earliest)",
+  "Jusuf Nurkić (UTA, toe, out Fri, yet to play this season; Hayes/Bamba)",
   "Grant Williams (CHA, hamstring, out Fri; Grayson Allen concussion also out; O'Neale may start)",
   "Taurean Prince (DET, knee surgery, week-to-week; no impact)",
-  "Nikola Topi\u0107 (OKC, left hip, left Wed vs ATL at halftime; no update)",
+  "Nikola Topić (OKC, left hip, left Wed vs ATL at halftime; no update)",
   "Braden Smith (IND, ankle sprain, Q Fri vs CLE; McConnell to watch)",
   "Collin Murray-Boyles (TOR, illness, left Wed vs WAS)",
   "Brandon Ingram (LAC, Achilles/heel, out Thu vs SAS, season debut expected Mon vs HOU)",
@@ -1511,14 +1511,14 @@
   "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
   "Kon Knueppel (CHA, hamstring, out 4+ wks)",
   "Brandon Williams (GSW, hamstring, out 1+ wk)",
-  "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
+  "Vít Krejčí (POR, ankle surgery, 8 wks)",
   "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
   "Dominick Barlow (PHI, back, no timeline, at shootaround)",
   "Tobias Harris (SAS, calf, likely out through November)",
   "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
   "Bub Carrington (WAS, chest, left Thu game, status TBD)",
   "Evan Mobley (CLE, toe, out Sat, 2nd straight)",
-  "Trey Murphy III (NOP, knees, Q Fri vs OKC after 6 straight misses) \u00b7 Mathurin (NOP, plantar fasciitis, out Fri, 4th straight, week-to-week)",
+  "Trey Murphy III (NOP, knees, Q Fri vs OKC after 6 straight misses) · Mathurin (NOP, plantar fasciitis, out Fri, 4th straight, week-to-week)",
   "Zach Edey (MEM, ankle, Q Sat)",
   "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
   "Nic Claxton (CHI, hamstring, Q Sat)",
