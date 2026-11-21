@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-20T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-20T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1260,8 +1260,8 @@
    "player": "Alex Caruso",
    "team": "OKC",
    "injury": "hip",
-   "status": "questionable",
-   "status_note": "Left Wed vs ATL after 9 min; Q Fri",
+   "status": "out",
+   "status_note": "Hip; out Fri vs NOP, next chance Sun",
    "beneficiaries": [
     {
      "player": "Bennett Stirtz",
@@ -1275,7 +1275,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T20:15:00-08:00",
-   "last_updated_pt": "2026-11-18T20:15:00-08:00",
+   "last_updated_pt": "2026-11-20T16:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -1370,8 +1370,8 @@
    "player": "Jerami Grant",
    "team": "MEM",
    "injury": "left calf",
-   "status": "left-game",
-   "status_note": "Left Thu vs GSW after 5 min",
+   "status": "out",
+   "status_note": "Left Thu vs GSW after 5 min; out Sat vs MIN (calf)",
    "beneficiaries": [
     {
      "player": "Taylor Hendricks",
@@ -1380,9 +1380,9 @@
     }
    ],
    "first_seen_pt": "2026-11-19T18:15:00-08:00",
-   "last_updated_pt": "2026-11-19T18:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-20T16:15:00-08:00",
+   "last_notified_pt": "2026-11-20T16:15:00-08:00",
+   "notified_for": "status out; Hendricks Speculative add"
   },
   "injury:precious-achiuwa": {
    "kind": "injury",
@@ -1402,6 +1402,30 @@
    "last_updated_pt": "2026-11-19T18:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:cameron-boozer": {
+   "kind": "injury",
+   "player": "Cameron Boozer",
+   "team": "MEM",
+   "injury": "right ankle sprain",
+   "status": "out",
+   "status_note": "Out Sat vs MIN, first miss of season; day-to-day",
+   "beneficiaries": [
+    {
+     "player": "Isaiah Stewart",
+     "verdict": "Speculative add",
+     "summary": "Likely starts"
+    },
+    {
+     "player": "Taylor Hendricks",
+     "verdict": "Speculative add",
+     "summary": "Started at C Thu"
+    }
+   ],
+   "first_seen_pt": "2026-11-20T16:15:00-08:00",
+   "last_updated_pt": "2026-11-20T16:15:00-08:00",
+   "last_notified_pt": "2026-11-20T16:15:00-08:00",
+   "notified_for": "status out; Hendricks/Stewart Speculative add"
   }
  },
  "drop_watch": [
