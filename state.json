@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T11:20:00-08:00",
- "run_label": "11am",
+ "last_run_pt": "2026-11-21T12:15:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1531,6 +1531,25 @@
    "last_updated_pt": "2026-11-21T11:20:00-08:00",
    "last_notified_pt": "2026-11-21T11:20:00-08:00",
    "notified_for": "starting lineup; Speculative add"
+  },
+  "injury:pj-washington": {
+   "kind": "injury",
+   "player": "P.J. Washington",
+   "team": "DAL",
+   "injury": "illness/shoulder",
+   "status": "doubtful",
+   "status_note": "Doubtful Sat vs LAC",
+   "beneficiaries": [
+    {
+     "player": "Santi Aldama",
+     "verdict": "Watch",
+     "summary": "Frontcourt minutes if Washington sits"
+    }
+   ],
+   "first_seen_pt": "2026-11-21T12:15:00-08:00",
+   "last_updated_pt": "2026-11-21T12:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
