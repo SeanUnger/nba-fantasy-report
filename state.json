@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T10:15:00-08:00",
- "run_label": "10am",
+ "last_run_pt": "2026-11-21T11:20:00-08:00",
+ "run_label": "11am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -107,12 +107,12 @@
   "brayden-burries": {
    "player": "Brayden Burries",
    "team": "MIL",
-   "trigger": "Rollins benched; Burries started again Sun (13 pts/8 reb/4 ast/1 blk in 29 min).",
+   "trigger": "Benched Sat for Rollins/Jaquez",
    "trigger_status": "active",
-   "verdict": "Speculative add",
+   "verdict": "Watch",
    "summary": "Starter, ~29 min; boards, assists, 3s.",
    "first_seen_pt": "2026-11-02T17:15:00-08:00",
-   "last_updated_pt": "2026-11-09T12:10:00-08:00"
+   "last_updated_pt": "2026-11-21T11:20:00-08:00"
   },
   "paul-reed": {
    "player": "Paul Reed",
@@ -1144,12 +1144,12 @@
    "player": "Tyrese Maxey",
    "team": "PHI",
    "injury": "right foot soreness",
-   "status": "questionable",
-   "status_note": "GTD Sat vs MIL, possible minutes limit",
+   "status": "available",
+   "status_note": "Cleared Sat vs MIL; Simons back to bench",
    "beneficiaries": [
     {
      "player": "Anfernee Simons",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Starts if Maxey sits"
     },
     {
@@ -1159,7 +1159,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T15:15:00-08:00",
-   "last_updated_pt": "2026-11-21T09:20:00-08:00",
+   "last_updated_pt": "2026-11-21T11:20:00-08:00",
    "last_notified_pt": "2026-11-18T16:15:00-08:00",
    "notified_for": "status out; Simons Add now"
   },
@@ -1495,9 +1495,46 @@
    "last_updated_pt": "2026-11-21T09:20:00-08:00",
    "last_notified_pt": "2026-11-21T09:20:00-08:00",
    "notified_for": "status doubtful; Shamet Speculative add"
+  },
+  "injury:karl-anthony-towns": {
+   "kind": "injury",
+   "player": "Karl-Anthony Towns",
+   "team": "NYK",
+   "injury": "illness",
+   "status": "questionable",
+   "status_note": "Newly Q Sat vs POR (illness)",
+   "beneficiaries": [
+    {
+     "player": "Andre Drummond",
+     "verdict": "Speculative add",
+     "summary": "Starts at C if Towns sits"
+    },
+    {
+     "player": "James Wiseman",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-21T11:20:00-08:00",
+   "last_updated_pt": "2026-11-21T11:20:00-08:00",
+   "last_notified_pt": "2026-11-21T11:20:00-08:00",
+   "notified_for": "status questionable; Drummond Speculative add"
+  },
+  "pickup:ryan-rollins": {
+   "kind": "pickup",
+   "player": "Ryan Rollins",
+   "team": "MIL",
+   "trigger": "Moved into starting lineup Sat vs PHI (Burries to bench)",
+   "verdict": "Speculative add",
+   "summary": "~28 min starter; assists, steals, 3s",
+   "first_seen_pt": "2026-11-21T11:20:00-08:00",
+   "last_updated_pt": "2026-11-21T11:20:00-08:00",
+   "last_notified_pt": "2026-11-21T11:20:00-08:00",
+   "notified_for": "starting lineup; Speculative add"
   }
  },
  "drop_watch": [
+  "Brayden Burries (benched Sat; Rollins/Jaquez start)",
   "Cade Cunningham back (Daniss Jenkins, Huerter)",
   "Scottie Barnes back (Ja'Kobe Walter)",
   "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
@@ -1515,6 +1552,7 @@
   "Mo Bamba (Hayes starts, Bamba to bench)"
  ],
  "injury_watch": [
+  "Trey Murphy III (NOP, knees, out Sat, back-to-back rest)",
   "Ryan Dunn (PHX, right quad, left Fri at UTA after 9 min, Q Mon at NOP; bench wing, no clear pickup)",
   "Jordan Clarkson (NYK, foot, out Sat) \u00b7 OG Anunoby (NYK, calf, Q Sat)",
   "Ronald Holland II (DET, knee, doubtful Fri vs TOR; no clear pickup)",
