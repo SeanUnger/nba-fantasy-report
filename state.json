@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T12:15:00-08:00",
- "run_label": "12pm",
+ "last_run_pt": "2026-11-21T13:15:00-08:00",
+ "run_label": "1pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1422,22 +1422,22 @@
    "player": "Derrick White",
    "team": "BOS",
    "injury": "shoulder",
-   "status": "questionable",
-   "status_note": "Q Sat vs SAC; Tatum also Q (rest)",
+   "status": "out",
+   "status_note": "Out Sat vs SAC (was Q); Tatum rest, Robinson ill",
    "beneficiaries": [
     {
-     "player": "Baylor Scheierman",
+     "player": "Payton Pritchard",
      "verdict": "Watch",
-     "summary": "Extra guard/wing minutes"
+     "summary": "Likely starts; probably rostered"
     },
     {
-     "player": "Jordan Walsh",
+     "player": "Baylor Scheierman",
      "verdict": "Watch",
      "summary": "Extra wing minutes"
     }
    ],
    "first_seen_pt": "2026-11-20T17:15:00-08:00",
-   "last_updated_pt": "2026-11-20T17:15:00-08:00",
+   "last_updated_pt": "2026-11-21T13:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -1550,6 +1550,49 @@
    "last_updated_pt": "2026-11-21T12:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:mitchell-robinson": {
+   "kind": "injury",
+   "player": "Mitchell Robinson",
+   "team": "BOS",
+   "injury": "illness",
+   "status": "out",
+   "status_note": "Out Sat vs SAC",
+   "beneficiaries": [
+    {
+     "player": "Luka Garza",
+     "verdict": "Watch",
+     "summary": "Minutes behind Queta"
+    }
+   ],
+   "first_seen_pt": "2026-11-21T13:15:00-08:00",
+   "last_updated_pt": "2026-11-21T13:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:giannis-antetokounmpo": {
+   "kind": "injury",
+   "player": "Giannis Antetokounmpo",
+   "team": "MIA",
+   "injury": "groin",
+   "status": "questionable",
+   "status_note": "Q Sun vs OKC",
+   "beneficiaries": [
+    {
+     "player": "Bobby Portis",
+     "verdict": "Speculative add",
+     "summary": "Starts if Giannis sits"
+    },
+    {
+     "player": "Nikola Jovic",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-21T13:15:00-08:00",
+   "last_updated_pt": "2026-11-21T13:15:00-08:00",
+   "last_notified_pt": "2026-11-21T13:15:00-08:00",
+   "notified_for": "status questionable; Portis Speculative add"
   }
  },
  "drop_watch": [
