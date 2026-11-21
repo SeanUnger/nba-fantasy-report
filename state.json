@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-21T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1033,30 +1033,6 @@
    "last_notified_pt": "2026-11-17T10:15:00-08:00",
    "notified_for": "status questionable; Walter Speculative add"
   },
-  "injury:deni-avdija": {
-   "kind": "injury",
-   "player": "Deni Avdija",
-   "team": "POR",
-   "injury": "foot",
-   "status": "out",
-   "status_note": "Ruled out Tue vs MIN (foot)",
-   "beneficiaries": [
-    {
-     "player": "Sidy Cissoko",
-     "verdict": "Speculative add",
-     "summary": "Starter-level wing minutes if Avdija sits"
-    },
-    {
-     "player": "Toumani Camara",
-     "verdict": "Watch",
-     "summary": "extra usage; likely rostered"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T12:15:00-08:00",
-   "last_updated_pt": "2026-11-17T17:15:00-08:00",
-   "last_notified_pt": "2026-11-17T17:15:00-08:00",
-   "notified_for": "status out Tue; Cissoko Speculative add"
-  },
   "injury:cj-mccollum": {
    "kind": "injury",
    "player": "CJ McCollum",
@@ -1501,13 +1477,13 @@
    "player": "Karl-Anthony Towns",
    "team": "NYK",
    "injury": "illness",
-   "status": "questionable",
-   "status_note": "Newly Q Sat vs POR (illness)",
+   "status": "out",
+   "status_note": "Ruled out Sat vs POR (illness); next chance Sun",
    "beneficiaries": [
     {
      "player": "Andre Drummond",
      "verdict": "Speculative add",
-     "summary": "Starts at C if Towns sits"
+     "summary": "Confirmed starting C; boards, blocks"
     },
     {
      "player": "James Wiseman",
@@ -1516,9 +1492,9 @@
     }
    ],
    "first_seen_pt": "2026-11-21T11:20:00-08:00",
-   "last_updated_pt": "2026-11-21T11:20:00-08:00",
-   "last_notified_pt": "2026-11-21T11:20:00-08:00",
-   "notified_for": "status questionable; Drummond Speculative add"
+   "last_updated_pt": "2026-11-21T15:15:00-08:00",
+   "last_notified_pt": "2026-11-21T15:15:00-08:00",
+   "notified_for": "status out; Drummond Speculative add"
   },
   "pickup:ryan-rollins": {
    "kind": "pickup",
@@ -1593,9 +1569,34 @@
    "last_updated_pt": "2026-11-21T13:15:00-08:00",
    "last_notified_pt": "2026-11-21T13:15:00-08:00",
    "notified_for": "status questionable; Portis Speculative add"
+  },
+  "injury:shai-gilgeous-alexander": {
+   "kind": "injury",
+   "player": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "injury": "back/neck",
+   "status": "questionable",
+   "status_note": "Q Sun vs MIA; Topic, Caruso, Wallace out",
+   "beneficiaries": [
+    {
+     "player": "Bennett Stirtz",
+     "verdict": "Speculative add",
+     "summary": "Would start at guard, heavy minutes"
+    },
+    {
+     "player": "Nique Clifford",
+     "verdict": "Watch",
+     "summary": "extra wing minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-21T15:15:00-08:00",
+   "last_updated_pt": "2026-11-21T15:15:00-08:00",
+   "last_notified_pt": "2026-11-21T15:15:00-08:00",
+   "notified_for": "status questionable; Stirtz Speculative add"
   }
  },
  "drop_watch": [
+  "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
   "Brayden Burries (benched Sat; Rollins/Jaquez start)",
   "Cade Cunningham back (Daniss Jenkins, Huerter)",
   "Scottie Barnes back (Ja'Kobe Walter)",
