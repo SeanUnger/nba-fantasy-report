@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-21T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1482,8 +1482,8 @@
    "player": "OG Anunoby",
    "team": "NYK",
    "injury": "calf",
-   "status": "doubtful",
-   "status_note": "Downgraded to doubtful Sat vs POR; Clarkson out, Towns Q (illness)",
+   "status": "out",
+   "status_note": "Out Sat vs POR (was doubtful); Clarkson out, Towns Q",
    "beneficiaries": [
     {
      "player": "Landry Shamet",
@@ -1492,9 +1492,9 @@
     }
    ],
    "first_seen_pt": "2026-11-21T09:20:00-08:00",
-   "last_updated_pt": "2026-11-21T09:20:00-08:00",
-   "last_notified_pt": "2026-11-21T09:20:00-08:00",
-   "notified_for": "status doubtful; Shamet Speculative add"
+   "last_updated_pt": "2026-11-21T14:15:00-08:00",
+   "last_notified_pt": "2026-11-21T14:15:00-08:00",
+   "notified_for": "status out; Shamet Speculative add"
   },
   "injury:karl-anthony-towns": {
    "kind": "injury",
