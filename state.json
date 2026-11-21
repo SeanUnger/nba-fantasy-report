@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-20T16:15:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-20T17:15:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1426,6 +1426,42 @@
    "last_updated_pt": "2026-11-20T16:15:00-08:00",
    "last_notified_pt": "2026-11-20T16:15:00-08:00",
    "notified_for": "status out; Hendricks/Stewart Speculative add"
+  },
+  "injury:derrick-white": {
+   "kind": "injury",
+   "player": "Derrick White",
+   "team": "BOS",
+   "injury": "shoulder",
+   "status": "questionable",
+   "status_note": "Q Sat vs SAC; Tatum also Q (rest)",
+   "beneficiaries": [
+    {
+     "player": "Baylor Scheierman",
+     "verdict": "Watch",
+     "summary": "Extra guard/wing minutes"
+    },
+    {
+     "player": "Jordan Walsh",
+     "verdict": "Watch",
+     "summary": "Extra wing minutes"
+    }
+   ],
+   "first_seen_pt": "2026-11-20T17:15:00-08:00",
+   "last_updated_pt": "2026-11-20T17:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "pickup:danny-wolf": {
+   "kind": "pickup",
+   "player": "Danny Wolf",
+   "team": "BKN",
+   "trigger": "Starting Fri vs ORL; Demin to bench",
+   "verdict": "Watch",
+   "summary": "Starter minutes at big; role durability unknown",
+   "first_seen_pt": "2026-11-20T17:15:00-08:00",
+   "last_updated_pt": "2026-11-20T17:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
