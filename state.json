@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T23:12:00-08:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-11-22T09:20:00-08:00",
+ "run_label": "9am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1598,6 +1598,30 @@
    "last_updated_pt": "2026-11-21T15:15:00-08:00",
    "last_notified_pt": "2026-11-21T15:15:00-08:00",
    "notified_for": "status questionable; Stirtz Speculative add"
+  },
+  "injury:norman-powell": {
+   "kind": "injury",
+   "player": "Norman Powell",
+   "team": "CHI",
+   "injury": "hamstring",
+   "status": "out",
+   "status_note": "Right hamstring strain; out Sun vs DEN, re-eval later this week",
+   "beneficiaries": [
+    {
+     "player": "Buddy Hield",
+     "verdict": "Speculative add",
+     "summary": "Likely starter or extra minutes"
+    },
+    {
+     "player": "Patrick Williams",
+     "verdict": "Speculative add",
+     "summary": "Probable (thumb); expanded role"
+    }
+   ],
+   "first_seen_pt": "2026-11-22T09:20:00-08:00",
+   "last_updated_pt": "2026-11-22T09:20:00-08:00",
+   "last_notified_pt": "2026-11-22T09:20:00-08:00",
+   "notified_for": "status out; Hield/Williams Speculative add"
   }
  },
  "drop_watch": [
