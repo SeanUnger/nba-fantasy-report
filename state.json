@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-22T14:10:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-22T15:20:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1556,8 +1556,8 @@
    "player": "Giannis Antetokounmpo",
    "team": "MIA",
    "injury": "groin",
-   "status": "questionable",
-   "status_note": "Q Sun vs OKC",
+   "status": "out",
+   "status_note": "Ruled out Sun vs OKC (was Q)",
    "beneficiaries": [
     {
      "player": "Bobby Portis",
@@ -1571,9 +1571,9 @@
     }
    ],
    "first_seen_pt": "2026-11-21T13:15:00-08:00",
-   "last_updated_pt": "2026-11-21T13:15:00-08:00",
-   "last_notified_pt": "2026-11-21T13:15:00-08:00",
-   "notified_for": "status questionable; Portis Speculative add"
+   "last_updated_pt": "2026-11-22T15:20:00-08:00",
+   "last_notified_pt": "2026-11-22T15:20:00-08:00",
+   "notified_for": "status out; Portis Speculative add"
   },
   "injury:shai-gilgeous-alexander": {
    "kind": "injury",
