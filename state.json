@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-21T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-21T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1513,8 +1513,8 @@
    "player": "P.J. Washington",
    "team": "DAL",
    "injury": "illness/shoulder",
-   "status": "doubtful",
-   "status_note": "Doubtful Sat vs LAC",
+   "status": "out",
+   "status_note": "Out Sat vs LAC (downgraded from doubtful)",
    "beneficiaries": [
     {
      "player": "Santi Aldama",
@@ -1523,7 +1523,7 @@
     }
    ],
    "first_seen_pt": "2026-11-21T12:15:00-08:00",
-   "last_updated_pt": "2026-11-21T12:15:00-08:00",
+   "last_updated_pt": "2026-11-21T16:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
