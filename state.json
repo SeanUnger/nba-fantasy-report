@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-22T16:15:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-22T17:10:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1337,7 +1337,7 @@
    "team": "MEM",
    "injury": "left calf",
    "status": "out",
-   "status_note": "Calf strain, out Sat vs MIN, may miss multiple games",
+   "status_note": "Out Sat and Mon vs CHA",
    "beneficiaries": [
     {
      "player": "Taylor Hendricks",
@@ -1375,7 +1375,7 @@
    "team": "MEM",
    "injury": "right ankle sprain",
    "status": "out",
-   "status_note": "Out Sat vs MIN, first miss of season; day-to-day",
+   "status_note": "Out Sat and Mon vs CHA",
    "beneficiaries": [
     {
      "player": "Isaiah Stewart",
@@ -1649,6 +1649,7 @@
   "Mo Bamba (Hayes starts, Bamba to bench)"
  ],
  "injury_watch": [
+  "Jaxson Hayes (UTA, left knee, Q to return Sun at DAL)",
   "Miles McBride (NYK, adductor, out Sun; Kolek/Alvarado, no add)",
   "Trey Murphy III (NOP, knees, out Sat, back-to-back rest)",
   "Ryan Dunn (PHX, right quad, left Fri at UTA after 9 min, Q Mon at NOP; bench wing, no clear pickup)",
