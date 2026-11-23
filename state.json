@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-23T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-23T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1379,8 +1379,8 @@
    "player": "Cameron Boozer",
    "team": "MEM",
    "injury": "right ankle sprain",
-   "status": "out",
-   "status_note": "Out Sat and Mon vs CHA",
+   "status": "out-multi-week",
+   "status_note": "Moderate ankle sprain; re-eval in 4 weeks",
    "beneficiaries": [
     {
      "player": "Isaiah Stewart",
@@ -1394,9 +1394,9 @@
     }
    ],
    "first_seen_pt": "2026-11-20T16:15:00-08:00",
-   "last_updated_pt": "2026-11-20T16:15:00-08:00",
-   "last_notified_pt": "2026-11-20T16:15:00-08:00",
-   "notified_for": "status out; Hendricks/Stewart Speculative add"
+   "last_updated_pt": "2026-11-23T15:15:00-08:00",
+   "last_notified_pt": "2026-11-23T15:15:00-08:00",
+   "notified_for": "status out-multi-week; Hendricks/Stewart Speculative add"
   },
   "injury:derrick-white": {
    "kind": "injury",
@@ -1686,8 +1686,8 @@
    "player": "Jaxson Hayes",
    "team": "UTA",
    "injury": "left knee",
-   "status": "left-game",
-   "status_note": "Left Sun at DAL after ~12 min; out rest of game",
+   "status": "out",
+   "status_note": "Left Sun after ~12 min; out Mon vs LAL",
    "beneficiaries": [
     {
      "player": "Mo Bamba",
@@ -1706,21 +1706,21 @@
     }
    ],
    "first_seen_pt": "2026-11-22T22:15:00-08:00",
-   "last_updated_pt": "2026-11-22T22:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-23T15:15:00-08:00",
+   "last_notified_pt": "2026-11-23T15:15:00-08:00",
+   "notified_for": "status out; Bamba Speculative add"
   },
   "injury:joel-embiid": {
    "kind": "injury",
    "player": "Joel Embiid",
    "team": "PHI",
    "injury": "knee",
-   "status": "questionable",
-   "status_note": "Q Mon vs POR; LeBron out",
+   "status": "out",
+   "status_note": "Illness, out Mon vs POR",
    "beneficiaries": [
     {
      "player": "Adem Bona",
-     "verdict": "Watch",
+     "verdict": "Speculative add",
      "summary": "Center minutes if Embiid sits"
     },
     {
@@ -1730,9 +1730,9 @@
     }
    ],
    "first_seen_pt": "2026-11-23T09:20:00-08:00",
-   "last_updated_pt": "2026-11-23T09:20:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-23T15:15:00-08:00",
+   "last_notified_pt": "2026-11-23T15:15:00-08:00",
+   "notified_for": "status out; Bona Speculative add"
   },
   "injury:aaron-nesmith": {
    "kind": "injury",
