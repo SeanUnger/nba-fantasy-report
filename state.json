@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-22T23:15:00-08:00",
- "run_label": "11pm",
+ "last_run_pt": "2026-11-23T09:20:00-08:00",
+ "run_label": "9am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1444,24 +1444,24 @@
    "player": "Nolan Traore",
    "team": "BKN",
    "injury": "hamstring",
-   "status": "out",
-   "status_note": "Ruled out Mon vs MIN; Demin could return to starting lineup",
+   "status": "out-multi-week",
+   "status_note": "Re-eval in ~8-10 wks (hamstring strain)",
    "beneficiaries": [
     {
      "player": "Egor Demin",
      "verdict": "Speculative add",
-     "summary": "Could start Mon"
+     "summary": "Lead-guard starter minutes"
     },
     {
      "player": "Mikel Brown Jr.",
      "verdict": "Watch",
-     "summary": "More guard minutes"
+     "summary": "More backup guard minutes"
     }
    ],
    "first_seen_pt": "2026-11-20T19:15:00-08:00",
-   "last_updated_pt": "2026-11-22T13:10:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-23T09:20:00-08:00",
+   "last_notified_pt": "2026-11-23T09:20:00-08:00",
+   "notified_for": "status out-multi-week; Demin Speculative add"
   },
   "injury:og-anunoby": {
    "kind": "injury",
@@ -1709,6 +1709,30 @@
    "last_updated_pt": "2026-11-22T22:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:joel-embiid": {
+   "kind": "injury",
+   "player": "Joel Embiid",
+   "team": "PHI",
+   "injury": "knee",
+   "status": "questionable",
+   "status_note": "Q Mon vs POR; LeBron out",
+   "beneficiaries": [
+    {
+     "player": "Adem Bona",
+     "verdict": "Watch",
+     "summary": "Center minutes if Embiid sits"
+    },
+    {
+     "player": "Dominick Barlow",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-23T09:20:00-08:00",
+   "last_updated_pt": "2026-11-23T09:20:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
@@ -1730,56 +1754,15 @@
   "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
  ],
  "injury_watch": [
-  "Miles McBride (NYK, adductor, out Sun; Kolek/Alvarado, no add)",
-  "Trey Murphy III (NOP, knees, out Sat, back-to-back rest)",
-  "Ryan Dunn (PHX, right quad, left Fri at UTA after 9 min, Q Mon at NOP; bench wing, no clear pickup)",
-  "Jordan Clarkson (NYK, foot, out Sat) \u00b7 OG Anunoby (NYK, calf, Q Sat)",
-  "Ronald Holland II (DET, knee, doubtful Fri vs TOR; no clear pickup)",
-  "Jalen Smith (CHI, illness, now Q Fri vs WAS; Collins/Claxton gain if out)",
-  "Nikola Topi\u0107 (OKC, hip, out Fri vs NOP, back Sun at MIA at the earliest)",
-  "Jusuf Nurki\u0107 (UTA, toe, out Fri, yet to play this season; Hayes/Bamba)",
-  "Grant Williams (CHA, hamstring, out Fri; Grayson Allen concussion also out; O'Neale may start)",
-  "Taurean Prince (DET, knee surgery, week-to-week; no impact)",
-  "Nikola Topi\u0107 (OKC, left hip, left Wed vs ATL at halftime; no update)",
-  "Braden Smith (IND, ankle sprain, Q Fri vs CLE; McConnell to watch)",
-  "Collin Murray-Boyles (TOR, illness, left Wed vs WAS)",
-  "Brandon Ingram (LAC, Achilles/heel, out Thu vs SAS, season debut expected Mon vs HOU)",
-  "Grayson Allen (CHA, concussion-like symptoms, late scratch Tue vs LAL)",
-  "Thomas Sorber (OKC, knee scope, 6-8 wks, no pickup)",
-  "Peyton Watson (CLE, head, left Mon)",
-  "Jalen Smith (CHI, left Mon Q4)",
-  "Patrick Williams (CHI, finger, left Mon)",
-  "Tre Johnson (WAS, back, Q Mon)",
-  "Neemias Queta (BOS, rest, Q Mon)",
-  "Zach LaVine (SAC, illness, cleared Wed)",
-  "De'Andre Hunter (SAC, hip, Q Wed)",
-  "Jaylen Clark (MIN, hamstring, re-eval ~2 wks)",
-  "Stephen Curry (GSW, abdominal tear, out 2+ wks, re-eval late Nov)",
-  "LeBron James (PHI, back, out Thu (maintenance); Embiid Q)",
-  "Kawhi Leonard (TOR, knee, could return in the next few weeks)",
-  "Adem Bona (PHI, back, re-eval ~1 wk after specialist)",
-  "Lauri Markkanen (UTA, hand fracture, out ~1 month)",
-  "Tyrese Haliburton (IND, hamstring, out at least 2 more weeks)",
-  "Jaylin Williams (OKC, back, out indefinitely)",
-  "Chet Holmgren (OKC, out long term)",
-  "Jalen Duren (DET, hamstring, re-eval ~2 wks)",
-  "Kon Knueppel (CHA, hamstring, out 4+ wks)",
-  "Brandon Williams (GSW, hamstring, out 1+ wk)",
-  "V\u00edt Krej\u010d\u00ed (POR, ankle surgery, 8 wks)",
-  "Caleb Wilson (CHA, hand surgery, out 4-6 wks)",
-  "Dominick Barlow (PHI, back, no timeline, at shootaround)",
-  "Tobias Harris (SAS, calf, likely out through November)",
-  "Mouhamed Gueye (ATL, foot, out 4+ more wks)",
-  "Bub Carrington (WAS, chest, left Thu game, status TBD)",
-  "Evan Mobley (CLE, toe, out Sat, 2nd straight)",
-  "Trey Murphy III (NOP, knees, Q Fri vs OKC after 6 straight misses) \u00b7 Mathurin (NOP, plantar fasciitis, out Fri, 4th straight, week-to-week)",
-  "Zach Edey (MEM, ankle, Q Sat)",
-  "Noah Penda (ORL, hamstring, week-to-week, no timetable)",
-  "Nic Claxton (CHI, hamstring, Q Sat)",
-  "Pelle Larsson (MIA, illness, doubtful Sat)",
-  "Anthony Edwards (MIN, knee, out ~2 months)",
-  "Asa Newell (ATL, toe surgery, out ~4 months)",
-  "Brandon Miller (CHA, knee hyperextension, returned Fri; no pickup)",
-  "Zion Williamson (NOP, left thigh contusion, out Sat vs SAS; Queen already starting)"
+  "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) \u00b7 Jovi\u0107 (MIA, illness, Q Mon)",
+  "Jaylon Tyson (CLE, ankle, probable Mon vs CHI; fades Proctor/Thomas)",
+  "Clint Capela and Steven Adams (HOU, out Mon vs MIA)",
+  "Trendon Watford, Bennedict Mathurin (NOP) out Mon vs PHX; Trey Murphy III and McGowens probable",
+  "Grant Williams and Grayson Allen (CHA) out Mon vs MEM; Brandon Miller probable",
+  "Ryan Dunn (PHX, quad, Q Mon at NOP; no clear pickup)",
+  "Aday Mara (OKC, shin, out Sun); Brandon Ingram (LAC) off injury report, back Mon",
+  "Gabe Vincent signing with SAC (Shams); DaRon Holmes II recalled by DEN; Jaden Bradley recalled by TOR",
+  "Tyrese Haliburton (IND, hamstring) targeting return before Dec.",
+  "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away"
  ]
 }
