@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-23T10:15:00-08:00",
- "run_label": "10am",
+ "last_run_pt": "2026-11-23T11:15:00-08:00",
+ "run_label": "11am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1585,8 +1585,8 @@
    "player": "Shai Gilgeous-Alexander",
    "team": "OKC",
    "injury": "back/neck",
-   "status": "out",
-   "status_note": "Ruled out Sun vs MIA (first miss); next chance Mon vs IND",
+   "status": "available",
+   "status_note": "Off Mon injury report",
    "beneficiaries": [
     {
      "player": "Bennett Stirtz",
@@ -1731,6 +1731,35 @@
    ],
    "first_seen_pt": "2026-11-23T09:20:00-08:00",
    "last_updated_pt": "2026-11-23T09:20:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:aaron-nesmith": {
+   "kind": "injury",
+   "player": "Aaron Nesmith",
+   "team": "IND",
+   "injury": "foot soreness (McConnell hamstring)",
+   "status": "out",
+   "status_note": "Nesmith and McConnell out Mon vs OKC; Siakam Q",
+   "beneficiaries": [
+    {
+     "player": "Quenton Jackson",
+     "verdict": "Watch",
+     "summary": "backup guard minutes"
+    },
+    {
+     "player": "Ben Sheppard",
+     "verdict": "Watch",
+     "summary": "wing minutes"
+    },
+    {
+     "player": "Johnny Furphy",
+     "verdict": "Watch",
+     "summary": "more run if Siakam sits"
+    }
+   ],
+   "first_seen_pt": "2026-11-23T11:15:00-08:00",
+   "last_updated_pt": "2026-11-23T11:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   }
