@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-23T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-23T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1760,6 +1760,25 @@
    ],
    "first_seen_pt": "2026-11-23T11:15:00-08:00",
    "last_updated_pt": "2026-11-23T11:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:jalen-duren": {
+   "kind": "injury",
+   "player": "Jalen Duren",
+   "team": "DET",
+   "injury": "hamstring",
+   "status": "out",
+   "status_note": "Out Tue vs ORL",
+   "beneficiaries": [
+    {
+     "player": "Paul Reed",
+     "verdict": "Speculative add",
+     "summary": "Backup C, 26 min Sun"
+    }
+   ],
+   "first_seen_pt": "2026-11-23T14:15:00-08:00",
+   "last_updated_pt": "2026-11-23T14:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   }
