@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-22T17:10:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-22T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1627,6 +1627,54 @@
    "last_updated_pt": "2026-11-22T09:20:00-08:00",
    "last_notified_pt": "2026-11-22T09:20:00-08:00",
    "notified_for": "status out; Hield/Williams Speculative add"
+  },
+  "injury:victor-wembanyama": {
+   "kind": "injury",
+   "player": "Victor Wembanyama",
+   "team": "SAS",
+   "injury": "lower back tightness",
+   "status": "questionable",
+   "status_note": "Q Mon at SAC after 50-pt game Sat",
+   "beneficiaries": [
+    {
+     "player": "Luke Kornet",
+     "verdict": "Speculative add",
+     "summary": "Starts at C if Wemby sits"
+    },
+    {
+     "player": "Carter Bryant",
+     "verdict": "Watch",
+     "summary": ""
+    },
+    {
+     "player": "Tarris Reed Jr.",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-22T18:15:00-08:00",
+   "last_updated_pt": "2026-11-22T18:15:00-08:00",
+   "last_notified_pt": "2026-11-22T18:15:00-08:00",
+   "notified_for": "status questionable; Kornet Speculative add"
+  },
+  "injury:deaaron-fox": {
+   "kind": "injury",
+   "player": "De'Aaron Fox",
+   "team": "SAS",
+   "injury": "right shin contusion",
+   "status": "questionable",
+   "status_note": "Q Mon at SAC; McLaughlin Q, Harper out",
+   "beneficiaries": [
+    {
+     "player": "David Jones Garcia",
+     "verdict": "Watch",
+     "summary": "Guard minutes if Fox and McLaughlin out"
+    }
+   ],
+   "first_seen_pt": "2026-11-22T18:15:00-08:00",
+   "last_updated_pt": "2026-11-22T18:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
