@@ -437,8 +437,15 @@
             <circle cx="240" cy="572" r="8" fill="none" stroke="var(--pm-accent)" stroke-width="3" />
         </svg>`;
 
-    const isOut = (entry) => entry.injuryAbbreviation === 'O' || entry.injuryStatus === 'Out';
-    const injuryClass = (entry) => (isOut(entry) ? 'out' : 'dtd');
+    // Official injury report statuses: red out/doubtful, amber questionable,
+    // grey probable and G League.
+    function injuryClass(entry) {
+        const abbr = entry.injuryAbbreviation;
+        const status = (entry.injuryStatus ?? '').toLowerCase();
+        if (abbr === 'O' || abbr === 'D' || status === 'out' || status === 'doubtful') return 'out';
+        if (abbr === 'P' || abbr === 'GL' || status === 'probable' || status === 'g league') return 'muted';
+        return 'dtd';
+    }
     const avatarHtml = (entry, size) =>
         `<div class="dc-avatar dc-avatar-${size}"><img src="${headshotUrl(entry.playerId)}" alt="" data-fallback="${escapeHtml(initials(entry.playerName))}"></div>`;
 
@@ -515,7 +522,7 @@
             <div class="dc-court-wrap">${COURT_SVG}${chips}</div>
             <div class="dc-caption-row">
                 <p class="dc-caption">Bench, ranked by depth &middot; (min/FGA) &middot; tap anyone for their card</p>
-                <div class="dc-legend"><span><i class="dc-swatch dtd"></i>Day-To-Day</span><span><i class="dc-swatch out"></i>Out</span></div>
+                <div class="dc-legend"><span><i class="dc-swatch out"></i>Out / Doubtful</span><span><i class="dc-swatch dtd"></i>Questionable</span><span><i class="dc-swatch muted"></i>Probable / G League</span></div>
             </div>
             <div class="dc-bench-grid">${benchCols}</div>
             ${unavailable ? `<p class="dc-caption dc-out-caption">Unavailable</p><div class="dc-out-list">${unavailable}</div>` : ''}
@@ -653,6 +660,7 @@
         .dc-swatch { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
         .dc-swatch.dtd { background: var(--pm-dtd); }
         .dc-swatch.out { background: var(--pm-out); }
+        .dc-swatch.muted { background: var(--pm-muted); }
         .dc-court-wrap { position: relative; width: 100%; max-width: 400px; margin: 0 auto 18px; aspect-ratio: 480 / 600; }
         .dc-court-svg { width: 100%; height: 100%; display: block; }
         .dc-chip { position: absolute; transform: translate(-50%, -50%); width: 92px; text-align: center; }
@@ -668,6 +676,7 @@
         .dc-chip-injury { font-size: 9px; font-weight: 800; color: var(--pm-dtd); margin-top: 2px; display: flex; align-items: center; gap: 3px; }
         .dc-chip-injury::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; flex: none; }
         .dc-chip-injury.out { color: var(--pm-out); }
+        .dc-chip-injury.muted { color: var(--pm-muted); }
         .dc-caption { font-size: 11px; color: var(--pm-muted); margin: 0 0 10px; }
         .dc-bench-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
         .dc-bench-col-head { font-size: 10.5px; font-weight: 800; letter-spacing: 0.04em; color: var(--pm-muted); text-align: center; padding-bottom: 6px; border-bottom: 1px solid var(--pm-border); margin-bottom: 6px; }
@@ -688,6 +697,7 @@
         .dc-bench-status { font-size: 8.5px; font-weight: 700; margin-top: 1px; }
         .dc-bench-status.dtd { color: var(--pm-dtd); }
         .dc-bench-status.out { color: var(--pm-out); }
+        .dc-bench-status.muted { color: var(--pm-muted); }
         .dc-bench-empty { font-size: 11px; color: var(--pm-muted); text-align: center; padding-top: 4px; }
         .dc-view-toggle button.on { background: var(--pm-accent); color: #fff; }
         .dc-caption-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
