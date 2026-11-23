@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-22T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-22T19:20:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1336,19 +1336,24 @@
    "player": "Jerami Grant",
    "team": "MEM",
    "injury": "left calf",
-   "status": "out",
-   "status_note": "Out Sat and Mon vs CHA",
+   "status": "out-multi-week",
+   "status_note": "Grade 1 calf strain; out at least 2 wks, re-eval in 2 wks",
    "beneficiaries": [
     {
      "player": "Taylor Hendricks",
      "verdict": "Speculative add",
      "summary": "Starting; extra forward minutes"
+    },
+    {
+     "player": "Kris Murray",
+     "verdict": "Watch",
+     "summary": "More bench minutes"
     }
    ],
    "first_seen_pt": "2026-11-19T18:15:00-08:00",
-   "last_updated_pt": "2026-11-21T09:20:00-08:00",
-   "last_notified_pt": "2026-11-20T16:15:00-08:00",
-   "notified_for": "status out; Hendricks Speculative add"
+   "last_updated_pt": "2026-11-22T19:20:00-08:00",
+   "last_notified_pt": "2026-11-22T19:20:00-08:00",
+   "notified_for": "status out-multi-week; Hendricks Speculative add"
   },
   "injury:precious-achiuwa": {
    "kind": "injury",
@@ -1697,7 +1702,7 @@
   "Mo Bamba (Hayes starts, Bamba to bench)"
  ],
  "injury_watch": [
-  "Jaxson Hayes (UTA, left knee, Q to return Sun at DAL)",
+  "Jaxson Hayes (UTA, left knee, left Sun at DAL after ~12 min; Bamba/Bradley)",
   "Miles McBride (NYK, adductor, out Sun; Kolek/Alvarado, no add)",
   "Trey Murphy III (NOP, knees, out Sat, back-to-back rest)",
   "Ryan Dunn (PHX, right quad, left Fri at UTA after 9 min, Q Mon at NOP; bench wing, no clear pickup)",
