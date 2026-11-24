@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-24T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-24T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1720,8 +1720,8 @@
    "player": "Joel Embiid",
    "team": "PHI",
    "injury": "knee",
-   "status": "out",
-   "status_note": "Illness, out Mon vs POR",
+   "status": "doubtful",
+   "status_note": "Illness; out Mon, doubtful Wed vs MIA",
    "beneficiaries": [
     {
      "player": "Adem Bona",
@@ -1854,7 +1854,7 @@
  ],
  "injury_watch": [
   "Ebuka Okorie (DET, oblique, out 2+ wks; no clear pickup)",
-  "Ryan Kalkbrenner (CHA, hip, left Mon vs MEM, Q; no clear pickup)",
+  "Ryan Kalkbrenner (CHA, hip, doubtful Wed vs CHI; Steinbach)",
   "Collin Gillespie (PHX, undisclosed, left Mon at NOP in Q3; Q; Kennard)",
   "Larry Nance Jr. (IND, ankle, left Mon vs OKC; may miss Fri; Toppin)",
   "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) \u00b7 Jovi\u0107 (MIA, illness, Q Mon)",
