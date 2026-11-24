@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-23T16:15:00-08:00",
-  "run_label": "4pm",
+  "last_run_pt": "2026-11-23T17:15:00-08:00",
+  "run_label": "5pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -1743,6 +1743,11 @@
       "status_note": "Nesmith and McConnell out Mon vs OKC; Siakam Q",
       "beneficiaries": [
         {
+          "player": "Braden Smith",
+          "verdict": "Watch",
+          "summary": "Starting Mon; rookie PG 7.3 pts/4.3 ast"
+        },
+        {
           "player": "Quenton Jackson",
           "verdict": "Watch",
           "summary": "backup guard minutes"
@@ -1759,7 +1764,7 @@
         }
       ],
       "first_seen_pt": "2026-11-23T11:15:00-08:00",
-      "last_updated_pt": "2026-11-23T11:15:00-08:00",
+      "last_updated_pt": "2026-11-23T17:15:00-08:00",
       "last_notified_pt": null,
       "notified_for": null
     },
@@ -1781,6 +1786,18 @@
       "last_updated_pt": "2026-11-23T14:15:00-08:00",
       "last_notified_pt": null,
       "notified_for": null
+    },
+    "pickup:mikel-brown-jr": {
+      "kind": "pickup",
+      "player": "Mikel Brown Jr.",
+      "team": "BKN",
+      "trigger": "First NBA start Mon vs MIN; green light for starter minutes",
+      "verdict": "Speculative add",
+      "summary": "~25-30 min starting PG; minutes restriction/back-to-back sits",
+      "first_seen_pt": "2026-11-23T17:15:00-08:00",
+      "last_updated_pt": "2026-11-23T17:15:00-08:00",
+      "last_notified_pt": "2026-11-23T17:15:00-08:00",
+      "notified_for": "promotion to starting lineup; Speculative add"
     }
   },
   "drop_watch": [
