@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-24T13:15:00-08:00",
- "run_label": "1pm",
+ "last_run_pt": "2026-11-24T14:15:00-08:00",
+ "run_label": "2pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -855,8 +855,8 @@
    "player": "Duncan Robinson",
    "team": "DET",
    "injury": "quad",
-   "status": "out-multi-week",
-   "status_note": "Quad strain; out Tue, re-eval in 1 week",
+   "status": "out",
+   "status_note": "Day-to-day, out Tue vs ORL",
    "beneficiaries": [
     {
      "player": "Kevin Huerter",
@@ -1487,8 +1487,8 @@
    "player": "Karl-Anthony Towns",
    "team": "NYK",
    "injury": "illness",
-   "status": "out",
-   "status_note": "Out Sat vs POR; Q Sun vs IND",
+   "status": "questionable",
+   "status_note": "Q Wed vs CLE (knee)",
    "beneficiaries": [
     {
      "player": "Andre Drummond",
@@ -1502,7 +1502,7 @@
     }
    ],
    "first_seen_pt": "2026-11-21T11:20:00-08:00",
-   "last_updated_pt": "2026-11-21T15:15:00-08:00",
+   "last_updated_pt": "2026-11-24T14:15:00-08:00",
    "last_notified_pt": "2026-11-21T15:15:00-08:00",
    "notified_for": "status out; Drummond Speculative add"
   },
@@ -1561,8 +1561,8 @@
    "player": "Giannis Antetokounmpo",
    "team": "MIA",
    "injury": "groin",
-   "status": "out",
-   "status_note": "Ruled out Sun vs OKC (was Q)",
+   "status": "questionable",
+   "status_note": "Q Wed at PHI; practiced Tue",
    "beneficiaries": [
     {
      "player": "Bobby Portis",
@@ -1576,7 +1576,7 @@
     }
    ],
    "first_seen_pt": "2026-11-21T13:15:00-08:00",
-   "last_updated_pt": "2026-11-22T15:20:00-08:00",
+   "last_updated_pt": "2026-11-24T14:15:00-08:00",
    "last_notified_pt": "2026-11-22T15:20:00-08:00",
    "notified_for": "status out; Portis Speculative add"
   },
@@ -1803,6 +1803,35 @@
    "last_updated_pt": "2026-11-23T17:15:00-08:00",
    "last_notified_pt": "2026-11-23T17:15:00-08:00",
    "notified_for": "promotion to starting lineup; Speculative add"
+  },
+  "injury:josh-hart": {
+   "kind": "injury",
+   "player": "Josh Hart",
+   "team": "NYK",
+   "injury": "shoulder",
+   "status": "questionable",
+   "status_note": "Q Wed vs CLE",
+   "beneficiaries": [
+    {
+     "player": "Pacome Dadiet",
+     "verdict": "Speculative add",
+     "summary": "Wing minutes with Anunoby/Clarkson out"
+    },
+    {
+     "player": "Mohamed Diawara",
+     "verdict": "Watch",
+     "summary": ""
+    },
+    {
+     "player": "Tyler Kolek",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-24T14:15:00-08:00",
+   "last_updated_pt": "2026-11-24T14:15:00-08:00",
+   "last_notified_pt": "2026-11-24T14:15:00-08:00",
+   "notified_for": "status questionable; Dadiet Speculative add"
   }
  },
  "drop_watch": [
