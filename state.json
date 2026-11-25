@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-24T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-24T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1643,8 +1643,8 @@
    "player": "Victor Wembanyama",
    "team": "SAS",
    "injury": "lower back tightness",
-   "status": "out",
-   "status_note": "Ruled out Mon at SAC (back); Kornet, Barnes start",
+   "status": "questionable",
+   "status_note": "Out Mon; Q Wed at POR",
    "beneficiaries": [
     {
      "player": "Luke Kornet",
@@ -1663,7 +1663,7 @@
     }
    ],
    "first_seen_pt": "2026-11-22T18:15:00-08:00",
-   "last_updated_pt": "2026-11-23T18:15:00-08:00",
+   "last_updated_pt": "2026-11-24T18:15:00-08:00",
    "last_notified_pt": "2026-11-23T18:15:00-08:00",
    "notified_for": "status out; Kornet Speculative add"
   },
@@ -1672,8 +1672,8 @@
    "player": "De'Aaron Fox",
    "team": "SAS",
    "injury": "right shin contusion",
-   "status": "out",
-   "status_note": "Ruled out Mon at SAC (shin); McLaughlin available",
+   "status": "questionable",
+   "status_note": "Out Mon; Q Wed at POR",
    "beneficiaries": [
     {
      "player": "Jordan McLaughlin",
@@ -1687,7 +1687,7 @@
     }
    ],
    "first_seen_pt": "2026-11-22T18:15:00-08:00",
-   "last_updated_pt": "2026-11-23T18:15:00-08:00",
+   "last_updated_pt": "2026-11-24T18:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
