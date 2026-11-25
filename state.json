@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-25T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-25T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1833,12 +1833,12 @@
    "player": "Jalen Brunson",
    "team": "NYK",
    "injury": "illness",
-   "status": "probable",
-   "status_note": "Upgraded to probable Wed vs CLE; McBride out",
+   "status": "available",
+   "status_note": "Knicks say he plays Wed vs CLE; McBride out",
    "beneficiaries": [
     {
      "player": "Tyler Kolek",
-     "verdict": "Speculative add",
+     "verdict": "Watch",
      "summary": "Backup PG, 25+ min if Brunson sits"
     },
     {
@@ -1853,7 +1853,7 @@
     }
    ],
    "first_seen_pt": "2026-11-25T10:15:00-08:00",
-   "last_updated_pt": "2026-11-25T14:15:00-08:00",
+   "last_updated_pt": "2026-11-25T15:15:00-08:00",
    "last_notified_pt": "2026-11-25T10:15:00-08:00",
    "notified_for": "status questionable; Kolek Speculative add"
   },
@@ -1862,8 +1862,8 @@
    "player": "Zach LaVine",
    "team": "SAC",
    "injury": "knee",
-   "status": "questionable",
-   "status_note": "Downgraded to Q Wed at GSW",
+   "status": "out",
+   "status_note": "Ruled out Wed at GSW (was Q); next chance Sun vs MIN",
    "beneficiaries": [
     {
      "player": "Gabe Vincent",
@@ -1877,9 +1877,9 @@
     }
    ],
    "first_seen_pt": "2026-11-25T13:15:00-08:00",
-   "last_updated_pt": "2026-11-25T13:15:00-08:00",
-   "last_notified_pt": "2026-11-25T13:15:00-08:00",
-   "notified_for": "status questionable; Vincent Speculative add"
+   "last_updated_pt": "2026-11-25T15:15:00-08:00",
+   "last_notified_pt": "2026-11-25T15:15:00-08:00",
+   "notified_for": "status out; Vincent Speculative add"
   },
   "injury:jalen-smith": {
    "kind": "injury",
@@ -1897,6 +1897,18 @@
    ],
    "first_seen_pt": "2026-11-25T14:15:00-08:00",
    "last_updated_pt": "2026-11-25T14:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "pickup:kevin-porter-jr": {
+   "kind": "pickup",
+   "player": "Kevin Porter Jr.",
+   "team": "ORL",
+   "trigger": "Signing two-year deal with Magic (Shams)",
+   "verdict": "Watch",
+   "summary": "Role unclear; Banchero out",
+   "first_seen_pt": "2026-11-25T15:15:00-08:00",
+   "last_updated_pt": "2026-11-25T15:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   }
