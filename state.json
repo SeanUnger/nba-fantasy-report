@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-24T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-24T16:20:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1179,23 +1179,28 @@
    "team": "DET",
    "injury": "knee",
    "status": "out",
-   "status_note": "Out Wed vs NOP, likely maintenance",
+   "status_note": "Out Tue vs ORL (was probable); knee has been bothering him; no timeline",
    "beneficiaries": [
+    {
+     "player": "Isaiah Joe",
+     "verdict": "Speculative add",
+     "summary": "First start of year; 3s/stl, ~30 min"
+    },
     {
      "player": "Daniss Jenkins",
      "verdict": "Speculative add",
-     "summary": "Starting G 30+ min"
+     "summary": "Extra playmaking/assists"
     },
     {
      "player": "Kevin Huerter",
      "verdict": "Watch",
-     "summary": "starts"
+     "summary": "depth"
     }
    ],
    "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-18T17:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
+   "last_updated_pt": "2026-11-24T16:20:00-08:00",
+   "last_notified_pt": "2026-11-24T16:20:00-08:00",
+   "notified_for": "status out Tue (knee, was probable); Joe Speculative add"
   },
   "pickup:aday-mara": {
    "kind": "pickup",
@@ -1837,7 +1842,6 @@
  "drop_watch": [
   "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
   "Brayden Burries (benched Sat; Rollins/Jaquez start)",
-  "Cade Cunningham back (Daniss Jenkins, Huerter)",
   "Scottie Barnes back (Ja'Kobe Walter)",
   "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
@@ -1866,6 +1870,7 @@
   "Aday Mara (OKC, shin, out Sun); Brandon Ingram (LAC) off injury report, back Mon",
   "Gabe Vincent signing with SAC (Shams); DaRon Holmes II recalled by DEN; Jaden Bradley recalled by TOR",
   "Tyrese Haliburton (IND, hamstring) targeting return before Dec.",
-  "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away"
+  "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away",
+  "Dennis Schr\u00f6der (CHA, hamstring, out indefinitely, maybe to mid-Dec; no clear pickup)"
  ]
 }
