@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-25T11:10:00-08:00",
- "run_label": "11am",
+ "last_run_pt": "2026-11-25T12:15:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1725,8 +1725,8 @@
    "player": "Joel Embiid",
    "team": "PHI",
    "injury": "knee",
-   "status": "doubtful",
-   "status_note": "Illness; out Mon, doubtful Wed vs MIA",
+   "status": "out",
+   "status_note": "Illness; out Mon and Wed vs MIA (was doubtful)",
    "beneficiaries": [
     {
      "player": "Adem Bona",
@@ -1740,7 +1740,7 @@
     }
    ],
    "first_seen_pt": "2026-11-23T09:20:00-08:00",
-   "last_updated_pt": "2026-11-23T15:15:00-08:00",
+   "last_updated_pt": "2026-11-25T12:15:00-08:00",
    "last_notified_pt": "2026-11-23T15:15:00-08:00",
    "notified_for": "status out; Bona Speculative add"
   },
