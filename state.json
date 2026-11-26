@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-25T15:15:00-08:00",
- "run_label": "3pm",
+ "last_run_pt": "2026-11-25T16:15:00-08:00",
+ "run_label": "4pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -940,9 +940,9 @@
    "kind": "injury",
    "player": "Jaylen Brown",
    "team": "PHI",
-   "injury": "left hamstring tightness / head",
-   "status": "out-multi-week",
-   "status_note": "Out Wed; no timetable, re-eval weekend; multiple games expected",
+   "injury": "left hamstring",
+   "status": "left-game",
+   "status_note": "Left Wed vs MIA, did not return; re-aggravation, no timeline",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -953,12 +953,17 @@
      "player": "Anfernee Simons",
      "verdict": "Speculative add",
      "summary": "Extra usage off bench"
+    },
+    {
+     "player": "Justin Edwards",
+     "verdict": "Watch",
+     "summary": "Few extra minutes"
     }
    ],
-   "first_seen_pt": "2026-11-16T21:20:00-08:00",
-   "last_updated_pt": "2026-11-18T15:15:00-08:00",
-   "last_notified_pt": "2026-11-17T14:15:00-08:00",
-   "notified_for": "status out Wed; Caldwell-Pope Speculative add"
+   "first_seen_pt": "2026-11-25T16:15:00-08:00",
+   "last_updated_pt": "2026-11-25T16:15:00-08:00",
+   "last_notified_pt": "2026-11-25T16:15:00-08:00",
+   "notified_for": "status left-game; Caldwell-Pope/Simons Speculative add"
   },
   "injury:austin-reaves": {
    "kind": "injury",
