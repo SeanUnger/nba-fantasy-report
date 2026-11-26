@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-26T14:15:00-08:00",
- "run_label": "2pm",
+ "last_run_pt": "2026-11-26T15:15:00-08:00",
+ "run_label": "3pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -931,8 +931,8 @@
    "player": "Jaylen Brown",
    "team": "PHI",
    "injury": "left hamstring",
-   "status": "left-game",
-   "status_note": "Left Wed vs MIA; imaging, update Thu; no timeline",
+   "status": "out",
+   "status_note": "Re-aggravated hamstring Wed; out Fri at IND; imaging pending, no timeline",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -956,9 +956,9 @@
     }
    ],
    "first_seen_pt": "2026-11-25T16:15:00-08:00",
-   "last_updated_pt": "2026-11-25T17:15:00-08:00",
-   "last_notified_pt": "2026-11-25T16:15:00-08:00",
-   "notified_for": "status left-game; Caldwell-Pope/Simons Speculative add"
+   "last_updated_pt": "2026-11-26T15:15:00-08:00",
+   "last_notified_pt": "2026-11-26T15:15:00-08:00",
+   "notified_for": "status out Fri; Caldwell-Pope/Simons Speculative add"
   },
   "injury:austin-reaves": {
    "kind": "injury",
