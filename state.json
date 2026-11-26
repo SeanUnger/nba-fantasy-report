@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-25T16:15:00-08:00",
- "run_label": "4pm",
+ "last_run_pt": "2026-11-25T17:15:00-08:00",
+ "run_label": "5pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -227,16 +227,6 @@
    "summary": "First start of season Sun vs PHI; one-game unless Powell stays out",
    "first_seen_pt": "2026-11-08T12:10:00-08:00",
    "last_updated_pt": "2026-11-08T12:10:00-08:00"
-  },
-  "bennett-stirtz": {
-   "player": "Bennett Stirtz",
-   "team": "OKC",
-   "trigger": "Isaiah Joe (hip) out Mon vs WAS; Stirtz has 20+ min in 6 of 7.",
-   "trigger_status": "role",
-   "verdict": "Speculative add",
-   "summary": "Rotation guard 20+ min; assists, steals.",
-   "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-09T12:10:00-08:00"
   },
   "nique-clifford": {
    "player": "Nique Clifford",
@@ -942,7 +932,7 @@
    "team": "PHI",
    "injury": "left hamstring",
    "status": "left-game",
-   "status_note": "Left Wed vs MIA, did not return; re-aggravation, no timeline",
+   "status_note": "Left Wed vs MIA; imaging, update Thu; no timeline",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -958,10 +948,15 @@
      "player": "Justin Edwards",
      "verdict": "Watch",
      "summary": "Few extra minutes"
+    },
+    {
+     "player": "Dean Wade",
+     "verdict": "Watch",
+     "summary": "Top candidate to start if Brown sits"
     }
    ],
    "first_seen_pt": "2026-11-25T16:15:00-08:00",
-   "last_updated_pt": "2026-11-25T16:15:00-08:00",
+   "last_updated_pt": "2026-11-25T17:15:00-08:00",
    "last_notified_pt": "2026-11-25T16:15:00-08:00",
    "notified_for": "status left-game; Caldwell-Pope/Simons Speculative add"
   },
@@ -1916,9 +1911,22 @@
    "last_updated_pt": "2026-11-25T15:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "pickup:bennett-stirtz": {
+   "kind": "pickup",
+   "player": "Bennett Stirtz",
+   "team": "OKC",
+   "trigger": "First career start Wed vs MIN (McCain to bench; OKC thin)",
+   "verdict": "Watch",
+   "summary": "One-night starter minutes; Caruso returning",
+   "first_seen_pt": "2026-11-25T17:15:00-08:00",
+   "last_updated_pt": "2026-11-25T17:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
+  "Jared McCain (benched Wed; Stirtz starts)",
   "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
   "Brayden Burries (benched Sat; Rollins/Jaquez start)",
   "Scottie Barnes back (Ja'Kobe Walter)",
