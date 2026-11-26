@@ -1,2014 +1,2014 @@
 {
- "last_run_pt": "2026-11-25T21:15:00-08:00",
- "run_label": "9pm",
- "items": {
-  "precious-achiuwa": {
-   "player": "Precious Achiuwa",
-   "team": "SAC",
-   "trigger": "Achiuwa (ankle) out Sun; Monk, Cardwell start",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starts alongside Sabonis",
-   "first_seen_pt": "2026-10-24T23:40:00-07:00",
-   "last_updated_pt": "2026-11-15T18:15:00-08:00",
-   "last_notified_pt": "2026-10-26T15:15:00-07:00",
-   "notified_for": "Murray out 10-14 days; verdict Add now"
-  },
-  "ja-kobe-walter": {
-   "player": "Ja'Kobe Walter",
-   "team": "TOR",
-   "trigger": "Barnes out 4th straight; Kawhi out 1+ wk",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starter-level minutes while TOR is depleted",
-   "first_seen_pt": "2026-10-25T17:20:00-07:00",
-   "last_updated_pt": "2026-11-12T12:15:00-08:00",
-   "last_notified_pt": "2026-10-27T12:15:00-07:00",
-   "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
-  },
-  "jared-mccain": {
-   "player": "Jared McCain",
-   "team": "OKC",
-   "trigger": "Holmgren out 8-10 wks; McCain starts Tue, Mara back to bench",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starting Tue; 14.8/4.0/2.5 as starter",
-   "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00",
-   "last_notified_pt": "2026-10-26T15:15:00-07:00",
-   "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
-  },
-  "anthony-black": {
-   "player": "Anthony Black",
-   "team": "ORL",
-   "trigger": "Suggs (knee) coming off bench Fri vs MIL; Black keeps starting",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starter at risk; shared minutes with Suggs back",
-   "first_seen_pt": "2026-10-25T19:15:00-07:00",
-   "last_updated_pt": "2026-11-13T16:15:00-08:00",
-   "last_notified_pt": "2026-10-26T12:20:00-07:00",
-   "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
-  },
-  "jaxson-hayes": {
-   "player": "Jaxson Hayes",
-   "team": "UTA",
-   "trigger": "Hayes (left knee) out Sun vs SAS; severity unknown. JJJ out 6-8 wks",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Bradley/Filipowski get C minutes",
-   "first_seen_pt": "2026-10-27T13:20:00-07:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00",
-   "last_notified_pt": "2026-10-27T13:20:00-07:00",
-   "notified_for": "JJJ out 6-8 wks; verdict Add now"
-  },
-  "jalen-smith": {
-   "player": "Jalen Smith",
-   "team": "CHI",
-   "trigger": "Smith and Claxton both out Sat at MIN; Awaka out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Collins starts at C",
-   "first_seen_pt": "2026-10-28T23:20:00-07:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00"
-  },
-  "cam-spencer": {
-   "player": "Cam Spencer",
-   "team": "MEM",
-   "trigger": "Jerome (hip) out Mon; Pippen out to ~Nov 21; Saunders out to Dec 1",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Started Sat: 17 pts/8 ast; likely starts again Mon",
-   "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-15T15:15:00-08:00"
-  },
-  "scoot-henderson": {
-   "player": "Scoot Henderson",
-   "team": "POR",
-   "trigger": "Morant back; Henderson to bench Tue (Cissoko starts)",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Back to ~22 min bench role",
-   "first_seen_pt": "2026-10-30T12:20:00-07:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00",
-   "last_notified_pt": "2026-10-31T12:15:00-07:00",
-   "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
-  },
-  "neemias-queta": {
-   "player": "Neemias Queta",
-   "team": "BOS",
-   "trigger": "Mitchell Robinson (illness) Q Sun",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starting C 26-29 min; more if Robinson sits",
-   "first_seen_pt": "2026-11-01T12:15:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
-  },
-  "brayden-burries": {
-   "player": "Brayden Burries",
-   "team": "MIL",
-   "trigger": "Benched Sat for Rollins/Jaquez",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Starter, ~29 min; boards, assists, 3s.",
-   "first_seen_pt": "2026-11-02T17:15:00-08:00",
-   "last_updated_pt": "2026-11-21T11:20:00-08:00"
-  },
-  "paul-reed": {
-   "player": "Paul Reed",
-   "team": "DET",
-   "trigger": "Moved to bench Mon (Jenkins starts); Duren re-eval ~2 wks",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Lost starting job after 7 straight starts",
-   "first_seen_pt": "2026-11-03T16:20:00-08:00",
-   "last_updated_pt": "2026-11-09T16:20:00-08:00"
-  },
-  "landry-shamet": {
-   "player": "Landry Shamet",
-   "team": "NYK",
-   "trigger": "Hart (illness) doubtful Tue, 3rd straight miss",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting while Hart out",
-   "first_seen_pt": "2026-11-04T12:15:00-08:00",
-   "last_updated_pt": "2026-11-10T12:15:00-08:00"
-  },
-  "sion-james": {
-   "player": "Sion James",
-   "team": "CHA",
-   "trigger": "Wilson (hand surgery) out 4-6 wks; Knueppel out 4+ wks",
-   "trigger_status": "out",
-   "verdict": "Add now",
-   "summary": "Confirmed starter Mon vs CLE",
-   "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-12T14:15:00-08:00",
-   "last_notified_pt": "2026-11-08T15:20:00-08:00",
-   "notified_for": "Knueppel out 4+ weeks; verdict Add now"
-  },
-  "tyrese-proctor": {
-   "player": "Tyrese Proctor",
-   "team": "CLE",
-   "trigger": "Tyson (ankle) out Mon, 6th straight",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Larger role with Tyson out; Meleek Thomas also in play",
-   "first_seen_pt": "2026-11-04T17:15:00-08:00",
-   "last_updated_pt": "2026-11-08T14:15:00-08:00"
-  },
-  "zuby-ejiofor": {
-   "player": "Zuby Ejiofor",
-   "team": "ATL",
-   "trigger": "Gueye out 4+ wks, Newell out Fri, Johnson/Landale out 3rd straight",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Likely starting C with ATL bigs out",
-   "first_seen_pt": "2026-11-05T16:15:00-08:00",
-   "last_updated_pt": "2026-11-12T17:15:00-08:00"
-  },
-  "ryan-kalkbrenner": {
-   "player": "Ryan Kalkbrenner",
-   "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
-   "first_seen_pt": "2026-11-06T13:10:00-08:00",
-   "last_updated_pt": "2026-11-10T12:15:00-08:00"
-  },
-  "jase-richardson": {
-   "player": "Jase Richardson",
-   "team": "ORL",
-   "trigger": "Benched Tue; Cain starts",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "4.0 pts/3.0 ast in 14 min as reserve",
-   "first_seen_pt": "2026-11-06T14:15:00-08:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00"
-  },
-  "jamal-shead": {
-   "player": "Jamal Shead",
-   "team": "TOR",
-   "trigger": "Quickley back Wed; Shead returns to bench",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Bench role once Quickley plays",
-   "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-11T15:15:00-08:00"
-  },
-  "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
-   "team": "CHA",
-   "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Forward minutes up; boards, 3s",
-   "first_seen_pt": "2026-11-06T18:15:00-08:00",
-   "last_updated_pt": "2026-11-12T14:15:00-08:00",
-   "last_notified_pt": "2026-11-12T14:15:00-08:00",
-   "notified_for": "Wilson out 4-6 wks; verdict Speculative add"
-  },
-  "trey-lyles": {
-   "player": "Trey Lyles",
-   "team": "MIN",
-   "trigger": "Beringer (nose) available Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Minutes bump fading",
-   "first_seen_pt": "2026-11-06T22:15:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
-  },
-  "isaac-okoro": {
-   "player": "Isaac Okoro",
-   "team": "CHI",
-   "trigger": "Powell (shoulder) out Sun; Okoro starting",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "First start of season Sun vs PHI; one-game unless Powell stays out",
-   "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-08T12:10:00-08:00"
-  },
-  "nique-clifford": {
-   "player": "Nique Clifford",
-   "team": "OKC",
-   "trigger": "Mitchell out Wed; Clifford a candidate to start",
-   "trigger_status": "trade",
-   "verdict": "Watch",
-   "summary": "Possible spot starter",
-   "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-11T14:15:00-08:00"
-  },
-  "isaiah-collier": {
-   "player": "Isaiah Collier",
-   "team": "UTA",
-   "trigger": "Markkanen out 1+ month; George starts Wed",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Reserve guard unless George sits",
-   "first_seen_pt": "2026-11-08T12:10:00-08:00",
-   "last_updated_pt": "2026-11-11T18:15:00-08:00"
-  },
-  "quinten-post": {
-   "player": "Quinten Post",
-   "team": "MEM",
-   "trigger": "Stewart (knee) out Mon",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Increased C minutes Mon; Stewart back Wed",
-   "first_seen_pt": "2026-11-08T16:20:00-08:00",
-   "last_updated_pt": "2026-11-08T16:20:00-08:00"
-  },
-  "ace-bailey": {
-   "player": "Ace Bailey",
-   "team": "UTA",
-   "trigger": "Markkanen (hand fracture) out 1+ month, mid-Dec return",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starting F while Markkanen out",
-   "first_seen_pt": "2026-11-08T16:20:00-08:00",
-   "last_updated_pt": "2026-11-11T12:15:00-08:00",
-   "last_notified_pt": "2026-11-11T12:15:00-08:00",
-   "notified_for": "Markkanen out 1+ month; verdict Speculative add"
-  },
-  "deanthony-melton": {
-   "first_seen_pt": "2026-11-08T17:15:00-08:00",
-   "player": "De'Anthony Melton",
-   "team": "GSW",
-   "trigger": "Curry (abdominal tear) out 2+ weeks, re-eval in 2 wks",
-   "trigger_status": "out",
-   "verdict": "Add now",
-   "summary": "Curry out 2+ wks; Melton expanded role ~25-30 min",
-   "last_updated_pt": "2026-11-12T12:15:00-08:00",
-   "last_notified_pt": "2026-11-12T12:15:00-08:00",
-   "notified_for": "Curry out 2+ weeks; verdict Add now (upgraded from Speculative add)"
-  },
-  "jonathan-mogbo": {
-   "first_seen_pt": "2026-11-08T17:15:00-08:00",
-   "player": "Jonathan Mogbo",
-   "team": "SAC",
-   "trigger": "Sabonis (knee) late scratch Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Backup big minutes; duration unknown",
-   "last_updated_pt": "2026-11-08T17:15:00-08:00"
-  },
-  "mike-conley": {
-   "first_seen_pt": "2026-11-08T17:15:00-08:00",
-   "player": "Mike Conley",
-   "team": "BOS",
-   "trigger": "Starting Sun, first start of season",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Rotating starters; minimal sample",
-   "last_updated_pt": "2026-11-08T17:15:00-08:00"
-  },
-  "pelle-larsson": {
-   "player": "Pelle Larsson",
-   "team": "MIA",
-   "trigger": "Wiggins benched; Larsson starts Sun at SAC",
-   "trigger_status": "role change",
-   "verdict": "Watch",
-   "summary": "Starting SG/SF; double figures in 5 of last 7",
-   "first_seen_pt": "2026-11-08T18:15:00-08:00",
-   "last_updated_pt": "2026-11-08T18:15:00-08:00"
-  },
-  "dylan-cardwell": {
-   "player": "Dylan Cardwell",
-   "team": "SAC",
-   "trigger": "Starts Sun with Hunter, Achiuwa out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Frontcourt starter alongside Sabonis",
-   "first_seen_pt": "2026-11-08T18:15:00-08:00",
-   "last_updated_pt": "2026-11-15T18:15:00-08:00"
-  },
-  "hannes-steinbach": {
-   "first_seen_pt": "2026-11-09T15:15:00-08:00",
-   "player": "Hannes Steinbach",
-   "team": "CHA",
-   "trigger": "Wilson out 4-6 wks (surgery)",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Rookie big; ~20-25 min if frontcourt thin",
-   "last_updated_pt": "2026-11-12T14:15:00-08:00",
-   "last_notified_pt": "2026-11-12T14:15:00-08:00",
-   "notified_for": "Wilson out 4-6 wks; verdict Speculative add"
-  },
-  "collin-sexton": {
-   "first_seen_pt": "2026-11-09T15:15:00-08:00",
-   "player": "Collin Sexton",
-   "team": "LAL",
-   "trigger": "Grimes out Wed",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Bench scorer",
-   "last_updated_pt": "2026-11-11T12:15:00-08:00"
-  },
-  "tre-johnson": {
-   "first_seen_pt": "2026-11-09T15:15:00-08:00",
-   "player": "Tre Johnson",
-   "team": "WAS",
-   "trigger": "Coulibaly (hand) out Mon vs DET",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Streamer with Carrington",
-   "last_updated_pt": "2026-11-09T15:15:00-08:00"
-  },
-  "daniss-jenkins": {
-   "player": "Daniss Jenkins",
-   "team": "DET",
-   "trigger": "Promoted to starting lineup; 22/6/8/4 stl in 36 min Mon",
-   "trigger_status": "active",
-   "verdict": "Speculative add",
-   "summary": "Starting G ~36 min with Joe/Duren out",
-   "first_seen_pt": "2026-11-09T16:20:00-08:00",
-   "last_updated_pt": "2026-11-10T12:15:00-08:00"
-  },
-  "julian-champagnie": {
-   "player": "Julian Champagnie",
-   "team": "SAS",
-   "trigger": "Fox (hip) out Sun; Champagnie confirmed starting",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-night starter bump",
-   "first_seen_pt": "2026-11-09T17:20:00-08:00",
-   "last_updated_pt": "2026-11-15T17:15:00-08:00"
-  },
-  "kyle-anderson": {
-   "player": "Kyle Anderson",
-   "team": "TOR",
-   "trigger": "Barnes, Murray-Boyles out Mon; rare start",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-game bump",
-   "first_seen_pt": "2026-11-09T17:20:00-08:00",
-   "last_updated_pt": "2026-11-09T17:20:00-08:00"
-  },
-  "ziaire-williams": {
-   "player": "Ziaire Williams",
-   "team": "LAL",
-   "trigger": "Reaves, Grimes out Mon; starting",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-game starter bump",
-   "first_seen_pt": "2026-11-09T17:20:00-08:00",
-   "last_updated_pt": "2026-11-09T17:20:00-08:00"
-  },
-  "sandro-mamukelashvili": {
-   "player": "Sandro Mamukelashvili",
-   "team": "LAL",
-   "trigger": "Reaves (illness) out Mon; 23 pts off bench",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Single-game bump",
-   "first_seen_pt": "2026-11-09T19:15:00-08:00",
-   "last_updated_pt": "2026-11-09T19:15:00-08:00"
-  },
-  "saddiq-bey": {
-   "player": "Saddiq Bey",
-   "team": "NOP",
-   "trigger": "Fri vs MEM: Murphy and Mathurin doubtful, Watford out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "~30 min if Murphy/Mathurin sit",
-   "first_seen_pt": "2026-11-09T19:15:00-08:00",
-   "last_updated_pt": "2026-11-12T13:15:00-08:00"
-  },
-  "walter-clayton-jr": {
-   "player": "Walter Clayton Jr.",
-   "team": "DAL",
-   "trigger": "Irving, Christie, Aldama, Biberovic out Sun vs BOS",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "10.2/4.2/3.8 last five",
-   "first_seen_pt": "2026-11-10T12:15:00-08:00",
-   "last_updated_pt": "2026-11-15T17:15:00-08:00"
-  },
-  "ryan-rollins": {
-   "player": "Ryan Rollins",
-   "team": "MIL",
-   "trigger": "Herro out Tue; Rollins started 24 min, Jakucionis 23",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "14 pts/4 3s in 24 min",
-   "first_seen_pt": "2026-11-10T16:15:00-08:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00"
-  },
-  "sidy-cissoko": {
-   "player": "Sidy Cissoko",
-   "team": "POR",
-   "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starter/rotation wing; Youngblood out Wed",
-   "first_seen_pt": "2026-11-10T20:15:00-08:00",
-   "last_updated_pt": "2026-11-11T13:15:00-08:00"
-  },
-  "jamal-cain": {
-   "player": "Jamal Cain",
-   "team": "ORL",
-   "trigger": "Starting Tue; da Silva out",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starting Tue; da Silva out",
-   "first_seen_pt": "2026-11-10T20:15:00-08:00",
-   "last_updated_pt": "2026-11-10T20:15:00-08:00"
-  },
-  "kel-el-ware": {
-   "player": "Kel'el Ware",
-   "team": "MIL",
-   "first_seen_pt": "2026-11-11T12:15:00-08:00",
-   "trigger": "Turner rest Wed",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Confirmed starter Wed vs LAL",
-   "last_updated_pt": "2026-11-11T18:15:00-08:00"
-  },
-  "andre-drummond": {
-   "player": "Andre Drummond",
-   "team": "CLE",
-   "first_seen_pt": "2026-11-11T12:15:00-08:00",
-   "trigger": "Mobley (toe) out Fri vs MIA",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Starter-level one night",
-   "last_updated_pt": "2026-11-12T14:15:00-08:00"
-  },
-  "micah-peavy": {
-   "player": "Micah Peavy",
-   "team": "OKC",
-   "trigger": "Mitchell (ankle) out Wed at POR",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Possible spot starter",
-   "first_seen_pt": "2026-11-11T14:15:00-08:00",
-   "last_updated_pt": "2026-11-11T14:15:00-08:00"
-  },
-  "keon-ellis": {
-   "player": "Keon Ellis",
-   "team": "BKN",
-   "trigger": "Traore (calf) and Brown (illness) out Wed",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra guard minutes one night",
-   "first_seen_pt": "2026-11-11T14:15:00-08:00",
-   "last_updated_pt": "2026-11-11T14:15:00-08:00"
-  },
-  "quenton-jackson": {
-   "player": "Quenton Jackson",
-   "team": "IND",
-   "trigger": "Nembhard (hip) out Sun, Haliburton out 10+ days; Q. Jackson starts Sun vs PHI",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Candidate for extra minutes with Nembhard on ball; McConnell also back",
-   "first_seen_pt": "2026-11-11T15:15:00-08:00",
-   "last_updated_pt": "2026-11-15T12:15:00-08:00"
-  },
-  "nate-ament": {
-   "player": "Nate Ament",
-   "team": "MIL",
-   "trigger": "First career start Wed vs LAL; Turner rest",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "One-night starter",
-   "first_seen_pt": "2026-11-11T18:15:00-08:00",
-   "last_updated_pt": "2026-11-11T18:15:00-08:00"
-  },
-  "alex-morales": {
-   "player": "Alex Morales",
-   "team": "ORL",
-   "trigger": "Starts Wed vs UTA; da Silva, Cain out",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "One-night starter",
-   "first_seen_pt": "2026-11-11T18:15:00-08:00",
-   "last_updated_pt": "2026-11-11T18:15:00-08:00"
-  },
-  "luka-garza": {
-   "player": "Luka Garza",
-   "team": "BOS",
-   "trigger": "Starts Wed vs TOR with Scheierman; Walsh to bench",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "One-night starter",
-   "first_seen_pt": "2026-11-11T18:15:00-08:00",
-   "last_updated_pt": "2026-11-11T18:15:00-08:00"
-  },
-  "jamison-battle": {
-   "player": "Jamison Battle",
-   "team": "TOR",
-   "first_seen_pt": "2026-11-12T12:15:00-08:00",
-   "trigger": "Jackson-Davis out Thu (illness)",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "TJD out sick Thu; Battle larger role",
-   "last_updated_pt": "2026-11-12T12:15:00-08:00"
-  },
-  "bruce-thornton": {
-   "player": "Bruce Thornton",
-   "team": "HOU",
-   "trigger": "VanVleet (knee mgmt), Capela out Sun at WAS; Adams probable",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra guard minutes one night",
-   "first_seen_pt": "2026-11-12T15:15:00-08:00",
-   "last_updated_pt": "2026-11-14T14:15:00-08:00"
-  },
-  "isaiah-stewart": {
-   "player": "Isaiah Stewart",
-   "team": "MEM",
-   "trigger": "Post out Sat, Edey Q; Stewart started Fri",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Starts if Edey sits; 4 blk Fri",
-   "first_seen_pt": "2026-11-12T16:15:00-08:00",
-   "last_updated_pt": "2026-11-14T12:15:00-08:00"
-  },
-  "dean-wade": {
-   "player": "Dean Wade",
-   "team": "PHI",
-   "trigger": "Embiid out but Wade to bench Sun (Walker starts at C)",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra big minutes one night",
-   "first_seen_pt": "2026-11-12T16:15:00-08:00",
-   "last_updated_pt": "2026-11-15T12:15:00-08:00"
-  },
-  "nikola-topic": {
-   "player": "Nikola Topi\u0107",
-   "team": "OKC",
-   "trigger": "Recalled from G League",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Back on OKC roster; role unclear",
-   "first_seen_pt": "2026-11-13T12:20:00-08:00",
-   "last_updated_pt": "2026-11-13T12:20:00-08:00"
-  },
-  "jeremiah-fears": {
-   "player": "Jeremiah Fears",
-   "team": "NOP",
-   "trigger": "Murray requests trade, out Fri; not expected to play for NOP again",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Lead guard with Murray gone; likely already rostered",
-   "first_seen_pt": "2026-11-13T13:15:00-08:00",
-   "last_updated_pt": "2026-11-13T13:15:00-08:00"
-  },
-  "bennedict-mathurin": {
-   "player": "Bennedict Mathurin",
-   "team": "NOP",
-   "trigger": "Q (thumb) Fri; Murphy, McGowens, Murray out",
-   "trigger_status": "questionable",
-   "verdict": "Watch",
-   "summary": "Dart throw, 15.8 mpg",
-   "first_seen_pt": "2026-11-13T13:15:00-08:00",
-   "last_updated_pt": "2026-11-13T13:15:00-08:00"
-  },
-  "ousmane-dieng": {
-   "player": "Ousmane Dieng",
-   "team": "MIL",
-   "trigger": "Fractured left finger, surgery Mon, no timeline",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "~12 min role; little value",
-   "first_seen_pt": "2026-11-13T16:15:00-08:00",
-   "last_updated_pt": "2026-11-15T16:15:00-08:00"
-  },
-  "tim-hardaway-jr": {
-   "player": "Tim Hardaway Jr.",
-   "team": "MIA",
-   "trigger": "Thompson (ankle), Larsson (illness) out Fri; first start",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "One-night starter bump",
-   "first_seen_pt": "2026-11-13T18:15:00-08:00",
-   "last_updated_pt": "2026-11-13T18:15:00-08:00"
-  },
-  "tristan-da-silva": {
-   "player": "Tristan da Silva",
-   "team": "ORL",
-   "trigger": "Starts Fri vs MIL as Suggs returns off bench",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Starter ~30 min; 15.6 pts last 5",
-   "first_seen_pt": "2026-11-13T18:15:00-08:00",
-   "last_updated_pt": "2026-11-13T18:15:00-08:00"
-  },
-  "will-richard": {
-   "player": "Will Richard",
-   "team": "GSW",
-   "trigger": "Starts Fri vs SAS with Curry out; Horford to bench",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Starter, low usage",
-   "first_seen_pt": "2026-11-13T20:15:00-08:00",
-   "last_updated_pt": "2026-11-13T20:15:00-08:00"
-  },
-  "mo-bamba": {
-   "player": "Mo Bamba",
-   "team": "UTA",
-   "trigger": "Hayes (knee strain) out Sun; Bamba 26 pts/6 3s in 35 min",
-   "trigger_status": "questionable",
-   "verdict": "Watch",
-   "summary": "Starter minutes while Hayes out; Hayes injury minor",
-   "first_seen_pt": "2026-11-13T23:15:00-08:00",
-   "last_updated_pt": "2026-11-15T20:15:00-08:00"
-  },
-  "kelly-oubre-jr": {
-   "player": "Kelly Oubre Jr.",
-   "team": "IND",
-   "trigger": "Back-to-back starts; Nesmith Q Sun",
-   "trigger_status": "starting",
-   "verdict": "Watch",
-   "summary": "~30 min starter",
-   "first_seen_pt": "2026-11-13T23:15:00-08:00",
-   "last_updated_pt": "2026-11-13T23:15:00-08:00"
-  },
-  "proctor": {
-   "player": "Tyrese Proctor",
-   "team": "CLE",
-   "trigger": "Harden/Mitchell/Allen back Mon; Proctor to bench",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Triple-double Sat but loses start",
-   "first_seen_pt": "2026-11-14T12:15:00-08:00",
-   "last_updated_pt": "2026-11-15T14:15:00-08:00"
-  },
-  "khalifa-diop": {
-   "player": "Khalifa Diop",
-   "team": "CLE",
-   "trigger": "Allen, Mobley out Sat; Diop primary backup C",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Debut; role depends on Allen",
-   "first_seen_pt": "2026-11-14T12:15:00-08:00",
-   "last_updated_pt": "2026-11-14T15:15:00-08:00"
-  },
-  "craig-porter-jr": {
-   "player": "Craig Porter Jr.",
-   "team": "CLE",
-   "trigger": "Mitchell out Sat; guard depth",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Guard depth piece",
-   "first_seen_pt": "2026-11-14T12:15:00-08:00",
-   "last_updated_pt": "2026-11-14T15:15:00-08:00"
-  },
-  "conwell": {
-   "player": "Ryan Conwell",
-   "team": "MIA",
-   "trigger": "Christie, Larsson out Sat vs DET",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Extra wing minutes Sat",
-   "first_seen_pt": "2026-11-14T12:15:00-08:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00"
-  },
-  "will-riley": {
-   "player": "Will Riley",
-   "team": "WAS",
-   "trigger": "Carrington (chest), Tre Johnson (back) Q Sun",
-   "trigger_status": "questionable",
-   "verdict": "Watch",
-   "summary": "Minutes if both guards sit",
-   "first_seen_pt": "2026-11-14T13:15:00-08:00",
-   "last_updated_pt": "2026-11-14T13:15:00-08:00"
-  },
-  "deandre-jordan": {
-   "player": "DeAndre Jordan",
-   "team": "NOP",
-   "trigger": "Back to bench Sat; Missi starts",
-   "trigger_status": "returning",
-   "verdict": "Watch",
-   "summary": "No longer starting",
-   "first_seen_pt": "2026-11-14T13:15:00-08:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00"
-  },
-  "meleek-thomas": {
-   "player": "Meleek Thomas",
-   "team": "CLE",
-   "trigger": "Six Cavs starters/rotation out Sat; Thomas starts",
-   "trigger_status": "starting",
-   "verdict": "Watch",
-   "summary": "One-night starter, ~25 min",
-   "first_seen_pt": "2026-11-14T16:15:00-08:00",
-   "last_updated_pt": "2026-11-14T16:15:00-08:00"
-  },
-  "noah-clowney": {
-   "player": "Noah Clowney",
-   "team": "BKN",
-   "trigger": "Porter Jr. (personal) out Sat; Clowney first start",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Porter Jr. (personal) out Sat; Clowney first start",
-   "first_seen_pt": "2026-11-14T17:15:00-08:00",
-   "last_updated_pt": "2026-11-14T17:15:00-08:00"
-  },
-  "thomas-bryant": {
-   "player": "Thomas Bryant",
-   "team": "CLE",
-   "trigger": "Harden, Mitchell, Allen, Mobley, Watson out Sat; Bryant starts",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "Harden, Mitchell, Allen, Mobley, Watson out Sat; Bryant starts",
-   "first_seen_pt": "2026-11-14T17:15:00-08:00",
-   "last_updated_pt": "2026-11-14T17:15:00-08:00"
-  },
-  "taylor-hendricks": {
-   "player": "Taylor Hendricks",
-   "team": "MEM",
-   "trigger": "GG Jackson (fractured 5th metatarsal) surgery, lengthy absence",
-   "trigger_status": "out",
-   "verdict": "Speculative add",
-   "summary": "Next forward in line; career-high 22 recently",
-   "first_seen_pt": "2026-11-14T21:15:00-08:00",
-   "last_updated_pt": "2026-11-16T10:20:00-08:00",
-   "last_notified_pt": "2026-11-16T10:20:00-08:00",
-   "notified_for": "Jackson surgery; Hendricks Speculative add"
-  },
-  "jabari-walker": {
-   "player": "Jabari Walker",
-   "team": "PHI",
-   "trigger": "Embiid (foot) Q Mon; LeBron out; Walker started at C Sun",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-night C start; Embiid maintenance, not long-term",
-   "first_seen_pt": "2026-11-15T12:15:00-08:00",
-   "last_updated_pt": "2026-11-16T12:20:00-08:00"
-  },
-  "myron-gardner": {
-   "player": "Myron Gardner",
-   "team": "MIA",
-   "trigger": "Larsson (illness) Q Mon; Gardner started last 2",
-   "trigger_status": "questionable",
-   "verdict": "Watch",
-   "summary": "Starter if Larsson sits",
-   "first_seen_pt": "2026-11-15T14:15:00-08:00",
-   "last_updated_pt": "2026-11-15T14:15:00-08:00"
-  },
-  "malik-monk": {
-   "player": "Malik Monk",
-   "team": "SAC",
-   "trigger": "LaVine (illness), Hunter (hip), Achiuwa (ankle) out Sun; Monk starts",
-   "trigger_status": "out",
-   "verdict": "Watch",
-   "summary": "One-night starter bump",
-   "first_seen_pt": "2026-11-15T18:15:00-08:00",
-   "last_updated_pt": "2026-11-15T18:15:00-08:00"
-  },
-  "jericho-sims": {
-   "player": "Jericho Sims",
-   "team": "MIL",
-   "trigger": "First start of season Sun vs ATL",
-   "trigger_status": "active",
-   "verdict": "Watch",
-   "summary": "Low-minute big, one-night starter",
-   "first_seen_pt": "2026-11-15T18:15:00-08:00",
-   "last_updated_pt": "2026-11-15T18:15:00-08:00"
-  },
-  "injury:evan-mobley": {
-   "kind": "injury",
-   "player": "Evan Mobley",
-   "team": "CLE",
-   "injury": "toe",
-   "status": "out-multi-week",
-   "status_note": "Right great toe sprain; re-eval in 7-10 days",
-   "beneficiaries": [
-    {
-     "player": "Thomas Bryant",
-     "verdict": "Speculative add",
-     "summary": "Backup C, extra minutes"
+  "last_run_pt": "2026-11-25T22:15:00-08:00",
+  "run_label": "10pm",
+  "items": {
+    "precious-achiuwa": {
+      "player": "Precious Achiuwa",
+      "team": "SAC",
+      "trigger": "Achiuwa (ankle) out Sun; Monk, Cardwell start",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starts alongside Sabonis",
+      "first_seen_pt": "2026-10-24T23:40:00-07:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00",
+      "last_notified_pt": "2026-10-26T15:15:00-07:00",
+      "notified_for": "Murray out 10-14 days; verdict Add now"
     },
-    {
-     "player": "Peyton Watson",
-     "verdict": "Watch",
-     "summary": "Possible forward minutes"
+    "ja-kobe-walter": {
+      "player": "Ja'Kobe Walter",
+      "team": "TOR",
+      "trigger": "Barnes out 4th straight; Kawhi out 1+ wk",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starter-level minutes while TOR is depleted",
+      "first_seen_pt": "2026-10-25T17:20:00-07:00",
+      "last_updated_pt": "2026-11-12T12:15:00-08:00",
+      "last_notified_pt": "2026-10-27T12:15:00-07:00",
+      "notified_for": "Kawhi out multiple weeks; verdict Speculative add"
+    },
+    "jared-mccain": {
+      "player": "Jared McCain",
+      "team": "OKC",
+      "trigger": "Holmgren out 8-10 wks; McCain starts Tue, Mara back to bench",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starting Tue; 14.8/4.0/2.5 as starter",
+      "first_seen_pt": "2026-10-25T19:15:00-07:00",
+      "last_updated_pt": "2026-11-10T20:15:00-08:00",
+      "last_notified_pt": "2026-10-26T15:15:00-07:00",
+      "notified_for": "Williams surgery, Wallace out for season; verdict Add now"
+    },
+    "anthony-black": {
+      "player": "Anthony Black",
+      "team": "ORL",
+      "trigger": "Suggs (knee) coming off bench Fri vs MIL; Black keeps starting",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starter at risk; shared minutes with Suggs back",
+      "first_seen_pt": "2026-10-25T19:15:00-07:00",
+      "last_updated_pt": "2026-11-13T16:15:00-08:00",
+      "last_notified_pt": "2026-10-26T12:20:00-07:00",
+      "notified_for": "Suggs (knee) out at least 2 wks; verdict Add now"
+    },
+    "jaxson-hayes": {
+      "player": "Jaxson Hayes",
+      "team": "UTA",
+      "trigger": "Hayes (left knee) out Sun vs SAS; severity unknown. JJJ out 6-8 wks",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Bradley/Filipowski get C minutes",
+      "first_seen_pt": "2026-10-27T13:20:00-07:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00",
+      "last_notified_pt": "2026-10-27T13:20:00-07:00",
+      "notified_for": "JJJ out 6-8 wks; verdict Add now"
+    },
+    "jalen-smith": {
+      "player": "Jalen Smith",
+      "team": "CHI",
+      "trigger": "Smith and Claxton both out Sat at MIN; Awaka out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Collins starts at C",
+      "first_seen_pt": "2026-10-28T23:20:00-07:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
+    },
+    "cam-spencer": {
+      "player": "Cam Spencer",
+      "team": "MEM",
+      "trigger": "Jerome (hip) out Mon; Pippen out to ~Nov 21; Saunders out to Dec 1",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Started Sat: 17 pts/8 ast; likely starts again Mon",
+      "first_seen_pt": "2026-10-30T12:20:00-07:00",
+      "last_updated_pt": "2026-11-15T15:15:00-08:00"
+    },
+    "scoot-henderson": {
+      "player": "Scoot Henderson",
+      "team": "POR",
+      "trigger": "Morant back; Henderson to bench Tue (Cissoko starts)",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Back to ~22 min bench role",
+      "first_seen_pt": "2026-10-30T12:20:00-07:00",
+      "last_updated_pt": "2026-11-10T20:15:00-08:00",
+      "last_notified_pt": "2026-10-31T12:15:00-07:00",
+      "notified_for": "Morant out ~4 wks; Henderson confirmed starter; Speculative add"
+    },
+    "neemias-queta": {
+      "player": "Neemias Queta",
+      "team": "BOS",
+      "trigger": "Mitchell Robinson (illness) Q Sun",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starting C 26-29 min; more if Robinson sits",
+      "first_seen_pt": "2026-11-01T12:15:00-08:00",
+      "last_updated_pt": "2026-11-08T12:10:00-08:00"
+    },
+    "brayden-burries": {
+      "player": "Brayden Burries",
+      "team": "MIL",
+      "trigger": "Benched Sat for Rollins/Jaquez",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Starter, ~29 min; boards, assists, 3s.",
+      "first_seen_pt": "2026-11-02T17:15:00-08:00",
+      "last_updated_pt": "2026-11-21T11:20:00-08:00"
+    },
+    "paul-reed": {
+      "player": "Paul Reed",
+      "team": "DET",
+      "trigger": "Moved to bench Mon (Jenkins starts); Duren re-eval ~2 wks",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Lost starting job after 7 straight starts",
+      "first_seen_pt": "2026-11-03T16:20:00-08:00",
+      "last_updated_pt": "2026-11-09T16:20:00-08:00"
+    },
+    "landry-shamet": {
+      "player": "Landry Shamet",
+      "team": "NYK",
+      "trigger": "Hart (illness) doubtful Tue, 3rd straight miss",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starting while Hart out",
+      "first_seen_pt": "2026-11-04T12:15:00-08:00",
+      "last_updated_pt": "2026-11-10T12:15:00-08:00"
+    },
+    "sion-james": {
+      "player": "Sion James",
+      "team": "CHA",
+      "trigger": "Wilson (hand surgery) out 4-6 wks; Knueppel out 4+ wks",
+      "trigger_status": "out",
+      "verdict": "Add now",
+      "summary": "Confirmed starter Mon vs CLE",
+      "first_seen_pt": "2026-11-04T17:15:00-08:00",
+      "last_updated_pt": "2026-11-12T14:15:00-08:00",
+      "last_notified_pt": "2026-11-08T15:20:00-08:00",
+      "notified_for": "Knueppel out 4+ weeks; verdict Add now"
+    },
+    "tyrese-proctor": {
+      "player": "Tyrese Proctor",
+      "team": "CLE",
+      "trigger": "Tyson (ankle) out Mon, 6th straight",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Larger role with Tyson out; Meleek Thomas also in play",
+      "first_seen_pt": "2026-11-04T17:15:00-08:00",
+      "last_updated_pt": "2026-11-08T14:15:00-08:00"
+    },
+    "zuby-ejiofor": {
+      "player": "Zuby Ejiofor",
+      "team": "ATL",
+      "trigger": "Gueye out 4+ wks, Newell out Fri, Johnson/Landale out 3rd straight",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Likely starting C with ATL bigs out",
+      "first_seen_pt": "2026-11-05T16:15:00-08:00",
+      "last_updated_pt": "2026-11-12T17:15:00-08:00"
+    },
+    "ryan-kalkbrenner": {
+      "player": "Ryan Kalkbrenner",
+      "team": "CHA",
+      "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starting C while Diabat\u00e9 out",
+      "first_seen_pt": "2026-11-06T13:10:00-08:00",
+      "last_updated_pt": "2026-11-10T12:15:00-08:00"
+    },
+    "jase-richardson": {
+      "player": "Jase Richardson",
+      "team": "ORL",
+      "trigger": "Benched Tue; Cain starts",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "4.0 pts/3.0 ast in 14 min as reserve",
+      "first_seen_pt": "2026-11-06T14:15:00-08:00",
+      "last_updated_pt": "2026-11-10T20:15:00-08:00"
+    },
+    "jamal-shead": {
+      "player": "Jamal Shead",
+      "team": "TOR",
+      "trigger": "Quickley back Wed; Shead returns to bench",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Bench role once Quickley plays",
+      "first_seen_pt": "2026-11-06T18:15:00-08:00",
+      "last_updated_pt": "2026-11-11T15:15:00-08:00"
+    },
+    "tidjane-salaun": {
+      "player": "Tidjane Sala\u00fcn",
+      "team": "CHA",
+      "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Forward minutes up; boards, 3s",
+      "first_seen_pt": "2026-11-06T18:15:00-08:00",
+      "last_updated_pt": "2026-11-12T14:15:00-08:00",
+      "last_notified_pt": "2026-11-12T14:15:00-08:00",
+      "notified_for": "Wilson out 4-6 wks; verdict Speculative add"
+    },
+    "trey-lyles": {
+      "player": "Trey Lyles",
+      "team": "MIN",
+      "trigger": "Beringer (nose) available Sun",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Minutes bump fading",
+      "first_seen_pt": "2026-11-06T22:15:00-08:00",
+      "last_updated_pt": "2026-11-08T12:10:00-08:00"
+    },
+    "isaac-okoro": {
+      "player": "Isaac Okoro",
+      "team": "CHI",
+      "trigger": "Powell (shoulder) out Sun; Okoro starting",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "First start of season Sun vs PHI; one-game unless Powell stays out",
+      "first_seen_pt": "2026-11-08T12:10:00-08:00",
+      "last_updated_pt": "2026-11-08T12:10:00-08:00"
+    },
+    "nique-clifford": {
+      "player": "Nique Clifford",
+      "team": "OKC",
+      "trigger": "Mitchell out Wed; Clifford a candidate to start",
+      "trigger_status": "trade",
+      "verdict": "Watch",
+      "summary": "Possible spot starter",
+      "first_seen_pt": "2026-11-08T12:10:00-08:00",
+      "last_updated_pt": "2026-11-11T14:15:00-08:00"
+    },
+    "isaiah-collier": {
+      "player": "Isaiah Collier",
+      "team": "UTA",
+      "trigger": "Markkanen out 1+ month; George starts Wed",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Reserve guard unless George sits",
+      "first_seen_pt": "2026-11-08T12:10:00-08:00",
+      "last_updated_pt": "2026-11-11T18:15:00-08:00"
+    },
+    "quinten-post": {
+      "player": "Quinten Post",
+      "team": "MEM",
+      "trigger": "Stewart (knee) out Mon",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Increased C minutes Mon; Stewart back Wed",
+      "first_seen_pt": "2026-11-08T16:20:00-08:00",
+      "last_updated_pt": "2026-11-08T16:20:00-08:00"
+    },
+    "ace-bailey": {
+      "player": "Ace Bailey",
+      "team": "UTA",
+      "trigger": "Markkanen (hand fracture) out 1+ month, mid-Dec return",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starting F while Markkanen out",
+      "first_seen_pt": "2026-11-08T16:20:00-08:00",
+      "last_updated_pt": "2026-11-11T12:15:00-08:00",
+      "last_notified_pt": "2026-11-11T12:15:00-08:00",
+      "notified_for": "Markkanen out 1+ month; verdict Speculative add"
+    },
+    "deanthony-melton": {
+      "first_seen_pt": "2026-11-08T17:15:00-08:00",
+      "player": "De'Anthony Melton",
+      "team": "GSW",
+      "trigger": "Curry (abdominal tear) out 2+ weeks, re-eval in 2 wks",
+      "trigger_status": "out",
+      "verdict": "Add now",
+      "summary": "Curry out 2+ wks; Melton expanded role ~25-30 min",
+      "last_updated_pt": "2026-11-12T12:15:00-08:00",
+      "last_notified_pt": "2026-11-12T12:15:00-08:00",
+      "notified_for": "Curry out 2+ weeks; verdict Add now (upgraded from Speculative add)"
+    },
+    "jonathan-mogbo": {
+      "first_seen_pt": "2026-11-08T17:15:00-08:00",
+      "player": "Jonathan Mogbo",
+      "team": "SAC",
+      "trigger": "Sabonis (knee) late scratch Sun",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Backup big minutes; duration unknown",
+      "last_updated_pt": "2026-11-08T17:15:00-08:00"
+    },
+    "mike-conley": {
+      "first_seen_pt": "2026-11-08T17:15:00-08:00",
+      "player": "Mike Conley",
+      "team": "BOS",
+      "trigger": "Starting Sun, first start of season",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Rotating starters; minimal sample",
+      "last_updated_pt": "2026-11-08T17:15:00-08:00"
+    },
+    "pelle-larsson": {
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "trigger": "Wiggins benched; Larsson starts Sun at SAC",
+      "trigger_status": "role change",
+      "verdict": "Watch",
+      "summary": "Starting SG/SF; double figures in 5 of last 7",
+      "first_seen_pt": "2026-11-08T18:15:00-08:00",
+      "last_updated_pt": "2026-11-08T18:15:00-08:00"
+    },
+    "dylan-cardwell": {
+      "player": "Dylan Cardwell",
+      "team": "SAC",
+      "trigger": "Starts Sun with Hunter, Achiuwa out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Frontcourt starter alongside Sabonis",
+      "first_seen_pt": "2026-11-08T18:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
+    },
+    "hannes-steinbach": {
+      "first_seen_pt": "2026-11-09T15:15:00-08:00",
+      "player": "Hannes Steinbach",
+      "team": "CHA",
+      "trigger": "Wilson out 4-6 wks (surgery)",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Rookie big; ~20-25 min if frontcourt thin",
+      "last_updated_pt": "2026-11-12T14:15:00-08:00",
+      "last_notified_pt": "2026-11-12T14:15:00-08:00",
+      "notified_for": "Wilson out 4-6 wks; verdict Speculative add"
+    },
+    "collin-sexton": {
+      "first_seen_pt": "2026-11-09T15:15:00-08:00",
+      "player": "Collin Sexton",
+      "team": "LAL",
+      "trigger": "Grimes out Wed",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Bench scorer",
+      "last_updated_pt": "2026-11-11T12:15:00-08:00"
+    },
+    "tre-johnson": {
+      "first_seen_pt": "2026-11-09T15:15:00-08:00",
+      "player": "Tre Johnson",
+      "team": "WAS",
+      "trigger": "Coulibaly (hand) out Mon vs DET",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Streamer with Carrington",
+      "last_updated_pt": "2026-11-09T15:15:00-08:00"
+    },
+    "daniss-jenkins": {
+      "player": "Daniss Jenkins",
+      "team": "DET",
+      "trigger": "Promoted to starting lineup; 22/6/8/4 stl in 36 min Mon",
+      "trigger_status": "active",
+      "verdict": "Speculative add",
+      "summary": "Starting G ~36 min with Joe/Duren out",
+      "first_seen_pt": "2026-11-09T16:20:00-08:00",
+      "last_updated_pt": "2026-11-10T12:15:00-08:00"
+    },
+    "julian-champagnie": {
+      "player": "Julian Champagnie",
+      "team": "SAS",
+      "trigger": "Fox (hip) out Sun; Champagnie confirmed starting",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-night starter bump",
+      "first_seen_pt": "2026-11-09T17:20:00-08:00",
+      "last_updated_pt": "2026-11-15T17:15:00-08:00"
+    },
+    "kyle-anderson": {
+      "player": "Kyle Anderson",
+      "team": "TOR",
+      "trigger": "Barnes, Murray-Boyles out Mon; rare start",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-game bump",
+      "first_seen_pt": "2026-11-09T17:20:00-08:00",
+      "last_updated_pt": "2026-11-09T17:20:00-08:00"
+    },
+    "ziaire-williams": {
+      "player": "Ziaire Williams",
+      "team": "LAL",
+      "trigger": "Reaves, Grimes out Mon; starting",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-game starter bump",
+      "first_seen_pt": "2026-11-09T17:20:00-08:00",
+      "last_updated_pt": "2026-11-09T17:20:00-08:00"
+    },
+    "sandro-mamukelashvili": {
+      "player": "Sandro Mamukelashvili",
+      "team": "LAL",
+      "trigger": "Reaves (illness) out Mon; 23 pts off bench",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Single-game bump",
+      "first_seen_pt": "2026-11-09T19:15:00-08:00",
+      "last_updated_pt": "2026-11-09T19:15:00-08:00"
+    },
+    "saddiq-bey": {
+      "player": "Saddiq Bey",
+      "team": "NOP",
+      "trigger": "Fri vs MEM: Murphy and Mathurin doubtful, Watford out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "~30 min if Murphy/Mathurin sit",
+      "first_seen_pt": "2026-11-09T19:15:00-08:00",
+      "last_updated_pt": "2026-11-12T13:15:00-08:00"
+    },
+    "walter-clayton-jr": {
+      "player": "Walter Clayton Jr.",
+      "team": "DAL",
+      "trigger": "Irving, Christie, Aldama, Biberovic out Sun vs BOS",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "10.2/4.2/3.8 last five",
+      "first_seen_pt": "2026-11-10T12:15:00-08:00",
+      "last_updated_pt": "2026-11-15T17:15:00-08:00"
+    },
+    "ryan-rollins": {
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "trigger": "Herro out Tue; Rollins started 24 min, Jakucionis 23",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "14 pts/4 3s in 24 min",
+      "first_seen_pt": "2026-11-10T16:15:00-08:00",
+      "last_updated_pt": "2026-11-10T20:15:00-08:00"
+    },
+    "sidy-cissoko": {
+      "player": "Sidy Cissoko",
+      "team": "POR",
+      "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starter/rotation wing; Youngblood out Wed",
+      "first_seen_pt": "2026-11-10T20:15:00-08:00",
+      "last_updated_pt": "2026-11-11T13:15:00-08:00"
+    },
+    "jamal-cain": {
+      "player": "Jamal Cain",
+      "team": "ORL",
+      "trigger": "Starting Tue; da Silva out",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starting Tue; da Silva out",
+      "first_seen_pt": "2026-11-10T20:15:00-08:00",
+      "last_updated_pt": "2026-11-10T20:15:00-08:00"
+    },
+    "kel-el-ware": {
+      "player": "Kel'el Ware",
+      "team": "MIL",
+      "first_seen_pt": "2026-11-11T12:15:00-08:00",
+      "trigger": "Turner rest Wed",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Confirmed starter Wed vs LAL",
+      "last_updated_pt": "2026-11-11T18:15:00-08:00"
+    },
+    "andre-drummond": {
+      "player": "Andre Drummond",
+      "team": "CLE",
+      "first_seen_pt": "2026-11-11T12:15:00-08:00",
+      "trigger": "Mobley (toe) out Fri vs MIA",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Starter-level one night",
+      "last_updated_pt": "2026-11-12T14:15:00-08:00"
+    },
+    "micah-peavy": {
+      "player": "Micah Peavy",
+      "team": "OKC",
+      "trigger": "Mitchell (ankle) out Wed at POR",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Possible spot starter",
+      "first_seen_pt": "2026-11-11T14:15:00-08:00",
+      "last_updated_pt": "2026-11-11T14:15:00-08:00"
+    },
+    "keon-ellis": {
+      "player": "Keon Ellis",
+      "team": "BKN",
+      "trigger": "Traore (calf) and Brown (illness) out Wed",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Extra guard minutes one night",
+      "first_seen_pt": "2026-11-11T14:15:00-08:00",
+      "last_updated_pt": "2026-11-11T14:15:00-08:00"
+    },
+    "quenton-jackson": {
+      "player": "Quenton Jackson",
+      "team": "IND",
+      "trigger": "Nembhard (hip) out Sun, Haliburton out 10+ days; Q. Jackson starts Sun vs PHI",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Candidate for extra minutes with Nembhard on ball; McConnell also back",
+      "first_seen_pt": "2026-11-11T15:15:00-08:00",
+      "last_updated_pt": "2026-11-15T12:15:00-08:00"
+    },
+    "nate-ament": {
+      "player": "Nate Ament",
+      "team": "MIL",
+      "trigger": "First career start Wed vs LAL; Turner rest",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "One-night starter",
+      "first_seen_pt": "2026-11-11T18:15:00-08:00",
+      "last_updated_pt": "2026-11-11T18:15:00-08:00"
+    },
+    "alex-morales": {
+      "player": "Alex Morales",
+      "team": "ORL",
+      "trigger": "Starts Wed vs UTA; da Silva, Cain out",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "One-night starter",
+      "first_seen_pt": "2026-11-11T18:15:00-08:00",
+      "last_updated_pt": "2026-11-11T18:15:00-08:00"
+    },
+    "luka-garza": {
+      "player": "Luka Garza",
+      "team": "BOS",
+      "trigger": "Starts Wed vs TOR with Scheierman; Walsh to bench",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "One-night starter",
+      "first_seen_pt": "2026-11-11T18:15:00-08:00",
+      "last_updated_pt": "2026-11-11T18:15:00-08:00"
+    },
+    "jamison-battle": {
+      "player": "Jamison Battle",
+      "team": "TOR",
+      "first_seen_pt": "2026-11-12T12:15:00-08:00",
+      "trigger": "Jackson-Davis out Thu (illness)",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "TJD out sick Thu; Battle larger role",
+      "last_updated_pt": "2026-11-12T12:15:00-08:00"
+    },
+    "bruce-thornton": {
+      "player": "Bruce Thornton",
+      "team": "HOU",
+      "trigger": "VanVleet (knee mgmt), Capela out Sun at WAS; Adams probable",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Extra guard minutes one night",
+      "first_seen_pt": "2026-11-12T15:15:00-08:00",
+      "last_updated_pt": "2026-11-14T14:15:00-08:00"
+    },
+    "isaiah-stewart": {
+      "player": "Isaiah Stewart",
+      "team": "MEM",
+      "trigger": "Post out Sat, Edey Q; Stewart started Fri",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Starts if Edey sits; 4 blk Fri",
+      "first_seen_pt": "2026-11-12T16:15:00-08:00",
+      "last_updated_pt": "2026-11-14T12:15:00-08:00"
+    },
+    "dean-wade": {
+      "player": "Dean Wade",
+      "team": "PHI",
+      "trigger": "Embiid out but Wade to bench Sun (Walker starts at C)",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Extra big minutes one night",
+      "first_seen_pt": "2026-11-12T16:15:00-08:00",
+      "last_updated_pt": "2026-11-15T12:15:00-08:00"
+    },
+    "nikola-topic": {
+      "player": "Nikola Topi\u0107",
+      "team": "OKC",
+      "trigger": "Recalled from G League",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Back on OKC roster; role unclear",
+      "first_seen_pt": "2026-11-13T12:20:00-08:00",
+      "last_updated_pt": "2026-11-13T12:20:00-08:00"
+    },
+    "jeremiah-fears": {
+      "player": "Jeremiah Fears",
+      "team": "NOP",
+      "trigger": "Murray requests trade, out Fri; not expected to play for NOP again",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Lead guard with Murray gone; likely already rostered",
+      "first_seen_pt": "2026-11-13T13:15:00-08:00",
+      "last_updated_pt": "2026-11-13T13:15:00-08:00"
+    },
+    "bennedict-mathurin": {
+      "player": "Bennedict Mathurin",
+      "team": "NOP",
+      "trigger": "Q (thumb) Fri; Murphy, McGowens, Murray out",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Dart throw, 15.8 mpg",
+      "first_seen_pt": "2026-11-13T13:15:00-08:00",
+      "last_updated_pt": "2026-11-13T13:15:00-08:00"
+    },
+    "ousmane-dieng": {
+      "player": "Ousmane Dieng",
+      "team": "MIL",
+      "trigger": "Fractured left finger, surgery Mon, no timeline",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "~12 min role; little value",
+      "first_seen_pt": "2026-11-13T16:15:00-08:00",
+      "last_updated_pt": "2026-11-15T16:15:00-08:00"
+    },
+    "tim-hardaway-jr": {
+      "player": "Tim Hardaway Jr.",
+      "team": "MIA",
+      "trigger": "Thompson (ankle), Larsson (illness) out Fri; first start",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "One-night starter bump",
+      "first_seen_pt": "2026-11-13T18:15:00-08:00",
+      "last_updated_pt": "2026-11-13T18:15:00-08:00"
+    },
+    "tristan-da-silva": {
+      "player": "Tristan da Silva",
+      "team": "ORL",
+      "trigger": "Starts Fri vs MIL as Suggs returns off bench",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Starter ~30 min; 15.6 pts last 5",
+      "first_seen_pt": "2026-11-13T18:15:00-08:00",
+      "last_updated_pt": "2026-11-13T18:15:00-08:00"
+    },
+    "will-richard": {
+      "player": "Will Richard",
+      "team": "GSW",
+      "trigger": "Starts Fri vs SAS with Curry out; Horford to bench",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Starter, low usage",
+      "first_seen_pt": "2026-11-13T20:15:00-08:00",
+      "last_updated_pt": "2026-11-13T20:15:00-08:00"
+    },
+    "mo-bamba": {
+      "player": "Mo Bamba",
+      "team": "UTA",
+      "trigger": "Hayes (knee strain) out Sun; Bamba 26 pts/6 3s in 35 min",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Starter minutes while Hayes out; Hayes injury minor",
+      "first_seen_pt": "2026-11-13T23:15:00-08:00",
+      "last_updated_pt": "2026-11-15T20:15:00-08:00"
+    },
+    "kelly-oubre-jr": {
+      "player": "Kelly Oubre Jr.",
+      "team": "IND",
+      "trigger": "Back-to-back starts; Nesmith Q Sun",
+      "trigger_status": "starting",
+      "verdict": "Watch",
+      "summary": "~30 min starter",
+      "first_seen_pt": "2026-11-13T23:15:00-08:00",
+      "last_updated_pt": "2026-11-13T23:15:00-08:00"
+    },
+    "proctor": {
+      "player": "Tyrese Proctor",
+      "team": "CLE",
+      "trigger": "Harden/Mitchell/Allen back Mon; Proctor to bench",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Triple-double Sat but loses start",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-15T14:15:00-08:00"
+    },
+    "khalifa-diop": {
+      "player": "Khalifa Diop",
+      "team": "CLE",
+      "trigger": "Allen, Mobley out Sat; Diop primary backup C",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Debut; role depends on Allen",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T15:15:00-08:00"
+    },
+    "craig-porter-jr": {
+      "player": "Craig Porter Jr.",
+      "team": "CLE",
+      "trigger": "Mitchell out Sat; guard depth",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Guard depth piece",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T15:15:00-08:00"
+    },
+    "conwell": {
+      "player": "Ryan Conwell",
+      "team": "MIA",
+      "trigger": "Christie, Larsson out Sat vs DET",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Extra wing minutes Sat",
+      "first_seen_pt": "2026-11-14T12:15:00-08:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
+    },
+    "will-riley": {
+      "player": "Will Riley",
+      "team": "WAS",
+      "trigger": "Carrington (chest), Tre Johnson (back) Q Sun",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Minutes if both guards sit",
+      "first_seen_pt": "2026-11-14T13:15:00-08:00",
+      "last_updated_pt": "2026-11-14T13:15:00-08:00"
+    },
+    "deandre-jordan": {
+      "player": "DeAndre Jordan",
+      "team": "NOP",
+      "trigger": "Back to bench Sat; Missi starts",
+      "trigger_status": "returning",
+      "verdict": "Watch",
+      "summary": "No longer starting",
+      "first_seen_pt": "2026-11-14T13:15:00-08:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
+    },
+    "meleek-thomas": {
+      "player": "Meleek Thomas",
+      "team": "CLE",
+      "trigger": "Six Cavs starters/rotation out Sat; Thomas starts",
+      "trigger_status": "starting",
+      "verdict": "Watch",
+      "summary": "One-night starter, ~25 min",
+      "first_seen_pt": "2026-11-14T16:15:00-08:00",
+      "last_updated_pt": "2026-11-14T16:15:00-08:00"
+    },
+    "noah-clowney": {
+      "player": "Noah Clowney",
+      "team": "BKN",
+      "trigger": "Porter Jr. (personal) out Sat; Clowney first start",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Porter Jr. (personal) out Sat; Clowney first start",
+      "first_seen_pt": "2026-11-14T17:15:00-08:00",
+      "last_updated_pt": "2026-11-14T17:15:00-08:00"
+    },
+    "thomas-bryant": {
+      "player": "Thomas Bryant",
+      "team": "CLE",
+      "trigger": "Harden, Mitchell, Allen, Mobley, Watson out Sat; Bryant starts",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "Harden, Mitchell, Allen, Mobley, Watson out Sat; Bryant starts",
+      "first_seen_pt": "2026-11-14T17:15:00-08:00",
+      "last_updated_pt": "2026-11-14T17:15:00-08:00"
+    },
+    "taylor-hendricks": {
+      "player": "Taylor Hendricks",
+      "team": "MEM",
+      "trigger": "GG Jackson (fractured 5th metatarsal) surgery, lengthy absence",
+      "trigger_status": "out",
+      "verdict": "Speculative add",
+      "summary": "Next forward in line; career-high 22 recently",
+      "first_seen_pt": "2026-11-14T21:15:00-08:00",
+      "last_updated_pt": "2026-11-16T10:20:00-08:00",
+      "last_notified_pt": "2026-11-16T10:20:00-08:00",
+      "notified_for": "Jackson surgery; Hendricks Speculative add"
+    },
+    "jabari-walker": {
+      "player": "Jabari Walker",
+      "team": "PHI",
+      "trigger": "Embiid (foot) Q Mon; LeBron out; Walker started at C Sun",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-night C start; Embiid maintenance, not long-term",
+      "first_seen_pt": "2026-11-15T12:15:00-08:00",
+      "last_updated_pt": "2026-11-16T12:20:00-08:00"
+    },
+    "myron-gardner": {
+      "player": "Myron Gardner",
+      "team": "MIA",
+      "trigger": "Larsson (illness) Q Mon; Gardner started last 2",
+      "trigger_status": "questionable",
+      "verdict": "Watch",
+      "summary": "Starter if Larsson sits",
+      "first_seen_pt": "2026-11-15T14:15:00-08:00",
+      "last_updated_pt": "2026-11-15T14:15:00-08:00"
+    },
+    "malik-monk": {
+      "player": "Malik Monk",
+      "team": "SAC",
+      "trigger": "LaVine (illness), Hunter (hip), Achiuwa (ankle) out Sun; Monk starts",
+      "trigger_status": "out",
+      "verdict": "Watch",
+      "summary": "One-night starter bump",
+      "first_seen_pt": "2026-11-15T18:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
+    },
+    "jericho-sims": {
+      "player": "Jericho Sims",
+      "team": "MIL",
+      "trigger": "First start of season Sun vs ATL",
+      "trigger_status": "active",
+      "verdict": "Watch",
+      "summary": "Low-minute big, one-night starter",
+      "first_seen_pt": "2026-11-15T18:15:00-08:00",
+      "last_updated_pt": "2026-11-15T18:15:00-08:00"
+    },
+    "injury:evan-mobley": {
+      "kind": "injury",
+      "player": "Evan Mobley",
+      "team": "CLE",
+      "injury": "toe",
+      "status": "out-multi-week",
+      "status_note": "Right great toe sprain; re-eval in 7-10 days",
+      "beneficiaries": [
+        {
+          "player": "Thomas Bryant",
+          "verdict": "Speculative add",
+          "summary": "Backup C, extra minutes"
+        },
+        {
+          "player": "Peyton Watson",
+          "verdict": "Watch",
+          "summary": "Possible forward minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-16T14:15:00-08:00",
+      "last_updated_pt": "2026-11-16T14:15:00-08:00",
+      "last_notified_pt": "2026-11-16T14:15:00-08:00",
+      "notified_for": "status out 7-10 days; Bryant Speculative add"
+    },
+    "injury:duncan-robinson": {
+      "kind": "injury",
+      "player": "Duncan Robinson",
+      "team": "DET",
+      "injury": "quad",
+      "status": "out",
+      "status_note": "Day-to-day, out Tue vs ORL",
+      "beneficiaries": [
+        {
+          "player": "Kevin Huerter",
+          "verdict": "Speculative add",
+          "summary": "38 min Sat; wings thin"
+        },
+        {
+          "player": "Daniss Jenkins",
+          "verdict": "Watch",
+          "summary": "extra guard minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-16T15:15:00-08:00",
+      "last_updated_pt": "2026-11-17T09:15:00-08:00",
+      "last_notified_pt": "2026-11-17T09:15:00-08:00",
+      "notified_for": "status out 1+ week; Huerter Speculative add"
+    },
+    "injury:amen-thompson": {
+      "kind": "injury",
+      "player": "Amen Thompson",
+      "team": "HOU",
+      "injury": "knee",
+      "status": "questionable",
+      "status_note": "Q Wed vs IND after missing Mon",
+      "beneficiaries": [
+        {
+          "player": "Tari Eason",
+          "verdict": "Watch",
+          "summary": "Starts; Capela and Adams also out"
+        },
+        {
+          "player": "Reed Sheppard",
+          "verdict": "Watch",
+          "summary": "extra guard minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-16T12:20:00-08:00",
+      "last_updated_pt": "2026-11-17T14:15:00-08:00",
+      "last_notified_pt": "2026-11-16T16:15:00-08:00",
+      "notified_for": "status out; Eason Speculative add"
+    },
+    "injury:bam-adebayo": {
+      "kind": "injury",
+      "player": "Bam Adebayo",
+      "team": "MIA",
+      "injury": "hip",
+      "status": "available",
+      "status_note": "Cleared, starting Wed vs MIL",
+      "beneficiaries": [
+        {
+          "player": "Bobby Portis",
+          "verdict": "Watch",
+          "summary": "Would start; ~28 min, rebounds/points"
+        },
+        {
+          "player": "Pelle Larsson",
+          "verdict": "Watch",
+          "summary": "cleared from illness"
+        }
+      ],
+      "first_seen_pt": "2026-11-18T12:15:00-08:00",
+      "last_updated_pt": "2026-11-18T16:15:00-08:00",
+      "last_notified_pt": "2026-11-18T12:15:00-08:00",
+      "notified_for": "status questionable; Portis Speculative add"
+    },
+    "injury:jonathan-kuminga": {
+      "kind": "injury",
+      "player": "Jonathan Kuminga",
+      "team": "MIN",
+      "injury": "shoulder",
+      "status": "out",
+      "status_note": "Left Mon in Q4; possible dislocation (unconfirmed); OUT Tue vs POR; Cody Williams starts Tue",
+      "beneficiaries": [
+        {
+          "player": "Terrence Shannon Jr.",
+          "verdict": "Speculative add",
+          "summary": "34 pts Mon; wing minutes/usage"
+        },
+        {
+          "player": "Cody Williams",
+          "verdict": "Watch",
+          "summary": "possible forward minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-16T20:20:00-08:00",
+      "last_updated_pt": "2026-11-17T17:15:00-08:00",
+      "last_notified_pt": "2026-11-17T11:15:00-08:00",
+      "notified_for": "status out Tue; Shannon Speculative add"
+    },
+    "injury:jaylen-brown": {
+      "kind": "injury",
+      "player": "Jaylen Brown",
+      "team": "PHI",
+      "injury": "left hamstring",
+      "status": "left-game",
+      "status_note": "Left Wed vs MIA; imaging, update Thu; no timeline",
+      "beneficiaries": [
+        {
+          "player": "Kentavious Caldwell-Pope",
+          "verdict": "Speculative add",
+          "summary": "Starting wing minutes, 3s/steals"
+        },
+        {
+          "player": "Anfernee Simons",
+          "verdict": "Speculative add",
+          "summary": "Extra usage off bench"
+        },
+        {
+          "player": "Justin Edwards",
+          "verdict": "Watch",
+          "summary": "Few extra minutes"
+        },
+        {
+          "player": "Dean Wade",
+          "verdict": "Watch",
+          "summary": "Top candidate to start if Brown sits"
+        }
+      ],
+      "first_seen_pt": "2026-11-25T16:15:00-08:00",
+      "last_updated_pt": "2026-11-25T17:15:00-08:00",
+      "last_notified_pt": "2026-11-25T16:15:00-08:00",
+      "notified_for": "status left-game; Caldwell-Pope/Simons Speculative add"
+    },
+    "injury:austin-reaves": {
+      "kind": "injury",
+      "player": "Austin Reaves",
+      "team": "LAL",
+      "injury": "heel bruise",
+      "status": "out",
+      "status_note": "Out Fri vs SAC (4th straight); Redick hopes he returns within next two games",
+      "beneficiaries": [
+        {
+          "player": "Quentin Grimes",
+          "verdict": "Watch",
+          "summary": "Starts in Reaves' place"
+        },
+        {
+          "player": "Collin Sexton",
+          "verdict": "Watch",
+          "summary": "more bench minutes"
+        },
+        {
+          "player": "Ziaire Williams",
+          "verdict": "Watch",
+          "summary": "more bench minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-17T09:15:00-08:00",
+      "last_updated_pt": "2026-11-20T18:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:scottie-barnes": {
+      "kind": "injury",
+      "player": "Scottie Barnes",
+      "team": "TOR",
+      "injury": "injury management",
+      "status": "out",
+      "status_note": "Out Wed at WAS (injury management); RJ Barrett also out Wed (hamstring)",
+      "beneficiaries": [
+        {
+          "player": "Ja'Kobe Walter",
+          "verdict": "Speculative add",
+          "summary": "Starter-level minutes with TOR depleted"
+        },
+        {
+          "player": "Kyle Anderson",
+          "verdict": "Watch",
+          "summary": "rare start/playmaking"
+        },
+        {
+          "player": "Jakob Poeltl",
+          "verdict": "Watch",
+          "summary": "extra usage; likely rostered"
+        },
+        {
+          "player": "Kevin McCullar Jr.",
+          "verdict": "Watch",
+          "summary": "back from G League"
+        }
+      ],
+      "first_seen_pt": "2026-11-17T10:15:00-08:00",
+      "last_updated_pt": "2026-11-18T12:15:00-08:00",
+      "last_notified_pt": "2026-11-17T10:15:00-08:00",
+      "notified_for": "status questionable; Walter Speculative add"
+    },
+    "injury:cj-mccollum": {
+      "kind": "injury",
+      "player": "CJ McCollum",
+      "team": "ATL",
+      "injury": "left calf strain",
+      "status": "out-multi-week",
+      "status_note": "Out at least 4 weeks; Newell (toe) out ~4 months",
+      "beneficiaries": [
+        {
+          "player": "Aaron Wiggins",
+          "verdict": "Speculative add",
+          "summary": "Extra wing minutes"
+        },
+        {
+          "player": "Kingston Flemings",
+          "verdict": "Speculative add",
+          "summary": "Top PG once back healthy; Q Wed"
+        },
+        {
+          "player": "RayJ Dennis",
+          "verdict": "Watch",
+          "summary": "Backup guard minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-17T13:15:00-08:00",
+      "last_updated_pt": "2026-11-17T13:15:00-08:00",
+      "last_notified_pt": "2026-11-17T13:15:00-08:00",
+      "notified_for": "status out-multi-week; Wiggins Speculative add"
+    },
+    "injury:gg-jackson": {
+      "kind": "injury",
+      "player": "GG Jackson",
+      "team": "MEM",
+      "injury": "broken 5th metatarsal",
+      "status": "out-multi-week",
+      "status_note": "Surgery Wed; out ~3 months",
+      "beneficiaries": [
+        {
+          "player": "Taylor Hendricks",
+          "verdict": "Speculative add",
+          "summary": "First in line for minutes; Stewart also out Wed"
+        },
+        {
+          "player": "Quinten Post",
+          "verdict": "Watch",
+          "summary": "extra C minutes while Stewart out"
+        }
+      ],
+      "first_seen_pt": "2026-11-17T19:15:00-08:00",
+      "last_updated_pt": "2026-11-17T19:15:00-08:00",
+      "last_notified_pt": "2026-11-17T19:15:00-08:00",
+      "notified_for": "status out ~3 months; Hendricks Speculative add"
+    },
+    "injury:dylan-harper": {
+      "kind": "injury",
+      "player": "Dylan Harper",
+      "team": "SAS",
+      "injury": "groin",
+      "status": "out-multi-week",
+      "status_note": "Hard fall Tue vs DET; out 2-3 wks (hip strain)",
+      "beneficiaries": [
+        {
+          "player": "Julian Champagnie",
+          "verdict": "Speculative add",
+          "summary": "Returns to starting five if Harper out"
+        },
+        {
+          "player": "Carter Bryant",
+          "verdict": "Watch",
+          "summary": "wing minutes"
+        },
+        {
+          "player": "Ja'Kobi Gillespie",
+          "verdict": "Watch",
+          "summary": "guard minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-17T20:15:00-08:00",
+      "last_updated_pt": "2026-11-19T12:15:00-08:00",
+      "last_notified_pt": "2026-11-19T12:15:00-08:00",
+      "notified_for": "status out-multi-week; Champagnie Speculative add"
+    },
+    "injury:tyrese-maxey": {
+      "kind": "injury",
+      "player": "Tyrese Maxey",
+      "team": "PHI",
+      "injury": "right foot soreness",
+      "status": "available",
+      "status_note": "Cleared Sat vs MIL; Simons back to bench",
+      "beneficiaries": [
+        {
+          "player": "Anfernee Simons",
+          "verdict": "Watch",
+          "summary": "Starts if Maxey sits"
+        },
+        {
+          "player": "VJ Edgecombe",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-18T15:15:00-08:00",
+      "last_updated_pt": "2026-11-21T11:20:00-08:00",
+      "last_notified_pt": "2026-11-18T16:15:00-08:00",
+      "notified_for": "status out; Simons Add now"
+    },
+    "injury:alperen-sengun": {
+      "kind": "injury",
+      "player": "Alperen \u015eeng\u00fcn",
+      "team": "HOU",
+      "injury": "facial injury",
+      "status": "cleared",
+      "status_note": "Cleared to play Fri at DEN; Adams also available, Capela out",
+      "beneficiaries": [
+        {
+          "player": "Oscar Tshiebwe",
+          "verdict": "Watch",
+          "summary": "Center minutes if Adams and Sengun sit; reb/blk"
+        },
+        {
+          "player": "Steven Adams",
+          "verdict": "Watch",
+          "summary": "Only if he plays and Sengun sits"
+        },
+        {
+          "player": "Jabari Smith Jr.",
+          "verdict": "Watch",
+          "summary": "extra run"
+        },
+        {
+          "player": "Tari Eason",
+          "verdict": "Watch",
+          "summary": "extra run"
+        }
+      ],
+      "first_seen_pt": "2026-11-18T17:15:00-08:00",
+      "last_updated_pt": "2026-11-20T18:15:00-08:00",
+      "last_notified_pt": "2026-11-18T17:15:00-08:00",
+      "notified_for": "status left-game; Adams Speculative add"
+    },
+    "injury:cade-cunningham": {
+      "kind": "injury",
+      "player": "Cade Cunningham",
+      "team": "DET",
+      "injury": "knee",
+      "status": "out",
+      "status_note": "Out Tue vs ORL (was probable); knee has been bothering him; no timeline",
+      "beneficiaries": [
+        {
+          "player": "Isaiah Joe",
+          "verdict": "Speculative add",
+          "summary": "First start of year; 3s/stl, ~30 min"
+        },
+        {
+          "player": "Daniss Jenkins",
+          "verdict": "Speculative add",
+          "summary": "Extra playmaking/assists"
+        },
+        {
+          "player": "Kevin Huerter",
+          "verdict": "Watch",
+          "summary": "depth"
+        }
+      ],
+      "first_seen_pt": "2026-11-18T17:15:00-08:00",
+      "last_updated_pt": "2026-11-24T16:20:00-08:00",
+      "last_notified_pt": "2026-11-24T16:20:00-08:00",
+      "notified_for": "status out Tue (knee, was probable); Joe Speculative add"
+    },
+    "pickup:aday-mara": {
+      "kind": "pickup",
+      "player": "Aday Mara",
+      "team": "OKC",
+      "trigger": "Starting at C again (5th start) with Holmgren out until ~Jan 2",
+      "verdict": "Speculative add",
+      "summary": "~26 min, blocks/rebounds/FG%",
+      "first_seen_pt": "2026-11-15T18:15:00-08:00",
+      "last_updated_pt": "2026-11-18T18:15:00-08:00",
+      "last_notified_pt": "2026-11-18T18:15:00-08:00",
+      "notified_for": "Speculative add: sustained starting role"
+    },
+    "pickup:mario-hezonja": {
+      "kind": "pickup",
+      "player": "Mario Hezonja",
+      "team": "CLE",
+      "trigger": "Joined starting lineup Wed vs MEM",
+      "verdict": "Watch",
+      "summary": "25+ min, 3s",
+      "first_seen_pt": "2026-11-18T18:15:00-08:00",
+      "last_updated_pt": "2026-11-18T18:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:alex-caruso": {
+      "kind": "injury",
+      "player": "Alex Caruso",
+      "team": "OKC",
+      "injury": "hip",
+      "status": "out",
+      "status_note": "Hip; out Fri vs NOP, next chance Sun",
+      "beneficiaries": [
+        {
+          "player": "Bennett Stirtz",
+          "verdict": "Speculative add",
+          "summary": "Guard minutes"
+        },
+        {
+          "player": "Nique Clifford",
+          "verdict": "Watch",
+          "summary": "Wing minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-18T20:15:00-08:00",
+      "last_updated_pt": "2026-11-20T16:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:lj-cryer": {
+      "kind": "injury",
+      "player": "LJ Cryer",
+      "team": "GSW",
+      "injury": "lower back",
+      "status": "questionable",
+      "status_note": "Q Thu vs MEM, later cleared to play; started last 2 with Curry out",
+      "beneficiaries": [
+        {
+          "player": "De'Anthony Melton",
+          "verdict": "Watch",
+          "summary": "Guard minutes with Curry out; starts only if Cryer sits"
+        }
+      ],
+      "first_seen_pt": "2026-11-16T17:15:00-08:00",
+      "last_updated_pt": "2026-11-19T16:15:00-08:00",
+      "last_notified_pt": "2026-11-16T17:15:00-08:00",
+      "notified_for": "starting lineup; Speculative add"
+    },
+    "injury:myles-turner": {
+      "kind": "injury",
+      "player": "Myles Turner",
+      "team": "MIL",
+      "injury": "shoulder",
+      "status": "out",
+      "status_note": "Out Thu vs POR; Thu lineup: Ware/Ament/Nance start",
+      "beneficiaries": [
+        {
+          "player": "Kasparas Jakucionis",
+          "verdict": "Watch",
+          "summary": "extra minutes tonight"
+        }
+      ],
+      "first_seen_pt": "2026-11-19T12:15:00-08:00",
+      "last_updated_pt": "2026-11-19T17:10:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:kyle-kuzma": {
+      "kind": "injury",
+      "player": "Kyle Kuzma",
+      "team": "MIL",
+      "injury": "shoulder",
+      "status": "out",
+      "status_note": "Out Thu vs POR; Thu lineup: Ware/Ament/Nance start",
+      "beneficiaries": [
+        {
+          "player": "Kasparas Jakucionis",
+          "verdict": "Watch",
+          "summary": "extra minutes tonight"
+        }
+      ],
+      "first_seen_pt": "2026-11-19T12:15:00-08:00",
+      "last_updated_pt": "2026-11-19T17:10:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:rj-barrett": {
+      "kind": "injury",
+      "player": "RJ Barrett",
+      "team": "TOR",
+      "injury": "right hamstring strain",
+      "status": "out-multi-week",
+      "status_note": "Re-eval in 2 weeks; mid-Dec return at earliest",
+      "beneficiaries": [
+        {
+          "player": "Ja'Kobe Walter",
+          "verdict": "Speculative add",
+          "summary": "Starter-level minutes; 3s/steals"
+        },
+        {
+          "player": "Jamison Battle",
+          "verdict": "Watch",
+          "summary": "More wing minutes"
+        },
+        {
+          "player": "Allen Graves",
+          "verdict": "Speculative add",
+          "summary": "First start Fri: 20/10 in 33 min"
+        }
+      ],
+      "first_seen_pt": "2026-11-19T14:20:00-08:00",
+      "last_updated_pt": "2026-11-20T21:15:00-08:00",
+      "last_notified_pt": "2026-11-20T21:15:00-08:00",
+      "notified_for": "status out-multi-week; Walter, Graves Speculative add"
+    },
+    "injury:jerami-grant": {
+      "kind": "injury",
+      "player": "Jerami Grant",
+      "team": "MEM",
+      "injury": "left calf",
+      "status": "out-multi-week",
+      "status_note": "Grade 1 calf strain; out at least 2 wks, re-eval in 2 wks",
+      "beneficiaries": [
+        {
+          "player": "Taylor Hendricks",
+          "verdict": "Speculative add",
+          "summary": "Starting; extra forward minutes"
+        },
+        {
+          "player": "Kris Murray",
+          "verdict": "Watch",
+          "summary": "More bench minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-19T18:15:00-08:00",
+      "last_updated_pt": "2026-11-22T19:20:00-08:00",
+      "last_notified_pt": "2026-11-22T19:20:00-08:00",
+      "notified_for": "status out-multi-week; Hendricks Speculative add"
+    },
+    "injury:precious-achiuwa": {
+      "kind": "injury",
+      "player": "Precious Achiuwa",
+      "team": "SAC",
+      "injury": "lower leg bruise",
+      "status": "doubtful",
+      "status_note": "Doubtful Fri vs LAL; Hunter Q (hip)",
+      "beneficiaries": [
+        {
+          "player": "Dylan Cardwell",
+          "verdict": "Watch",
+          "summary": "Starts next to Sabonis"
+        }
+      ],
+      "first_seen_pt": "2026-11-19T18:15:00-08:00",
+      "last_updated_pt": "2026-11-19T18:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:cameron-boozer": {
+      "kind": "injury",
+      "player": "Cameron Boozer",
+      "team": "MEM",
+      "injury": "right ankle sprain",
+      "status": "out-multi-week",
+      "status_note": "Moderate ankle sprain; re-eval in 4 weeks",
+      "beneficiaries": [
+        {
+          "player": "Isaiah Stewart",
+          "verdict": "Speculative add",
+          "summary": "Likely starts"
+        },
+        {
+          "player": "Taylor Hendricks",
+          "verdict": "Speculative add",
+          "summary": "Started at C Thu"
+        }
+      ],
+      "first_seen_pt": "2026-11-20T16:15:00-08:00",
+      "last_updated_pt": "2026-11-23T15:15:00-08:00",
+      "last_notified_pt": "2026-11-23T15:15:00-08:00",
+      "notified_for": "status out-multi-week; Hendricks/Stewart Speculative add"
+    },
+    "injury:derrick-white": {
+      "kind": "injury",
+      "player": "Derrick White",
+      "team": "BOS",
+      "injury": "shoulder",
+      "status": "returned",
+      "status_note": "Back Sun (off injury report)",
+      "beneficiaries": [
+        {
+          "player": "Payton Pritchard",
+          "verdict": "Watch",
+          "summary": "Likely starts; probably rostered"
+        },
+        {
+          "player": "Baylor Scheierman",
+          "verdict": "Watch",
+          "summary": "Extra wing minutes"
+        },
+        {
+          "player": "Sam Hauser",
+          "verdict": "Watch",
+          "summary": "Starts Sat only; Tatum back Sun"
+        }
+      ],
+      "first_seen_pt": "2026-11-20T17:15:00-08:00",
+      "last_updated_pt": "2026-11-22T13:10:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "pickup:danny-wolf": {
+      "kind": "pickup",
+      "player": "Danny Wolf",
+      "team": "BKN",
+      "trigger": "Starting Fri vs ORL; Demin to bench",
+      "verdict": "Watch",
+      "summary": "Starter minutes at big; role durability unknown",
+      "first_seen_pt": "2026-11-20T17:15:00-08:00",
+      "last_updated_pt": "2026-11-20T17:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:nolan-traore": {
+      "kind": "injury",
+      "player": "Nolan Traore",
+      "team": "BKN",
+      "injury": "hamstring",
+      "status": "out-multi-week",
+      "status_note": "Re-eval in ~8-10 wks (hamstring strain)",
+      "beneficiaries": [
+        {
+          "player": "Egor Demin",
+          "verdict": "Speculative add",
+          "summary": "Lead-guard starter minutes"
+        },
+        {
+          "player": "Mikel Brown Jr.",
+          "verdict": "Watch",
+          "summary": "More backup guard minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-20T19:15:00-08:00",
+      "last_updated_pt": "2026-11-23T09:20:00-08:00",
+      "last_notified_pt": "2026-11-23T09:20:00-08:00",
+      "notified_for": "status out-multi-week; Demin Speculative add"
+    },
+    "injury:og-anunoby": {
+      "kind": "injury",
+      "player": "OG Anunoby",
+      "team": "NYK",
+      "injury": "calf",
+      "status": "out",
+      "status_note": "Out Sat vs POR (was doubtful); Clarkson out, Towns Q",
+      "beneficiaries": [
+        {
+          "player": "Landry Shamet",
+          "verdict": "Speculative add",
+          "summary": "Wing minutes if Anunoby sits"
+        }
+      ],
+      "first_seen_pt": "2026-11-21T09:20:00-08:00",
+      "last_updated_pt": "2026-11-21T14:15:00-08:00",
+      "last_notified_pt": "2026-11-21T14:15:00-08:00",
+      "notified_for": "status out; Shamet Speculative add"
+    },
+    "injury:karl-anthony-towns": {
+      "kind": "injury",
+      "player": "Karl-Anthony Towns",
+      "team": "NYK",
+      "injury": "illness",
+      "status": "probable",
+      "status_note": "Upgraded to probable Wed vs CLE",
+      "beneficiaries": [
+        {
+          "player": "Andre Drummond",
+          "verdict": "Speculative add",
+          "summary": "Confirmed starting C; boards, blocks"
+        },
+        {
+          "player": "James Wiseman",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-21T11:20:00-08:00",
+      "last_updated_pt": "2026-11-24T14:15:00-08:00",
+      "last_notified_pt": "2026-11-21T15:15:00-08:00",
+      "notified_for": "status out; Drummond Speculative add"
+    },
+    "pickup:ryan-rollins": {
+      "kind": "pickup",
+      "player": "Ryan Rollins",
+      "team": "MIL",
+      "trigger": "Moved into starting lineup Sat vs PHI (Burries to bench)",
+      "verdict": "Speculative add",
+      "summary": "~28 min starter; assists, steals, 3s",
+      "first_seen_pt": "2026-11-21T11:20:00-08:00",
+      "last_updated_pt": "2026-11-21T11:20:00-08:00",
+      "last_notified_pt": "2026-11-21T11:20:00-08:00",
+      "notified_for": "starting lineup; Speculative add"
+    },
+    "injury:pj-washington": {
+      "kind": "injury",
+      "player": "P.J. Washington",
+      "team": "DAL",
+      "injury": "illness/shoulder",
+      "status": "out",
+      "status_note": "Out Sat; doubtful Sun vs UTA",
+      "beneficiaries": [
+        {
+          "player": "Santi Aldama",
+          "verdict": "Watch",
+          "summary": "Frontcourt minutes if Washington sits"
+        }
+      ],
+      "first_seen_pt": "2026-11-21T12:15:00-08:00",
+      "last_updated_pt": "2026-11-21T16:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:mitchell-robinson": {
+      "kind": "injury",
+      "player": "Mitchell Robinson",
+      "team": "BOS",
+      "injury": "illness",
+      "status": "out",
+      "status_note": "Out Sat and Sun (illness); back Tue",
+      "beneficiaries": [
+        {
+          "player": "Luka Garza",
+          "verdict": "Watch",
+          "summary": "Minutes behind Queta"
+        }
+      ],
+      "first_seen_pt": "2026-11-21T13:15:00-08:00",
+      "last_updated_pt": "2026-11-22T13:10:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:giannis-antetokounmpo": {
+      "kind": "injury",
+      "player": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "injury": "groin",
+      "status": "probable",
+      "status_note": "Upgraded to probable Wed at PHI",
+      "beneficiaries": [
+        {
+          "player": "Bobby Portis",
+          "verdict": "Speculative add",
+          "summary": "Starts if Giannis sits"
+        },
+        {
+          "player": "Nikola Jovic",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-21T13:15:00-08:00",
+      "last_updated_pt": "2026-11-24T14:15:00-08:00",
+      "last_notified_pt": "2026-11-22T15:20:00-08:00",
+      "notified_for": "status out; Portis Speculative add"
+    },
+    "injury:shai-gilgeous-alexander": {
+      "kind": "injury",
+      "player": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "injury": "back/neck",
+      "status": "available",
+      "status_note": "Off Mon injury report",
+      "beneficiaries": [
+        {
+          "player": "Bennett Stirtz",
+          "verdict": "Speculative add",
+          "summary": "Starting guard minutes"
+        },
+        {
+          "player": "Jared McCain",
+          "verdict": "Speculative add",
+          "summary": "Scoring/3s"
+        },
+        {
+          "player": "Nique Clifford",
+          "verdict": "Watch",
+          "summary": "wing minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-21T15:15:00-08:00",
+      "last_updated_pt": "2026-11-22T14:10:00-08:00",
+      "last_notified_pt": "2026-11-22T14:10:00-08:00",
+      "notified_for": "status out; Stirtz/McCain Speculative add"
+    },
+    "injury:norman-powell": {
+      "kind": "injury",
+      "player": "Norman Powell",
+      "team": "CHI",
+      "injury": "hamstring",
+      "status": "out",
+      "status_note": "Right hamstring strain; out Sun vs DEN, re-eval later this week",
+      "beneficiaries": [
+        {
+          "player": "Buddy Hield",
+          "verdict": "Speculative add",
+          "summary": "Likely starter or extra minutes"
+        },
+        {
+          "player": "Patrick Williams",
+          "verdict": "Speculative add",
+          "summary": "Probable (thumb); expanded role"
+        }
+      ],
+      "first_seen_pt": "2026-11-22T09:20:00-08:00",
+      "last_updated_pt": "2026-11-22T09:20:00-08:00",
+      "last_notified_pt": "2026-11-22T09:20:00-08:00",
+      "notified_for": "status out; Hield/Williams Speculative add"
+    },
+    "injury:victor-wembanyama": {
+      "kind": "injury",
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "injury": "lower back tightness",
+      "status": "questionable",
+      "status_note": "Out Mon; Q Wed at POR",
+      "beneficiaries": [
+        {
+          "player": "Luke Kornet",
+          "verdict": "Speculative add",
+          "summary": "Starts at C Mon; first start of season"
+        },
+        {
+          "player": "Carter Bryant",
+          "verdict": "Watch",
+          "summary": ""
+        },
+        {
+          "player": "Tarris Reed Jr.",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-22T18:15:00-08:00",
+      "last_updated_pt": "2026-11-24T18:15:00-08:00",
+      "last_notified_pt": "2026-11-23T18:15:00-08:00",
+      "notified_for": "status out; Kornet Speculative add"
+    },
+    "injury:deaaron-fox": {
+      "kind": "injury",
+      "player": "De'Aaron Fox",
+      "team": "SAS",
+      "injury": "right shin contusion",
+      "status": "questionable",
+      "status_note": "Out Mon; Q Wed at POR",
+      "beneficiaries": [
+        {
+          "player": "Jordan McLaughlin",
+          "verdict": "Watch",
+          "summary": "extra backup-guard minutes"
+        },
+        {
+          "player": "David Jones Garcia",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-22T18:15:00-08:00",
+      "last_updated_pt": "2026-11-24T18:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:jaxson-hayes": {
+      "kind": "injury",
+      "player": "Jaxson Hayes",
+      "team": "UTA",
+      "injury": "left knee",
+      "status": "out",
+      "status_note": "Left Sun after ~12 min; out Mon vs LAL",
+      "beneficiaries": [
+        {
+          "player": "Mo Bamba",
+          "verdict": "Speculative add",
+          "summary": "Center minutes; rebounds/blocks"
+        },
+        {
+          "player": "Tony Bradley",
+          "verdict": "Watch",
+          "summary": ""
+        },
+        {
+          "player": "Brice Sensabaugh",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-22T22:15:00-08:00",
+      "last_updated_pt": "2026-11-23T15:15:00-08:00",
+      "last_notified_pt": "2026-11-23T15:15:00-08:00",
+      "notified_for": "status out; Bamba Speculative add"
+    },
+    "injury:joel-embiid": {
+      "kind": "injury",
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "injury": "knee",
+      "status": "out",
+      "status_note": "Illness; out Mon and Wed vs MIA (was doubtful)",
+      "beneficiaries": [
+        {
+          "player": "Adem Bona",
+          "verdict": "Speculative add",
+          "summary": "Center minutes if Embiid sits"
+        },
+        {
+          "player": "Dominick Barlow",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-23T09:20:00-08:00",
+      "last_updated_pt": "2026-11-25T12:15:00-08:00",
+      "last_notified_pt": "2026-11-23T15:15:00-08:00",
+      "notified_for": "status out; Bona Speculative add"
+    },
+    "injury:aaron-nesmith": {
+      "kind": "injury",
+      "player": "Aaron Nesmith",
+      "team": "IND",
+      "injury": "foot soreness (McConnell hamstring)",
+      "status": "out",
+      "status_note": "Nesmith and McConnell out Mon vs OKC; Siakam Q",
+      "beneficiaries": [
+        {
+          "player": "Braden Smith",
+          "verdict": "Watch",
+          "summary": "Starting Mon; rookie PG 7.3 pts/4.3 ast"
+        },
+        {
+          "player": "Quenton Jackson",
+          "verdict": "Watch",
+          "summary": "backup guard minutes"
+        },
+        {
+          "player": "Ben Sheppard",
+          "verdict": "Watch",
+          "summary": "wing minutes"
+        },
+        {
+          "player": "Johnny Furphy",
+          "verdict": "Watch",
+          "summary": "more run if Siakam sits"
+        }
+      ],
+      "first_seen_pt": "2026-11-23T11:15:00-08:00",
+      "last_updated_pt": "2026-11-23T17:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:jalen-duren": {
+      "kind": "injury",
+      "player": "Jalen Duren",
+      "team": "DET",
+      "injury": "hamstring",
+      "status": "out",
+      "status_note": "Out Tue vs ORL",
+      "beneficiaries": [
+        {
+          "player": "Paul Reed",
+          "verdict": "Speculative add",
+          "summary": "Backup C, 26 min Sun"
+        }
+      ],
+      "first_seen_pt": "2026-11-23T14:15:00-08:00",
+      "last_updated_pt": "2026-11-23T14:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "pickup:mikel-brown-jr": {
+      "kind": "pickup",
+      "player": "Mikel Brown Jr.",
+      "team": "BKN",
+      "trigger": "First NBA start Mon vs MIN; green light for starter minutes",
+      "verdict": "Speculative add",
+      "summary": "~25-30 min starting PG; minutes restriction/back-to-back sits",
+      "first_seen_pt": "2026-11-23T17:15:00-08:00",
+      "last_updated_pt": "2026-11-23T17:15:00-08:00",
+      "last_notified_pt": "2026-11-23T17:15:00-08:00",
+      "notified_for": "promotion to starting lineup; Speculative add"
+    },
+    "injury:josh-hart": {
+      "kind": "injury",
+      "player": "Josh Hart",
+      "team": "NYK",
+      "injury": "shoulder",
+      "status": "probable",
+      "status_note": "Upgraded to probable Wed vs CLE",
+      "beneficiaries": [
+        {
+          "player": "Pacome Dadiet",
+          "verdict": "Speculative add",
+          "summary": "Wing minutes with Anunoby/Clarkson out"
+        },
+        {
+          "player": "Mohamed Diawara",
+          "verdict": "Watch",
+          "summary": ""
+        },
+        {
+          "player": "Tyler Kolek",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-24T14:15:00-08:00",
+      "last_updated_pt": "2026-11-24T14:15:00-08:00",
+      "last_notified_pt": "2026-11-24T14:15:00-08:00",
+      "notified_for": "status questionable; Dadiet Speculative add"
+    },
+    "injury:jalen-brunson": {
+      "kind": "injury",
+      "player": "Jalen Brunson",
+      "team": "NYK",
+      "injury": "illness",
+      "status": "available",
+      "status_note": "Knicks say he plays Wed vs CLE; McBride out",
+      "beneficiaries": [
+        {
+          "player": "Tyler Kolek",
+          "verdict": "Watch",
+          "summary": "Backup PG, 25+ min if Brunson sits"
+        },
+        {
+          "player": "Jose Alvarado",
+          "verdict": "Watch",
+          "summary": "guard minutes"
+        },
+        {
+          "player": "Pacome Dadiet",
+          "verdict": "Watch",
+          "summary": "wing minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-25T10:15:00-08:00",
+      "last_updated_pt": "2026-11-25T15:15:00-08:00",
+      "last_notified_pt": "2026-11-25T10:15:00-08:00",
+      "notified_for": "status questionable; Kolek Speculative add"
+    },
+    "injury:zach-lavine": {
+      "kind": "injury",
+      "player": "Zach LaVine",
+      "team": "SAC",
+      "injury": "knee",
+      "status": "out",
+      "status_note": "Ruled out Wed at GSW (was Q); next chance Sun vs MIN",
+      "beneficiaries": [
+        {
+          "player": "Gabe Vincent",
+          "verdict": "Speculative add",
+          "summary": "Backcourt minutes if LaVine sits; low confidence"
+        },
+        {
+          "player": "Sean Pedulla",
+          "verdict": "Watch",
+          "summary": ""
+        }
+      ],
+      "first_seen_pt": "2026-11-25T13:15:00-08:00",
+      "last_updated_pt": "2026-11-25T19:15:00-08:00",
+      "last_notified_pt": "2026-11-25T15:15:00-08:00",
+      "notified_for": "status out; Vincent Speculative add"
+    },
+    "injury:jalen-smith": {
+      "kind": "injury",
+      "player": "Jalen Smith",
+      "team": "CHI",
+      "injury": "illness",
+      "status": "out",
+      "status_note": "Out Wed vs CHA (stomach bug)",
+      "beneficiaries": [
+        {
+          "player": "Zach Collins",
+          "verdict": "Watch",
+          "summary": "Backup C minutes; Claxton starts"
+        }
+      ],
+      "first_seen_pt": "2026-11-25T14:15:00-08:00",
+      "last_updated_pt": "2026-11-25T14:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "pickup:kevin-porter-jr": {
+      "kind": "pickup",
+      "player": "Kevin Porter Jr.",
+      "team": "ORL",
+      "trigger": "Signing two-year deal with Magic (Shams)",
+      "verdict": "Watch",
+      "summary": "Role unclear; Banchero out",
+      "first_seen_pt": "2026-11-25T15:15:00-08:00",
+      "last_updated_pt": "2026-11-25T15:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "pickup:bennett-stirtz": {
+      "kind": "pickup",
+      "player": "Bennett Stirtz",
+      "team": "OKC",
+      "trigger": "First career start Wed vs MIN (McCain to bench; OKC thin)",
+      "verdict": "Watch",
+      "summary": "One-night starter minutes; Caruso returning",
+      "first_seen_pt": "2026-11-25T17:15:00-08:00",
+      "last_updated_pt": "2026-11-25T17:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
+    },
+    "injury:lamelo-ball": {
+      "kind": "injury",
+      "player": "LaMelo Ball",
+      "team": "MIN",
+      "injury": "left ankle",
+      "status": "left-game",
+      "status_note": "Left Wed at OKC after 29 min; Q, next game Fri vs MEM",
+      "beneficiaries": [
+        {
+          "player": "Ayo Dosunmu",
+          "verdict": "Speculative add",
+          "summary": "Starting guard minutes"
+        },
+        {
+          "player": "Bones Hyland",
+          "verdict": "Speculative add",
+          "summary": "Bench scoring/3s/assists"
+        }
+      ],
+      "first_seen_pt": "2026-11-25T19:15:00-08:00",
+      "last_updated_pt": "2026-11-25T19:15:00-08:00",
+      "last_notified_pt": "2026-11-25T19:15:00-08:00",
+      "notified_for": "status left-game; Dosunmu/Hyland Speculative add"
+    },
+    "injury:zach-edey": {
+      "kind": "injury",
+      "player": "Zach Edey",
+      "team": "MEM",
+      "injury": "left ankle",
+      "status": "doubtful",
+      "status_note": "Left Wed vs LAC after 9 min; doubtful to return; next Fri at MIN",
+      "beneficiaries": [
+        {
+          "player": "Taylor Hendricks",
+          "verdict": "Speculative add",
+          "summary": "Center minutes"
+        },
+        {
+          "player": "Isaiah Stewart",
+          "verdict": "Speculative add",
+          "summary": "Center minutes"
+        }
+      ],
+      "first_seen_pt": "2026-11-25T19:15:00-08:00",
+      "last_updated_pt": "2026-11-25T19:15:00-08:00",
+      "last_notified_pt": null,
+      "notified_for": null
     }
-   ],
-   "first_seen_pt": "2026-11-16T14:15:00-08:00",
-   "last_updated_pt": "2026-11-16T14:15:00-08:00",
-   "last_notified_pt": "2026-11-16T14:15:00-08:00",
-   "notified_for": "status out 7-10 days; Bryant Speculative add"
   },
-  "injury:duncan-robinson": {
-   "kind": "injury",
-   "player": "Duncan Robinson",
-   "team": "DET",
-   "injury": "quad",
-   "status": "out",
-   "status_note": "Day-to-day, out Tue vs ORL",
-   "beneficiaries": [
-    {
-     "player": "Kevin Huerter",
-     "verdict": "Speculative add",
-     "summary": "38 min Sat; wings thin"
-    },
-    {
-     "player": "Daniss Jenkins",
-     "verdict": "Watch",
-     "summary": "extra guard minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-16T15:15:00-08:00",
-   "last_updated_pt": "2026-11-17T09:15:00-08:00",
-   "last_notified_pt": "2026-11-17T09:15:00-08:00",
-   "notified_for": "status out 1+ week; Huerter Speculative add"
-  },
-  "injury:amen-thompson": {
-   "kind": "injury",
-   "player": "Amen Thompson",
-   "team": "HOU",
-   "injury": "knee",
-   "status": "questionable",
-   "status_note": "Q Wed vs IND after missing Mon",
-   "beneficiaries": [
-    {
-     "player": "Tari Eason",
-     "verdict": "Watch",
-     "summary": "Starts; Capela and Adams also out"
-    },
-    {
-     "player": "Reed Sheppard",
-     "verdict": "Watch",
-     "summary": "extra guard minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-16T12:20:00-08:00",
-   "last_updated_pt": "2026-11-17T14:15:00-08:00",
-   "last_notified_pt": "2026-11-16T16:15:00-08:00",
-   "notified_for": "status out; Eason Speculative add"
-  },
-  "injury:bam-adebayo": {
-   "kind": "injury",
-   "player": "Bam Adebayo",
-   "team": "MIA",
-   "injury": "hip",
-   "status": "available",
-   "status_note": "Cleared, starting Wed vs MIL",
-   "beneficiaries": [
-    {
-     "player": "Bobby Portis",
-     "verdict": "Watch",
-     "summary": "Would start; ~28 min, rebounds/points"
-    },
-    {
-     "player": "Pelle Larsson",
-     "verdict": "Watch",
-     "summary": "cleared from illness"
-    }
-   ],
-   "first_seen_pt": "2026-11-18T12:15:00-08:00",
-   "last_updated_pt": "2026-11-18T16:15:00-08:00",
-   "last_notified_pt": "2026-11-18T12:15:00-08:00",
-   "notified_for": "status questionable; Portis Speculative add"
-  },
-  "injury:jonathan-kuminga": {
-   "kind": "injury",
-   "player": "Jonathan Kuminga",
-   "team": "MIN",
-   "injury": "shoulder",
-   "status": "out",
-   "status_note": "Left Mon in Q4; possible dislocation (unconfirmed); OUT Tue vs POR; Cody Williams starts Tue",
-   "beneficiaries": [
-    {
-     "player": "Terrence Shannon Jr.",
-     "verdict": "Speculative add",
-     "summary": "34 pts Mon; wing minutes/usage"
-    },
-    {
-     "player": "Cody Williams",
-     "verdict": "Watch",
-     "summary": "possible forward minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-16T20:20:00-08:00",
-   "last_updated_pt": "2026-11-17T17:15:00-08:00",
-   "last_notified_pt": "2026-11-17T11:15:00-08:00",
-   "notified_for": "status out Tue; Shannon Speculative add"
-  },
-  "injury:jaylen-brown": {
-   "kind": "injury",
-   "player": "Jaylen Brown",
-   "team": "PHI",
-   "injury": "left hamstring",
-   "status": "left-game",
-   "status_note": "Left Wed vs MIA; imaging, update Thu; no timeline",
-   "beneficiaries": [
-    {
-     "player": "Kentavious Caldwell-Pope",
-     "verdict": "Speculative add",
-     "summary": "Starting wing minutes, 3s/steals"
-    },
-    {
-     "player": "Anfernee Simons",
-     "verdict": "Speculative add",
-     "summary": "Extra usage off bench"
-    },
-    {
-     "player": "Justin Edwards",
-     "verdict": "Watch",
-     "summary": "Few extra minutes"
-    },
-    {
-     "player": "Dean Wade",
-     "verdict": "Watch",
-     "summary": "Top candidate to start if Brown sits"
-    }
-   ],
-   "first_seen_pt": "2026-11-25T16:15:00-08:00",
-   "last_updated_pt": "2026-11-25T17:15:00-08:00",
-   "last_notified_pt": "2026-11-25T16:15:00-08:00",
-   "notified_for": "status left-game; Caldwell-Pope/Simons Speculative add"
-  },
-  "injury:austin-reaves": {
-   "kind": "injury",
-   "player": "Austin Reaves",
-   "team": "LAL",
-   "injury": "heel bruise",
-   "status": "out",
-   "status_note": "Out Fri vs SAC (4th straight); Redick hopes he returns within next two games",
-   "beneficiaries": [
-    {
-     "player": "Quentin Grimes",
-     "verdict": "Watch",
-     "summary": "Starts in Reaves' place"
-    },
-    {
-     "player": "Collin Sexton",
-     "verdict": "Watch",
-     "summary": "more bench minutes"
-    },
-    {
-     "player": "Ziaire Williams",
-     "verdict": "Watch",
-     "summary": "more bench minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T09:15:00-08:00",
-   "last_updated_pt": "2026-11-20T18:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:scottie-barnes": {
-   "kind": "injury",
-   "player": "Scottie Barnes",
-   "team": "TOR",
-   "injury": "injury management",
-   "status": "out",
-   "status_note": "Out Wed at WAS (injury management); RJ Barrett also out Wed (hamstring)",
-   "beneficiaries": [
-    {
-     "player": "Ja'Kobe Walter",
-     "verdict": "Speculative add",
-     "summary": "Starter-level minutes with TOR depleted"
-    },
-    {
-     "player": "Kyle Anderson",
-     "verdict": "Watch",
-     "summary": "rare start/playmaking"
-    },
-    {
-     "player": "Jakob Poeltl",
-     "verdict": "Watch",
-     "summary": "extra usage; likely rostered"
-    },
-    {
-     "player": "Kevin McCullar Jr.",
-     "verdict": "Watch",
-     "summary": "back from G League"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T10:15:00-08:00",
-   "last_updated_pt": "2026-11-18T12:15:00-08:00",
-   "last_notified_pt": "2026-11-17T10:15:00-08:00",
-   "notified_for": "status questionable; Walter Speculative add"
-  },
-  "injury:cj-mccollum": {
-   "kind": "injury",
-   "player": "CJ McCollum",
-   "team": "ATL",
-   "injury": "left calf strain",
-   "status": "out-multi-week",
-   "status_note": "Out at least 4 weeks; Newell (toe) out ~4 months",
-   "beneficiaries": [
-    {
-     "player": "Aaron Wiggins",
-     "verdict": "Speculative add",
-     "summary": "Extra wing minutes"
-    },
-    {
-     "player": "Kingston Flemings",
-     "verdict": "Speculative add",
-     "summary": "Top PG once back healthy; Q Wed"
-    },
-    {
-     "player": "RayJ Dennis",
-     "verdict": "Watch",
-     "summary": "Backup guard minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T13:15:00-08:00",
-   "last_updated_pt": "2026-11-17T13:15:00-08:00",
-   "last_notified_pt": "2026-11-17T13:15:00-08:00",
-   "notified_for": "status out-multi-week; Wiggins Speculative add"
-  },
-  "injury:gg-jackson": {
-   "kind": "injury",
-   "player": "GG Jackson",
-   "team": "MEM",
-   "injury": "broken 5th metatarsal",
-   "status": "out-multi-week",
-   "status_note": "Surgery Wed; out ~3 months",
-   "beneficiaries": [
-    {
-     "player": "Taylor Hendricks",
-     "verdict": "Speculative add",
-     "summary": "First in line for minutes; Stewart also out Wed"
-    },
-    {
-     "player": "Quinten Post",
-     "verdict": "Watch",
-     "summary": "extra C minutes while Stewart out"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T19:15:00-08:00",
-   "last_updated_pt": "2026-11-17T19:15:00-08:00",
-   "last_notified_pt": "2026-11-17T19:15:00-08:00",
-   "notified_for": "status out ~3 months; Hendricks Speculative add"
-  },
-  "injury:dylan-harper": {
-   "kind": "injury",
-   "player": "Dylan Harper",
-   "team": "SAS",
-   "injury": "groin",
-   "status": "out-multi-week",
-   "status_note": "Hard fall Tue vs DET; out 2-3 wks (hip strain)",
-   "beneficiaries": [
-    {
-     "player": "Julian Champagnie",
-     "verdict": "Speculative add",
-     "summary": "Returns to starting five if Harper out"
-    },
-    {
-     "player": "Carter Bryant",
-     "verdict": "Watch",
-     "summary": "wing minutes"
-    },
-    {
-     "player": "Ja'Kobi Gillespie",
-     "verdict": "Watch",
-     "summary": "guard minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-17T20:15:00-08:00",
-   "last_updated_pt": "2026-11-19T12:15:00-08:00",
-   "last_notified_pt": "2026-11-19T12:15:00-08:00",
-   "notified_for": "status out-multi-week; Champagnie Speculative add"
-  },
-  "injury:tyrese-maxey": {
-   "kind": "injury",
-   "player": "Tyrese Maxey",
-   "team": "PHI",
-   "injury": "right foot soreness",
-   "status": "available",
-   "status_note": "Cleared Sat vs MIL; Simons back to bench",
-   "beneficiaries": [
-    {
-     "player": "Anfernee Simons",
-     "verdict": "Watch",
-     "summary": "Starts if Maxey sits"
-    },
-    {
-     "player": "VJ Edgecombe",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-18T15:15:00-08:00",
-   "last_updated_pt": "2026-11-21T11:20:00-08:00",
-   "last_notified_pt": "2026-11-18T16:15:00-08:00",
-   "notified_for": "status out; Simons Add now"
-  },
-  "injury:alperen-sengun": {
-   "kind": "injury",
-   "player": "Alperen \u015eeng\u00fcn",
-   "team": "HOU",
-   "injury": "facial injury",
-   "status": "cleared",
-   "status_note": "Cleared to play Fri at DEN; Adams also available, Capela out",
-   "beneficiaries": [
-    {
-     "player": "Oscar Tshiebwe",
-     "verdict": "Watch",
-     "summary": "Center minutes if Adams and Sengun sit; reb/blk"
-    },
-    {
-     "player": "Steven Adams",
-     "verdict": "Watch",
-     "summary": "Only if he plays and Sengun sits"
-    },
-    {
-     "player": "Jabari Smith Jr.",
-     "verdict": "Watch",
-     "summary": "extra run"
-    },
-    {
-     "player": "Tari Eason",
-     "verdict": "Watch",
-     "summary": "extra run"
-    }
-   ],
-   "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-20T18:15:00-08:00",
-   "last_notified_pt": "2026-11-18T17:15:00-08:00",
-   "notified_for": "status left-game; Adams Speculative add"
-  },
-  "injury:cade-cunningham": {
-   "kind": "injury",
-   "player": "Cade Cunningham",
-   "team": "DET",
-   "injury": "knee",
-   "status": "out",
-   "status_note": "Out Tue vs ORL (was probable); knee has been bothering him; no timeline",
-   "beneficiaries": [
-    {
-     "player": "Isaiah Joe",
-     "verdict": "Speculative add",
-     "summary": "First start of year; 3s/stl, ~30 min"
-    },
-    {
-     "player": "Daniss Jenkins",
-     "verdict": "Speculative add",
-     "summary": "Extra playmaking/assists"
-    },
-    {
-     "player": "Kevin Huerter",
-     "verdict": "Watch",
-     "summary": "depth"
-    }
-   ],
-   "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-24T16:20:00-08:00",
-   "last_notified_pt": "2026-11-24T16:20:00-08:00",
-   "notified_for": "status out Tue (knee, was probable); Joe Speculative add"
-  },
-  "pickup:aday-mara": {
-   "kind": "pickup",
-   "player": "Aday Mara",
-   "team": "OKC",
-   "trigger": "Starting at C again (5th start) with Holmgren out until ~Jan 2",
-   "verdict": "Speculative add",
-   "summary": "~26 min, blocks/rebounds/FG%",
-   "first_seen_pt": "2026-11-15T18:15:00-08:00",
-   "last_updated_pt": "2026-11-18T18:15:00-08:00",
-   "last_notified_pt": "2026-11-18T18:15:00-08:00",
-   "notified_for": "Speculative add: sustained starting role"
-  },
-  "pickup:mario-hezonja": {
-   "kind": "pickup",
-   "player": "Mario Hezonja",
-   "team": "CLE",
-   "trigger": "Joined starting lineup Wed vs MEM",
-   "verdict": "Watch",
-   "summary": "25+ min, 3s",
-   "first_seen_pt": "2026-11-18T18:15:00-08:00",
-   "last_updated_pt": "2026-11-18T18:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:alex-caruso": {
-   "kind": "injury",
-   "player": "Alex Caruso",
-   "team": "OKC",
-   "injury": "hip",
-   "status": "out",
-   "status_note": "Hip; out Fri vs NOP, next chance Sun",
-   "beneficiaries": [
-    {
-     "player": "Bennett Stirtz",
-     "verdict": "Speculative add",
-     "summary": "Guard minutes"
-    },
-    {
-     "player": "Nique Clifford",
-     "verdict": "Watch",
-     "summary": "Wing minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-18T20:15:00-08:00",
-   "last_updated_pt": "2026-11-20T16:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:lj-cryer": {
-   "kind": "injury",
-   "player": "LJ Cryer",
-   "team": "GSW",
-   "injury": "lower back",
-   "status": "questionable",
-   "status_note": "Q Thu vs MEM, later cleared to play; started last 2 with Curry out",
-   "beneficiaries": [
-    {
-     "player": "De'Anthony Melton",
-     "verdict": "Watch",
-     "summary": "Guard minutes with Curry out; starts only if Cryer sits"
-    }
-   ],
-   "first_seen_pt": "2026-11-16T17:15:00-08:00",
-   "last_updated_pt": "2026-11-19T16:15:00-08:00",
-   "last_notified_pt": "2026-11-16T17:15:00-08:00",
-   "notified_for": "starting lineup; Speculative add"
-  },
-  "injury:myles-turner": {
-   "kind": "injury",
-   "player": "Myles Turner",
-   "team": "MIL",
-   "injury": "shoulder",
-   "status": "out",
-   "status_note": "Out Thu vs POR; Thu lineup: Ware/Ament/Nance start",
-   "beneficiaries": [
-    {
-     "player": "Kasparas Jakucionis",
-     "verdict": "Watch",
-     "summary": "extra minutes tonight"
-    }
-   ],
-   "first_seen_pt": "2026-11-19T12:15:00-08:00",
-   "last_updated_pt": "2026-11-19T17:10:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:kyle-kuzma": {
-   "kind": "injury",
-   "player": "Kyle Kuzma",
-   "team": "MIL",
-   "injury": "shoulder",
-   "status": "out",
-   "status_note": "Out Thu vs POR; Thu lineup: Ware/Ament/Nance start",
-   "beneficiaries": [
-    {
-     "player": "Kasparas Jakucionis",
-     "verdict": "Watch",
-     "summary": "extra minutes tonight"
-    }
-   ],
-   "first_seen_pt": "2026-11-19T12:15:00-08:00",
-   "last_updated_pt": "2026-11-19T17:10:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:rj-barrett": {
-   "kind": "injury",
-   "player": "RJ Barrett",
-   "team": "TOR",
-   "injury": "right hamstring strain",
-   "status": "out-multi-week",
-   "status_note": "Re-eval in 2 weeks; mid-Dec return at earliest",
-   "beneficiaries": [
-    {
-     "player": "Ja'Kobe Walter",
-     "verdict": "Speculative add",
-     "summary": "Starter-level minutes; 3s/steals"
-    },
-    {
-     "player": "Jamison Battle",
-     "verdict": "Watch",
-     "summary": "More wing minutes"
-    },
-    {
-     "player": "Allen Graves",
-     "verdict": "Speculative add",
-     "summary": "First start Fri: 20/10 in 33 min"
-    }
-   ],
-   "first_seen_pt": "2026-11-19T14:20:00-08:00",
-   "last_updated_pt": "2026-11-20T21:15:00-08:00",
-   "last_notified_pt": "2026-11-20T21:15:00-08:00",
-   "notified_for": "status out-multi-week; Walter, Graves Speculative add"
-  },
-  "injury:jerami-grant": {
-   "kind": "injury",
-   "player": "Jerami Grant",
-   "team": "MEM",
-   "injury": "left calf",
-   "status": "out-multi-week",
-   "status_note": "Grade 1 calf strain; out at least 2 wks, re-eval in 2 wks",
-   "beneficiaries": [
-    {
-     "player": "Taylor Hendricks",
-     "verdict": "Speculative add",
-     "summary": "Starting; extra forward minutes"
-    },
-    {
-     "player": "Kris Murray",
-     "verdict": "Watch",
-     "summary": "More bench minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-19T18:15:00-08:00",
-   "last_updated_pt": "2026-11-22T19:20:00-08:00",
-   "last_notified_pt": "2026-11-22T19:20:00-08:00",
-   "notified_for": "status out-multi-week; Hendricks Speculative add"
-  },
-  "injury:precious-achiuwa": {
-   "kind": "injury",
-   "player": "Precious Achiuwa",
-   "team": "SAC",
-   "injury": "lower leg bruise",
-   "status": "doubtful",
-   "status_note": "Doubtful Fri vs LAL; Hunter Q (hip)",
-   "beneficiaries": [
-    {
-     "player": "Dylan Cardwell",
-     "verdict": "Watch",
-     "summary": "Starts next to Sabonis"
-    }
-   ],
-   "first_seen_pt": "2026-11-19T18:15:00-08:00",
-   "last_updated_pt": "2026-11-19T18:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:cameron-boozer": {
-   "kind": "injury",
-   "player": "Cameron Boozer",
-   "team": "MEM",
-   "injury": "right ankle sprain",
-   "status": "out-multi-week",
-   "status_note": "Moderate ankle sprain; re-eval in 4 weeks",
-   "beneficiaries": [
-    {
-     "player": "Isaiah Stewart",
-     "verdict": "Speculative add",
-     "summary": "Likely starts"
-    },
-    {
-     "player": "Taylor Hendricks",
-     "verdict": "Speculative add",
-     "summary": "Started at C Thu"
-    }
-   ],
-   "first_seen_pt": "2026-11-20T16:15:00-08:00",
-   "last_updated_pt": "2026-11-23T15:15:00-08:00",
-   "last_notified_pt": "2026-11-23T15:15:00-08:00",
-   "notified_for": "status out-multi-week; Hendricks/Stewart Speculative add"
-  },
-  "injury:derrick-white": {
-   "kind": "injury",
-   "player": "Derrick White",
-   "team": "BOS",
-   "injury": "shoulder",
-   "status": "returned",
-   "status_note": "Back Sun (off injury report)",
-   "beneficiaries": [
-    {
-     "player": "Payton Pritchard",
-     "verdict": "Watch",
-     "summary": "Likely starts; probably rostered"
-    },
-    {
-     "player": "Baylor Scheierman",
-     "verdict": "Watch",
-     "summary": "Extra wing minutes"
-    },
-    {
-     "player": "Sam Hauser",
-     "verdict": "Watch",
-     "summary": "Starts Sat only; Tatum back Sun"
-    }
-   ],
-   "first_seen_pt": "2026-11-20T17:15:00-08:00",
-   "last_updated_pt": "2026-11-22T13:10:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "pickup:danny-wolf": {
-   "kind": "pickup",
-   "player": "Danny Wolf",
-   "team": "BKN",
-   "trigger": "Starting Fri vs ORL; Demin to bench",
-   "verdict": "Watch",
-   "summary": "Starter minutes at big; role durability unknown",
-   "first_seen_pt": "2026-11-20T17:15:00-08:00",
-   "last_updated_pt": "2026-11-20T17:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:nolan-traore": {
-   "kind": "injury",
-   "player": "Nolan Traore",
-   "team": "BKN",
-   "injury": "hamstring",
-   "status": "out-multi-week",
-   "status_note": "Re-eval in ~8-10 wks (hamstring strain)",
-   "beneficiaries": [
-    {
-     "player": "Egor Demin",
-     "verdict": "Speculative add",
-     "summary": "Lead-guard starter minutes"
-    },
-    {
-     "player": "Mikel Brown Jr.",
-     "verdict": "Watch",
-     "summary": "More backup guard minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-20T19:15:00-08:00",
-   "last_updated_pt": "2026-11-23T09:20:00-08:00",
-   "last_notified_pt": "2026-11-23T09:20:00-08:00",
-   "notified_for": "status out-multi-week; Demin Speculative add"
-  },
-  "injury:og-anunoby": {
-   "kind": "injury",
-   "player": "OG Anunoby",
-   "team": "NYK",
-   "injury": "calf",
-   "status": "out",
-   "status_note": "Out Sat vs POR (was doubtful); Clarkson out, Towns Q",
-   "beneficiaries": [
-    {
-     "player": "Landry Shamet",
-     "verdict": "Speculative add",
-     "summary": "Wing minutes if Anunoby sits"
-    }
-   ],
-   "first_seen_pt": "2026-11-21T09:20:00-08:00",
-   "last_updated_pt": "2026-11-21T14:15:00-08:00",
-   "last_notified_pt": "2026-11-21T14:15:00-08:00",
-   "notified_for": "status out; Shamet Speculative add"
-  },
-  "injury:karl-anthony-towns": {
-   "kind": "injury",
-   "player": "Karl-Anthony Towns",
-   "team": "NYK",
-   "injury": "illness",
-   "status": "probable",
-   "status_note": "Upgraded to probable Wed vs CLE",
-   "beneficiaries": [
-    {
-     "player": "Andre Drummond",
-     "verdict": "Speculative add",
-     "summary": "Confirmed starting C; boards, blocks"
-    },
-    {
-     "player": "James Wiseman",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-21T11:20:00-08:00",
-   "last_updated_pt": "2026-11-24T14:15:00-08:00",
-   "last_notified_pt": "2026-11-21T15:15:00-08:00",
-   "notified_for": "status out; Drummond Speculative add"
-  },
-  "pickup:ryan-rollins": {
-   "kind": "pickup",
-   "player": "Ryan Rollins",
-   "team": "MIL",
-   "trigger": "Moved into starting lineup Sat vs PHI (Burries to bench)",
-   "verdict": "Speculative add",
-   "summary": "~28 min starter; assists, steals, 3s",
-   "first_seen_pt": "2026-11-21T11:20:00-08:00",
-   "last_updated_pt": "2026-11-21T11:20:00-08:00",
-   "last_notified_pt": "2026-11-21T11:20:00-08:00",
-   "notified_for": "starting lineup; Speculative add"
-  },
-  "injury:pj-washington": {
-   "kind": "injury",
-   "player": "P.J. Washington",
-   "team": "DAL",
-   "injury": "illness/shoulder",
-   "status": "out",
-   "status_note": "Out Sat; doubtful Sun vs UTA",
-   "beneficiaries": [
-    {
-     "player": "Santi Aldama",
-     "verdict": "Watch",
-     "summary": "Frontcourt minutes if Washington sits"
-    }
-   ],
-   "first_seen_pt": "2026-11-21T12:15:00-08:00",
-   "last_updated_pt": "2026-11-21T16:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:mitchell-robinson": {
-   "kind": "injury",
-   "player": "Mitchell Robinson",
-   "team": "BOS",
-   "injury": "illness",
-   "status": "out",
-   "status_note": "Out Sat and Sun (illness); back Tue",
-   "beneficiaries": [
-    {
-     "player": "Luka Garza",
-     "verdict": "Watch",
-     "summary": "Minutes behind Queta"
-    }
-   ],
-   "first_seen_pt": "2026-11-21T13:15:00-08:00",
-   "last_updated_pt": "2026-11-22T13:10:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:giannis-antetokounmpo": {
-   "kind": "injury",
-   "player": "Giannis Antetokounmpo",
-   "team": "MIA",
-   "injury": "groin",
-   "status": "probable",
-   "status_note": "Upgraded to probable Wed at PHI",
-   "beneficiaries": [
-    {
-     "player": "Bobby Portis",
-     "verdict": "Speculative add",
-     "summary": "Starts if Giannis sits"
-    },
-    {
-     "player": "Nikola Jovic",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-21T13:15:00-08:00",
-   "last_updated_pt": "2026-11-24T14:15:00-08:00",
-   "last_notified_pt": "2026-11-22T15:20:00-08:00",
-   "notified_for": "status out; Portis Speculative add"
-  },
-  "injury:shai-gilgeous-alexander": {
-   "kind": "injury",
-   "player": "Shai Gilgeous-Alexander",
-   "team": "OKC",
-   "injury": "back/neck",
-   "status": "available",
-   "status_note": "Off Mon injury report",
-   "beneficiaries": [
-    {
-     "player": "Bennett Stirtz",
-     "verdict": "Speculative add",
-     "summary": "Starting guard minutes"
-    },
-    {
-     "player": "Jared McCain",
-     "verdict": "Speculative add",
-     "summary": "Scoring/3s"
-    },
-    {
-     "player": "Nique Clifford",
-     "verdict": "Watch",
-     "summary": "wing minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-21T15:15:00-08:00",
-   "last_updated_pt": "2026-11-22T14:10:00-08:00",
-   "last_notified_pt": "2026-11-22T14:10:00-08:00",
-   "notified_for": "status out; Stirtz/McCain Speculative add"
-  },
-  "injury:norman-powell": {
-   "kind": "injury",
-   "player": "Norman Powell",
-   "team": "CHI",
-   "injury": "hamstring",
-   "status": "out",
-   "status_note": "Right hamstring strain; out Sun vs DEN, re-eval later this week",
-   "beneficiaries": [
-    {
-     "player": "Buddy Hield",
-     "verdict": "Speculative add",
-     "summary": "Likely starter or extra minutes"
-    },
-    {
-     "player": "Patrick Williams",
-     "verdict": "Speculative add",
-     "summary": "Probable (thumb); expanded role"
-    }
-   ],
-   "first_seen_pt": "2026-11-22T09:20:00-08:00",
-   "last_updated_pt": "2026-11-22T09:20:00-08:00",
-   "last_notified_pt": "2026-11-22T09:20:00-08:00",
-   "notified_for": "status out; Hield/Williams Speculative add"
-  },
-  "injury:victor-wembanyama": {
-   "kind": "injury",
-   "player": "Victor Wembanyama",
-   "team": "SAS",
-   "injury": "lower back tightness",
-   "status": "questionable",
-   "status_note": "Out Mon; Q Wed at POR",
-   "beneficiaries": [
-    {
-     "player": "Luke Kornet",
-     "verdict": "Speculative add",
-     "summary": "Starts at C Mon; first start of season"
-    },
-    {
-     "player": "Carter Bryant",
-     "verdict": "Watch",
-     "summary": ""
-    },
-    {
-     "player": "Tarris Reed Jr.",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-22T18:15:00-08:00",
-   "last_updated_pt": "2026-11-24T18:15:00-08:00",
-   "last_notified_pt": "2026-11-23T18:15:00-08:00",
-   "notified_for": "status out; Kornet Speculative add"
-  },
-  "injury:deaaron-fox": {
-   "kind": "injury",
-   "player": "De'Aaron Fox",
-   "team": "SAS",
-   "injury": "right shin contusion",
-   "status": "questionable",
-   "status_note": "Out Mon; Q Wed at POR",
-   "beneficiaries": [
-    {
-     "player": "Jordan McLaughlin",
-     "verdict": "Watch",
-     "summary": "extra backup-guard minutes"
-    },
-    {
-     "player": "David Jones Garcia",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-22T18:15:00-08:00",
-   "last_updated_pt": "2026-11-24T18:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:jaxson-hayes": {
-   "kind": "injury",
-   "player": "Jaxson Hayes",
-   "team": "UTA",
-   "injury": "left knee",
-   "status": "out",
-   "status_note": "Left Sun after ~12 min; out Mon vs LAL",
-   "beneficiaries": [
-    {
-     "player": "Mo Bamba",
-     "verdict": "Speculative add",
-     "summary": "Center minutes; rebounds/blocks"
-    },
-    {
-     "player": "Tony Bradley",
-     "verdict": "Watch",
-     "summary": ""
-    },
-    {
-     "player": "Brice Sensabaugh",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-22T22:15:00-08:00",
-   "last_updated_pt": "2026-11-23T15:15:00-08:00",
-   "last_notified_pt": "2026-11-23T15:15:00-08:00",
-   "notified_for": "status out; Bamba Speculative add"
-  },
-  "injury:joel-embiid": {
-   "kind": "injury",
-   "player": "Joel Embiid",
-   "team": "PHI",
-   "injury": "knee",
-   "status": "out",
-   "status_note": "Illness; out Mon and Wed vs MIA (was doubtful)",
-   "beneficiaries": [
-    {
-     "player": "Adem Bona",
-     "verdict": "Speculative add",
-     "summary": "Center minutes if Embiid sits"
-    },
-    {
-     "player": "Dominick Barlow",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-23T09:20:00-08:00",
-   "last_updated_pt": "2026-11-25T12:15:00-08:00",
-   "last_notified_pt": "2026-11-23T15:15:00-08:00",
-   "notified_for": "status out; Bona Speculative add"
-  },
-  "injury:aaron-nesmith": {
-   "kind": "injury",
-   "player": "Aaron Nesmith",
-   "team": "IND",
-   "injury": "foot soreness (McConnell hamstring)",
-   "status": "out",
-   "status_note": "Nesmith and McConnell out Mon vs OKC; Siakam Q",
-   "beneficiaries": [
-    {
-     "player": "Braden Smith",
-     "verdict": "Watch",
-     "summary": "Starting Mon; rookie PG 7.3 pts/4.3 ast"
-    },
-    {
-     "player": "Quenton Jackson",
-     "verdict": "Watch",
-     "summary": "backup guard minutes"
-    },
-    {
-     "player": "Ben Sheppard",
-     "verdict": "Watch",
-     "summary": "wing minutes"
-    },
-    {
-     "player": "Johnny Furphy",
-     "verdict": "Watch",
-     "summary": "more run if Siakam sits"
-    }
-   ],
-   "first_seen_pt": "2026-11-23T11:15:00-08:00",
-   "last_updated_pt": "2026-11-23T17:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:jalen-duren": {
-   "kind": "injury",
-   "player": "Jalen Duren",
-   "team": "DET",
-   "injury": "hamstring",
-   "status": "out",
-   "status_note": "Out Tue vs ORL",
-   "beneficiaries": [
-    {
-     "player": "Paul Reed",
-     "verdict": "Speculative add",
-     "summary": "Backup C, 26 min Sun"
-    }
-   ],
-   "first_seen_pt": "2026-11-23T14:15:00-08:00",
-   "last_updated_pt": "2026-11-23T14:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "pickup:mikel-brown-jr": {
-   "kind": "pickup",
-   "player": "Mikel Brown Jr.",
-   "team": "BKN",
-   "trigger": "First NBA start Mon vs MIN; green light for starter minutes",
-   "verdict": "Speculative add",
-   "summary": "~25-30 min starting PG; minutes restriction/back-to-back sits",
-   "first_seen_pt": "2026-11-23T17:15:00-08:00",
-   "last_updated_pt": "2026-11-23T17:15:00-08:00",
-   "last_notified_pt": "2026-11-23T17:15:00-08:00",
-   "notified_for": "promotion to starting lineup; Speculative add"
-  },
-  "injury:josh-hart": {
-   "kind": "injury",
-   "player": "Josh Hart",
-   "team": "NYK",
-   "injury": "shoulder",
-   "status": "probable",
-   "status_note": "Upgraded to probable Wed vs CLE",
-   "beneficiaries": [
-    {
-     "player": "Pacome Dadiet",
-     "verdict": "Speculative add",
-     "summary": "Wing minutes with Anunoby/Clarkson out"
-    },
-    {
-     "player": "Mohamed Diawara",
-     "verdict": "Watch",
-     "summary": ""
-    },
-    {
-     "player": "Tyler Kolek",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-24T14:15:00-08:00",
-   "last_updated_pt": "2026-11-24T14:15:00-08:00",
-   "last_notified_pt": "2026-11-24T14:15:00-08:00",
-   "notified_for": "status questionable; Dadiet Speculative add"
-  },
-  "injury:jalen-brunson": {
-   "kind": "injury",
-   "player": "Jalen Brunson",
-   "team": "NYK",
-   "injury": "illness",
-   "status": "available",
-   "status_note": "Knicks say he plays Wed vs CLE; McBride out",
-   "beneficiaries": [
-    {
-     "player": "Tyler Kolek",
-     "verdict": "Watch",
-     "summary": "Backup PG, 25+ min if Brunson sits"
-    },
-    {
-     "player": "Jose Alvarado",
-     "verdict": "Watch",
-     "summary": "guard minutes"
-    },
-    {
-     "player": "Pacome Dadiet",
-     "verdict": "Watch",
-     "summary": "wing minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-25T10:15:00-08:00",
-   "last_updated_pt": "2026-11-25T15:15:00-08:00",
-   "last_notified_pt": "2026-11-25T10:15:00-08:00",
-   "notified_for": "status questionable; Kolek Speculative add"
-  },
-  "injury:zach-lavine": {
-   "kind": "injury",
-   "player": "Zach LaVine",
-   "team": "SAC",
-   "injury": "knee",
-   "status": "out",
-   "status_note": "Ruled out Wed at GSW (was Q); next chance Sun vs MIN",
-   "beneficiaries": [
-    {
-     "player": "Gabe Vincent",
-     "verdict": "Speculative add",
-     "summary": "Backcourt minutes if LaVine sits; low confidence"
-    },
-    {
-     "player": "Sean Pedulla",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-25T13:15:00-08:00",
-   "last_updated_pt": "2026-11-25T19:15:00-08:00",
-   "last_notified_pt": "2026-11-25T15:15:00-08:00",
-   "notified_for": "status out; Vincent Speculative add"
-  },
-  "injury:jalen-smith": {
-   "kind": "injury",
-   "player": "Jalen Smith",
-   "team": "CHI",
-   "injury": "illness",
-   "status": "out",
-   "status_note": "Out Wed vs CHA (stomach bug)",
-   "beneficiaries": [
-    {
-     "player": "Zach Collins",
-     "verdict": "Watch",
-     "summary": "Backup C minutes; Claxton starts"
-    }
-   ],
-   "first_seen_pt": "2026-11-25T14:15:00-08:00",
-   "last_updated_pt": "2026-11-25T14:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "pickup:kevin-porter-jr": {
-   "kind": "pickup",
-   "player": "Kevin Porter Jr.",
-   "team": "ORL",
-   "trigger": "Signing two-year deal with Magic (Shams)",
-   "verdict": "Watch",
-   "summary": "Role unclear; Banchero out",
-   "first_seen_pt": "2026-11-25T15:15:00-08:00",
-   "last_updated_pt": "2026-11-25T15:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "pickup:bennett-stirtz": {
-   "kind": "pickup",
-   "player": "Bennett Stirtz",
-   "team": "OKC",
-   "trigger": "First career start Wed vs MIN (McCain to bench; OKC thin)",
-   "verdict": "Watch",
-   "summary": "One-night starter minutes; Caruso returning",
-   "first_seen_pt": "2026-11-25T17:15:00-08:00",
-   "last_updated_pt": "2026-11-25T17:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  },
-  "injury:lamelo-ball": {
-   "kind": "injury",
-   "player": "LaMelo Ball",
-   "team": "MIN",
-   "injury": "left ankle",
-   "status": "left-game",
-   "status_note": "Left Wed at OKC after 29 min; Q, next game Fri vs MEM",
-   "beneficiaries": [
-    {
-     "player": "Ayo Dosunmu",
-     "verdict": "Speculative add",
-     "summary": "Starting guard minutes"
-    },
-    {
-     "player": "Bones Hyland",
-     "verdict": "Speculative add",
-     "summary": "Bench scoring/3s/assists"
-    }
-   ],
-   "first_seen_pt": "2026-11-25T19:15:00-08:00",
-   "last_updated_pt": "2026-11-25T19:15:00-08:00",
-   "last_notified_pt": "2026-11-25T19:15:00-08:00",
-   "notified_for": "status left-game; Dosunmu/Hyland Speculative add"
-  },
-  "injury:zach-edey": {
-   "kind": "injury",
-   "player": "Zach Edey",
-   "team": "MEM",
-   "injury": "left ankle",
-   "status": "doubtful",
-   "status_note": "Left Wed vs LAC after 9 min; doubtful to return; next Fri at MIN",
-   "beneficiaries": [
-    {
-     "player": "Taylor Hendricks",
-     "verdict": "Speculative add",
-     "summary": "Center minutes"
-    },
-    {
-     "player": "Isaiah Stewart",
-     "verdict": "Speculative add",
-     "summary": "Center minutes"
-    }
-   ],
-   "first_seen_pt": "2026-11-25T19:15:00-08:00",
-   "last_updated_pt": "2026-11-25T19:15:00-08:00",
-   "last_notified_pt": null,
-   "notified_for": null
-  }
- },
- "drop_watch": [
-  "Jared McCain (benched Wed; Stirtz starts)",
-  "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
-  "Brayden Burries (benched Sat; Rollins/Jaquez start)",
-  "Scottie Barnes back (Ja'Kobe Walter)",
-  "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
-  "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
-  "Jamal Shead (Quickley back)",
-  "Scoot Henderson (Morant back)",
-  "Jase Richardson (Cain starts)",
-  "Trey Lyles (Beringer back)",
-  "Quenton Jackson (McConnell back)",
-  "Karlo Matkovic (Missi back, probable Sat)",
-  "DeAndre Jordan (Missi back, probable Sat)",
-  "Sion James (Brandon Miller back Sun, James to bench)",
-  "Dean Wade (Walker starts at C Sun; Wade bench)",
-  "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
- ],
- "injury_watch": [
-  "Moritz Wagner (BKN, knee, left Wed after 4 min; Grant Nelson)",
-  "Maxime Raynaud (SAC, knee, out Wed vs GSW; assigned to G League; no clear pickup)",
-  "Ebuka Okorie (DET, oblique, out 2+ wks; no clear pickup)",
-  "Ryan Kalkbrenner (CHA, hip, out Wed vs CHI; Steinbach)",
-  "Collin Gillespie (PHX, undisclosed, left Mon at NOP in Q3; Q; Kennard)",
-  "Larry Nance Jr. (IND, ankle, left Mon vs OKC; may miss Fri; Toppin)",
-  "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) \u00b7 Jovi\u0107 (MIA, illness, Q Mon)",
-  "Jaylon Tyson (CLE, ankle, probable Mon vs CHI; fades Proctor/Thomas)",
-  "Clint Capela and Steven Adams (HOU, out Mon vs MIA)",
-  "Trendon Watford, Bennedict Mathurin (NOP) out Mon vs PHX; Trey Murphy III and McGowens probable",
-  "Grant Williams and Grayson Allen (CHA) out Mon vs MEM; Brandon Miller probable",
-  "Ryan Dunn (PHX, quad; off Wed injury report)",
-  "Aday Mara (OKC, shin, out Sun); Brandon Ingram (LAC) off injury report, back Mon",
-  "Gabe Vincent signing with SAC (Shams); DaRon Holmes II recalled by DEN; Jaden Bradley recalled by TOR",
-  "Tyrese Haliburton (IND, hamstring) targeting return before Dec.",
-  "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away",
-  "Dennis Schr\u00f6der (CHA, hamstring, out indefinitely, maybe to mid-Dec; no clear pickup)",
-  "Grayson Allen (CHA, concussion, out Wed vs CHI)"
- ]
+  "drop_watch": [
+    "Jared McCain (benched Wed; Stirtz starts)",
+    "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
+    "Brayden Burries (benched Sat; Rollins/Jaquez start)",
+    "Scottie Barnes back (Ja'Kobe Walter)",
+    "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
+    "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
+    "Jamal Shead (Quickley back)",
+    "Scoot Henderson (Morant back)",
+    "Jase Richardson (Cain starts)",
+    "Trey Lyles (Beringer back)",
+    "Quenton Jackson (McConnell back)",
+    "Karlo Matkovic (Missi back, probable Sat)",
+    "DeAndre Jordan (Missi back, probable Sat)",
+    "Sion James (Brandon Miller back Sun, James to bench)",
+    "Dean Wade (Walker starts at C Sun; Wade bench)",
+    "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
+  ],
+  "injury_watch": [
+    "Moritz Wagner (BKN, knee, left Wed after 4 min; Grant Nelson)",
+    "Maxime Raynaud (SAC, knee, out Wed vs GSW; assigned to G League; no clear pickup)",
+    "Ebuka Okorie (DET, oblique, out 2+ wks; no clear pickup)",
+    "Ryan Kalkbrenner (CHA, hip, out Wed vs CHI; Steinbach)",
+    "Collin Gillespie (PHX, undisclosed, left Mon at NOP in Q3; Q; Kennard)",
+    "Larry Nance Jr. (IND, ankle, left Mon vs OKC; may miss Fri; Toppin)",
+    "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) \u00b7 Jovi\u0107 (MIA, illness, Q Mon)",
+    "Jaylon Tyson (CLE, ankle, probable Mon vs CHI; fades Proctor/Thomas)",
+    "Clint Capela and Steven Adams (HOU, out Mon vs MIA)",
+    "Trendon Watford, Bennedict Mathurin (NOP) out Mon vs PHX; Trey Murphy III and McGowens probable",
+    "Grant Williams and Grayson Allen (CHA) out Mon vs MEM; Brandon Miller probable",
+    "Ryan Dunn (PHX, quad; off Wed injury report)",
+    "Aday Mara (OKC, shin, out Sun); Brandon Ingram (LAC) off injury report, back Mon",
+    "Gabe Vincent signing with SAC (Shams); DaRon Holmes II recalled by DEN; Jaden Bradley recalled by TOR",
+    "Tyrese Haliburton (IND, hamstring) targeting return before Dec.",
+    "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away",
+    "Dennis Schr\u00f6der (CHA, hamstring, out indefinitely, maybe to mid-Dec; no clear pickup)",
+    "Grayson Allen (CHA, concussion, out Wed vs CHI)"
+  ]
 }
