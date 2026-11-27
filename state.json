@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-27T10:15:00-08:00",
- "run_label": "10am",
+ "last_run_pt": "2026-11-27T11:10:00-08:00",
+ "run_label": "11am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1464,7 +1464,7 @@
    "team": "NYK",
    "injury": "calf",
    "status": "out",
-   "status_note": "Out Sat vs POR (was doubtful); Clarkson out, Towns Q",
+   "status_note": "Out Fri vs MIA (3rd straight miss); McBride, Clarkson out",
    "beneficiaries": [
     {
      "player": "Landry Shamet",
@@ -1473,7 +1473,7 @@
     }
    ],
    "first_seen_pt": "2026-11-21T09:20:00-08:00",
-   "last_updated_pt": "2026-11-21T14:15:00-08:00",
+   "last_updated_pt": "2026-11-27T11:10:00-08:00",
    "last_notified_pt": "2026-11-21T14:15:00-08:00",
    "notified_for": "status out; Shamet Speculative add"
   },
@@ -1483,7 +1483,7 @@
    "team": "NYK",
    "injury": "right abdominal contusion",
    "status": "questionable",
-   "status_note": "Downgraded to Q Fri vs MIA; Drummond out, Anunoby doubtful, Clarkson/McBride Q",
+   "status_note": "Q Fri vs MIA; Anunoby, McBride, Clarkson out; Drummond Q",
    "beneficiaries": [
     {
      "player": "James Wiseman",
@@ -1499,10 +1499,15 @@
      "player": "Landry Shamet",
      "verdict": "Watch",
      "summary": ""
+    },
+    {
+     "player": "Tyler Kolek",
+     "verdict": "Speculative add",
+     "summary": "Guard minutes with McBride out"
     }
    ],
    "first_seen_pt": "2026-11-21T11:20:00-08:00",
-   "last_updated_pt": "2026-11-27T09:15:00-08:00",
+   "last_updated_pt": "2026-11-27T11:10:00-08:00",
    "last_notified_pt": "2026-11-27T09:15:00-08:00",
    "notified_for": "status questionable; Wiseman Speculative add"
   },
@@ -1934,12 +1939,12 @@
    "player": "LaMelo Ball",
    "team": "MIN",
    "injury": "left ankle",
-   "status": "left-game",
-   "status_note": "Left Wed at OKC after 29 min; Q Fri vs MEM; absent from Fri shootaround",
+   "status": "out",
+   "status_note": "Left Wed at OKC after 29 min; ruled out Fri vs MEM",
    "beneficiaries": [
     {
      "player": "Ayo Dosunmu",
-     "verdict": "Speculative add",
+     "verdict": "Add now",
      "summary": "Starting guard minutes"
     },
     {
@@ -1954,9 +1959,9 @@
     }
    ],
    "first_seen_pt": "2026-11-25T19:15:00-08:00",
-   "last_updated_pt": "2026-11-27T10:15:00-08:00",
-   "last_notified_pt": "2026-11-25T19:15:00-08:00",
-   "notified_for": "status left-game; Dosunmu/Hyland Speculative add"
+   "last_updated_pt": "2026-11-27T11:10:00-08:00",
+   "last_notified_pt": "2026-11-27T11:10:00-08:00",
+   "notified_for": "status out; Dosunmu Add now"
   },
   "injury:zach-edey": {
    "kind": "injury",
@@ -1979,6 +1984,30 @@
    ],
    "first_seen_pt": "2026-11-25T19:15:00-08:00",
    "last_updated_pt": "2026-11-27T09:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:damian-lillard": {
+   "kind": "injury",
+   "player": "Damian Lillard",
+   "team": "POR",
+   "injury": "right calf",
+   "status": "out",
+   "status_note": "Out Fri vs GSW",
+   "beneficiaries": [
+    {
+     "player": "Scoot Henderson",
+     "verdict": "Watch",
+     "summary": "Backup guard minutes"
+    },
+    {
+     "player": "Vit Krejci",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-27T11:10:00-08:00",
+   "last_updated_pt": "2026-11-27T11:10:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   }
