@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-27T09:15:00-08:00",
- "run_label": "9am",
+ "last_run_pt": "2026-11-27T10:15:00-08:00",
+ "run_label": "10am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1935,7 +1935,7 @@
    "team": "MIN",
    "injury": "left ankle",
    "status": "left-game",
-   "status_note": "Left Wed at OKC after 29 min; Q, next game Fri vs MEM",
+   "status_note": "Left Wed at OKC after 29 min; Q Fri vs MEM; absent from Fri shootaround",
    "beneficiaries": [
     {
      "player": "Ayo Dosunmu",
@@ -1946,10 +1946,15 @@
      "player": "Bones Hyland",
      "verdict": "Speculative add",
      "summary": "Bench scoring/3s/assists"
+    },
+    {
+     "player": "Terrence Shannon Jr.",
+     "verdict": "Watch",
+     "summary": "More backcourt time"
     }
    ],
    "first_seen_pt": "2026-11-25T19:15:00-08:00",
-   "last_updated_pt": "2026-11-25T19:15:00-08:00",
+   "last_updated_pt": "2026-11-27T10:15:00-08:00",
    "last_notified_pt": "2026-11-25T19:15:00-08:00",
    "notified_for": "status left-game; Dosunmu/Hyland Speculative add"
   },
