@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-26T18:20:00-08:00",
-  "run_label": "6pm",
+  "last_run_pt": "2026-11-26T19:20:00-08:00",
+  "run_label": "7pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -1081,12 +1081,12 @@
       "player": "Dylan Harper",
       "team": "SAS",
       "injury": "groin",
-      "status": "out-multi-week",
-      "status_note": "Hard fall Tue vs DET; out 2-3 wks (hip strain)",
+      "status": "questionable",
+      "status_note": "Upgraded to Q Fri vs LAL (was out 2-3 wks)",
       "beneficiaries": [
         {
           "player": "Julian Champagnie",
-          "verdict": "Speculative add",
+          "verdict": "Watch",
           "summary": "Returns to starting five if Harper out"
         },
         {
@@ -1101,7 +1101,7 @@
         }
       ],
       "first_seen_pt": "2026-11-17T20:15:00-08:00",
-      "last_updated_pt": "2026-11-19T12:15:00-08:00",
+      "last_updated_pt": "2026-11-26T19:20:00-08:00",
       "last_notified_pt": "2026-11-19T12:15:00-08:00",
       "notified_for": "status out-multi-week; Champagnie Speculative add"
     },
@@ -1169,7 +1169,7 @@
       "team": "DET",
       "injury": "knee",
       "status": "out",
-      "status_note": "Out Tue vs ORL (was probable); knee has been bothering him; no timeline",
+      "status_note": "Out Tue and Fri vs MIL (knee tendinopathy); next chance Sun",
       "beneficiaries": [
         {
           "player": "Isaiah Joe",
@@ -1188,7 +1188,7 @@
         }
       ],
       "first_seen_pt": "2026-11-18T17:15:00-08:00",
-      "last_updated_pt": "2026-11-24T16:20:00-08:00",
+      "last_updated_pt": "2026-11-26T19:20:00-08:00",
       "last_notified_pt": "2026-11-24T16:20:00-08:00",
       "notified_for": "status out Tue (knee, was probable); Joe Speculative add"
     },
@@ -1953,8 +1953,8 @@
       "player": "Zach Edey",
       "team": "MEM",
       "injury": "left ankle",
-      "status": "doubtful",
-      "status_note": "Left Wed vs LAC after 9 min; doubtful to return; next Fri at MIN",
+      "status": "questionable",
+      "status_note": "Left Wed after 9 min; Q Fri at MIN; Stewart also Q",
       "beneficiaries": [
         {
           "player": "Taylor Hendricks",
@@ -1968,7 +1968,7 @@
         }
       ],
       "first_seen_pt": "2026-11-25T19:15:00-08:00",
-      "last_updated_pt": "2026-11-25T19:15:00-08:00",
+      "last_updated_pt": "2026-11-26T19:20:00-08:00",
       "last_notified_pt": null,
       "notified_for": null
     }
