@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-28T10:15:00-08:00",
- "run_label": "10am",
+ "last_run_pt": "2026-11-28T11:15:00-08:00",
+ "run_label": "11am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -2039,9 +2039,34 @@
    "last_updated_pt": "2026-11-28T09:20:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:josh-giddey": {
+   "kind": "injury",
+   "player": "Josh Giddey",
+   "team": "CHI",
+   "injury": "ankle",
+   "status": "questionable",
+   "status_note": "R ankle soreness; Q Sat vs IND",
+   "beneficiaries": [
+    {
+     "player": "Tre Jones",
+     "verdict": "Speculative add",
+     "summary": "Would start at PG; ~30 min, assists/steals"
+    },
+    {
+     "player": "Jordan Hawkins",
+     "verdict": "Watch",
+     "summary": "Extra shots/3s"
+    }
+   ],
+   "first_seen_pt": "2026-11-28T11:15:00-08:00",
+   "last_updated_pt": "2026-11-28T11:15:00-08:00",
+   "last_notified_pt": "2026-11-28T11:15:00-08:00",
+   "notified_for": "status questionable; Tre Jones Speculative add"
   }
  },
  "drop_watch": [
+  "Braden Smith, T.J. McConnell (Haliburton recalled from G League, return imminent)",
   "Jared McCain (benched Wed; Stirtz starts)",
   "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
   "Brayden Burries (benched Sat; Rollins/Jaquez start)",
