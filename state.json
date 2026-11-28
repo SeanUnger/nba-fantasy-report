@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-27T18:15:00-08:00",
- "run_label": "6pm",
+ "last_run_pt": "2026-11-27T19:15:00-08:00",
+ "run_label": "7pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -169,10 +169,10 @@
   "ryan-kalkbrenner": {
    "player": "Ryan Kalkbrenner",
    "team": "CHA",
-   "trigger": "Diabat\u00e9 (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
+   "trigger": "Diabaté (quad) out Mon; Kalkbrenner 15 reb/3 blk in 35 min",
    "trigger_status": "out",
    "verdict": "Watch",
-   "summary": "Starting C while Diabat\u00e9 out",
+   "summary": "Starting C while Diabaté out",
    "first_seen_pt": "2026-11-06T13:10:00-08:00",
    "last_updated_pt": "2026-11-10T12:15:00-08:00"
   },
@@ -197,7 +197,7 @@
    "last_updated_pt": "2026-11-11T15:15:00-08:00"
   },
   "tidjane-salaun": {
-   "player": "Tidjane Sala\u00fcn",
+   "player": "Tidjane Salaün",
    "team": "CHA",
    "trigger": "Wilson out 4-6 wks (surgery); Knueppel out 4+ wks",
    "trigger_status": "out",
@@ -437,7 +437,7 @@
   "sidy-cissoko": {
    "player": "Sidy Cissoko",
    "team": "POR",
-   "trigger": "Krej\u010d\u00ed out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
+   "trigger": "Krejčí out 8 wks (ankle surgery); Cissoko started Tue, 17 pts in 33 min",
    "trigger_status": "out",
    "verdict": "Speculative add",
    "summary": "Starter/rotation wing; Youngblood out Wed",
@@ -575,7 +575,7 @@
    "last_updated_pt": "2026-11-15T12:15:00-08:00"
   },
   "nikola-topic": {
-   "player": "Nikola Topi\u0107",
+   "player": "Nikola Topić",
    "team": "OKC",
    "trigger": "Recalled from G League",
    "trigger_status": "active",
@@ -1131,7 +1131,7 @@
   },
   "injury:alperen-sengun": {
    "kind": "injury",
-   "player": "Alperen \u015eeng\u00fcn",
+   "player": "Alperen Şengün",
    "team": "HOU",
    "injury": "facial injury",
    "status": "cleared",
@@ -1307,8 +1307,8 @@
    "beneficiaries": [
     {
      "player": "Ja'Kobe Walter",
-     "verdict": "Speculative add",
-     "summary": "Starter-level minutes; 3s/steals"
+     "verdict": "Watch",
+     "summary": "Left Fri with quad contusion; next chance Sun"
     },
     {
      "player": "Jamison Battle",
@@ -1964,7 +1964,7 @@
    "team": "POR",
    "injury": "right calf",
    "status": "out",
-   "status_note": "Out Fri vs GSW",
+   "status_note": "Out Fri vs GSW; next chance Sun; Holiday starts",
    "beneficiaries": [
     {
      "player": "Scoot Henderson",
@@ -1975,10 +1975,15 @@
      "player": "Vit Krejci",
      "verdict": "Watch",
      "summary": ""
+    },
+    {
+     "player": "Jrue Holiday",
+     "verdict": "Watch",
+     "summary": "Started Fri; likely already rostered"
     }
    ],
    "first_seen_pt": "2026-11-27T11:10:00-08:00",
-   "last_updated_pt": "2026-11-27T11:10:00-08:00",
+   "last_updated_pt": "2026-11-27T19:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -2017,7 +2022,7 @@
   "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
   "Brayden Burries (benched Sat; Rollins/Jaquez start)",
   "Scottie Barnes back (Ja'Kobe Walter)",
-  "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
+  "Ryan Kalkbrenner (Diabaté back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
   "Jamal Shead (Quickley back)",
   "Scoot Henderson (Morant back)",
@@ -2039,7 +2044,7 @@
   "Ryan Kalkbrenner (CHA, hip, out Wed vs CHI; Steinbach)",
   "Collin Gillespie (PHX, undisclosed, left Mon at NOP in Q3; Q; Kennard)",
   "Larry Nance Jr. (IND, ankle, left Mon vs OKC; may miss Fri; Toppin)",
-  "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) \u00b7 Jovi\u0107 (MIA, illness, Q Mon)",
+  "Pelle Larsson (MIA, illness, doubtful Mon; Gardner likely starts) · Jović (MIA, illness, Q Mon)",
   "Jaylon Tyson (CLE, ankle, probable Mon vs CHI; fades Proctor/Thomas)",
   "Clint Capela and Steven Adams (HOU, out Mon vs MIA)",
   "Trendon Watford, Bennedict Mathurin (NOP) out Mon vs PHX; Trey Murphy III and McGowens probable",
@@ -2049,7 +2054,7 @@
   "Gabe Vincent signing with SAC (Shams); DaRon Holmes II recalled by DEN; Jaden Bradley recalled by TOR",
   "Tyrese Haliburton (IND, hamstring) targeting return before Dec.",
   "Anthony Edwards (MIN) out ~2 months; Stephen Curry (GSW) out, re-eval late Nov; Kawhi Leonard (TOR) weeks away",
-  "Dennis Schr\u00f6der (CHA, hamstring, out indefinitely, maybe to mid-Dec; no clear pickup)",
+  "Dennis Schröder (CHA, hamstring, out indefinitely, maybe to mid-Dec; no clear pickup)",
   "Grayson Allen (CHA, concussion, out Wed vs CHI)",
   "Dereck Lively II, De Larrea, Lawal, Biberovic (DAL) out Fri vs PHX; no clear pickup"
  ]
