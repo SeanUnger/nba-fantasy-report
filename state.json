@@ -1,6 +1,6 @@
 {
-  "last_run_pt": "2026-11-27T15:15:00-08:00",
-  "run_label": "3pm",
+  "last_run_pt": "2026-11-27T16:15:00-08:00",
+  "run_label": "4pm",
   "items": {
     "precious-achiuwa": {
       "player": "Precious Achiuwa",
@@ -1482,12 +1482,12 @@
       "player": "Karl-Anthony Towns",
       "team": "NYK",
       "injury": "right abdominal contusion",
-      "status": "questionable",
-      "status_note": "Q Fri vs MIA; Anunoby, McBride, Clarkson out; Drummond Q",
+      "status": "available",
+      "status_note": "Cleared Fri vs MIA; Anunoby, McBride, Clarkson out",
       "beneficiaries": [
         {
           "player": "James Wiseman",
-          "verdict": "Speculative add",
+          "verdict": "Watch",
           "summary": "Only healthy big if Towns sits; starting C"
         },
         {
@@ -1507,7 +1507,7 @@
         }
       ],
       "first_seen_pt": "2026-11-21T11:20:00-08:00",
-      "last_updated_pt": "2026-11-27T11:10:00-08:00",
+      "last_updated_pt": "2026-11-27T16:15:00-08:00",
       "last_notified_pt": "2026-11-27T09:15:00-08:00",
       "notified_for": "status questionable; Wiseman Speculative add"
     },
@@ -1954,12 +1954,12 @@
         },
         {
           "player": "Terrence Shannon Jr.",
-          "verdict": "Watch",
-          "summary": "More backcourt time"
+          "verdict": "Speculative add",
+          "summary": "Confirmed Fri starter (first start); role tied to Ball absence"
         }
       ],
       "first_seen_pt": "2026-11-25T19:15:00-08:00",
-      "last_updated_pt": "2026-11-27T11:10:00-08:00",
+      "last_updated_pt": "2026-11-27T16:15:00-08:00",
       "last_notified_pt": "2026-11-27T11:10:00-08:00",
       "notified_for": "status out; Dosunmu Add now"
     },
