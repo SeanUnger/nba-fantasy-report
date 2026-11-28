@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-28T09:20:00-08:00",
- "run_label": "9am",
+ "last_run_pt": "2026-11-28T10:15:00-08:00",
+ "run_label": "10am",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1690,30 +1690,6 @@
    "last_updated_pt": "2026-11-24T18:15:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
-  },
-  "injury:joel-embiid": {
-   "kind": "injury",
-   "player": "Joel Embiid",
-   "team": "PHI",
-   "injury": "knee",
-   "status": "out",
-   "status_note": "Illness; out Mon and Wed vs MIA (was doubtful)",
-   "beneficiaries": [
-    {
-     "player": "Adem Bona",
-     "verdict": "Speculative add",
-     "summary": "Center minutes if Embiid sits"
-    },
-    {
-     "player": "Dominick Barlow",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-23T09:20:00-08:00",
-   "last_updated_pt": "2026-11-25T12:15:00-08:00",
-   "last_notified_pt": "2026-11-23T15:15:00-08:00",
-   "notified_for": "status out; Bona Speculative add"
   },
   "injury:aaron-nesmith": {
    "kind": "injury",
