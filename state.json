@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-28T11:15:00-08:00",
- "run_label": "11am",
+ "last_run_pt": "2026-11-28T12:25:00-08:00",
+ "run_label": "12pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -1279,21 +1279,21 @@
    "notified_for": null
   },
   "injury:kyle-kuzma": {
-   "kind": "injury",
    "player": "Kyle Kuzma",
    "team": "MIL",
-   "injury": "shoulder",
+   "injury": "foot",
    "status": "out",
-   "status_note": "Out Thu vs POR; Thu lineup: Ware/Ament/Nance start",
+   "status_note": "Out Sat vs OKC",
    "beneficiaries": [
     {
-     "player": "Kasparas Jakucionis",
+     "player": "Nate Ament",
      "verdict": "Watch",
-     "summary": "extra minutes tonight"
+     "summary": "See Herro"
     }
    ],
-   "first_seen_pt": "2026-11-19T12:15:00-08:00",
-   "last_updated_pt": "2026-11-19T17:10:00-08:00",
+   "kind": "injury",
+   "first_seen_pt": "2026-11-28T12:25:00-08:00",
+   "last_updated_pt": "2026-11-28T12:25:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
   },
@@ -2063,13 +2063,103 @@
    "last_updated_pt": "2026-11-28T11:15:00-08:00",
    "last_notified_pt": "2026-11-28T11:15:00-08:00",
    "notified_for": "status questionable; Tre Jones Speculative add"
+  },
+  "injury:tyler-herro": {
+   "player": "Tyler Herro",
+   "team": "MIL",
+   "injury": "foot",
+   "status": "out",
+   "status_note": "Out Sat vs OKC (B2B); next Mon",
+   "beneficiaries": [
+    {
+     "player": "Ryan Rollins",
+     "verdict": "Add now",
+     "summary": "Starting; guard minutes"
+    },
+    {
+     "player": "Brayden Burries",
+     "verdict": "Speculative add",
+     "summary": "Back in starting lineup"
+    },
+    {
+     "player": "Nate Ament",
+     "verdict": "Speculative add",
+     "summary": "Expanded role"
+    }
+   ],
+   "kind": "injury",
+   "first_seen_pt": "2026-11-28T12:25:00-08:00",
+   "last_updated_pt": "2026-11-28T12:25:00-08:00",
+   "last_notified_pt": "2026-11-28T12:25:00-08:00",
+   "notified_for": "status out; Ryan Rollins Add now"
+  },
+  "injury:joel-embiid": {
+   "player": "Joel Embiid",
+   "team": "PHI",
+   "injury": "foot (plantar fascia)",
+   "status": "out",
+   "status_note": "Out Sat at HOU (injury management)",
+   "beneficiaries": [
+    {
+     "player": "Adem Bona",
+     "verdict": "Speculative add",
+     "summary": "C minutes"
+    },
+    {
+     "player": "Jabari Walker",
+     "verdict": "Speculative add",
+     "summary": "Starter-level minutes"
+    }
+   ],
+   "kind": "injury",
+   "first_seen_pt": "2026-11-28T12:25:00-08:00",
+   "last_updated_pt": "2026-11-28T12:25:00-08:00",
+   "last_notified_pt": "2026-11-28T12:25:00-08:00",
+   "notified_for": "status out; Adem Bona Speculative add"
+  },
+  "injury:jaime-jaquez-jr": {
+   "player": "Jaime Jaquez Jr.",
+   "team": "MIL",
+   "injury": "ankle",
+   "status": "out",
+   "status_note": "Out Sat vs OKC",
+   "beneficiaries": [
+    {
+     "player": "Nate Ament",
+     "verdict": "Speculative add",
+     "summary": "See Herro"
+    }
+   ],
+   "kind": "injury",
+   "first_seen_pt": "2026-11-28T12:25:00-08:00",
+   "last_updated_pt": "2026-11-28T12:25:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
+  },
+  "injury:kasparas-jakucionis": {
+   "player": "Kasparas Jakucionis",
+   "team": "MIL",
+   "injury": "ankle",
+   "status": "out",
+   "status_note": "Out Sat vs OKC",
+   "beneficiaries": [
+    {
+     "player": "Ryan Rollins",
+     "verdict": "Add now",
+     "summary": "See Herro"
+    }
+   ],
+   "kind": "injury",
+   "first_seen_pt": "2026-11-28T12:25:00-08:00",
+   "last_updated_pt": "2026-11-28T12:25:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
   "Braden Smith, T.J. McConnell (Haliburton recalled from G League, return imminent)",
   "Jared McCain (benched Wed; Stirtz starts)",
   "Deni Avdija back Sat (Sidy Cissoko loses fill-in value)",
-  "Brayden Burries (benched Sat; Rollins/Jaquez start)",
   "Scottie Barnes back (Ja'Kobe Walter)",
   "Ryan Kalkbrenner (Diabat\u00e9 back Thu, Kalkbrenner to bench)",
   "Jaylon Tyson back (Tyrese Proctor, Meleek Thomas)",
