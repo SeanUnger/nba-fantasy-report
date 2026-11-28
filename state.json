@@ -1,6 +1,6 @@
 {
- "last_run_pt": "2026-11-27T17:15:00-08:00",
- "run_label": "5pm",
+ "last_run_pt": "2026-11-27T18:15:00-08:00",
+ "run_label": "6pm",
  "items": {
   "precious-achiuwa": {
    "player": "Precious Achiuwa",
@@ -932,7 +932,7 @@
    "team": "PHI",
    "injury": "left hamstring",
    "status": "out",
-   "status_note": "Re-aggravated hamstring Wed; out Fri at IND; imaging pending, no timeline",
+   "status_note": "MRI no new injury; out Fri and Sat, maybe back Tue",
    "beneficiaries": [
     {
      "player": "Kentavious Caldwell-Pope",
@@ -956,7 +956,7 @@
     }
    ],
    "first_seen_pt": "2026-11-25T16:15:00-08:00",
-   "last_updated_pt": "2026-11-26T15:15:00-08:00",
+   "last_updated_pt": "2026-11-27T18:15:00-08:00",
    "last_notified_pt": "2026-11-26T15:15:00-08:00",
    "notified_for": "status out Fri; Caldwell-Pope/Simons Speculative add"
   },
@@ -1169,7 +1169,7 @@
    "team": "DET",
    "injury": "knee",
    "status": "out",
-   "status_note": "Out Tue and Fri vs MIL (knee tendinopathy); next chance Sun",
+   "status_note": "Out Fri (2nd straight); may sit longer, next chance Sun",
    "beneficiaries": [
     {
      "player": "Isaiah Joe",
@@ -1188,7 +1188,7 @@
     }
    ],
    "first_seen_pt": "2026-11-18T17:15:00-08:00",
-   "last_updated_pt": "2026-11-26T19:20:00-08:00",
+   "last_updated_pt": "2026-11-27T18:15:00-08:00",
    "last_notified_pt": "2026-11-24T16:20:00-08:00",
    "notified_for": "status out Tue (knee, was probable); Joe Speculative add"
   },
@@ -1691,35 +1691,6 @@
    "last_notified_pt": null,
    "notified_for": null
   },
-  "injury:jaxson-hayes": {
-   "kind": "injury",
-   "player": "Jaxson Hayes",
-   "team": "UTA",
-   "injury": "left knee",
-   "status": "out",
-   "status_note": "Left Sun after ~12 min; out Mon vs LAL",
-   "beneficiaries": [
-    {
-     "player": "Mo Bamba",
-     "verdict": "Speculative add",
-     "summary": "Center minutes; rebounds/blocks"
-    },
-    {
-     "player": "Tony Bradley",
-     "verdict": "Watch",
-     "summary": ""
-    },
-    {
-     "player": "Brice Sensabaugh",
-     "verdict": "Watch",
-     "summary": ""
-    }
-   ],
-   "first_seen_pt": "2026-11-22T22:15:00-08:00",
-   "last_updated_pt": "2026-11-23T15:15:00-08:00",
-   "last_notified_pt": "2026-11-23T15:15:00-08:00",
-   "notified_for": "status out; Bamba Speculative add"
-  },
   "injury:joel-embiid": {
    "kind": "injury",
    "player": "Joel Embiid",
@@ -2010,6 +1981,35 @@
    "last_updated_pt": "2026-11-27T11:10:00-08:00",
    "last_notified_pt": null,
    "notified_for": null
+  },
+  "injury:stephen-curry": {
+   "kind": "injury",
+   "player": "Stephen Curry",
+   "team": "GSW",
+   "injury": "abdominal/oblique tear",
+   "status": "out",
+   "status_note": "Out at least 3 more games (6 missed)",
+   "beneficiaries": [
+    {
+     "player": "De'Anthony Melton",
+     "verdict": "Add now",
+     "summary": "Starting PG"
+    },
+    {
+     "player": "LJ Cryer",
+     "verdict": "Speculative add",
+     "summary": "Extra minutes"
+    },
+    {
+     "player": "Brandon Williams",
+     "verdict": "Watch",
+     "summary": ""
+    }
+   ],
+   "first_seen_pt": "2026-11-12T12:15:00-08:00",
+   "last_updated_pt": "2026-11-27T18:15:00-08:00",
+   "last_notified_pt": null,
+   "notified_for": null
   }
  },
  "drop_watch": [
@@ -2028,7 +2028,9 @@
   "DeAndre Jordan (Missi back, probable Sat)",
   "Sion James (Brandon Miller back Sun, James to bench)",
   "Dean Wade (Walker starts at C Sun; Wade bench)",
-  "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)"
+  "Tyrese Proctor, Meleek Thomas, Thomas Bryant (Harden/Mitchell/Allen back Mon)",
+  "Julian Champagnie, Keldon Johnson (Harper/Fox back)",
+  "Mo Bamba (Hayes back, Nurkic debut)"
  ],
  "injury_watch": [
   "Moritz Wagner (BKN, knee, left Wed after 4 min; Grant Nelson)",
